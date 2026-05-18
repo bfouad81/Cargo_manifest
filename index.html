@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cargo Manifest → NamaSoft ERP Uploader</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <style>
+    :root {
+      --blue-dark:#1e3a8a; --blue-mid:#1d4ed8; --blue-light:#3b82f6; --blue-pale:#eff6ff;
+      --orange-dark:#c2410c; --orange-mid:#f97316; --orange-light:#fb923c; --orange-pale:#fff7ed;
+      --surface:#f1f5f9; --card-bg:#ffffff; --text-main:#1e293b; --text-muted:#64748b;
+      --border:#e2e8f0; --green-pale:#f0fdf4; --purple-pale:#faf5ff;
+      --purple-border:#d8b4fe; --red-pale:#fef2f2;
+    }
+    body { background:var(--surface); font-family:'Segoe UI',Tahoma,Arial,sans-serif; color:var(--text-main); }
+    .container-main { max-width:1200px; }
+    .app-header {
+      background:linear-gradient(135deg,var(--blue-dark) 0%,var(--blue-mid) 70%,#2563eb 100%);
+      border-radius:14px; padding:20px 28px; margin-bottom:24px;
+      border-bottom:4px solid var(--orange-mid);
+      box-shadow:0 4px 20px rgba(30,58,138,.25);
+    }
+    .app-header h5 { color:#fff; font-weight:800; font-size:1.2rem; }
+    .app-header p  { color:rgba(255,255,255,.75); font-size:13px; margin:0; }
+.header-badge {
+  background: var(--orange-mid);
+  color: #fff;
+  font-size: 15px;        /* ← كبير */
+  font-weight: 700;
+  padding: 5px 14px;      /* ← padding أكبر */
+  border-radius: 20px;
+}
+    .step-bar { display:flex; align-items:center; margin-bottom:24px; }
+    .step-wrapper { display:flex; flex-direction:column; align-items:center; flex-shrink:0; }
+    .step-circle { width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:15px; border:3px solid var(--border); background:var(--card-bg); color:var(--text-muted); transition:all .3s; }
+    .step-circle.active { background:var(--orange-mid); border-color:var(--orange-mid); color:#fff; box-shadow:0 0 0 5px rgba(249,115,22,.2); }
+    .step-circle.done   { background:var(--blue-mid);   border-color:var(--blue-mid);   color:#fff; }
+    .step-label { font-size:11px; margin-top:5px; color:var(--text-muted); white-space:nowrap; font-weight:500; }
+    .step-label.active { color:var(--orange-dark); font-weight:700; }
+    .step-label.done   { color:var(--blue-mid); }
+    .step-connector { flex:1; height:3px; background:var(--border); margin:0 6px; border-radius:2px; }
+    .step-connector.done { background:var(--blue-mid); }
+    .card-step { display:none; animation:fadeIn .3s ease; border:none; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,.07); }
+    .card-step.active { display:block; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+    .section-title { font-size:14px; font-weight:700; color:var(--blue-dark); border-left:4px solid var(--orange-mid); padding-left:10px; margin:22px 0 10px; }
+    .form-control:focus,.form-select:focus { border-color:var(--orange-light); box-shadow:0 0 0 3px rgba(249,115,22,.15); }
+    .field-req { color:#dc2626; font-size:11px; }
+    .drop-zone { border:2.5px dashed var(--orange-mid); border-radius:14px; padding:52px 24px; text-align:center; cursor:pointer; background:var(--orange-pale); transition:all .2s; }
+    .drop-zone:hover,.drop-zone.dragover { background:#fef3c7; border-color:var(--orange-dark); transform:scale(1.01); }
+    .btn-primary-custom { background:var(--blue-mid); border:none; color:#fff; padding:8px 22px; border-radius:8px; font-weight:600; transition:all .2s; cursor:pointer; }
+    .btn-primary-custom:hover { background:var(--blue-dark); }
+    .btn-orange { background:linear-gradient(135deg,var(--orange-mid),var(--orange-dark)); border:none; color:#fff; padding:10px 28px; border-radius:10px; font-weight:700; font-size:15px; transition:all .2s; cursor:pointer; box-shadow:0 4px 14px rgba(249,115,22,.35); }
+    .btn-orange:hover { transform:translateY(-1px); box-shadow:0 6px 18px rgba(249,115,22,.45); }
+    .btn-orange:disabled { opacity:.5; transform:none; box-shadow:none; }
+    .sticky-nav { position:sticky; bottom:0; background:var(--card-bg); border-top:1px solid var(--border); padding:12px 24px; margin:0 -24px -24px; border-radius:0 0 14px 14px; display:flex; justify-content:space-between; align-items:center; z-index:10; }
+    .badge-ok  { background:#dcfce7; color:#166534; border-radius:20px; padding:2px 10px; font-size:12px; display:inline-block; }
+    .badge-err { background:#fee2e2; color:#991b1b; border-radius:20px; padding:2px 10px; font-size:12px; display:inline-block; }
+    .badge-warn{ background:#fef3c7; color:#92400e; border-radius:20px; padding:2px 10px; font-size:12px; display:inline-block; }
+    .badge-new { background:var(--purple-pale); color:#7c3aed; border-radius:20px; padding:2px 10px; font-size:12px; display:inline-block; }
+    .table-sm td,.table-sm th { font-size:13px; }
+    .table>thead { background:linear-gradient(90deg,var(--blue-pale),#f0f9ff); }
+    .table>thead th { color:var(--blue-dark); font-weight:700; border-bottom:2px solid var(--blue-light); }
+    tr.row-error td { background:var(--red-pale)    !important; }
+    tr.row-new   td { background:var(--purple-pale) !important; }
+    tr.row-found td { background:var(--green-pale)  !important; }
+    .json-block { background:#0f172a; color:#7dd3fc; border-radius:10px; padding:16px; font-family:monospace; font-size:12px; max-height:300px; overflow-y:auto; white-space:pre-wrap; word-break:break-all; text-align:left; border:1px solid #1e40af; }
+    .result-log  { border-radius:10px; padding:13px 18px; margin-bottom:8px; font-size:14px; }
+    .result-ok   { background:#f0fdf4; border:1px solid #86efac; }
+    .result-err  { background:#fef2f2; border:1px solid #fca5a5; }
+    .result-warn { background:#fffbeb; border:1px solid #fde047; }
+    .result-info { background:var(--blue-pale); border:1px solid #bfdbfe; }
+    .result-new  { background:var(--purple-pale); border:1px solid var(--purple-border); }
+    .sum-card { border-radius:12px; padding:20px; text-align:center; border:2px solid var(--border); background:var(--card-bg); }
+    .sum-card.blue  { border-color:var(--blue-light);   background:var(--blue-pale); }
+    .sum-card.orange{ border-color:var(--orange-light); background:var(--orange-pale); }
+    .sum-card.green { border-color:#86efac;             background:var(--green-pale); }
+    .sum-card .sum-num   { font-size:2rem; font-weight:800; }
+    .sum-card.blue   .sum-num { color:var(--blue-mid); }
+    .sum-card.orange .sum-num { color:var(--orange-dark); }
+    .sum-card.green  .sum-num { color:#166534; }
+    .sum-card .sum-label { font-size:13px; color:var(--text-muted); font-weight:500; }
+    .file-info-box { background:#f0fdf4; border:1px solid #86efac; border-radius:10px; padding:12px 16px; }
+    .collapse-btn { color:var(--blue-mid); border:1px solid var(--blue-light); background:var(--blue-pale); border-radius:8px; font-size:13px; padding:5px 12px; cursor:pointer; }
+    .collapse-btn:hover { background:#dbeafe; }
+    .mapping-info { background:#f8fafc; border:1px solid var(--border); border-radius:8px; padding:12px 16px; margin-bottom:16px; font-size:12px; color:var(--text-muted); }
+    .mapping-info strong { color:var(--blue-dark); }
+    .ct-select { font-size:12px; padding:2px 6px; border-radius:6px; min-width:130px; }
+    .ct-select.ct-ok  { border:1px solid #86efac; background:var(--green-pale); }
+    .ct-select.ct-err { border:1px solid #fca5a5; background:var(--red-pale); }
+	.company-logo {
+    height: 100px;          
+    width: auto;           
+    object-fit: contain;   
+    border-radius: 8px;    
+    padding: 4px;           
+}
+  </style>
+</head>
+<body>
+<div class="container container-main py-4">
+
+  <!-- Header -->
+<div class="app-header d-flex align-items-start justify-content-between mb-4">
+    <div>
+      <div class="mb-1"><span class="header-badge">Exceed ERP</span></div>
+      <h5 class="mt-1 mb-1">📦 Cargo Manifest → Exceed </h5>
+      <p>Upload Excel, validate data, auto-lookup master files, and create records</p>
+    </div>
+    <img src="https://i.postimg.cc/RVZwfwFm/logo-1.png" alt="Company Logo" class="company-logo">
+  </div>
+
+  <!-- Step Bar (4 steps — Settings removed) -->
+  <div class="step-bar mb-4">
+    <div class="step-wrapper"><div class="step-circle active" id="sc1">1</div><div class="step-label active" id="sl1">Upload</div></div>
+    <div class="step-connector" id="conn1"></div>
+    <div class="step-wrapper"><div class="step-circle" id="sc2">2</div><div class="step-label" id="sl2">Review</div></div>
+    <div class="step-connector" id="conn2"></div>
+    <div class="step-wrapper"><div class="step-circle" id="sc3">3</div><div class="step-label" id="sl3">Master Lookup</div></div>
+    <div class="step-connector" id="conn3"></div>
+    <div class="step-wrapper"><div class="step-circle" id="sc4">4</div><div class="step-label" id="sl4">Send to System</div></div>
+  </div>
+
+  <!-- ═══ STEP 1 : Upload ═══ -->
+  <div class="card card-step active" id="step1">
+    <div class="card-body p-4">
+      <div class="section-title">Upload Excel File</div>
+      <div class="drop-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+        <svg class="upload-icon mb-3" xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
+        </svg>
+        <p class="fw-bold mb-1" style="color:var(--orange-dark)">Drag Excel file here or click to select</p>
+        <p class="text-muted small mb-0">Supports: .xlsx and .xls</p>
+      </div>
+      <input type="file" id="fileInput" accept=".xlsx,.xls" class="d-none" />
+      <div id="fileInfo" class="d-none mt-3 file-info-box">
+        <strong class="text-success">✅ File selected:</strong>
+        <span id="fileName" class="mx-2 fw-semibold"></span>
+        <span id="fileSize" class="text-muted small"></span>
+      </div>
+      <div id="sheetSelector" class="d-none mt-3">
+        <label class="form-label fw-semibold">Select Sheet:</label>
+        <select class="form-select w-auto" id="sheetSelect"></select>
+      </div>
+      <div class="sticky-nav">
+        <div></div>
+        <button class="btn-primary-custom d-none" id="btnParseGo" onclick="parseAndValidate()">Next: Review Data →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STEP 2 : Review ═══ -->
+  <div class="card card-step" id="step2">
+    <div class="card-body p-4">
+      <div id="validSummary" class="alert mb-3" role="alert"></div>
+
+      <div class="mapping-info">
+        <strong>📋 Excel Structure Expected:</strong><br>
+        • <strong>Row 1:</strong> Title (ignored) &nbsp;|&nbsp;
+          <strong>Rows 2–6 B / F:</strong> BL Header fields &nbsp;|&nbsp;
+          <strong>Rows 2–6 H–K:</strong> Container details (1–5 containers)<br>
+        • <strong>Row 7:</strong> Container sequence numbers (ignored) &nbsp;|&nbsp;
+          <strong>Row 8:</strong> Column headers (ignored)<br>
+        • <strong>Rows 9+:</strong> Operation Order lines &nbsp;|&nbsp;
+          <strong>Columns:</strong> A=HAWB &nbsp;B=Shipper &nbsp;C=Consignee &nbsp;D=Notify &nbsp;E=Commodity
+          &nbsp;F=PKG &nbsp;G=Parcels &nbsp;H=GW &nbsp;I=CBM &nbsp;J=CargoType &nbsp;K=Container#
+      </div>
+
+      <div class="section-title">Header Data — FRMBillOfLading</div>
+      <div class="table-responsive" id="headerPreview"></div>
+
+      <div class="section-title">Container Details — FRMBillOfLading.details</div>
+      <div class="table-responsive" id="containerPreview"></div>
+
+      <div class="section-title">Operation Order Details — FRMOperationOrder</div>
+      <div id="pcsMatchAlert" class="d-none mb-2"></div>
+      <div class="table-responsive" id="detailPreview"></div>
+
+      <div id="errorsBlock" class="d-none mt-3 alert alert-danger">
+        <strong>🔴 Errors found:</strong>
+        <ul id="errorsList" class="mb-0 mt-2 small"></ul>
+      </div>
+
+      <div class="sticky-nav">
+        <button class="btn btn-outline-secondary" onclick="goToStep(1)">← Previous</button>
+        <div class="d-flex gap-2">
+          <button class="btn btn-outline-secondary" onclick="reValidate()">🔄 Re-validate</button>
+          <button class="btn-orange" id="btnGoLookup" onclick="goToStep(3)" disabled>Master File Lookup 🔍</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STEP 3 : Master Lookup ═══ -->
+  <div class="card card-step" id="step3">
+    <div class="card-body p-4">
+      <div class="section-title">🔍 Master File Lookup &amp; Auto-Create</div>
+      <div id="lookupProgress" class="alert alert-info mb-3">
+        <div class="d-flex align-items-center">
+          <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+          <span>Searching master files...</span>
+        </div>
+      </div>
+      <div id="lookupSummary" class="row g-3 mb-4 d-none">
+        <div class="col-md-3"><div class="sum-card blue"><div class="sum-num" id="lookupTotal">0</div><div class="sum-label">Total Searches</div></div></div>
+        <div class="col-md-3"><div class="sum-card green"><div class="sum-num" id="lookupFound">0</div><div class="sum-label">Found in System</div></div></div>
+        <div class="col-md-3"><div class="sum-card" style="border-color:var(--purple-border);background:var(--purple-pale)"><div class="sum-num" id="lookupNew">0</div><div class="sum-label">Will Create New</div></div></div>
+        <div class="col-md-3"><div class="sum-card orange"><div class="sum-num" id="lookupError">0</div><div class="sum-label">Errors</div></div></div>
+      </div>
+      <div id="lookupResults"></div>
+      <div class="sticky-nav">
+        <button class="btn btn-outline-secondary" onclick="goToStep(2)">← Previous</button>
+        <div class="d-flex gap-2">
+          <button class="btn btn-outline-secondary" onclick="runLookup()">🔄 Re-run Lookup</button>
+          <button class="btn-orange" id="btnGoSend" onclick="prepareStep4()" disabled>Next: Review Send ✓</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STEP 4 : Send ═══ -->
+  <div class="card card-step" id="step4">
+    <div class="card-body p-4">
+      <div class="section-title">Final Review &amp; Send</div>
+      <div class="row g-3 mb-4" id="sendSummary"></div>
+      <div id="createSummary" class="alert mb-3 d-none" style="background:var(--purple-pale);border:1px solid var(--purple-border)">
+        <strong>🆕 New records created in the system:</strong>
+        <ul id="createList" class="mb-0 mt-2 small"></ul>
+      </div>
+      <button class="collapse-btn mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#payloadCollapse">👁️ View JSON Payload</button>
+      <div class="collapse" id="payloadCollapse">
+        <p class="text-muted small mb-1 mt-2">BillOfLading payload:</p>
+        <div class="json-block" id="blPayloadView"></div>
+        <p class="text-muted small mb-1 mt-2">OperationOrders payload (first row):</p>
+        <div class="json-block" id="opPayloadView"></div>
+      </div>
+      <div id="sendResults" class="mt-3"></div>
+      <div class="sticky-nav">
+        <button class="btn btn-outline-secondary" id="btnBackFromSend" onclick="goToStep(3)">← Previous</button>
+        <button class="btn-orange" id="btnConfirmSend" onclick="sendToNamaSoft()">🚀 Confirm Send to NamaSoft</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// ══════════════════════════════════════════════════════
+//  CONFIG  — fill in before deployment
+// ══════════════════════════════════════════════════════
+const CONFIG = {
+  serverUrl:        'https://your-server.namasoft.com/erp', // no trailing slash
+  apiKey:           'YOUR_API_KEY_HERE',
+  blEntity:         'FRMBillOfLading',
+  opEntity:         'FRMOperationOrder',
+  customerEntity:   'Customer',
+  thirdPartyEntity: 'ThirdParty',
+  portEntity:       'ShippingPort',
+  commodityEntity:  'FRMCommodity',
+  countryEntity:    'FRMCountry',
+};
+
+// Allowed Cargo Type values — exact match after trim
+const VALID_CARGO_TYPES = ['Air-LTL-Dry','Air-LTL-Reefer','Air-LTL-IMCO','IMCO','NORMAL'];
+
+// ══════════════════════════════════════════════════════
+//  STATE
+// ══════════════════════════════════════════════════════
+let workbook      = null;
+let parsedData    = null;
+let errors        = [];
+let lookupResults = {};
+let createdRecords = [];
+
+// ══════════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════════
+window.addEventListener('DOMContentLoaded', setupDropZone);
+
+// ══════════════════════════════════════════════════════
+//  STEP NAVIGATION  (4 steps)
+// ══════════════════════════════════════════════════════
+function goToStep(n) {
+  document.querySelectorAll('.card-step').forEach(el => el.classList.remove('active'));
+  document.getElementById('step' + n).classList.add('active');
+  [1,2,3,4].forEach(i => {
+    const sc = document.getElementById('sc' + i);
+    const sl = document.getElementById('sl' + i);
+    if (i < n)        { sc.className='step-circle done';   sl.className='step-label done'; }
+    else if (i === n) { sc.className='step-circle active'; sl.className='step-label active'; }
+    else              { sc.className='step-circle';        sl.className='step-label'; }
+    if (i < 4) document.getElementById('conn'+i).className='step-connector'+(i<n?' done':'');
+  });
+  window.scrollTo({top:0,behavior:'smooth'});
+  if (n === 3) runLookup();
+}
+
+// ══════════════════════════════════════════════════════
+//  DROP ZONE
+// ══════════════════════════════════════════════════════
+function setupDropZone() {
+  const dz = document.getElementById('dropZone');
+  const fi = document.getElementById('fileInput');
+  dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('dragover'); });
+  dz.addEventListener('dragleave', () => dz.classList.remove('dragover'));
+  dz.addEventListener('drop', e => {
+    e.preventDefault(); dz.classList.remove('dragover');
+    if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
+  });
+  fi.addEventListener('change', () => { if (fi.files[0]) handleFile(fi.files[0]); });
+}
+
+function handleFile(file) {
+  if (!file.name.match(/\.(xlsx|xls)$/i)) { alert('File must be Excel (.xlsx or .xls)'); return; }
+  document.getElementById('fileName').textContent = file.name;
+  document.getElementById('fileSize').textContent = '('+( file.size/1024).toFixed(1)+' KB)';
+  document.getElementById('fileInfo').classList.remove('d-none');
+  const reader = new FileReader();
+  reader.onload = e => {
+    workbook = XLSX.read(new Uint8Array(e.target.result), {type:'array'});
+    const names = workbook.SheetNames;
+    const sel = document.getElementById('sheetSelect');
+    sel.innerHTML = names.map((n,i)=>'<option value="'+i+'">'+n+'</option>').join('');
+    document.getElementById('sheetSelector').classList.toggle('d-none', names.length <= 1);
+    document.getElementById('btnParseGo').classList.remove('d-none');
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+// ══════════════════════════════════════════════════════
+//  EXCEL PARSING
+//  Row 1  : Title (ignored)
+//  Rows 2–6 col B : BL header left side
+//  Rows 2–6 col F : BL header right side
+//  Rows 2–6 col H–K : Container details (up to 5)
+//  Row 7  : Container sequence labels (ignored)
+//  Row 8  : Operation Order column headers (ignored)
+//  Rows 9+: Operation Order detail lines
+// ══════════════════════════════════════════════════════
+function cv(sheet, col, row) {
+  const c = sheet[col + row];
+  if (!c) return '';
+  return c.v !== undefined ? String(c.v).trim() : '';
+}
+
+function parseSheet(sheetName) {
+  const sheet = workbook.Sheets[sheetName];
+  const range = XLSX.utils.decode_range(sheet['!ref'] || 'A1:K50');
+
+  // ── BL Header ──────────────────────────────────────
+  const header = {
+    awbBl:           cv(sheet,'B',2),
+    agencyName:      cv(sheet,'B',3),
+    consigneeName:   cv(sheet,'B',4),
+    flightVesselNo:  cv(sheet,'B',5),
+    description:     cv(sheet,'B',6),
+    portOfLoading:   cv(sheet,'F',2),
+    portOfDischarge: cv(sheet,'F',3),
+    flightVoyNo:     cv(sheet,'F',4),
+    totalPcs:        cv(sheet,'F',5),   // → FRMBillOfLading.n1
+    origin:          cv(sheet,'F',6),
+  };
+
+  // ── Container Details (rows 2–6, H–K) ──────────────
+  // H=Size  I=GrossWeight  J=Volume  K=ContainerNumber
+  const containers = [];
+  for (let row = 2; row <= 6; row++) {
+    const size = cv(sheet,'H',row);
+    const gw   = cv(sheet,'I',row);
+    const vol  = cv(sheet,'J',row);
+    const num  = cv(sheet,'K',row);
+    if (size || gw || vol || num) {
+      containers.push({ _row:row, containerSize:size, grossWeight:gw, volume:vol, containerNumber:num });
+    }
+  }
+
+  // ── Operation Order Details (rows 9+) ──────────────
+  // A=HAWB B=Shipper C=Consignee D=Notify E=Commodity
+  // F=PKG  G=Parcels H=GW        I=CBM    J=CargoType  K=ContainerNumber
+  const details = [];
+  const lastRow = Math.min(range.e.r + 1, 1000);
+  for (let row = 9; row <= lastRow; row++) {
+    const hawb    = cv(sheet,'A',row);
+    const shipper = cv(sheet,'B',row);
+    const consig  = cv(sheet,'C',row);
+    const notify  = cv(sheet,'D',row);
+    const comm    = cv(sheet,'E',row);
+    const pkg     = cv(sheet,'F',row);
+    const parcels = cv(sheet,'G',row);
+    const gw      = cv(sheet,'H',row);
+    const cbm     = cv(sheet,'I',row);
+    const ct      = cv(sheet,'J',row);
+    const contNum = cv(sheet,'K',row);
+    if (!hawb && !shipper && !comm && !parcels && !gw && !contNum) break;
+    details.push({
+      _row:row, hawb, shipper, consignee:consig, notify,
+      commodity:comm, pkg, parcels, gw, cbm,
+      cargoType:ct,              // raw (may have spaces)
+      cargoTypeTrimmed:ct.trim(),// used in payload & validation
+      containerNumber:contNum    // → FRMOperationOrder.ventilation
+    });
+  }
+  return { header, containers, details };
+}
+
+// ══════════════════════════════════════════════════════
+//  VALIDATION
+// ══════════════════════════════════════════════════════
+function validate(data) {
+  const errs = [];
+  const need    = (v,f,l) => { if(!v) errs.push({loc:l,field:f,msg:'Required field is empty'}); };
+  const mustNum = (v,f,l) => { if(v && isNaN(Number(v))) errs.push({loc:l,field:f,msg:'Must be a number'}); };
+  const mustPos = (v,f,l) => { if(v && !isNaN(Number(v)) && Number(v)<0) errs.push({loc:l,field:f,msg:'Must be positive'}); };
+
+  // BL Header
+  need(data.header.awbBl,           'M.AWB-B/L',          'Header');
+  need(data.header.agencyName,      'Agency Name',         'Header');
+  need(data.header.consigneeName,   'Consignee Name',      'Header');
+  need(data.header.portOfLoading,   'Port of Loading',     'Header');
+  need(data.header.portOfDischarge, 'Port of Discharge',   'Header');
+  need(data.header.flightVoyNo,     'Flight/Voy No.',      'Header');
+  need(data.header.totalPcs,        'Total Number of Pcs', 'Header');
+  mustNum(data.header.totalPcs, 'Total Number of Pcs', 'Header');
+
+  // Containers
+  if (data.containers.length === 0)
+    errs.push({loc:'Containers',field:'Container',msg:'No container data found (rows 2–6, cols H–K)'});
+  data.containers.forEach((c,i) => {
+    const loc = 'Container '+(i+1)+' (row '+c._row+')';
+    need(c.containerNumber,'Container Number',loc);
+    need(c.containerSize,  'Container Size',  loc);
+    mustNum(c.grossWeight,'Gross Weight',loc); mustPos(c.grossWeight,'Gross Weight',loc);
+    mustNum(c.volume,     'Volume',      loc); mustPos(c.volume,     'Volume',      loc);
+  });
+
+  // Total Pcs must match detail row count
+  if (data.header.totalPcs && !isNaN(Number(data.header.totalPcs))) {
+    const declared = Number(data.header.totalPcs);
+    const actual   = data.details.length;
+    if (declared !== actual)
+      errs.push({loc:'Header vs Details',field:'Total Number of Pcs',
+        msg:'Header declares '+declared+' shipment(s) but '+actual+' detail row(s) found'});
+  }
+
+  // Operation Orders
+  if (data.details.length === 0)
+    errs.push({loc:'Details',field:'Details',msg:'No operation order data found (rows 9+)'});
+  data.details.forEach(d => {
+    const loc = 'Row '+d._row;
+    need(d.hawb,      'H.AWB/B-L #',           loc);
+    need(d.shipper,   'Shipper/Seller Details', loc);
+    need(d.consignee, 'Consignee Details',      loc);
+    need(d.notify,    'Notify Party',           loc);
+    need(d.commodity, 'Commodity Description',  loc);
+    // parcels, gw, cbm required & numeric
+    need(d.parcels,'No. of Parcel',loc); mustNum(d.parcels,'No. of Parcel',loc); mustPos(d.parcels,'No. of Parcel',loc);
+    need(d.gw,     'G. Weight',    loc); mustNum(d.gw,     'G. Weight',    loc); mustPos(d.gw,     'G. Weight',    loc);
+    need(d.cbm,    'CBM',         loc); mustNum(d.cbm,    'CBM',         loc); mustPos(d.cbm,    'CBM',         loc);
+    // Cargo Type — required + whitelist
+    need(d.cargoTypeTrimmed,'Cargo Type',loc);
+    if (d.cargoTypeTrimmed && !VALID_CARGO_TYPES.includes(d.cargoTypeTrimmed))
+      errs.push({loc,field:'Cargo Type',
+        msg:'Invalid value "'+d.cargoTypeTrimmed+'". Allowed: '+VALID_CARGO_TYPES.join(' | ')});
+    // PKG is optional — no validation
+  });
+  return errs;
+}
+
+// ══════════════════════════════════════════════════════
+//  PARSE + VALIDATE  (entry from Upload step)
+// ══════════════════════════════════════════════════════
+function parseAndValidate() {
+  if (!workbook) { alert('Please upload a file first'); return; }
+  const sheetIdx = parseInt(document.getElementById('sheetSelect').value || '0');
+  parsedData = parseSheet(workbook.SheetNames[sheetIdx]);
+  errors = validate(parsedData);
+  renderStep2(parsedData, errors);
+  goToStep(2);
+}
+
+function reValidate() {
+  if (!parsedData) return;
+  // Collect any inline Cargo Type edits before re-validating
+  parsedData.details.forEach((d,i) => {
+    const sel = document.getElementById('ct_sel_'+i);
+    if (sel) { d.cargoType = sel.value; d.cargoTypeTrimmed = sel.value; }
+  });
+  errors = validate(parsedData);
+  renderStep2(parsedData, errors);
+}
+
+// ══════════════════════════════════════════════════════
+//  RENDER STEP 2
+// ══════════════════════════════════════════════════════
+function renderStep2(data, errs) {
+  // Banner
+  const sumEl = document.getElementById('validSummary');
+  if (errs.length === 0) {
+    sumEl.className='alert mb-3'; sumEl.style.cssText='background:#f0fdf4;border:1px solid #86efac;';
+    sumEl.innerHTML='✅ Data is valid — '+data.details.length+' operation order(s), '+data.containers.length+' container(s). Ready for master file lookup.';
+    document.getElementById('btnGoLookup').disabled = false;
+  } else {
+    sumEl.className='alert alert-danger mb-3'; sumEl.style.cssText='';
+    sumEl.innerHTML='❌ '+errs.length+' error(s) found. Fix Cargo Type inline below, or re-upload the file.';
+    document.getElementById('btnGoLookup').disabled = true;
+  }
+
+  // Total Pcs match alert
+  const pcsAlert = document.getElementById('pcsMatchAlert');
+  const pcsErr = errs.find(e=>e.loc==='Header vs Details');
+  if (pcsErr) {
+    pcsAlert.className='d-block mb-2 alert alert-warning';
+    pcsAlert.innerHTML='⚠️ <strong>Mismatch:</strong> '+esc(pcsErr.msg);
+  } else if (data.header.totalPcs) {
+    pcsAlert.className='d-block mb-2'; pcsAlert.style.cssText='';
+    pcsAlert.innerHTML='<span class="badge-ok">✅ Total Pcs ('+esc(data.header.totalPcs)+') matches detail row count.</span>';
+  } else {
+    pcsAlert.className='d-none'; pcsAlert.style.cssText='';
+  }
+
+  // Header table
+  const headerRows = [
+    {label:'M.AWB-B/L',           val:data.header.awbBl,           req:true,  map:'billOfLadingNumber'},
+    {label:'Agency Name',          val:data.header.agencyName,      req:true,  map:'notify2 (ThirdParty)'},
+    {label:'Consignee Name',       val:data.header.consigneeName,   req:true,  map:'consignee (header-level)'},
+    {label:'Flight/Vessel Name',   val:data.header.flightVesselNo,  req:false, map:'oceanVessel'},
+    {label:'Description',          val:data.header.description,     req:false, map:'remarks'},
+    {label:'Port of Loading',      val:data.header.portOfLoading,   req:true,  map:'portOfLoading'},
+    {label:'Port of Discharge',    val:data.header.portOfDischarge, req:true,  map:'portOfDischarge'},
+    {label:'Flight/Voy No.',       val:data.header.flightVoyNo,     req:true,  map:'voyage'},
+    {label:'Total Number of Pcs',  val:data.header.totalPcs,        req:true,  map:'n1'},
+    {label:'Origin',               val:data.header.origin,          req:false, map:'ref2 (FRMCountry)'},
+  ];
+  document.getElementById('headerPreview').innerHTML = tbl(
+    ['Field','Value','NamaSoft Field','Status'],
+    headerRows.map(r => {
+      const hasErr = errs.some(e=>e.loc==='Header'&&e.field===r.label);
+      return [
+        r.label+(r.req?' <span class="field-req">*</span>':''),
+        r.val ? esc(r.val) : '<em class="text-muted">Empty</em>',
+        '<code class="small">'+r.map+'</code>',
+        hasErr ? '<span class="badge-err">❌ Required</span>' : (r.val?'<span class="badge-ok">✅</span>':'<span class="text-muted">—</span>'),
+        hasErr ? 'row-error' : ''
+      ];
+    })
+  );
+
+  // Container table
+  document.getElementById('containerPreview').innerHTML = data.containers.length === 0
+    ? '<p class="text-muted small ms-1">No container data found in rows 2–6, columns H–K.</p>'
+    : tbl(
+        ['#','Size <span class="field-req">*</span>','Gross Weight','Volume/CBM','Container Number <span class="field-req">*</span>','Status'],
+        data.containers.map((c,i) => {
+          const cErrs = errs.filter(e=>e.loc.startsWith('Container '+(i+1)));
+          return [
+            i+1,
+            c.containerSize   || '<em class="text-danger">Empty</em>',
+            c.grossWeight     || '—',
+            c.volume          || '—',
+            c.containerNumber || '<em class="text-danger">Empty</em>',
+            cErrs.length
+              ? '<span class="badge-err">❌ '+cErrs.map(e=>e.field+': '+e.msg).join(' | ')+'</span>'
+              : '<span class="badge-ok">✅</span>',
+            cErrs.length ? 'row-error' : ''
+          ];
+        })
+      );
+
+  // Operation Orders table — Cargo Type always shown as dropdown for inline correction
+  document.getElementById('detailPreview').innerHTML = data.details.length === 0
+    ? '<p class="text-danger small ms-1">⚠️ No operation order data found in rows 9+.</p>'
+    : tbl(
+        ['Excel Row',
+         'H.AWB/B-L # <span class="field-req">*</span>',
+         'Shipper <span class="field-req">*</span>',
+         'Consignee <span class="field-req">*</span>',
+         'Notify <span class="field-req">*</span>',
+         'Commodity <span class="field-req">*</span>',
+         'PKG',
+         'Parcels <span class="field-req">*</span>',
+         'G.Weight <span class="field-req">*</span>',
+         'CBM <span class="field-req">*</span>',
+         'Cargo Type <span class="field-req">*</span>',
+         'Container # (→ ventilation)',
+         'Status'],
+        data.details.map((d,i) => {
+          const dErrs = errs.filter(e=>e.loc==='Row '+d._row);
+          const ctErr = dErrs.some(e=>e.field==='Cargo Type');
+          const ctVal = d.cargoTypeTrimmed || '';
+          const ctCls = ctErr ? 'ct-select ct-err' : 'ct-select ct-ok';
+          const ctOpts = ['<option value=""'+(ctVal?'':' selected')+'>-- Select --</option>',
+            ...VALID_CARGO_TYPES.map(v=>'<option value="'+v+'"'+(ctVal===v?' selected':'')+'>'+v+'</option>')
+          ].join('');
+          const ctDrop = '<select id="ct_sel_'+i+'" class="'+ctCls+'" onchange="onCargoTypeChange('+i+',this)">'+ctOpts+'</select>';
+          const otherErrs = dErrs.filter(e=>e.field!=='Cargo Type');
+          const statusBadge = dErrs.length
+            ? '<span class="badge-err">❌ '+dErrs.map(e=>e.field+': '+e.msg).join(' | ')+'</span>'
+            : '<span class="badge-ok">✅</span>';
+          return [
+            d._row,
+            d.hawb      || '<em class="text-danger">Empty</em>',
+            d.shipper   ? esc(d.shipper)   : '<em class="text-danger">Empty</em>',
+            d.consignee ? esc(d.consignee) : '<em class="text-danger">Empty</em>',
+            d.notify    ? esc(d.notify)    : '<em class="text-danger">Empty</em>',
+            d.commodity ? esc(d.commodity) : '<em class="text-danger">Empty</em>',
+            d.pkg       || '<em class="text-muted">—</em>',
+            d.parcels   || '<em class="text-danger">Empty</em>',
+            d.gw        || '<em class="text-danger">Empty</em>',
+            d.cbm       || '<em class="text-danger">Empty</em>',
+            ctDrop,
+            d.containerNumber ? '<code>'+esc(d.containerNumber)+'</code>' : '<em class="text-muted">—</em>',
+            statusBadge,
+            dErrs.length ? 'row-error' : ''
+          ];
+        })
+      );
+
+  // Error list
+  if (errs.length > 0) {
+    document.getElementById('errorsBlock').classList.remove('d-none');
+    document.getElementById('errorsList').innerHTML =
+      errs.map(e=>'<li><strong>'+esc(e.loc)+'</strong> → <em>'+esc(e.field)+'</em>: '+esc(e.msg)+'</li>').join('');
+  } else {
+    document.getElementById('errorsBlock').classList.add('d-none');
+  }
+}
+
+// Inline Cargo Type change handler
+function onCargoTypeChange(idx, sel) {
+  parsedData.details[idx].cargoType        = sel.value;
+  parsedData.details[idx].cargoTypeTrimmed = sel.value;
+  sel.className = sel.value ? 'ct-select ct-ok' : 'ct-select ct-err';
+  errors = validate(parsedData);
+  const hasErr = errors.length > 0;
+  document.getElementById('btnGoLookup').disabled = hasErr;
+  const sumEl = document.getElementById('validSummary');
+  if (!hasErr) {
+    sumEl.className='alert mb-3'; sumEl.style.cssText='background:#f0fdf4;border:1px solid #86efac;';
+    sumEl.innerHTML='✅ Data is valid — '+parsedData.details.length+' operation order(s), '+parsedData.containers.length+' container(s). Ready for master file lookup.';
+    document.getElementById('errorsBlock').classList.add('d-none');
+  } else {
+    sumEl.className='alert alert-danger mb-3'; sumEl.style.cssText='';
+    sumEl.innerHTML='❌ '+errors.length+' error(s) found. Fix Cargo Type inline below, or re-upload the file.';
+    document.getElementById('errorsList').innerHTML =
+      errors.map(e=>'<li><strong>'+esc(e.loc)+'</strong> → <em>'+esc(e.field)+'</em>: '+esc(e.msg)+'</li>').join('');
+    document.getElementById('errorsBlock').classList.remove('d-none');
+  }
+}
+
+// ══════════════════════════════════════════════════════
+//  TABLE HELPER
+// ══════════════════════════════════════════════════════
+function tbl(headers, rows) {
+  const thead = '<thead><tr>'+headers.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead>';
+  const tbody = '<tbody>'+rows.map(r => {
+    const cls   = r[r.length-1] || '';
+    const cells = r.slice(0,-1);
+    return '<tr class="'+cls+'">'+cells.map(c=>'<td>'+c+'</td>').join('')+'</tr>';
+  }).join('')+'</tbody>';
+  return '<table class="table table-sm table-bordered table-hover">'+thead+tbody+'</table>';
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+<script>
+// ══════════════════════════════════════════════════════
+//  STEP 3 — MASTER FILE LOOKUP
+// ══════════════════════════════════════════════════════
+async function runLookup() {
+  lookupResults  = {};
+  createdRecords = [];
+  const resultsEl = document.getElementById('lookupResults');
+  document.getElementById('lookupProgress').classList.remove('d-none');
+  document.getElementById('lookupSummary').classList.add('d-none');
+  document.getElementById('btnGoSend').disabled = true;
+  resultsEl.innerHTML = '';
+
+  try {
+    const h = parsedData.header;
+
+    // 1. Agency (ThirdParty)
+    if (h.agencyName)
+      await lookupEntity(CONFIG.thirdPartyEntity, h.agencyName, resultsEl);
+
+    // 2. Header-level Consignee
+    if (h.consigneeName)
+      await lookupEntity(CONFIG.customerEntity, h.consigneeName, resultsEl);
+
+    // 3. Port of Loading
+    if (h.portOfLoading)
+      await lookupEntity(CONFIG.portEntity, h.portOfLoading, resultsEl);
+
+    // 4. Port of Discharge
+    if (h.portOfDischarge)
+      await lookupEntity(CONFIG.portEntity, h.portOfDischarge, resultsEl);
+
+    // 5. Origin (Country)
+    if (h.origin)
+      await lookupEntity(CONFIG.countryEntity, h.origin, resultsEl);
+
+    // 6. Per-detail: Shipper, Consignee, Notify
+    for (const d of parsedData.details) {
+      if (d.shipper)  await lookupEntity(CONFIG.customerEntity, d.shipper,   resultsEl);
+      if (d.consignee) await lookupEntity(CONFIG.customerEntity, d.consignee, resultsEl);
+      if (d.notify && d.notify.toUpperCase() !== 'SAME AS CONSIGNEE')
+        await lookupEntity(CONFIG.customerEntity, d.notify, resultsEl);
+    }
+
+    updateLookupSummary();
+    document.getElementById('lookupProgress').classList.add('d-none');
+    document.getElementById('lookupSummary').classList.remove('d-none');
+    document.getElementById('btnGoSend').disabled = false;
+
+  } catch (err) {
+    resultsEl.insertAdjacentHTML('beforeend',
+      '<div class="result-log result-err">❌ Unexpected error: '+esc(err.message)+'</div>');
+    document.getElementById('lookupProgress').classList.add('d-none');
+  }
+}
+
+async function lookupEntity(entityType, searchName, resultsEl) {
+  if (!searchName) return;
+  const cacheKey = entityType+'_'+searchName;
+  if (lookupResults[cacheKey]) return;   // already looked up
+
+  const serverUrl = CONFIG.serverUrl.replace(/\/+$/,'');
+  try {
+    const res = await fetch(serverUrl+'/erp/rest/v1/'+entityType+'/list', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+      body: JSON.stringify({startPage:1,pageSize:10,
+        textCriteria:'name1,Contains,'+searchName+',AND;',orderBy:'name1'})
+    });
+    const data = await res.json();
+    if (data.records && data.records.length > 0) {
+      const found = data.records[0];
+      lookupResults[cacheKey] = {status:'found',code:found.code,name:found.name1||found.name2||searchName,entityType};
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-ok">✅ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> → Code: <code>'+esc(found.code)+'</code></div>');
+    } else {
+      lookupResults[cacheKey] = {status:'new',code:null,name:searchName,entityType};
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-new">🆕 '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — Will create new</div>');
+    }
+  } catch (err) {
+    lookupResults[cacheKey] = {status:'error',error:err.message,name:searchName,entityType};
+    resultsEl.insertAdjacentHTML('beforeend',
+      '<div class="result-log result-err">❌ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — '+esc(err.message)+'</div>');
+  }
+}
+
+function updateLookupSummary() {
+  let found=0, newCount=0, errCount=0;
+  Object.values(lookupResults).forEach(r=>{
+    if (r.status==='found') found++;
+    else if (r.status==='new') newCount++;
+    else errCount++;
+  });
+  document.getElementById('lookupTotal').textContent  = Object.keys(lookupResults).length;
+  document.getElementById('lookupFound').textContent  = found;
+  document.getElementById('lookupNew').textContent    = newCount;
+  document.getElementById('lookupError').textContent  = errCount;
+}
+
+// ══════════════════════════════════════════════════════
+//  CREATE MISSING RECORDS
+// ══════════════════════════════════════════════════════
+async function createMissingRecords(resultsEl) {
+  const serverUrl = CONFIG.serverUrl.replace(/\/+$/,'');
+  const newRecords = Object.values(lookupResults).filter(r=>r.status==='new');
+  for (const record of newRecords) {
+    try {
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-new">🆕 Creating '+esc(record.entityType)+': <strong>'+esc(record.name)+'</strong></div>');
+      const res = await fetch(
+        serverUrl+'/erp/rest/v1/'+record.entityType+'/save?addRecord=true&responseFields=code,id',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+        body:JSON.stringify({name1:record.name,name2:record.name})
+      });
+      const saved = await res.json();
+      if (res.ok && saved.saved_records?.[record.entityType]) {
+        const rec = saved.saved_records[record.entityType][0];
+        record.code = rec.code; record.id = rec.id; record.status = 'found';
+        createdRecords.push(record);
+        resultsEl.insertAdjacentHTML('beforeend',
+          '<div class="result-log result-ok">✅ Created '+esc(record.entityType)+': <strong>'+esc(record.name)+'</strong> → Code: <code>'+esc(rec.code)+'</code></div>');
+      } else {
+        resultsEl.insertAdjacentHTML('beforeend',
+          '<div class="result-log result-err">❌ Failed to create '+esc(record.entityType)+': <strong>'+esc(record.name)+'</strong><br><pre style="font-size:11px">'+esc(JSON.stringify(saved,null,2))+'</pre></div>');
+      }
+    } catch(err) {
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-err">❌ Failed to create '+esc(record.entityType)+': <strong>'+esc(record.name)+'</strong> — '+esc(err.message)+'</div>');
+    }
+  }
+}
+
+// ══════════════════════════════════════════════════════
+//  PAYLOAD BUILDERS
+// ══════════════════════════════════════════════════════
+function getCode(entityType, name) {
+  if (!name) return null;
+  const r = lookupResults[entityType+'_'+name];
+  return (r && r.status==='found') ? r.code : null;
+}
+
+function buildBlPayload() {
+  const h = parsedData.header;
+  return {
+    billOfLadingNumber: h.awbBl                    || null,
+    notify2:     getCode(CONFIG.thirdPartyEntity, h.agencyName)      || h.agencyName      || null,
+    consignee:   getCode(CONFIG.customerEntity,   h.consigneeName)   || h.consigneeName   || null,
+    oceanVessel: h.flightVesselNo                  || null,
+    remarks:     h.description                     || null,
+    portOfLoading:   getCode(CONFIG.portEntity,    h.portOfLoading)  || h.portOfLoading   || null,
+    portOfDischarge: getCode(CONFIG.portEntity,    h.portOfDischarge)|| h.portOfDischarge || null,
+    voyage:          h.flightVoyNo                 || null,
+    n1:              h.totalPcs ? Number(h.totalPcs) : null,     // Total Number of Pcs
+    ref2:            getCode(CONFIG.countryEntity, h.origin)         || h.origin          || null,
+    // Container details — containerNumber = actual number, remark = size
+    details: parsedData.containers.map(c => ({
+      containerNumber: c.containerNumber || null,
+      remark:          c.containerSize   || null,   // size → remark field
+      grossWeight:     c.grossWeight ? Number(c.grossWeight) : null,
+      cbmVolume:       c.volume      ? Number(c.volume)      : null,
+    }))
+  };
+}
+
+function buildOpPayloads(blCode) {
+  const hConsignee = parsedData.header.consigneeName;
+  return parsedData.details.map(d => {
+    // If detail notify is "SAME AS CONSIGNEE" resolve to consignee code
+    const notifyResolved = (d.notify.toUpperCase()==='SAME AS CONSIGNEE')
+      ? (getCode(CONFIG.customerEntity, d.consignee) || d.consignee || getCode(CONFIG.customerEntity, hConsignee) || hConsignee || null)
+      : (getCode(CONFIG.customerEntity, d.notify)    || d.notify    || null);
+    return {
+      description5:     d.hawb                                                          || null,  // HBL Number
+      ref1:             blCode                                                           || null,  // MBL reference
+      shipper:          getCode(CONFIG.customerEntity, d.shipper)  || d.shipper         || null,
+      consignee:        getCode(CONFIG.customerEntity, d.consignee)|| d.consignee
+                          || getCode(CONFIG.customerEntity, hConsignee) || hConsignee   || null,
+      notify:           notifyResolved,
+      remarks:          d.commodity                                                     || null,  // Commodity Description
+      description4:     d.pkg                                                           || null,  // PKG Type (optional)
+      n4:               d.parcels  ? Number(d.parcels)  : null,                                  // No. of Parcel
+      n1:               d.gw       ? Number(d.gw)       : null,                                  // Gross Weight
+      n2:               d.cbm      ? Number(d.cbm)      : null,                                  // CBM
+      description2:     d.cargoTypeTrimmed                                             || null,  // Cargo Type
+      ventilation:      d.containerNumber                                               || null,  // Container Number
+    };
+  });
+}
+
+// ══════════════════════════════════════════════════════
+//  PREPARE STEP 4
+// ══════════════════════════════════════════════════════
+async function prepareStep4() {
+  const resultsEl = document.getElementById('sendResults');
+  resultsEl.innerHTML = '';
+  await createMissingRecords(resultsEl);
+
+  const blPayload  = buildBlPayload();
+  const sampleOp   = buildOpPayloads('<<BL_CODE>>')[0] || {};
+
+  document.getElementById('sendSummary').innerHTML =
+    '<div class="col-md-3"><div class="sum-card blue"><div class="sum-num">1</div><div class="sum-label">Bill of Lading</div><div class="text-muted small mt-1">'+esc(blPayload.billOfLadingNumber||'')+'</div></div></div>'+
+    '<div class="col-md-3"><div class="sum-card" style="border-color:var(--blue-light);background:var(--blue-pale)"><div class="sum-num" style="color:var(--blue-mid)">'+parsedData.containers.length+'</div><div class="sum-label">Containers</div></div></div>'+
+    '<div class="col-md-3"><div class="sum-card orange"><div class="sum-num">'+parsedData.details.length+'</div><div class="sum-label">Operation Orders</div></div></div>'+
+    '<div class="col-md-3"><div class="sum-card" style="border-color:var(--purple-border);background:var(--purple-pale)"><div class="sum-num" style="color:#7c3aed">'+createdRecords.length+'</div><div class="sum-label">New Records Created</div></div></div>';
+
+  if (createdRecords.length > 0) {
+    document.getElementById('createSummary').classList.remove('d-none');
+    document.getElementById('createList').innerHTML =
+      createdRecords.map(r=>'<li>'+esc(r.entityType)+': <strong>'+esc(r.name)+'</strong> → Code: <code>'+esc(r.code)+'</code></li>').join('');
+  } else {
+    document.getElementById('createSummary').classList.add('d-none');
+  }
+
+  document.getElementById('blPayloadView').textContent  = JSON.stringify(blPayload, null, 2);
+  document.getElementById('opPayloadView').textContent  = JSON.stringify(sampleOp,  null, 2);
+  document.getElementById('btnConfirmSend').disabled = false;
+  goToStep(4);
+}
+
+// ══════════════════════════════════════════════════════
+//  SEND TO NAMASOFT
+// ══════════════════════════════════════════════════════
+async function sendToNamaSoft() {
+  const serverUrl = CONFIG.serverUrl.replace(/\/+$/,'');
+  const btn     = document.getElementById('btnConfirmSend');
+  const backBtn = document.getElementById('btnBackFromSend');
+  btn.disabled = backBtn.disabled = true;
+  const resultsEl = document.getElementById('sendResults');
+  resultsEl.innerHTML = '';
+
+  const log = (msg, type) => {
+    const map = {ok:'result-ok',err:'result-err',warn:'result-warn',info:'result-info',new:'result-new'};
+    resultsEl.insertAdjacentHTML('beforeend','<div class="result-log '+map[type]+'">'+msg+'</div>');
+  };
+
+  log('⏳ Sending data… Please wait','info');
+  try {
+    // ── 1. Save Bill of Lading ──────────────────────
+    log('📤 Sending Bill of Lading to: <code>'+esc(CONFIG.blEntity)+'</code>','info');
+    const blPayload = buildBlPayload();
+    const blRes = await fetch(
+      serverUrl+'/erp/rest/v1/'+CONFIG.blEntity+'/save?addRecord=true&updateRecord=true',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+      body:JSON.stringify(blPayload),
+    });
+    let blJson;
+    try { blJson = await blRes.json(); } catch { blJson={rawStatus:blRes.status}; }
+    if (!blRes.ok) {
+      log('❌ Failed to save Bill of Lading (HTTP '+blRes.status+')<br><pre style="font-size:11px">'+esc(JSON.stringify(blJson,null,2))+'</pre>','err');
+      btn.disabled = backBtn.disabled = false;
+      return;
+    }
+    const blCode = blJson?.saved_records?.[CONFIG.blEntity]?.[0]?.code
+                || blJson?.saved_records?.[CONFIG.blEntity]?.[0]?.id
+                || blPayload.billOfLadingNumber;
+    log('✅ Bill of Lading saved — System Code: <strong>'+esc(blCode)+'</strong>','ok');
+
+    // ── 2. Save Operation Orders ────────────────────
+    if (parsedData.details.length === 0) {
+      log('⚠️ No Operation Orders to send','warn');
+    } else {
+      log('📤 Sending '+parsedData.details.length+' Operation Order(s) to: <code>'+esc(CONFIG.opEntity)+'</code>','info');
+      const opPayloads = buildOpPayloads(blCode);
+      const opRes = await fetch(
+        serverUrl+'/erp/rest/v1/'+CONFIG.opEntity+'/save?addRecord=true&continueOnErrors=true',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+        body:JSON.stringify(opPayloads),
+      });
+      let opJson;
+      try { opJson = await opRes.json(); } catch { opJson={rawStatus:opRes.status}; }
+      if (!opRes.ok) {
+        log('⚠️ Some Operation Orders failed (HTTP '+opRes.status+')<br><pre style="font-size:11px">'+esc(JSON.stringify(opJson,null,2))+'</pre>','warn');
+      } else {
+        log('✅ Saved <strong>'+(opJson?.saved_records_count ?? parsedData.details.length)+'</strong> Operation Order(s) successfully','ok');
+        if (opJson?.errors?.length)
+          log('⚠️ '+opJson.errors.length+' record(s) had errors<br><pre style="font-size:11px">'+esc(JSON.stringify(opJson.errors,null,2))+'</pre>','warn');
+      }
+    }
+    log('🎉 <strong>Send completed successfully!</strong>','ok');
+
+  } catch(err) {
+    const isCors = /fetch|NetworkError|Failed/i.test(err.message);
+    log('❌ '+(isCors?'Connection':'Unexpected')+' error: <em>'+esc(err.message)+'</em>','err');
+    if (isCors)
+      log('⚠️ <strong>CORS Note:</strong> Run this page from a web server (not file://) to avoid CORS errors.','warn');
+  } finally {
+    btn.disabled = backBtn.disabled = false;
+  }
+}
+</script>
+</body>
+</html>
