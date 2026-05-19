@@ -27,9 +27,9 @@
 .header-badge {
   background: var(--orange-mid);
   color: #fff;
-  font-size: 15px;        /* ← كبير */
+  font-size: 15px;        
   font-weight: 700;
-  padding: 5px 14px;      /* ← padding أكبر */
+  padding: 5px 14px;      
   border-radius: 20px;
 }
     .step-bar { display:flex; align-items:center; margin-bottom:24px; }
@@ -536,7 +536,7 @@ function renderStep2(data, errs) {
     {label:'Origin',               val:data.header.origin,          req:false, map:'ref2 (FRMCountry)'},
   ];
   document.getElementById('headerPreview').innerHTML = tbl(
-    ['Field','Value','NamaSoft Field','Status'],
+    ['Field','Value','Exceed Field','Status'],
     headerRows.map(r => {
       const hasErr = errs.some(e=>e.loc==='Header'&&e.field===r.label);
       return [
