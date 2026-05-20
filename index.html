@@ -584,7 +584,7 @@ function renderStep2(data, errs) {
       const hasErr = errs.some(e=>e.loc==='Header'&&e.field===r.label);
       return [
         r.label+(r.req?' <span class="field-req">*</span>':''),
-        '<input type="text" id="hdr_'+r.key+'" class="form-control form-control-sm'+(hasErr?' border-danger':'')+'" value="'+esc(r.val||'')+'" onclick="showFieldModal(this)">',
+        '<input type="text" id="hdr_'+r.key+'" class="form-control form-control-sm'+(hasErr?' border-danger':'')+'" value="'+esc(r.val||'')+'" ondblclick="showFieldModal(this)">',
         hasErr ? '<span class="badge-err">❌ Required</span>' : (r.val?'<span class="badge-ok">✅</span>':'<span class="text-muted">—</span>'),
         hasErr ? 'row-error' : ''
       ];
@@ -598,7 +598,7 @@ function renderStep2(data, errs) {
         ['#','Size <span class="field-req">*</span>','Gross Weight','Volume/CBM','Container Number <span class="field-req">*</span>','Status',''],
         data.containers.map((c,i) => {
           const cErrs = errs.filter(e=>e.loc.startsWith('Container '+(i+1)));
-          const fld = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'" onclick="showFieldModal(this)">';
+          const fld = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'" ondblclick="showFieldModal(this)">';
           const delBtn = '<button onclick="deleteContainer('+i+')" title="Delete row" style="background:#fee2e2;border:1px solid #fca5a5;color:#991b1b;border-radius:6px;padding:3px 8px;cursor:pointer;font-size:15px;line-height:1">🗑️</button>';
           return [
             i+1,
@@ -641,7 +641,7 @@ function renderStep2(data, errs) {
             ...VALID_CARGO_TYPES.map(v=>'<option value="'+v+'"'+(ctVal===v?' selected':'')+'>'+v+'</option>')
           ].join('');
           const ctDrop = '<select id="ct_sel_'+i+'" class="'+ctCls+'" onchange="onCargoTypeChange('+i+',this)">'+ctOpts+'</select>';
-          const inp = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'" onclick="showFieldModal(this)">';
+          const inp = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'" ondblclick="showFieldModal(this)">';
           const statusBadge = dErrs.length
             ? '<span class="badge-err">❌ '+dErrs.map(e=>e.field+': '+e.msg).join(' | ')+'</span>'
             : '<span class="badge-ok">✅</span>';
@@ -1014,9 +1014,11 @@ function buildBlPayload() {
     ventilation:     CONFIG.ventilation,
     portOfLoading:   getCode(CONFIG.portEntity, h.portOfLoading)   || h.portOfLoading   || null,
     portOfDischarge: getCode(CONFIG.portEntity, h.portOfDischarge) || h.portOfDischarge || null,
-    voyage: h.flightVoyNo || null,
-    n1:     parsedData.details.length,
-    ref2:   countryCode ? {entityType: CONFIG.countryEntity, code: countryCode} : null,
+    voyage:      h.flightVoyNo || null,
+    n1:          parsedData.details.length,
+    ref2:        countryCode ? {entityType: CONFIG.countryEntity, code: countryCode} : null,
+    ref3:        {entityType: CONFIG.commodityEntity, code: '001'},
+    temperature: h.totalPcs ? String(h.totalPcs) : null,
     details: parsedData.containers.map(c => ({
       containerNumber: c.containerNumber || null,
       remark:          c.containerSize   || null,
