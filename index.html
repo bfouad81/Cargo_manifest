@@ -141,10 +141,6 @@
         <span id="fileName" class="mx-2 fw-semibold"></span>
         <span id="fileSize" class="text-muted small"></span>
       </div>
-      <div id="sheetSelector" class="d-none mt-3">
-        <label class="form-label fw-semibold">Select Sheet:</label>
-        <select class="form-select w-auto" id="sheetSelect"></select>
-      </div>
       <div class="sticky-nav">
         <div></div>
         <button class="btn-primary-custom d-none" id="btnParseGo" onclick="parseAndValidate()">Next: Review Data →</button>
@@ -176,7 +172,6 @@
         <button class="btn btn-outline-secondary" onclick="goToStep(1)">← Previous</button>
         <div class="d-flex gap-2">
           <button class="btn btn-outline-secondary" onclick="reValidate()">🔄 Re-validate</button>
-          <button class="btn btn-outline-secondary" onclick="downloadJsonFiles()" style="background:var(--green-pale);border-color:#86efac;color:#166534">⬇ Export JSON</button>
           <button class="btn-orange" id="btnGoLookup" onclick="goToStep(3)" disabled>Master File Lookup 🔍</button>
         </div>
       </div>
@@ -231,6 +226,26 @@
       <div class="sticky-nav">
         <button class="btn btn-outline-secondary" id="btnBackFromSend" onclick="goToStep(3)">← Previous</button>
         <button class="btn-orange" id="btnConfirmSend" onclick="sendToNamaSoft()">🚀 Confirm Send to NamaSoft</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Field Detail Modal -->
+  <div class="modal fade" id="fieldModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="border-radius:14px;border:none;box-shadow:0 8px 32px rgba(0,0,0,.15)">
+        <div class="modal-header" style="background:var(--blue-pale);border-bottom:2px solid var(--blue-light);border-radius:14px 14px 0 0">
+          <h6 class="modal-title fw-bold" style="color:var(--blue-dark)" id="fieldModalLabel">Field Detail</h6>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="text-muted small mb-1" id="fieldModalFieldName"></div>
+          <div id="fieldModalValue" style="font-size:15px;font-weight:500;word-break:break-word;line-height:1.6;color:var(--text-main)"></div>
+        </div>
+        <div class="modal-footer" style="border-top:1px solid var(--border);border-radius:0 0 14px 14px">
+          <button type="button" class="btn btn-outline-secondary btn-sm" onclick="copyFieldValue()">📋 Copy</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
@@ -351,10 +366,6 @@ function handleFile(file) {
   const reader = new FileReader();
   reader.onload = e => {
     workbook = XLSX.read(new Uint8Array(e.target.result), {type:'array'});
-    const names = workbook.SheetNames;
-    const sel = document.getElementById('sheetSelect');
-    sel.innerHTML = names.map((n,i)=>'<option value="'+i+'">'+n+'</option>').join('');
-    document.getElementById('sheetSelector').classList.toggle('d-none', names.length <= 1);
     document.getElementById('btnParseGo').classList.remove('d-none');
   };
   reader.readAsArrayBuffer(file);
@@ -501,8 +512,7 @@ function validate(data) {
 // ══════════════════════════════════════════════════════
 function parseAndValidate() {
   if (!workbook) { alert('Please upload a file first'); return; }
-  const sheetIdx = parseInt(document.getElementById('sheetSelect').value || '0');
-  parsedData = parseSheet(workbook.SheetNames[sheetIdx]);
+  parsedData = parseSheet(workbook.SheetNames[0]);
   errors = validate(parsedData);
   renderStep2(parsedData, errors);
   goToStep(2);
@@ -574,7 +584,7 @@ function renderStep2(data, errs) {
       const hasErr = errs.some(e=>e.loc==='Header'&&e.field===r.label);
       return [
         r.label+(r.req?' <span class="field-req">*</span>':''),
-        '<input type="text" id="hdr_'+r.key+'" class="form-control form-control-sm'+(hasErr?' border-danger':'')+'" value="'+esc(r.val||'')+'">',
+        '<input type="text" id="hdr_'+r.key+'" class="form-control form-control-sm'+(hasErr?' border-danger':'')+'" value="'+esc(r.val||'')+'" onclick="showFieldModal(this)">',
         hasErr ? '<span class="badge-err">❌ Required</span>' : (r.val?'<span class="badge-ok">✅</span>':'<span class="text-muted">—</span>'),
         hasErr ? 'row-error' : ''
       ];
@@ -588,7 +598,7 @@ function renderStep2(data, errs) {
         ['#','Size <span class="field-req">*</span>','Gross Weight','Volume/CBM','Container Number <span class="field-req">*</span>','Status',''],
         data.containers.map((c,i) => {
           const cErrs = errs.filter(e=>e.loc.startsWith('Container '+(i+1)));
-          const fld = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'">';
+          const fld = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'" onclick="showFieldModal(this)">';
           const delBtn = '<button onclick="deleteContainer('+i+')" title="Delete row" style="background:#fee2e2;border:1px solid #fca5a5;color:#991b1b;border-radius:6px;padding:3px 8px;cursor:pointer;font-size:15px;line-height:1">🗑️</button>';
           return [
             i+1,
@@ -631,7 +641,7 @@ function renderStep2(data, errs) {
             ...VALID_CARGO_TYPES.map(v=>'<option value="'+v+'"'+(ctVal===v?' selected':'')+'>'+v+'</option>')
           ].join('');
           const ctDrop = '<select id="ct_sel_'+i+'" class="'+ctCls+'" onchange="onCargoTypeChange('+i+',this)">'+ctOpts+'</select>';
-          const inp = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'">';
+          const inp = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'" onclick="showFieldModal(this)">';
           const statusBadge = dErrs.length
             ? '<span class="badge-err">❌ '+dErrs.map(e=>e.field+': '+e.msg).join(' | ')+'</span>'
             : '<span class="badge-ok">✅</span>';
@@ -701,6 +711,26 @@ function tbl(headers, rows) {
 
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Field Detail Modal ──────────────────────────────
+let _fieldModal = null;
+function showFieldModal(input) {
+  if (!input.value) return;
+  const label = input.closest('tr')
+    ? (input.closest('table').querySelectorAll('th')[
+        Array.from(input.closest('tr').children).indexOf(input.closest('td'))
+      ] || {}).innerText || ''
+    : '';
+  document.getElementById('fieldModalLabel').textContent   = 'Field Detail';
+  document.getElementById('fieldModalFieldName').textContent = label;
+  document.getElementById('fieldModalValue').textContent   = input.value;
+  if (!_fieldModal) _fieldModal = new bootstrap.Modal(document.getElementById('fieldModal'));
+  _fieldModal.show();
+}
+function copyFieldValue() {
+  const val = document.getElementById('fieldModalValue').textContent;
+  navigator.clipboard.writeText(val).catch(()=>{});
 }
 </script>
 <script>
