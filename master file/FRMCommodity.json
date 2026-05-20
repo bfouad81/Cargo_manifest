@@ -1,0 +1,1637 @@
+[
+    {
+        "code":  "001",
+        "name1":  "شحن مجمع",
+        "name2":  "Combined Shipping"
+    },
+    {
+        "code":  "002",
+        "name1":  "الحيوانات الحية والأسماك",
+        "name2":  "Live animals and fish"
+    },
+    {
+        "code":  "0026",
+        "name1":  "سيارات",
+        "name2":  "سيارات"
+    },
+    {
+        "code":  "003",
+        "name1":  "الحبوب",
+        "name2":  "Cereal grains"
+    },
+    {
+        "code":  "004",
+        "name1":  "منتجات زراعية أخرى",
+        "name2":  "Other agricultural products"
+    },
+    {
+        "code":  "005",
+        "name1":  "علف ومنتجات من أصل حيواني",
+        "name2":  "Feed and products of animal origin"
+    },
+    {
+        "code":  "006",
+        "name1":  "اللحوم والمأكولات البحرية",
+        "name2":  "Meat and seafood"
+    },
+    {
+        "code":  "007",
+        "name1":  "منتجات الحبوب المطحونة",
+        "name2":  "Milled grain products"
+    },
+    {
+        "code":  "008",
+        "name1":  "مواد غذائية أخرى جاهزة",
+        "name2":  "Other prepared foodstuffs"
+    },
+    {
+        "code":  "009",
+        "name1":  "المشروبات الكحولية",
+        "name2":  "Alcoholic beverages"
+    },
+    {
+        "code":  "010",
+        "name1":  "منتجات التبغ",
+        "name2":  "Tobacco products"
+    },
+    {
+        "code":  "011",
+        "name1":  "حجر البناء",
+        "name2":  "Building stone"
+    },
+    {
+        "code":  "012",
+        "name1":  "رمال طبيعية",
+        "name2":  "Natural sands"
+    },
+    {
+        "code":  "013",
+        "name1":  "الحصى والحجر المسحوق",
+        "name2":  "Gravel and crushed stone"
+    },
+    {
+        "code":  "014",
+        "name1":  "معادن أخرى غير فلزية",
+        "name2":  "Other nonmetallic minerals"
+    },
+    {
+        "code":  "015",
+        "name1":  "الخامات المعدنية",
+        "name2":  "Metallic ores"
+    },
+    {
+        "code":  "016",
+        "name1":  "الفحم",
+        "name2":  "Coal"
+    },
+    {
+        "code":  "017",
+        "name1":  "البترول الخام",
+        "name2":  "Crude petroleum"
+    },
+    {
+        "code":  "018",
+        "name1":  "البنزين والكيروسين والإيثانول",
+        "name2":  "Gasoline, kerosene, and ethanol"
+    },
+    {
+        "code":  "019",
+        "name1":  "الديزل وزيوت الوقود الأخرى",
+        "name2":  "Diesel and other fuel oils"
+    },
+    {
+        "code":  "020",
+        "name1":  "منتجات الوقود الأحفوري الأخرى",
+        "name2":  "Other fossil fuel products"
+    },
+    {
+        "code":  "021",
+        "name1":  "الكيماويات الأساسية",
+        "name2":  "Basic chemicals"
+    },
+    {
+        "code":  "022",
+        "name1":  "منتجات صيدلانية",
+        "name2":  "Pharmaceutical products"
+    },
+    {
+        "code":  "023",
+        "name1":  "أسمدة",
+        "name2":  "Fertilizers"
+    },
+    {
+        "code":  "024",
+        "name1":  "المنتجات والمستحضرات الكيماوية",
+        "name2":  "Chemical products and preparations"
+    },
+    {
+        "code":  "025",
+        "name1":  "البلاستيك والمطاط",
+        "name2":  "Plastics and rubber"
+    },
+    {
+        "code":  "026",
+        "name1":  "جذوع وخشب خشنة",
+        "name2":  "Logs and wood in the rough"
+    },
+    {
+        "code":  "027",
+        "name1":  "المنتجات الخشبية",
+        "name2":  "Wood products"
+    },
+    {
+        "code":  "028",
+        "name1":  "اللب والورق والورق المقوى",
+        "name2":  "Pulp, paper, and paperboard"
+    },
+    {
+        "code":  "029",
+        "name1":  "ورق أو ورق مقوى",
+        "name2":  "Paper or paperboard articles"
+    },
+    {
+        "code":  "030",
+        "name1":  "المنتجات المطبوعة",
+        "name2":  "Printed products"
+    },
+    {
+        "code":  "031",
+        "name1":  "المنسوجات والجلود",
+        "name2":  "Textiles and leather"
+    },
+    {
+        "code":  "032",
+        "name1":  "المنتجات المعدنية اللافلزية",
+        "name2":  "Nonmetallic mineral products"
+    },
+    {
+        "code":  "033",
+        "name1":  "المعدن بأشكاله الأساسية",
+        "name2":  "Metal in basic shapes"
+    },
+    {
+        "code":  "034",
+        "name1":  "المصنوعات المعدنية",
+        "name2":  "Articles of metal"
+    },
+    {
+        "code":  "035",
+        "name1":  "الالات",
+        "name2":  "Machinery"
+    },
+    {
+        "code":  "036",
+        "name1":  "الكترونيات",
+        "name2":  "Electronics"
+    },
+    {
+        "code":  "037",
+        "name1":  "المركبات الآلية وغيرها",
+        "name2":  "Motorized and other vehicles"
+    },
+    {
+        "code":  "038",
+        "name1":  "معدات نقل أخرى",
+        "name2":  "Other transportation equipment"
+    },
+    {
+        "code":  "039",
+        "name1":  "أجهزة دقيقة",
+        "name2":  "Precision instruments"
+    },
+    {
+        "code":  "040",
+        "name1":  "أثاث",
+        "name2":  "Furniture"
+    },
+    {
+        "code":  "041",
+        "name1":  "منتجات مصنعة متفرقة",
+        "name2":  "Miscellaneous manufactured products"
+    },
+    {
+        "code":  "042",
+        "name1":  "النفايات والخردة",
+        "name2":  "Waste and scrap"
+    },
+    {
+        "code":  "043",
+        "name1":  "الشحن المختلط",
+        "name2":  "Mixed freight"
+    },
+    {
+        "code":  "044",
+        "name1":  "سياره",
+        "name2":  "Car"
+    },
+    {
+        "code":  "045",
+        "name1":  "خضراوات",
+        "name2":  "vegetables"
+    },
+    {
+        "code":  "046",
+        "name1":  "فاكهه",
+        "name2":  "fruit"
+    },
+    {
+        "code":  "047",
+        "name1":  "المنتجات الزراعية",
+        "name2":  "agricultural products"
+    },
+    {
+        "code":  "048",
+        "name1":  "المواد الكيميائية الأساسية",
+        "name2":  "basic chemicals"
+    },
+    {
+        "code":  "049",
+        "name1":  "الأسمدة ومواد الأسمدة",
+        "name2":  "Fertilizers and fertilizer materials"
+    },
+    {
+        "code":  "050",
+        "name1":  "المشروبات الكحولية",
+        "name2":  "alcoholic beverages"
+    },
+    {
+        "code":  "051",
+        "name1":  "منتجات المخابز والحبوب المطحونة",
+        "name2":  "Bakery products and ground grains"
+    },
+    {
+        "code":  "052",
+        "name1":  "منتجات التبغ",
+        "name2":  "Tobacco Products"
+    },
+    {
+        "code":  "053",
+        "name1":  "المواد الغذائية الأخرى المجهزة",
+        "name2":  "Other processed food"
+    },
+    {
+        "code":  "054",
+        "name1":  "جذوع الأشجار وغيرها من الأخشاب الخام",
+        "name2":  "Logs and other raw wood"
+    },
+    {
+        "code":  "055",
+        "name1":  "ورق أو ورق مقوى",
+        "name2":  "paper or paperboard"
+    },
+    {
+        "code":  "056",
+        "name1":  "المنتجات المطبوعة",
+        "name2":  "printed products"
+    },
+    {
+        "code":  "057",
+        "name1":  "المنتجات الخشبية",
+        "name2":  "wood products"
+    },
+    {
+        "code":  "058",
+        "name1":  "مصنوعات من معادن عادية",
+        "name2":  "Articles of base metal"
+    },
+    {
+        "code":  "059",
+        "name1":  "معدن أساسي في أشكال أولية أو نصف منتهية",
+        "name2":  "A base metal in elementary or semi-finished forms"
+    },
+    {
+        "code":  "060",
+        "name1":  "المنتجات المعدنية غير المعدنية",
+        "name2":  "Non-metallic mineral products"
+    },
+    {
+        "code":  "061",
+        "name1":  "أدوات غير مزودة بالطاقة",
+        "name2":  "Non-powered tools"
+    },
+    {
+        "code":  "062",
+        "name1":  "أدوات تعمل بالطاقة",
+        "name2":  "Power Tools"
+    },
+    {
+        "code":  "063",
+        "name1":  "المعدات الإلكترونية والكهربائية",
+        "name2":  "Electronic and electrical equipment"
+    },
+    {
+        "code":  "064",
+        "name1":  "الأثاث والمراتب والمصابيح وما إلى ذلك.",
+        "name2":  "Furniture, mattresses, lamps, etc."
+    },
+    {
+        "code":  "065",
+        "name1":  "منتجات مصنعة متنوعة",
+        "name2":  "Various manufactured products"
+    },
+    {
+        "code":  "066",
+        "name1":  "أدوات وأجهزة دقيقة",
+        "name2":  "Precision tools and devices"
+    },
+    {
+        "code":  "067",
+        "name1":  "المنسوجات والجلود والمواد ذات الصلة",
+        "name2":  "Textiles, leather and related materials"
+    },
+    {
+        "code":  "068",
+        "name1":  "المركبات",
+        "name2":  "vehicles"
+    },
+    {
+        "code":  "069",
+        "name1":  "قطع الغيار",
+        "name2":  "spare parts"
+    },
+    {
+        "code":  "070",
+        "name1":  "جميع معدات النقل الأخرى",
+        "name2":  "All other transportation equipment"
+    },
+    {
+        "code":  "071",
+        "name1":  "الحصى أو الأنقاض",
+        "name2":  "gravel or rubble"
+    },
+    {
+        "code":  "072",
+        "name1":  "الخامات والمركزات المعدنية",
+        "name2":  "Mineral ores and concentrates"
+    },
+    {
+        "code":  "073",
+        "name1":  "حجر ضخم أو بناء",
+        "name2":  "huge stone or masonry"
+    },
+    {
+        "code":  "074",
+        "name1":  "رمال طبيعية",
+        "name2":  "natural sand"
+    },
+    {
+        "code":  "075",
+        "name1":  "زيوت الوقود",
+        "name2":  "fuel oils"
+    },
+    {
+        "code":  "076",
+        "name1":  "البنزين ووقود الطائرات",
+        "name2":  "Gasoline and jet fuel"
+    },
+    {
+        "code":  "077",
+        "name1":  "البلاستيك والمطاط",
+        "name2":  "plastic and rubber"
+    },
+    {
+        "code":  "078",
+        "name1":  "جميع منتجات الفحم الحجري والمنتجات البترولية المكررة",
+        "name2":  "All coal products and refined petroleum products"
+    },
+    {
+        "code":  "079",
+        "name1":  "النفايات الخطرة",
+        "name2":  "hazardous waste"
+    },
+    {
+        "code":  "080",
+        "name1":  "جميع النفايات والخردة الأخرى",
+        "name2":  "All other waste and scrap"
+    },
+    {
+        "code":  "081",
+        "name1":  "المنتجات القابلة لإعادة التدوير",
+        "name2":  "recyclable products"
+    },
+    {
+        "code":  "082",
+        "name1":  "طرود البريد والبريد السريع",
+        "name2":  "Postal parcels and express mail"
+    },
+    {
+        "code":  "083",
+        "name1":  "حاويات الشحن الفارغة",
+        "name2":  "empty shipping containers"
+    },
+    {
+        "code":  "084",
+        "name1":  "ركاب",
+        "name2":  "Passengers"
+    },
+    {
+        "code":  "085",
+        "name1":  "الشحن المختلط",
+        "name2":  "Mixed Shipping"
+    },
+    {
+        "code":  "086",
+        "name1":  "فئات متعددة",
+        "name2":  "Multiple categories"
+    },
+    {
+        "code":  "087",
+        "name1":  "وحدات ز من الزجاج",
+        "name2":  "g units of glass"
+    },
+    {
+        "code":  "088",
+        "name1":  "رخام",
+        "name2":  "marble"
+    },
+    {
+        "code":  "089",
+        "name1":  "ألواح البناء الصلبة",
+        "name2":  "rigid building boards"
+    },
+    {
+        "code":  "090",
+        "name1":  "تركيبات لصنع قوالب صب المعادن",
+        "name2":  "compositions for making metal-casting moulds"
+    },
+    {
+        "code":  "091",
+        "name1":  "أسمنت",
+        "name2":  "concrete"
+    },
+    {
+        "code":  "092",
+        "name1":  "ألواح الفناء",
+        "name2":  "patio slabs"
+    },
+    {
+        "code":  "093",
+        "name1":  "الجير المطفأ",
+        "name2":  "slaked lime"
+    },
+    {
+        "code":  "094",
+        "name1":  "الطين المعجل",
+        "name2":  "exped clays"
+    },
+    {
+        "code":  "095",
+        "name1":  "صفائح رقيقة",
+        "name2":  "thin sheets"
+    },
+    {
+        "code":  "096",
+        "name1":  "الأسمنت الليفي السليلوز",
+        "name2":  "cellulose fibre-cement"
+    },
+    {
+        "code":  "097",
+        "name1":  "الدولوميت المكلس أو المقطر",
+        "name2":  "calcined or tarred dolomite"
+    },
+    {
+        "code":  "098",
+        "name1":  "في أشكال نصف منتهية",
+        "name2":  "in semi-finished forms"
+    },
+    {
+        "code":  "099",
+        "name1":  "في أشكال نصف منتهية بما في ذلك الزهور",
+        "name2":  "in semi-finished forms including blooms"
+    },
+    {
+        "code":  "100",
+        "name1":  "في أشكال غير مشغولة",
+        "name2":  "in unwrought forms"
+    },
+    {
+        "code":  "101",
+        "name1":  "مساحيق أو رقائق",
+        "name2":  "powders or flakes"
+    },
+    {
+        "code":  "102",
+        "name1":  "مساحيق رقائق",
+        "name2":  "powders  flakes"
+    },
+    {
+        "code":  "103",
+        "name1":  "التنغستن",
+        "name2":  "tungsten"
+    },
+    {
+        "code":  "104",
+        "name1":  "أنابيب",
+        "name2":  "tubes"
+    },
+    {
+        "code":  "105",
+        "name1":  "باستثناء المباني الجاهزة",
+        "name2":  "except prefabricated buildings"
+    },
+    {
+        "code":  "106",
+        "name1":  "الجسور أقسام الجسور",
+        "name2":  "bridges  bridge-sections"
+    },
+    {
+        "code":  "107",
+        "name1":  "أدوات المائدة باستثناء المعادن الثمينة",
+        "name2":  "cutlery except of precious metals"
+    },
+    {
+        "code":  "108",
+        "name1":  "مسامير",
+        "name2":  "screws"
+    },
+    {
+        "code":  "109",
+        "name1":  "معاول",
+        "name2":  "shovels"
+    },
+    {
+        "code":  "110",
+        "name1":  "شفرات الحلاقة شفرات الحلاقة",
+        "name2":  "razors  razor blades"
+    },
+    {
+        "code":  "111",
+        "name1":  "رأس المثقاب",
+        "name2":  "drill bits"
+    },
+    {
+        "code":  "112",
+        "name1":  "التركيبات",
+        "name2":  "mountings  fittings"
+    },
+    {
+        "code":  "113",
+        "name1":  "مفاتيح",
+        "name2":  "keys"
+    },
+    {
+        "code":  "114",
+        "name1":  "باستثناء حاويات الغاز المسال المضغوط",
+        "name2":  "except containers for compressed  liquefied gas"
+    },
+    {
+        "code":  "115",
+        "name1":  "ورقة الشجر",
+        "name2":  "leaf"
+    },
+    {
+        "code":  "116",
+        "name1":  "سلسلة الارتباط المفصلية",
+        "name2":  "articulated-link chain"
+    },
+    {
+        "code":  "117",
+        "name1":  "بسعة اسطوانة تزيد عن 1000 سم مكعب",
+        "name2":  "of a cylinder capacity exceeding 1000 cc"
+    },
+    {
+        "code":  "118",
+        "name1":  "محرك الطائرة",
+        "name2":  "aircraft engines"
+    },
+    {
+        "code":  "119",
+        "name1":  "كتل اسطوانة",
+        "name2":  "cylinder blocks"
+    },
+    {
+        "code":  "120",
+        "name1":  "غلايات",
+        "name2":  "boilers"
+    },
+    {
+        "code":  "121",
+        "name1":  "مراوح توربينية",
+        "name2":  "turbo-propellers"
+    },
+    {
+        "code":  "122",
+        "name1":  "المفاعلات النووية",
+        "name2":  "nuclear reactors"
+    },
+    {
+        "code":  "123",
+        "name1":  "مصنع إضافي للاستخدام مع الغلايات مثل المقتصدات",
+        "name2":  "auxiliary plant for use with boilers such as economizers"
+    },
+    {
+        "code":  "124",
+        "name1":  "ولكن بما في ذلك المحركات التي تعمل بالطاقة الهيدروليكية أو الهوائية",
+        "name2":  "but including reaction  hydraulic- or pneumatic-power engines  motors"
+    },
+    {
+        "code":  "125",
+        "name1":  "ضواغط",
+        "name2":  "compressors"
+    },
+    {
+        "code":  "126",
+        "name1":  "المزلق",
+        "name2":  "lubricant"
+    },
+    {
+        "code":  "127",
+        "name1":  "بما في ذلك نوع الأسرة",
+        "name2":  "including household-type"
+    },
+    {
+        "code":  "128",
+        "name1":  "التبريد",
+        "name2":  "refrigerating"
+    },
+    {
+        "code":  "129",
+        "name1":  "حفر",
+        "name2":  "excavating"
+    },
+    {
+        "code":  "130",
+        "name1":  "hling",
+        "name2":  "hling"
+    },
+    {
+        "code":  "131",
+        "name1":  "المعبئ",
+        "name2":  "stackers"
+    },
+    {
+        "code":  "132",
+        "name1":  "الرافعات الرافعات",
+        "name2":  "jacks cranes"
+    },
+    {
+        "code":  "133",
+        "name1":  "وضع العلامات",
+        "name2":  "grading"
+    },
+    {
+        "code":  "134",
+        "name1":  "آلات لتنظيف وتجفيف الزجاجات أو الحاويات الأخرى",
+        "name2":  "machinery for cleaning or drying bottles or other containers"
+    },
+    {
+        "code":  "135",
+        "name1":  "البستنة",
+        "name2":  "horticultural"
+    },
+    {
+        "code":  "136",
+        "name1":  "تجاري",
+        "name2":  "commercial"
+    },
+    {
+        "code":  "137",
+        "name1":  "لعمل المواد الصعبة",
+        "name2":  "for working hard materials"
+    },
+    {
+        "code":  "138",
+        "name1":  "لعمل المواد الصلبة مثل المعادن",
+        "name2":  "for working hard materials such as metal"
+    },
+    {
+        "code":  "139",
+        "name1":  "هوائي",
+        "name2":  "pneumatic"
+    },
+    {
+        "code":  "140",
+        "name1":  "الأسلاك",
+        "name2":  "wire"
+    },
+    {
+        "code":  "141",
+        "name1":  "أعمدة نقل الحركة",
+        "name2":  "transmission shafts  cranks"
+    },
+    {
+        "code":  "142",
+        "name1":  "تحمل العلب محامل رمح عادي",
+        "name2":  "bearing housings  plain shaft bearings"
+    },
+    {
+        "code":  "143",
+        "name1":  "ورق",
+        "name2":  "paper"
+    },
+    {
+        "code":  "144",
+        "name1":  "نوع التأسيس",
+        "name2":  "type-founding"
+    },
+    {
+        "code":  "145",
+        "name1":  "قواعد القالب",
+        "name2":  "mould bases"
+    },
+    {
+        "code":  "146",
+        "name1":  "الديوك",
+        "name2":  "cocks"
+    },
+    {
+        "code":  "147",
+        "name1":  "شعلات الفرن",
+        "name2":  "furnace burners"
+    },
+    {
+        "code":  "148",
+        "name1":  "معدات المكتب",
+        "name2":  "Office Equipment"
+    },
+    {
+        "code":  "149",
+        "name1":  "مولدات كهرباء",
+        "name2":  "generators"
+    },
+    {
+        "code":  "150",
+        "name1":  "محولات ثابتة بما في ذلك المقومات",
+        "name2":  "static converters including rectifiers"
+    },
+    {
+        "code":  "151",
+        "name1":  "محولات ثابتة",
+        "name2":  "static converters"
+    },
+    {
+        "code":  "152",
+        "name1":  "نطاقات",
+        "name2":  "ranges"
+    },
+    {
+        "code":  "153",
+        "name1":  "باستثناء أجهزة الطهي",
+        "name2":  "except cooking appliances"
+    },
+    {
+        "code":  "154",
+        "name1":  "آلات الفاكس",
+        "name2":  "facsimile machines"
+    },
+    {
+        "code":  "155",
+        "name1":  "ولكن بما في ذلك الميكروفونات sts",
+        "name2":  "but including microphones  sts"
+    },
+    {
+        "code":  "156",
+        "name1":  "طابعات",
+        "name2":  "printers"
+    },
+    {
+        "code":  "157",
+        "name1":  "آلات معالجة الكلمات",
+        "name2":  "word-processing machines"
+    },
+    {
+        "code":  "158",
+        "name1":  "فيديو",
+        "name2":  "video"
+    },
+    {
+        "code":  "159",
+        "name1":  "الأفلام المسجلة على أشرطة فيديو",
+        "name2":  "movies recorded on video cassettes"
+    },
+    {
+        "code":  "160",
+        "name1":  "جهاز استقبال الإرسال اللاسلكي",
+        "name2":  "radio transmission  reception apparatus"
+    },
+    {
+        "code":  "161",
+        "name1":  "المقاومات باستثناء التسخين ولكن بما في ذلك مفاتيح المقاومة المتغيرة",
+        "name2":  "resistors except heating but including variable resistor switches"
+    },
+    {
+        "code":  "162",
+        "name1":  "الترانزستورات",
+        "name2":  "transistors"
+    },
+    {
+        "code":  "163",
+        "name1":  "بما في ذلك الخزانات",
+        "name2":  "including cabinets"
+    },
+    {
+        "code":  "164",
+        "name1":  "المجالس",
+        "name2":  "boards"
+    },
+    {
+        "code":  "165",
+        "name1":  "مولدات بما في ذلك مولدات دينامو",
+        "name2":  "generators including dynamos  alternators"
+    },
+    {
+        "code":  "166",
+        "name1":  "ماسحات الزجاج الأمامي",
+        "name2":  "windshield wipers"
+    },
+    {
+        "code":  "167",
+        "name1":  "لمبات الأشعة فوق البنفسجية أو الأشعة تحت الحمراء",
+        "name2":  "ultra-violet or infra-red bulbs"
+    },
+    {
+        "code":  "168",
+        "name1":  "الكابلات المحورية المشتركة",
+        "name2":  "co-axial cables"
+    },
+    {
+        "code":  "169",
+        "name1":  "الجرافيت الغرواني أو شبه الغرواني",
+        "name2":  "colloidal or semi-colloidal graphite"
+    },
+    {
+        "code":  "170",
+        "name1":  "مغناطيس دائم",
+        "name2":  "permanent magnets"
+    },
+    {
+        "code":  "171",
+        "name1":  "مركبات القتال المدرعة",
+        "name2":  "armoured fighting vehicles"
+    },
+    {
+        "code":  "172",
+        "name1":  "ولكن بما في ذلك سيارات الجيب العسكرية ، والسيارات المدرعة قليلاً أو التي تعمل بمحرك كهربائي",
+        "name2":  "but including military jeeps  automobiles lightly armoured or powered by an electric motor"
+    },
+    {
+        "code":  "173",
+        "name1":  "ولكن بما في ذلك المركبات الصالحة لجميع التضاريس",
+        "name2":  "but including all-terrain vehicles"
+    },
+    {
+        "code":  "174",
+        "name1":  "باستثناء الأجزاء",
+        "name2":  "except parts"
+    },
+    {
+        "code":  "175",
+        "name1":  "ولكن بما في ذلك شاحنات قلابة مصممة للاستخدام خارج الطرق السريعة",
+        "name2":  "but including dumpers designed for off-highway use"
+    },
+    {
+        "code":  "176",
+        "name1":  "جرارات العمل",
+        "name2":  "work tractors"
+    },
+    {
+        "code":  "177",
+        "name1":  "ولكن بما في ذلك حافلات الشاحنات الصغيرة",
+        "name2":  "but including vans  buses"
+    },
+    {
+        "code":  "178",
+        "name1":  "دراجات",
+        "name2":  "bicycles"
+    },
+    {
+        "code":  "179",
+        "name1":  "دراجات",
+        "name2":  "mopeds"
+    },
+    {
+        "code":  "180",
+        "name1":  "بما في ذلك الدراجات ذات الثلاث عجلات",
+        "name2":  "including tricycles  unicycles"
+    },
+    {
+        "code":  "181",
+        "name1":  "بما في ذلك مقطورات التخييم",
+        "name2":  "including camping trailers"
+    },
+    {
+        "code":  "182",
+        "name1":  "درابزين",
+        "name2":  "fender"
+    },
+    {
+        "code":  "183",
+        "name1":  "أغطية الشاحنات",
+        "name2":  "truck caps"
+    },
+    {
+        "code":  "184",
+        "name1":  "تركيبات تركيبات مسار السكك الحديدية",
+        "name2":  "railway track fixtures  fittings"
+    },
+    {
+        "code":  "185",
+        "name1":  "باستثناء مركبات الصيانة أو الخدمة",
+        "name2":  "except maintenance or service vehicles"
+    },
+    {
+        "code":  "186",
+        "name1":  "حافلات الركاب سيارات الشحن",
+        "name2":  "passenger coaches  freight cars"
+    },
+    {
+        "code":  "187",
+        "name1":  "إشارات ميكانيكية-",
+        "name2":  "mechanical signalling-"
+    },
+    {
+        "code":  "188",
+        "name1":  "مركبات إطلاق المركبات الفضائية دون المدارية",
+        "name2":  "suborbital  spacecraft launch vehicles"
+    },
+    {
+        "code":  "189",
+        "name1":  "روتوتشوتيس",
+        "name2":  "rotochutes"
+    },
+    {
+        "code":  "190",
+        "name1":  "القوارب",
+        "name2":  "boats"
+    },
+    {
+        "code":  "191",
+        "name1":  "زوارق التجديف",
+        "name2":  "rowboats"
+    },
+    {
+        "code":  "192",
+        "name1":  "القاطرات",
+        "name2":  "tugs"
+    },
+    {
+        "code":  "193",
+        "name1":  "الادوات",
+        "name2":  "instruments"
+    },
+    {
+        "code":  "194",
+        "name1":  "نظارات واقية",
+        "name2":  "goggles"
+    },
+    {
+        "code":  "195",
+        "name1":  "التلسكوبات",
+        "name2":  "telescopes"
+    },
+    {
+        "code":  "196",
+        "name1":  "أجهزة عرض الصور",
+        "name2":  "image projectors"
+    },
+    {
+        "code":  "197",
+        "name1":  "الهيدروغرافية",
+        "name2":  "hydrographic"
+    },
+    {
+        "code":  "198",
+        "name1":  "ولكن بما في ذلك بوصلات تحديد الاتجاه",
+        "name2":  "but including direction-finding compasses"
+    },
+    {
+        "code":  "199",
+        "name1":  "جهاز",
+        "name2":  "apparatus"
+    },
+    {
+        "code":  "200",
+        "name1":  "بيتا",
+        "name2":  "beta"
+    },
+    {
+        "code":  "201",
+        "name1":  "جهاز المسح بالموجات فوق الصوتية",
+        "name2":  "ultrasonic scanning apparatus"
+    },
+    {
+        "code":  "202",
+        "name1":  "دعامات أحزمة جراحية",
+        "name2":  "surgical belts  trusses"
+    },
+    {
+        "code":  "203",
+        "name1":  "أجهزة العلاج الميكانيكي",
+        "name2":  "mechano-therapy appliances"
+    },
+    {
+        "code":  "204",
+        "name1":  "تدقيق",
+        "name2":  "checking"
+    },
+    {
+        "code":  "205",
+        "name1":  "بما في ذلك عدادات الكهرباء",
+        "name2":  "including electricity meters"
+    },
+    {
+        "code":  "206",
+        "name1":  "خشب",
+        "name2":  "wood"
+    },
+    {
+        "code":  "207",
+        "name1":  "المكثاف",
+        "name2":  "hydrometers"
+    },
+    {
+        "code":  "208",
+        "name1":  "مراتب ومراتب داعمة",
+        "name2":  "Mattresses  Mattress Supports"
+    },
+    {
+        "code":  "209",
+        "name1":  "رفوف",
+        "name2":  "shelving"
+    },
+    {
+        "code":  "210",
+        "name1":  "جراحي",
+        "name2":  "surgical"
+    },
+    {
+        "code":  "211",
+        "name1":  "مقاعد الكنيسة",
+        "name2":  "church pews"
+    },
+    {
+        "code":  "212",
+        "name1":  "مصابيح",
+        "name2":  "lamps"
+    },
+    {
+        "code":  "213",
+        "name1":  "الخناجر",
+        "name2":  "daggers"
+    },
+    {
+        "code":  "214",
+        "name1":  "قنابل يدوية",
+        "name2":  "grenades"
+    },
+    {
+        "code":  "215",
+        "name1":  "ألعاب",
+        "name2":  "games"
+    },
+    {
+        "code":  "216",
+        "name1":  "معدات صالات البولينج مثل آلات تثبيت الدبوس",
+        "name2":  "bowling alley equipment such as pin-setting machines"
+    },
+    {
+        "code":  "217",
+        "name1":  "اللآلئ",
+        "name2":  "pearls"
+    },
+    {
+        "code":  "218",
+        "name1":  "مصنوعات من اللؤلؤ",
+        "name2":  "articles of pearls"
+    },
+    {
+        "code":  "219",
+        "name1":  "آلات تنظيف الأرضيات الميكانيكية",
+        "name2":  "mechanical floor-sweepers"
+    },
+    {
+        "code":  "220",
+        "name1":  "خطافات الكروشيه",
+        "name2":  "crochet hooks"
+    },
+    {
+        "code":  "221",
+        "name1":  "المجموعات",
+        "name2":  "collections"
+    },
+    {
+        "code":  "222",
+        "name1":  "مصبوغ",
+        "name2":  "dyed"
+    },
+    {
+        "code":  "223",
+        "name1":  "رماد",
+        "name2":  "ash"
+    },
+    {
+        "code":  "224",
+        "name1":  "باستثناء معالجة الأغذية",
+        "name2":  "except from food processing"
+    },
+    {
+        "code":  "225",
+        "name1":  "نفايات البلاستيك",
+        "name2":  "waste of plastics"
+    },
+    {
+        "code":  "226",
+        "name1":  "شحن غير معروف",
+        "name2":  "unknown freight"
+    },
+    {
+        "code":  "227",
+        "name1":  "منتجات الأعلاف",
+        "name2":  "Forage Products"
+    },
+    {
+        "code":  "228",
+        "name1":  "طازج أو مبرد",
+        "name2":  "fresh or chilled"
+    },
+    {
+        "code":  "229",
+        "name1":  "ثوم",
+        "name2":  "garlic"
+    },
+    {
+        "code":  "230",
+        "name1":  "الفطر",
+        "name2":  "mushrooms"
+    },
+    {
+        "code":  "231",
+        "name1":  "تمزيقه",
+        "name2":  "shredded"
+    },
+    {
+        "code":  "232",
+        "name1":  "بما في ذلك البذر",
+        "name2":  "including for sowing"
+    },
+    {
+        "code":  "233",
+        "name1":  "تفرخ الفطر",
+        "name2":  "mushroom spawn"
+    },
+    {
+        "code":  "234",
+        "name1":  "حبيبات اللحم",
+        "name2":  "pellets of meat"
+    },
+    {
+        "code":  "235",
+        "name1":  "بقايا الحبوب أو النباتات البقولية الأخرى",
+        "name2":  "other residues of cereals or leguminous plants"
+    },
+    {
+        "code":  "236",
+        "name1":  "عصائر السمك أو المأكولات البحرية",
+        "name2":  "juices of fish or seafood"
+    },
+    {
+        "code":  "237",
+        "name1":  "منتجات التبغ",
+        "name2":  "tobacco products"
+    },
+    {
+        "code":  "238",
+        "name1":  "وجبة",
+        "name2":  "meal"
+    },
+    {
+        "code":  "239",
+        "name1":  "تفحم",
+        "name2":  "roasted"
+    },
+    {
+        "code":  "240",
+        "name1":  "أرز مطبوخ جزئياً",
+        "name2":  "partially cooked rice"
+    },
+    {
+        "code":  "241",
+        "name1":  "نشاء",
+        "name2":  "starch"
+    },
+    {
+        "code":  "242",
+        "name1":  "رقائق التورتيا",
+        "name2":  "tortilla chips"
+    },
+    {
+        "code":  "243",
+        "name1":  "بيتزا",
+        "name2":  "pizza"
+    },
+    {
+        "code":  "244",
+        "name1":  "زيوت",
+        "name2":  "oils"
+    },
+    {
+        "code":  "245",
+        "name1":  "شربات",
+        "name2":  "sherbets"
+    },
+    {
+        "code":  "246",
+        "name1":  "مربى البرتقال",
+        "name2":  "marmalades"
+    },
+    {
+        "code":  "247",
+        "name1":  "دهون غذائية محضرة",
+        "name2":  "prepared edible fats"
+    },
+    {
+        "code":  "248",
+        "name1":  "شراب السكر بدون نكهات أو ألوان مضافة",
+        "name2":  "sugar syrups with no added flavoring or colorings"
+    },
+    {
+        "code":  "249",
+        "name1":  "المكسرات",
+        "name2":  "nuts"
+    },
+    {
+        "code":  "250",
+        "name1":  "الجواهر بما في ذلك مزيج كوكتيل",
+        "name2":  "essences including cocktail mixes"
+    },
+    {
+        "code":  "251",
+        "name1":  "بما في ذلك مركزات البروتين",
+        "name2":  "including protein concentrates"
+    },
+    {
+        "code":  "252",
+        "name1":  "بما في ذلك الصالحة للشرب",
+        "name2":  "including potable"
+    },
+    {
+        "code":  "253",
+        "name1":  "المشروبات الروحية الأخرى",
+        "name2":  "other spirituous beverages"
+    },
+    {
+        "code":  "254",
+        "name1":  "الماعز",
+        "name2":  "goats"
+    },
+    {
+        "code":  "255",
+        "name1":  "الدخن",
+        "name2":  "millet"
+    },
+    {
+        "code":  "256",
+        "name1":  "مجموعات البصل",
+        "name2":  "onion sets"
+    },
+    {
+        "code":  "257",
+        "name1":  "كرة قدم",
+        "name2":  "Brussels sprouts"
+    },
+    {
+        "code":  "258",
+        "name1":  "بما في ذلك العلف",
+        "name2":  "including for fodder"
+    },
+    {
+        "code":  "259",
+        "name1":  "أو فواكه مجففة صالحة للأكل",
+        "name2":  "or dried edible fruit  nuts"
+    },
+    {
+        "code":  "260",
+        "name1":  "اليوسفي",
+        "name2":  "tangerines"
+    },
+    {
+        "code":  "261",
+        "name1":  "أناناس",
+        "name2":  "pineapples"
+    },
+    {
+        "code":  "262",
+        "name1":  "تين",
+        "name2":  "figs"
+    },
+    {
+        "code":  "263",
+        "name1":  "سمسم",
+        "name2":  "sesame"
+    },
+    {
+        "code":  "264",
+        "name1":  "بذور البذر غير المصنفة في موضع آخر",
+        "name2":  "seeds for sowing n.e.c."
+    },
+    {
+        "code":  "265",
+        "name1":  "تبغ",
+        "name2":  "tobacco"
+    },
+    {
+        "code":  "266",
+        "name1":  "أجزاء من النباتات",
+        "name2":  "parts of plants"
+    },
+    {
+        "code":  "267",
+        "name1":  "قفز المخاريط",
+        "name2":  "hop cones"
+    },
+    {
+        "code":  "268",
+        "name1":  "بيض منتجات أخرى من أصل حيواني غير مذكورة.",
+        "name2":  "Eggs  Other Products of Animal Origin n.e.c."
+    },
+    {
+        "code":  "269",
+        "name1":  "مخلفات الصناعات الغذائية المستخدمة في تغذية الحيوانات",
+        "name2":  "residues  waste from the food industries used in animal feeding"
+    },
+    {
+        "code":  "270",
+        "name1":  "شرانق دودة الحرير مناسبة للتبديل",
+        "name2":  "silk-worm cocoons suitable for reeling"
+    },
+    {
+        "code":  "271",
+        "name1":  "مأكولات بحرية",
+        "name2":  "Seafood"
+    },
+    {
+        "code":  "272",
+        "name1":  "مجمدة",
+        "name2":  "frozen"
+    },
+    {
+        "code":  "273",
+        "name1":  "دواجن مجمدة",
+        "name2":  "frozen poultry"
+    },
+    {
+        "code":  "274",
+        "name1":  "في محلول ملحي",
+        "name2":  "in brine"
+    },
+    {
+        "code":  "275",
+        "name1":  "باستثناء الاستعدادات",
+        "name2":  "except preparations"
+    },
+    {
+        "code":  "276",
+        "name1":  "طازج",
+        "name2":  "fresh"
+    },
+    {
+        "code":  "277",
+        "name1":  "عصائر اللحوم",
+        "name2":  "juices of meat"
+    },
+    {
+        "code":  "278",
+        "name1":  "طحين",
+        "name2":  "flour"
+    },
+    {
+        "code":  "279",
+        "name1":  "وجبة",
+        "name2":  "meal"
+    },
+    {
+        "code":  "280",
+        "name1":  "نشا البطاطس",
+        "name2":  "potato starch"
+    },
+    {
+        "code":  "281",
+        "name1":  "مقشر",
+        "name2":  "flaked"
+    },
+    {
+        "code":  "282",
+        "name1":  "مجمدة",
+        "name2":  "frozen"
+    },
+    {
+        "code":  "283",
+        "name1":  "محضرات الطعام والشراب البودرة",
+        "name2":  "powdered food-drink preparations"
+    },
+    {
+        "code":  "284",
+        "name1":  "المنتجات التي أساسها الذرة مثل رقائق التورتيلا أو الناتشو",
+        "name2":  "corn-based products such as tortilla or nacho chips"
+    },
+    {
+        "code":  "285",
+        "name1":  "الكعك",
+        "name2":  "muffins"
+    },
+    {
+        "code":  "286",
+        "name1":  "هش",
+        "name2":  "crispbread"
+    },
+    {
+        "code":  "287",
+        "name1":  "محضرات غذائية من الحليب",
+        "name2":  "food preparations of milk"
+    },
+    {
+        "code":  "288",
+        "name1":  "شربات",
+        "name2":  "sherbets"
+    },
+    {
+        "code":  "289",
+        "name1":  "الكريمة الحامضة",
+        "name2":  "sour cream"
+    },
+    {
+        "code":  "290",
+        "name1":  "المكسرات",
+        "name2":  "nuts"
+    },
+    {
+        "code":  "291",
+        "name1":  "المجلى",
+        "name2":  "milled"
+    },
+    {
+        "code":  "292",
+        "name1":  "الفاكهة المحضرة أو المحفوظة بالخل",
+        "name2":  "fruit prepared or preserved by vinegar"
+    },
+    {
+        "code":  "293",
+        "name1":  "البهارات ماعدا القهوة غير المصنعة والشاي غير المخمر",
+        "name2":  "spices except unprocessed coffee  unfermented tea"
+    },
+    {
+        "code":  "294",
+        "name1":  "بهارات",
+        "name2":  "spices"
+    },
+    {
+        "code":  "295",
+        "name1":  "بدائل القهوة مثل الهندباء المحمصة",
+        "name2":  "coffee substitutes such as roasted chicory"
+    },
+    {
+        "code":  "296",
+        "name1":  "بما في ذلك دهون الخنازير أو الدواجن",
+        "name2":  "including rendered pig or poultry fat"
+    },
+    {
+        "code":  "297",
+        "name1":  "شراب سكر القيقب",
+        "name2":  "maple sugar  syrup"
+    },
+    {
+        "code":  "298",
+        "name1":  "مستحضرات الكاكاو",
+        "name2":  "cocoa preparations"
+    },
+    {
+        "code":  "299",
+        "name1":  "خردل محضر",
+        "name2":  "prepared mustard"
+    },
+    {
+        "code":  "300",
+        "name1":  "عصير الليمون",
+        "name2":  "lemonade"
+    },
+    {
+        "code":  "301",
+        "name1":  "اللكمات",
+        "name2":  "punches"
+    },
+    {
+        "code":  "302",
+        "name1":  "مكربن",
+        "name2":  "carbonated"
+    },
+    {
+        "code":  "303",
+        "name1":  "شوكولاتة حليب منزوع الدسم جزئيًا",
+        "name2":  "chocolate partially skimmed milk"
+    },
+    {
+        "code":  "304",
+        "name1":  "حصاة",
+        "name2":  "stone"
+    },
+    {
+        "code":  "305",
+        "name1":  "حجر الكلس",
+        "name2":  "limestone"
+    },
+    {
+        "code":  "306",
+        "name1":  "كلوريد الصوديوم النقي",
+        "name2":  "pure sodium chloride"
+    },
+    {
+        "code":  "307",
+        "name1":  "طباشير الفوسفات",
+        "name2":  "phosphatic chalk"
+    },
+    {
+        "code":  "308",
+        "name1":  "غرواني",
+        "name2":  "colloidal"
+    },
+    {
+        "code":  "309",
+        "name1":  "alusite",
+        "name2":  "alusite"
+    },
+    {
+        "code":  "310",
+        "name1":  "مواد كاشطة طبيعية بما في ذلك عقيق اكسيد الالمونيوم الطبيعي",
+        "name2":  "natural abrasives including natural corundum  garnet"
+    },
+    {
+        "code":  "311",
+        "name1":  "القصدير",
+        "name2":  "tin"
+    },
+    {
+        "code":  "312",
+        "name1":  "ألكيلات البترول",
+        "name2":  "petroleum alkylate"
+    },
+    {
+        "code":  "313",
+        "name1":  "البروبيلين",
+        "name2":  "propylene"
+    },
+    {
+        "code":  "314",
+        "name1":  "الخث",
+        "name2":  "peat"
+    },
+    {
+        "code":  "315",
+        "name1":  "الأسفلت البترولي",
+        "name2":  "petroleum asphalt"
+    },
+    {
+        "code":  "316",
+        "name1":  "الأكسجين",
+        "name2":  "oxygen"
+    },
+    {
+        "code":  "317",
+        "name1":  "الاستعدادات",
+        "name2":  "preparations"
+    },
+    {
+        "code":  "318",
+        "name1":  "أكاسيد",
+        "name2":  "oxides"
+    },
+    {
+        "code":  "319",
+        "name1":  "scium",
+        "name2":  "scium"
+    },
+    {
+        "code":  "320",
+        "name1":  "البروم",
+        "name2":  "bromine"
+    },
+    {
+        "code":  "321",
+        "name1":  "زيلين",
+        "name2":  "xylene"
+    },
+    {
+        "code":  "322",
+        "name1":  "الألدهيدات",
+        "name2":  "aldehydes"
+    },
+    {
+        "code":  "323",
+        "name1":  "هاليدات",
+        "name2":  "halides"
+    },
+    {
+        "code":  "CARS",
+        "name1":  "سيارات",
+        "name2":  "سيارات"
+    },
+    {
+        "code":  "VEHICLES",
+        "name1":  "VEHICLES",
+        "name2":  "VEHICLES"
+    },
+    {
+        "code":  "لفائف محتوية تبغ الارجيلة",
+        "name1":  "لفائف محتوية تبغ الارجيلة",
+        "name2":  "لفائف محتوية تبغ الارجيلة"
+    }
+]
