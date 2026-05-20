@@ -324,6 +324,7 @@ function localLookup(records, searchName) {
   const q = searchName.trim().toLowerCase();
   return records.find(r => r.name2 && r.name2.toLowerCase().includes(q))
       || records.find(r => r.name1 && r.name1.toLowerCase().includes(q))
+      || records.find(r => r.code  && r.code.toLowerCase()  === q)
       || null;
 }
 
