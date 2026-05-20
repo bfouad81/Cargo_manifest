@@ -902,6 +902,25 @@ async function createMissingRecords(resultsEl) {
   const newRecords = Object.values(lookupResults).filter(r=>r.status==='new');
   for (const record of newRecords) {
     try {
+      // Customer: final search before creating to avoid duplicates
+      if (record.entityType === CONFIG.customerEntity) {
+        const chkRes = await fetch(serverUrl+'/erp/rest/v1/'+record.entityType+'/list', {
+          method:'POST',
+          headers:{'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+          body:JSON.stringify({startPage:1,pageSize:1,
+            textCriteria:'name2,Contains,'+record.name+',OR;name1,Contains,'+record.name+',AND;',orderBy:'name2'})
+        });
+        const chkData = await chkRes.json();
+        if (chkData.records && chkData.records.length > 0) {
+          const found = chkData.records[0];
+          record.code = found.code; record.status = 'found';
+          resultsEl.insertAdjacentHTML('beforeend',
+            '<div class="result-log result-ok">✅ '+esc(record.entityType)+': <strong>'+esc(record.name)+'</strong> — Found existing → Code: <code>'+esc(found.code)+'</code></div>');
+          continue;
+        }
+      }
+
+      // Not found → create new record
       resultsEl.insertAdjacentHTML('beforeend',
         '<div class="result-log result-new">🆕 Creating '+esc(record.entityType)+': <strong>'+esc(record.name)+'</strong></div>');
       const res = await fetch(
