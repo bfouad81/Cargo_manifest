@@ -1,0 +1,2217 @@
+[
+    {
+        "code":  "ACR000001",
+        "name1":  "ENSIYAAB ENGINEERING ELECT \u0026 MECH EQUIP TRAD CO",
+        "name2":  "ENSIYAAB ENGINEERING ELECT \u0026 MECH EQUIP TRAD CO"
+    },
+    {
+        "code":  "ACR000002",
+        "name1":  "Don\u0027t Use - WFL UNITED GENERAL TRADING COMPANY",
+        "name2":  "Don\u0027t Use - WFL UNITED GENERAL TRADING COMPANY"
+    },
+    {
+        "code":  "ACR000003",
+        "name1":  "GLOBAL INTERNATIONAL GENERAL TRADING AND CONTGCO WLL",
+        "name2":  "GLOBAL INTERNATIONAL GENERAL TRADING AND CONTGCO WLL"
+    },
+    {
+        "code":  "ACR000004",
+        "name1":  "AL-BASEL BUILDING MATERIALS CO",
+        "name2":  "AL-BASEL BUILDING MATERIALS CO"
+    },
+    {
+        "code":  "ACR000005",
+        "name1":  "HANADI HUMOUD KHALAF ALFADHLI",
+        "name2":  "HANADI HUMOUD KHALAF ALFADHLI"
+    },
+    {
+        "code":  "ACR000006",
+        "name1":  "GLOBELINK WEST STAR SHIPPING CO. WLL (Don\u0027t Use this)",
+        "name2":  "GLOBELINK WEST STAR SHIPPING CO. WLL(Don\u0027t Use this)"
+    },
+    {
+        "code":  "ACR000007",
+        "name1":  "RANK GENERAL TRADING \u0026 CONTRACTING CO",
+        "name2":  "RANK GENERAL TRADING \u0026 CONTRACTING CO"
+    },
+    {
+        "code":  "ACR000008",
+        "name1":  "SOUTHFIELD GENERAL TRADING",
+        "name2":  "SOUTHFIELD GENERAL TRADING"
+    },
+    {
+        "code":  "ACR000011",
+        "name1":  "UGR AUTO SPARE PARTS \u0026 ACCESSORIES CO",
+        "name2":  "UGR AUTO SPARE PARTS \u0026 ACCESSORIES CO"
+    },
+    {
+        "code":  "ACR000012",
+        "name1":  "GENEVE BEAUTY CENTER W.L.L.CO",
+        "name2":  "GENEVE BEAUTY CENTER W.L.L.CO"
+    },
+    {
+        "code":  "ACR000013",
+        "name1":  "FULL OPTION INTERNATIONAL CO.FOR PROTECTION \u0026 POLISHING CARS",
+        "name2":  "FULL OPTION INTERNATIONAL CO.FOR PROTECTION \u0026 POLISHING CARS"
+    },
+    {
+        "code":  "ACR000014",
+        "name1":  "AL KHAIRA",
+        "name2":  "AL KHAIRA"
+    },
+    {
+        "code":  "ACR000015",
+        "name1":  "IBRAHIM T.ALBAGHLI HAJAR REAL ESTATE CO",
+        "name2":  "IBRAHIM T.ALBAGHLI HAJAR REAL ESTATE CO"
+    },
+    {
+        "code":  "ACR000016",
+        "name1":  "AL SHABAB SPORTING CLUB",
+        "name2":  "AL SHABAB SPORTING CLUB"
+    },
+    {
+        "code":  "ACR000017",
+        "name1":  "CAESAR PAC COMPANY",
+        "name2":  "CAESAR PAC COMPANY"
+    },
+    {
+        "code":  "ACR000018",
+        "name1":  "Dont USE - AMAZ INTERNATIONAL GEN. TRD.CO.Dont USE",
+        "name2":  "Dont USE -AMAZ INTERNATIONAL GEN. TRD.CO- Dont USE"
+    },
+    {
+        "code":  "ACR000019",
+        "name1":  "KARIS IMPORT \u0026 EXPORT CO.",
+        "name2":  "KARIS IMPORT \u0026 EXPORT CO."
+    },
+    {
+        "code":  "ACR000020",
+        "name1":  "WORLD CONNECT COMPANY IMPORT AND EXPORT AGENT COMMISSION",
+        "name2":  "WORLD CONNECT COMPANY IMPORT AND EXPORT AGENT COMMISSION"
+    },
+    {
+        "code":  "ACR000021",
+        "name1":  "FERAS IBRAHIM MOSTAFA HAMOUDEH",
+        "name2":  "FERAS IBRAHIM MOSTAFA HAMOUDEH"
+    },
+    {
+        "code":  "ACR000022",
+        "name1":  "SMART PROGRESS GENERAL TRADING AND CONT.",
+        "name2":  "SMART PROGRESS GENERAL TRADING AND CONT."
+    },
+    {
+        "code":  "ACR000024",
+        "name1":  "BLUEDE PAINTS COMPANY",
+        "name2":  "BLUEDE PAINTS COMPANY"
+    },
+    {
+        "code":  "ACR000025",
+        "name1":  "GKL SHIPPING",
+        "name2":  "GKL SHIPPING"
+    },
+    {
+        "code":  "ACR000026",
+        "name1":  "TSL COMPANY",
+        "name2":  "TSL COMPANY"
+    },
+    {
+        "code":  "ACR000027",
+        "name1":  "ITALIAN HOME LIGHTING CO.",
+        "name2":  "ITALIAN HOME LIGHTING CO."
+    },
+    {
+        "code":  "ACR000029",
+        "name1":  "BARAKAAT AL TAQWA",
+        "name2":  "BARAKAAT AL TAQWA"
+    },
+    {
+        "code":  "ACR000030",
+        "name1":  "Flain Gulf",
+        "name2":  "Flain Gulf"
+    },
+    {
+        "code":  "ACR000031",
+        "name1":  "ZENITH GROUP GENERAL TRADING \u0026 CONTR.CO",
+        "name2":  "ZENITH GROUP GENERAL TRADING \u0026 CONTR.CO"
+    },
+    {
+        "code":  "ACR000032",
+        "name1":  "KHALID FARAJ TEXTILES EST.",
+        "name2":  "KHALID FARAJ TEXTILES EST."
+    },
+    {
+        "code":  "ACR000033",
+        "name1":  "KUWAIT GERMAN GROUP",
+        "name2":  "KUWAIT GERMAN GROUP"
+    },
+    {
+        "code":  "ACR000034",
+        "name1":  "MABROOK HOTEL SUPPLIES CO",
+        "name2":  "MABROOK HOTEL SUPPLIES CO"
+    },
+    {
+        "code":  "ACR000035",
+        "name1":  "ABDULMOHSEN ABDULAZIZ AL BABTAIN CO",
+        "name2":  "ABDULMOHSEN ABDULAZIZ AL BABTAIN CO"
+    },
+    {
+        "code":  "ACR000036",
+        "name1":  "SPECIAL HOME TEKSTIL TURIZM ITH",
+        "name2":  "SPECIAL HOME TEKSTIL TURIZM ITH"
+    },
+    {
+        "code":  "ACR000038",
+        "name1":  "Dont USE-AMAZ SHIPPING CO W.L.L.",
+        "name2":  "Dont USE-AMAZ SHIPPING CO W.L.L."
+    },
+    {
+        "code":  "ACR000040",
+        "name1":  "PORTER EXPRESS",
+        "name2":  "PORTER EXPRESS"
+    },
+    {
+        "code":  "ACR000041",
+        "name1":  "EGO Company",
+        "name2":  "EGO Company"
+    },
+    {
+        "code":  "ACR000042",
+        "name1":  "GRAND KUWAIT INTERNATIONAL FOR GENERAL TRADING CO.",
+        "name2":  "GRAND KUWAIT INTERNATIONAL FOR GENERAL TRADING CO."
+    },
+    {
+        "code":  "ACR000043",
+        "name1":  "Easa Husain Al Yousifi \u0026 Sons Co",
+        "name2":  "Easa Husain Al Yousifi \u0026 Sons Co"
+    },
+    {
+        "code":  "ACR000044",
+        "name1":  "MOHAMMAD OBAID KADHEM ABBAS",
+        "name2":  "MOHAMMAD OBAID KADHEM ABBAS"
+    },
+    {
+        "code":  "ACR000045",
+        "name1":  "MOHAMMED AL-SAAD AND SALEH AL-RASHIDI GEN TRADING CO",
+        "name2":  "MOHAMMED AL-SAAD AND SALEH AL-RASHIDI GEN TRADING CO"
+    },
+    {
+        "code":  "ACR000046",
+        "name1":  "AL FARES LIMITED GENERAL TRADING",
+        "name2":  "AL FARES LIMITED GENERAL TRADING"
+    },
+    {
+        "code":  "ACR000047",
+        "name1":  "MOISUNCE GENERAL TRADING COMPANY",
+        "name2":  "MOISUNCE GENERAL TRADING COMPANY"
+    },
+    {
+        "code":  "ACR000048",
+        "name1":  "YASEEN \u0026 ABDUL RAHIM BROS. CO.",
+        "name2":  "YASEEN \u0026 ABDUL RAHIM BROS. CO."
+    },
+    {
+        "code":  "ACR000049",
+        "name1":  "ABDELSALAM AL HAROON",
+        "name2":  "ABDELSALAM AL HAROON"
+    },
+    {
+        "code":  "ACR000050",
+        "name1":  "ABDUL AZIZ AL MUTAIRI",
+        "name2":  "ABDUL AZIZ AL MUTAIRI"
+    },
+    {
+        "code":  "ACR000051",
+        "name1":  "ABDULLAH MEJBEL ABDULLAH ALAZMI",
+        "name2":  "ABDULLAH MEJBEL ABDULLAH ALAZMI"
+    },
+    {
+        "code":  "ACR000053",
+        "name1":  "ABDULRAHMAN MOHAMAD AL BAHAR INTERNATIONAL CO WLL",
+        "name2":  "ABDULRAHMAN MOHAMAD AL BAHAR INTERNATIONAL CO WLL"
+    },
+    {
+        "code":  "ACR000054",
+        "name1":  "ABU MISHAL",
+        "name2":  "ABU MISHAL"
+    },
+    {
+        "code":  "ACR000055",
+        "name1":  "ABYAT MEGA STORE CO",
+        "name2":  "ABYAT MEGA STORE CO"
+    },
+    {
+        "code":  "ACR000056",
+        "name1":  "AHMAD AL AZMI",
+        "name2":  "AHMAD AL AZMI"
+    },
+    {
+        "code":  "ACR000057",
+        "name1":  "AHMAD AYED ZEYAD ALSERBEL",
+        "name2":  "AHMAD AYED ZEYAD ALSERBEL"
+    },
+    {
+        "code":  "ACR000058",
+        "name1":  "Ahmed Gawdat Ahmed Youssef",
+        "name2":  "Ahmed Gawdat Ahmed Youssef"
+    },
+    {
+        "code":  "ACR000059",
+        "name1":  "AL AQEEQ AL ZAHIR EST. GIFT AND NOVEL TIES",
+        "name2":  "AL AQEEQ AL ZAHIR EST. GIFT AND NOVEL TIES"
+    },
+    {
+        "code":  "ACR000061",
+        "name1":  "AL GHAZI AL DABBOUS",
+        "name2":  "AL GHAZI AL DABBOUS"
+    },
+    {
+        "code":  "ACR000062",
+        "name1":  "AL HASSAN UNITED CENTER GEN.TRAD \u0026 CONT.CO.",
+        "name2":  "AL HASSAN UNITED CENTER GEN.TRAD \u0026 CONT.CO."
+    },
+    {
+        "code":  "ACR000063",
+        "name1":  "AL KHAIRA",
+        "name2":  "AL KHAIRA"
+    },
+    {
+        "code":  "ACR000064",
+        "name1":  "Al Mutaz Int.Transport Goods Co.W.L.L",
+        "name2":  "Al Mutaz Int.Transport Goods Co.W.L.L"
+    },
+    {
+        "code":  "ACR000065",
+        "name1":  "AL RASHED / MUSTAFA KARAM AND SONS TRADING AND CONT CO.",
+        "name2":  "AL RASHED / MUSTAFA KARAM AND SONS TRADING AND CONT CO."
+    },
+    {
+        "code":  "ACR000067",
+        "name1":  "ALABBAR GOLD TRADING CO",
+        "name2":  "ALABBAR GOLD TRADING CO"
+    },
+    {
+        "code":  "ACR000068",
+        "name1":  "ALBAGHLI SULIMAN",
+        "name2":  "ALBAGHLI SULIMAN"
+    },
+    {
+        "code":  "ACR000069",
+        "name1":  "AL-BAREZ EST TRANSPORTATION",
+        "name2":  "AL-BAREZ EST TRANSPORTATION"
+    },
+    {
+        "code":  "ACR000071",
+        "name1":  "ALKHALID AUTO COMPANY",
+        "name2":  "ALKHALID AUTO COMPANY"
+    },
+    {
+        "code":  "ACR000072",
+        "name1":  "ALMAILEM ENTERPRISE",
+        "name2":  "ALMAILEM ENTERPRISE"
+    },
+    {
+        "code":  "ACR000073",
+        "name1":  "ALMOBADRAH ALWATANIYA FOR REPAIR AND MAINTENANCE LIGHT, HEAVY EQUIPMENT CO.",
+        "name2":  "ALMOBADRAH ALWATANIYA FOR REPAIR AND MAINTENANCE LIGHT, HEAVY EQUIPMENT CO."
+    },
+    {
+        "code":  "ACR000074",
+        "name1":  "AMAZ INTERNATIONAL Shipping Co. W.L.L",
+        "name2":  "AMAZ INTERNATIONAL Shipping Co. W.L.L"
+    },
+    {
+        "code":  "ACR000075",
+        "name1":  "AQAR INTERNATIONAL GENERAL TRADING CO W.L.L",
+        "name2":  "AQAR INTERNATIONAL GENERAL TRADING CO W.L.L"
+    },
+    {
+        "code":  "ACR000076",
+        "name1":  "ARAB CARGO GENERAL TRADING CO.",
+        "name2":  "ARAB CARGO GENERAL TRADING CO."
+    },
+    {
+        "code":  "ACR000077",
+        "name1":  "ASLAA ALOSAIMI",
+        "name2":  "ASLAA ALOSAIMI"
+    },
+    {
+        "code":  "ACR000078",
+        "name1":  "BADAH AL HAJRI",
+        "name2":  "BADAH AL HAJRI"
+    },
+    {
+        "code":  "ACR000079",
+        "name1":  "BADR BASSAM SULAIMAN",
+        "name2":  "BADR BASSAM SULAIMAN"
+    },
+    {
+        "code":  "ACR000080",
+        "name1":  "BARAKAAT AL TAQWA",
+        "name2":  "BARAKAAT AL TAQWA"
+    },
+    {
+        "code":  "ACR000081",
+        "name1":  "Basel Alkhafaji",
+        "name2":  "Basel Alkhafaji"
+    },
+    {
+        "code":  "ACR000082",
+        "name1":  "BLUEDE PAINTS COMPANY",
+        "name2":  "BLUEDE PAINTS COMPANY"
+    },
+    {
+        "code":  "ACR000083",
+        "name1":  "BOODAI TRADING CO. LIMITED W.L.L.",
+        "name2":  "BOODAI TRADING CO. LIMITED W.L.L."
+    },
+    {
+        "code":  "ACR000084",
+        "name1":  "BRILLIANT PEARL TECHNICAL SERVICES,LLC",
+        "name2":  "BRILLIANT PEARL TECHNICAL SERVICES,LLC"
+    },
+    {
+        "code":  "ACR000085",
+        "name1":  "BRITEL YOUSSEF",
+        "name2":  "BRITEL YOUSSEF"
+    },
+    {
+        "code":  "ACR000086",
+        "name1":  "DAHI MUBARAK AL AZMI",
+        "name2":  "DAHI MUBARAK AL AZMI"
+    },
+    {
+        "code":  "ACR000093",
+        "name1":  "EASA HUSAIN ALYOUSIFI AND SONS COMPANY",
+        "name2":  "EASA HUSAIN ALYOUSIFI AND SONS COMPANY"
+    },
+    {
+        "code":  "ACR000094",
+        "name1":  "ELEVEN ICE MANUFACTURING COMPANY",
+        "name2":  "ELEVEN ICE MANUFACTURING COMPANY"
+    },
+    {
+        "code":  "ACR000095",
+        "name1":  "ENERGY SOLUTIONS CO FOR GENERAL TRADING \u0026 CONT.",
+        "name2":  "ENERGY SOLUTIONS CO FOR GENERAL TRADING \u0026 CONT."
+    },
+    {
+        "code":  "ACR000096",
+        "name1":  "Eng Malek Mashmoshi",
+        "name2":  "Eng Malek Mashmoshi"
+    },
+    {
+        "code":  "ACR000097",
+        "name1":  "ENSIYAAB ENGINEERING ELECT \u0026 MECH EQUIP TRAD CO",
+        "name2":  "ENSIYAAB ENGINEERING ELECT \u0026 MECH EQUIP TRAD CO"
+    },
+    {
+        "code":  "ACR000098",
+        "name1":  "FASK AL KUWAIT GENERAL TRADING CONT. COMPANY",
+        "name2":  "FASK AL KUWAIT GENERAL TRADING CONT. COMPANY"
+    },
+    {
+        "code":  "ACR000099",
+        "name1":  "FAST TELE COMPANY",
+        "name2":  "FAST TELE COMPANY"
+    },
+    {
+        "code":  "ACR000100",
+        "name1":  "FERAS IBRAHIM MOSTAFA HAMOUDEH",
+        "name2":  "FERAS IBRAHIM MOSTAFA HAMOUDEH"
+    },
+    {
+        "code":  "ACR000101",
+        "name1":  "FIBREX CO. LLC",
+        "name2":  "FIBREX CO. LLC"
+    },
+    {
+        "code":  "ACR000102",
+        "name1":  "FIRST BEST IMPORT \u0026 EXPORT CO.",
+        "name2":  "FIRST BEST IMPORT \u0026 EXPORT CO."
+    },
+    {
+        "code":  "ACR000103",
+        "name1":  "FORGED L.L.C.",
+        "name2":  "FORGED L.L.C."
+    },
+    {
+        "code":  "ACR000104",
+        "name1":  "FULL OPTION INTERNATIONAL CO.FOR PROTECTION \u0026 POLISHING CARS",
+        "name2":  "FULL OPTION INTERNATIONAL CO.FOR PROTECTION \u0026 POLISHING CARS"
+    },
+    {
+        "code":  "ACR000106",
+        "name1":  "GKL / LANDMARK CENTRAL MARKET CO. WLL",
+        "name2":  "GKL / LANDMARK CENTRAL MARKET CO. WLL"
+    },
+    {
+        "code":  "ACR000107",
+        "name1":  "GKL SHIPPING",
+        "name2":  "GKL SHIPPING"
+    },
+    {
+        "code":  "ACR000108",
+        "name1":  "GKL/BLUEDE PAINTS COMPANY",
+        "name2":  "GKL/BLUEDE PAINTS COMPANY"
+    },
+    {
+        "code":  "ACR000109",
+        "name1":  "GKL/SMASH INTERNATIONAL GENERAL TRADING \u0026 CONTRACTING CO. W.L.L.",
+        "name2":  "GKL/SMASH INTERNATIONAL GENERAL TRADING \u0026 CONTRACTING CO. W.L.L."
+    },
+    {
+        "code":  "ACR000110",
+        "name1":  "GKL/ZENITH GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL",
+        "name2":  "GKL/ZENITH GROUP GENERAL TRADING AND CONTRACTING COMPANY WLL"
+    },
+    {
+        "code":  "ACR000111",
+        "name1":  "GLOBAL EXPRESS FORWARDING AND WAREHOUSING CO.WLL KUWAIT",
+        "name2":  "GLOBAL EXPRESS FORWARDING AND WAREHOUSING CO.WLL KUWAIT"
+    },
+    {
+        "code":  "ACR000112",
+        "name1":  "GLOBAL FREIGHT SYSTMS COMPANY WLL",
+        "name2":  "GLOBAL FREIGHT SYSTMS COMPANY WLL"
+    },
+    {
+        "code":  "ACR000113",
+        "name1":  "GLOBELINK (FAWAZ TRADING AND ENGINEERING CO. WL.L.)",
+        "name2":  "GLOBELINK (FAWAZ TRADING AND ENGINEERING CO. WL.L.)"
+    },
+    {
+        "code":  "ACR000114",
+        "name1":  "GRAND KUWAIT INTERNATIONAL FOR GENERAL TRADING CO.",
+        "name2":  "GRAND KUWAIT INTERNATIONAL FOR GENERAL TRADING CO."
+    },
+    {
+        "code":  "ACR000115",
+        "name1":  "GUANGZHOU YANXIN TRADING CO.,LTD",
+        "name2":  "GUANGZHOU YANXIN TRADING CO.,LTD"
+    },
+    {
+        "code":  "ACR000116",
+        "name1":  "GULF 2000 COMPANY FOR GENERAL TRADING AND CONTRACTING",
+        "name2":  "GULF 2000 COMPANY FOR GENERAL TRADING AND CONTRACTING"
+    },
+    {
+        "code":  "ACR000117",
+        "name1":  "GULF AGENCY COMPANY",
+        "name2":  "GULF AGENCY COMPANY"
+    },
+    {
+        "code":  "ACR000118",
+        "name1":  "HAMAD KHALIFAH HAMDAN AL MUTAIRI",
+        "name2":  "HAMAD KHALIFAH HAMDAN AL MUTAIRI"
+    },
+    {
+        "code":  "ACR000119",
+        "name1":  "HANADI HUMOUD KHALAF ALFADHLI",
+        "name2":  "HANADI HUMOUD KHALAF ALFADHLI"
+    },
+    {
+        "code":  "ACR000120",
+        "name1":  "IBRAHIM T.ALBAGHLI HAJAR REAL ESTATE CO",
+        "name2":  "IBRAHIM T.ALBAGHLI HAJAR REAL ESTATE CO"
+    },
+    {
+        "code":  "ACR000121",
+        "name1":  "IBTIHAL AL-THUBAITI",
+        "name2":  "IBTIHAL AL-THUBAITI"
+    },
+    {
+        "code":  "ACR000122",
+        "name1":  "INTERNATIONAL BRANDS COMPANY",
+        "name2":  "INTERNATIONAL BRANDS COMPANY"
+    },
+    {
+        "code":  "ACR000124",
+        "name1":  "JUMANAH ALI ALTUBAIKH",
+        "name2":  "JUMANAH ALI ALTUBAIKH"
+    },
+    {
+        "code":  "ACR000125",
+        "name1":  "KARIS IMPORT \u0026 EXPORT CO.",
+        "name2":  "KARIS IMPORT \u0026 EXPORT CO."
+    },
+    {
+        "code":  "ACR000127",
+        "name1":  "KHALID FAWAZ",
+        "name2":  "KHALID FAWAZ"
+    },
+    {
+        "code":  "ACR000128",
+        "name1":  "KUWAIT BADMINTON CLUB",
+        "name2":  "KUWAIT BADMINTON CLUB"
+    },
+    {
+        "code":  "ACR000129",
+        "name1":  "KUWAIT DAIRY COMPANY",
+        "name2":  "KUWAIT DAIRY COMPANY"
+    },
+    {
+        "code":  "ACR000130",
+        "name1":  "KUWAIT EPOWER COMPANY",
+        "name2":  "KUWAIT EPOWER COMPANY"
+    },
+    {
+        "code":  "ACR000131",
+        "name1":  "KUWAIT GERMAN GROUP",
+        "name2":  "KUWAIT GERMAN GROUP"
+    },
+    {
+        "code":  "ACR000132",
+        "name1":  "KUWAIT MARITIME AND MERCANTILE CO KSC",
+        "name2":  "KUWAIT MARITIME AND MERCANTILE CO KSC"
+    },
+    {
+        "code":  "ACR000133",
+        "name1":  "LANDMARK CENTRAL MARKET CO. WLL",
+        "name2":  "LANDMARK CENTRAL MARKET CO. WLL"
+    },
+    {
+        "code":  "ACR000134",
+        "name1":  "LOST PARADISE GENERAL TRADING COMPANY",
+        "name2":  "LOST PARADISE GENERAL TRADING COMPANY"
+    },
+    {
+        "code":  "ACR000135",
+        "name1":  "MABROOK HOTEL SUPPLIES CO",
+        "name2":  "MABROOK HOTEL SUPPLIES CO"
+    },
+    {
+        "code":  "ACR000136",
+        "name1":  "MARCH INT FOR SANITARY WERE CO.",
+        "name2":  "MARCH INT FOR SANITARY WERE CO."
+    },
+    {
+        "code":  "ACR000137",
+        "name1":  "MARIAM ALHAJRI",
+        "name2":  "MARIAM ALHAJRI"
+    },
+    {
+        "code":  "ACR000138",
+        "name1":  "MC2 PLUS",
+        "name2":  "MC2 PLUS"
+    },
+    {
+        "code":  "ACR000140",
+        "name1":  "MOHAMMAD SHEBEEB JURAIBEEA ALOTAIBI",
+        "name2":  "MOHAMMAD SHEBEEB JURAIBEEA ALOTAIBI"
+    },
+    {
+        "code":  "ACR000141",
+        "name1":  "MOHAMMED AL SAAD \u0026 SALEH AL RASHIDI TRADING CO",
+        "name2":  "MOHAMMED AL SAAD \u0026 SALEH AL RASHIDI TRADING CO"
+    },
+    {
+        "code":  "ACR000144",
+        "name1":  "MOUDHI INTERNATIONAL GENERAL TRADING CO",
+        "name2":  "MOUDHI INTERNATIONAL GENERAL TRADING CO"
+    },
+    {
+        "code":  "ACR000145",
+        "name1":  "MR ABDULLAH B A M ALAZMI",
+        "name2":  "MR ABDULLAH B A M ALAZMI"
+    },
+    {
+        "code":  "ACR000146",
+        "name1":  "MR KHALED AL ASKAR",
+        "name2":  "MR KHALED AL ASKAR"
+    },
+    {
+        "code":  "ACR000147",
+        "name1":  "MR. MOHAMMED SABEQ",
+        "name2":  "MR. MOHAMMED SABEQ"
+    },
+    {
+        "code":  "ACR000148",
+        "name1":  "NAHDAT AL OMMAH GENERAL TRADING \u0026 CONTR.EST",
+        "name2":  "NAHDAT AL OMMAH GENERAL TRADING \u0026 CONTR.EST"
+    },
+    {
+        "code":  "ACR000149",
+        "name1":  "NEW FORCE INTERNATIONAL FZE.",
+        "name2":  "NEW FORCE INTERNATIONAL FZE."
+    },
+    {
+        "code":  "ACR000150",
+        "name1":  "NISSAN MIDDLE EAST FZE",
+        "name2":  "NISSAN MIDDLE EAST FZE"
+    },
+    {
+        "code":  "ACR000151",
+        "name1":  "NOTEBOOK COMPANY",
+        "name2":  "NOTEBOOK COMPANY"
+    },
+    {
+        "code":  "ACR000152",
+        "name1":  "NOURA ALFOUZAN",
+        "name2":  "NOURA ALFOUZAN"
+    },
+    {
+        "code":  "ACR000153",
+        "name1":  "PORT COMPANY FOR THE TRANSPORT",
+        "name2":  "PORT COMPANY FOR THE TRANSPORT"
+    },
+    {
+        "code":  "ACR000154",
+        "name1":  "POST PRODUCTION CO",
+        "name2":  "POST PRODUCTION CO"
+    },
+    {
+        "code":  "ACR000156",
+        "name1":  "RANK GENERAL TRADING \u0026 CONTRACTING CO",
+        "name2":  "RANK GENERAL TRADING \u0026 CONTRACTING CO"
+    },
+    {
+        "code":  "ACR000157",
+        "name1":  "SAFARI HOUSE GEN TRADING CO WLL",
+        "name2":  "SAFARI HOUSE GEN TRADING CO WLL"
+    },
+    {
+        "code":  "ACR000158",
+        "name1":  "SAIL SHIPPING \u0026 LOGISTIC SERVICES CO WLL",
+        "name2":  "SAIL SHIPPING \u0026 LOGISTIC SERVICES CO WLL"
+    },
+    {
+        "code":  "ACR000159",
+        "name1":  "SALAH HUJAWI",
+        "name2":  "SALAH HUJAWI"
+    },
+    {
+        "code":  "ACR000160",
+        "name1":  "SALEM HAMED HUSSAIN ALRASHEEDI",
+        "name2":  "SALEM HAMED HUSSAIN ALRASHEEDI"
+    },
+    {
+        "code":  "ACR000161",
+        "name1":  "SALIM ALGHAIS",
+        "name2":  "SALIM ALGHAIS"
+    },
+    {
+        "code":  "ACR000162",
+        "name1":  "SALMAN BIN MOHD MATER",
+        "name2":  "SALMAN BIN MOHD MATER"
+    },
+    {
+        "code":  "ACR000163",
+        "name1":  "SEENA HARBI",
+        "name2":  "SEENA HARBI"
+    },
+    {
+        "code":  "ACR000165",
+        "name1":  "SHOONEEZ COMPANY",
+        "name2":  "SHOONEEZ COMPANY"
+    },
+    {
+        "code":  "ACR000166",
+        "name1":  "SIDRAT AL BAHRAIN CO. GENERAL TRADING \u0026 CONTRACTING",
+        "name2":  "SIDRAT AL BAHRAIN CO. GENERAL TRADING \u0026 CONTRACTING"
+    },
+    {
+        "code":  "ACR000167",
+        "name1":  "SKAB LOGISTICS",
+        "name2":  "SKAB LOGISTICS"
+    },
+    {
+        "code":  "ACR000168",
+        "name1":  "SMART PROGRESS GENERAL TRADING AND CONT.",
+        "name2":  "SMART PROGRESS GENERAL TRADING AND CONT."
+    },
+    {
+        "code":  "ACR000169",
+        "name1":  "SMEET COMPANY",
+        "name2":  "SMEET COMPANY"
+    },
+    {
+        "code":  "ACR000170",
+        "name1":  "Donot use- SOUTHFIELD GENERAL TRADING",
+        "name2":  "Donot use-SOUTHFIELD GENERAL TRADING"
+    },
+    {
+        "code":  "ACR000171",
+        "name1":  "SPETCO INTERNATIONAL PETROLEUM COMPANY",
+        "name2":  "SPETCO INTERNATIONAL PETROLEUM COMPANY"
+    },
+    {
+        "code":  "ACR000172",
+        "name1":  "SULAMAN AL SABEA TRADING EST",
+        "name2":  "SULAMAN AL SABEA TRADING EST"
+    },
+    {
+        "code":  "ACR000173",
+        "name1":  "TECHNIVISION FZE",
+        "name2":  "TECHNIVISION FZE"
+    },
+    {
+        "code":  "ACR000174",
+        "name1":  "TEXEL ENGINEERING GENERAL TRADING \u0026 CONT CO WLL",
+        "name2":  "TEXEL ENGINEERING GENERAL TRADING \u0026 CONT CO WLL"
+    },
+    {
+        "code":  "ACR000175",
+        "name1":  "THE GENERAL ADMINISTRATION OF CUSTOMS, KUWAIT",
+        "name2":  "THE GENERAL ADMINISTRATION OF CUSTOMS, KUWAIT"
+    },
+    {
+        "code":  "ACR000176",
+        "name1":  "THE LITTLES WHOLESALE TRADING",
+        "name2":  "THE LITTLES WHOLESALE TRADING"
+    },
+    {
+        "code":  "ACR000177",
+        "name1":  "TSL COMPANY",
+        "name2":  "TSL COMPANY"
+    },
+    {
+        "code":  "ACR000179",
+        "name1":  "UNION FOR SELLING MARINE TOOLS\u0026EQUIPMENT EST.",
+        "name2":  "UNION FOR SELLING MARINE TOOLS\u0026EQUIPMENT EST."
+    },
+    {
+        "code":  "ACR000180",
+        "name1":  "UNITED MAINTENANCE EQUIPMENT CO. WLL",
+        "name2":  "UNITED MAINTENANCE EQUIPMENT CO. WLL"
+    },
+    {
+        "code":  "ACR000181",
+        "name1":  "VANTEVIS GENERAL TRADING COMPANY W.L.L",
+        "name2":  "VANTEVIS GENERAL TRADING COMPANY W.L.L"
+    },
+    {
+        "code":  "ACR000182",
+        "name1":  "WFL UNITED GENERAL TRADING COMPANY",
+        "name2":  "WFL UNITED GENERAL TRADING COMPANY"
+    },
+    {
+        "code":  "ACR000186",
+        "name1":  "ZENITH GROUP GENERAL TRADING \u0026 CONTR.CO",
+        "name2":  "ZENITH GROUP GENERAL TRADING \u0026 CONTR.CO"
+    },
+    {
+        "code":  "ACR000187",
+        "name1":  "ZHENJIANG STATE-OWNED INVESTMENT HOLDING GROUP",
+        "name2":  "ZHENJIANG STATE-OWNED INVESTMENT HOLDING GROUP"
+    },
+    {
+        "code":  "ACR000189",
+        "name1":  "SHEIKH ALI ABDUL AZIZ",
+        "name2":  "SHEIKH ALI ABDUL AZIZ"
+    },
+    {
+        "code":  "ACR000190",
+        "name1":  "MONCADA COMPANY FOR EXPORT AND IMPORT",
+        "name2":  "MONCADA COMPANY FOR EXPORT AND IMPORT"
+    },
+    {
+        "code":  "ACR000191",
+        "name1":  "QUATTRO INTERNATIONAL TRADING - KUWAIT",
+        "name2":  "QUATTRO INTERNATIONAL TRADING - KUWAIT"
+    },
+    {
+        "code":  "ACR000192",
+        "name1":  "DOHA TORCH GENERAL TRADING CO",
+        "name2":  "DOHA TORCH GENERAL TRADING CO"
+    },
+    {
+        "code":  "ACR000193",
+        "name1":  "SHAWI ALFIREEJ BUTCHERY CO",
+        "name2":  "SHAWI ALFIREEJ BUTCHERY CO"
+    },
+    {
+        "code":  "ACR000194",
+        "name1":  "RIZOS CURLS",
+        "name2":  "RIZOS CURLS"
+    },
+    {
+        "code":  "ACR000195",
+        "name1":  "AL RASHED INTERNATIONAL SHIPPING CO",
+        "name2":  "AL RASHED INTERNATIONAL SHIPPING CO"
+    },
+    {
+        "code":  "ACR000196",
+        "name1":  "AL-RAYA WOODWORKS CO",
+        "name2":  "AL-RAYA WOODWORKS CO"
+    },
+    {
+        "code":  "ACR000197",
+        "name1":  "DSV A\u0026S FOR SHIPPING \u0026 TRANSPORT CO. W.L.L.",
+        "name2":  "DSV A\u0026S FOR SHIPPING \u0026 TRANSPORT CO. W.L.L."
+    },
+    {
+        "code":  "ACR000198",
+        "name1":  "DHL Global Forwarding - Operation \u0026 Transportation",
+        "name2":  "DHL Global Forwarding - Operation \u0026 Transportation"
+    },
+    {
+        "code":  "ACR000199",
+        "name1":  "ABDULMOHSEN MOHAMMAD OBAID ABBAS",
+        "name2":  "ABDULMOHSEN MOHAMMAD OBAID ABBAS"
+    },
+    {
+        "code":  "ACR000200",
+        "name1":  "SAYED HAMID BEHBEHANI \u0026 SONS CO. W.L.L",
+        "name2":  "SAYED HAMID BEHBEHANI \u0026 SONS CO. W.L.L"
+    },
+    {
+        "code":  "ACR000201",
+        "name1":  "Donot Use-Sealine Logistics Gen. Trad. Co",
+        "name2":  "Donot Use-Sealine Logistics Gen. Trad. Co"
+    },
+    {
+        "code":  "ACR000202",
+        "name1":  "Al–Metrik \u0026 Sons Company",
+        "name2":  "Al–Metrik \u0026 Sons Company"
+    },
+    {
+        "code":  "ACR000203",
+        "name1":  "Axis For Chemicals Trading",
+        "name2":  "Axis For Chemicals Trading"
+    },
+    {
+        "code":  "ACR000204",
+        "name1":  "AL-RIYADH GENERAL TRADING FOODSTUFF CO. W.L.L.",
+        "name2":  "AL-RIYADH GENERAL TRADING FOODSTUFF CO. W.L.L."
+    },
+    {
+        "code":  "ACR000205",
+        "name1":  "ABDUL SALAM AL TAGY- ABU WESAM",
+        "name2":  "ABDUL SALAM AL TAGY- ABU WESAM"
+    },
+    {
+        "code":  "ACR000206",
+        "name1":  "ROSE AND BODY RETAILS PERFUMES COSMETICS ORNAMENTAL SOAPS AND INCENSE",
+        "name2":  "ROSE AND BODY RETAILS PERFUMES COSMETICS ORNAMENTAL SOAPS AND INCENSE"
+    },
+    {
+        "code":  "ACR000207",
+        "name1":  "MOHSIN ALI ALOTAIBI",
+        "name2":  "MOHSIN ALI ALOTAIBI"
+    },
+    {
+        "code":  "ACR000208",
+        "name1":  "Don\u0027t Use- Consolidated shipping \u0026 Transport agencies-Don\u0027t Use",
+        "name2":  "Don\u0027t Use- Consolidated shipping \u0026 Transport agencies-Don\u0027t Use"
+    },
+    {
+        "code":  "ACR000209",
+        "name1":  "KOREAN INTERNATIONAL CO.",
+        "name2":  "KOREAN INTERNATIONAL CO."
+    },
+    {
+        "code":  "ACR000210",
+        "name1":  "Abdulrahman Adel Ibrahim Ghazi",
+        "name2":  "Abdulrahman Adel Ibrahim Ghazi"
+    },
+    {
+        "code":  "ACR000211",
+        "name1":  "Adel Ibrahim Ali Ghazi",
+        "name2":  "Adel Ibrahim Ali Ghazi"
+    },
+    {
+        "code":  "ACR000212",
+        "name1":  "Mohammed Ghazi",
+        "name2":  "Mohammed Ghazi"
+    },
+    {
+        "code":  "ACR000213",
+        "name1":  "First Class Logistics",
+        "name2":  "First Class Logistics"
+    },
+    {
+        "code":  "ACR000214",
+        "name1":  "Horizon Paints Co",
+        "name2":  "Horizon Paints Co."
+    },
+    {
+        "code":  "ACR000216",
+        "name1":  "GLOBAL UNITED LOGISTICS SERVICES COMPANY W.L.L",
+        "name2":  "GLOBAL UNITED LOGISTICS SERVICES COMPANY W.L.L"
+    },
+    {
+        "code":  "ACR000217",
+        "name1":  "IAIN GENERAL TRADING EST.",
+        "name2":  "IAIN GENERAL TRADING EST."
+    },
+    {
+        "code":  "ACR000218",
+        "name1":  "Associated Shipping \u0026 Logistics Co. WLL",
+        "name2":  "Associated Shipping \u0026 Logistics Co. WLL"
+    },
+    {
+        "code":  "ACR000219",
+        "name1":  "Cycle for General Trading \u0026 Construcation Company",
+        "name2":  "Cycle for General Trading \u0026 Construcation Company"
+    },
+    {
+        "code":  "ACR000220",
+        "name1":  "Dr.OMAR MOSTFA MOHAMED ALHASHASH",
+        "name2":  "Dr.OMAR MOSTFA MOHAMED ALHASHASH"
+    },
+    {
+        "code":  "ACR000221",
+        "name1":  "RANA HIJJAZI",
+        "name2":  "RANA HIJJAZI"
+    },
+    {
+        "code":  "ACR000222",
+        "name1":  "COUNTED RESTAURANT HEALTHY FOOD PROVIDER",
+        "name2":  "COUNTED RESTAURANT HEALTHY FOOD PROVIDER"
+    },
+    {
+        "code":  "ACR000223",
+        "name1":  "MASS INTERNATIONAL TRADING CO",
+        "name2":  "MASS INTERNATIONAL TRADING CO."
+    },
+    {
+        "code":  "ACR000224",
+        "name1":  "INNOVATIVE ENGINEERING GENERAL TRADING CO.",
+        "name2":  "INNOVATIVE ENGINEERING GENERAL TRADING CO."
+    },
+    {
+        "code":  "ACR000225",
+        "name1":  "SALAH RASHID AL GHAITH",
+        "name2":  "SALAH RASHID AL GHAITH"
+    },
+    {
+        "code":  "ACR000226",
+        "name1":  "APOLLO FREIGHT SOLUTIONS CO",
+        "name2":  "APOLLO FREIGHT SOLUTIONS CO"
+    },
+    {
+        "code":  "ACR000227",
+        "name1":  "Aramex International  – Kuwait",
+        "name2":  "Aramex International  – Kuwait"
+    },
+    {
+        "code":  "ACR000228",
+        "name1":  "Advanced Contracts Trading Co.",
+        "name2":  "Advanced Contracts Trading Co."
+    },
+    {
+        "code":  "ACR000229",
+        "name1":  "Al-Mashaan Co. for Agency of Shipping lines",
+        "name2":  "Al-Mashaan Co. for Agency of Shipping lines"
+    },
+    {
+        "code":  "ACR000230",
+        "name1":  "Xenex Est For General Trading",
+        "name2":  "Xenex Est For General Trading"
+    },
+    {
+        "code":  "ACR000231",
+        "name1":  "NAF PRINTING SOLUTION \u0026 ACCESSORIES CO",
+        "name2":  "NAF PRINTING SOLUTION \u0026 ACCESSORIES CO"
+    },
+    {
+        "code":  "ACR000232",
+        "name1":  "Zaben Al Shammari Office for Customs Clearance",
+        "name2":  "Zaben Al Shammari Office for Customs Clearance"
+    },
+    {
+        "code":  "ACR000233",
+        "name1":  "SKY OCEAN SHIPPING LLC",
+        "name2":  "SKY OCEAN SHIPPING LLC"
+    },
+    {
+        "code":  "ACR000234",
+        "name1":  "RAMSES SALOON FOR MEN MOHSEN ALI AL HARBI FITNESS",
+        "name2":  "RAMSES SALOON FOR MEN MOHSEN ALI AL HARBI FITNESS"
+    },
+    {
+        "code":  "ACR000235",
+        "name1":  "AL BASHAYER KUWAITI INTERNATIONAL CO COMMISION AGENT AND COMMSION TRADER",
+        "name2":  "AL BASHAYER KUWAITI INTERNATIONAL CO COMMISION AGENT AND COMMSION TRADER"
+    },
+    {
+        "code":  "ACR000236",
+        "name1":  "NAF INTERNATIONAL GROUP - NUCAF",
+        "name2":  "NAF INTERNATIONAL GROUP - NUCAF"
+    },
+    {
+        "code":  "ACR000237",
+        "name1":  "FRONTLINE LOGISTICS COMPANY WLL(Not For LCL)",
+        "name2":  "FRONTLINE LOGISTICS COMPANY WLL(Not For LCL)"
+    },
+    {
+        "code":  "ACR000238",
+        "name1":  "Heidi United Company for Wholesale and Retail Trade",
+        "name2":  "Heidi United Company for Wholesale and Retail Trade"
+    },
+    {
+        "code":  "ACR000239",
+        "name1":  "CLASSIC MOTORS COMPANY",
+        "name2":  "CLASSIC MOTORS COMPANY"
+    },
+    {
+        "code":  "ACR000240",
+        "name1":  "J\u0026T Express Kuwait General Warehousing Company",
+        "name2":  "J\u0026T Express Kuwait General Warehousing Company"
+    },
+    {
+        "code":  "ACR000241",
+        "name1":  "STAR KUWAIT LOGISTICS CO",
+        "name2":  "Landmark Central Market Co WLL"
+    },
+    {
+        "code":  "ACR000242",
+        "name1":  "NANO TECH",
+        "name2":  "NANO TECH"
+    },
+    {
+        "code":  "ACR000243",
+        "name1":  "NASER JASSIM MOHAMMAD ALMULAIFI",
+        "name2":  "NASER JASSIM MOHAMMAD ALMULAIFI, KUWAIT"
+    },
+    {
+        "code":  "ACR000244",
+        "name1":  "FACE TO FACE CO",
+        "name2":  "FACE TO FACE CO"
+    },
+    {
+        "code":  "ACR000245",
+        "name1":  "SAHAB AL KHAIR GENERAL CONTRACTING COMPANY",
+        "name2":  "SAHAB AL KHAIR GENERAL CONTRACTING COMPANY"
+    },
+    {
+        "code":  "ACR000246",
+        "name1":  "Petro Corp Company WLL",
+        "name2":  "Petro Corp Company WLL"
+    },
+    {
+        "code":  "ACR000247",
+        "name1":  "Don\u0027t USE ******CLASSIC MOTORS*****Don\u0027t USE ******",
+        "name2":  "Don\u0027t USE ******CLASSIC MOTORS*****Don\u0027t USE ******"
+    },
+    {
+        "code":  "ACR000248",
+        "name1":  "FUSION SHIPPING \u0026 LOGISTICS CO.",
+        "name2":  "FUSION SHIPPING \u0026 LOGISTICS CO."
+    },
+    {
+        "code":  "ACR000249",
+        "name1":  "INDUSTRY AND TECHNOLOGY COMPANY",
+        "name2":  "INDUSTRY AND TECHNOLOGY COMPANY"
+    },
+    {
+        "code":  "ACR000250",
+        "name1":  "INTERNATIONAL KOREAN COMPANY",
+        "name2":  "INTERNATIONAL KOREAN COMPANY"
+    },
+    {
+        "code":  "ACR000251",
+        "name1":  "RAJAB CARGO LLC",
+        "name2":  "RAJAB CARGO LLC"
+    },
+    {
+        "code":  "ACR000253",
+        "name1":  "INNOVATIVE ENGINEERING COMPANY (Don\u0027t Use)",
+        "name2":  "INNOVATIVE ENGINEERING COMPANY (Don\u0027t Use)"
+    },
+    {
+        "code":  "ACR000254",
+        "name1":  "Space3PL ltd",
+        "name2":  "Space3PL ltd"
+    },
+    {
+        "code":  "ACR000255",
+        "name1":  "MOHAMMAD H POUR MOHAMMADI",
+        "name2":  "MOHAMMAD H POUR MOHAMMADI"
+    },
+    {
+        "code":  "ACR000256",
+        "name1":  "ALI S E F A BEHBEHANI",
+        "name2":  "ALI S E F A BEHBEHANI"
+    },
+    {
+        "code":  "ACR000257",
+        "name1":  "Abdul Rahman Khayyat",
+        "name2":  "Abdul Rahman Khayyat"
+    },
+    {
+        "code":  "ACR000258",
+        "name1":  "SALAH HIJAWI (Don\u0027t use ) Open twice",
+        "name2":  "SALAH HIJAWI  (Don\u0027t use ) Open twice"
+    },
+    {
+        "code":  "ACR000259",
+        "name1":  "TURKISH CORNER",
+        "name2":  "TURKISH CORNER"
+    },
+    {
+        "code":  "ACR000260",
+        "name1":  "AL TAHANI INTERNATIONAL TRAD. CO.",
+        "name2":  "AL TAHANI INTERNATIONAL TRAD. CO."
+    },
+    {
+        "code":  "ACR000261",
+        "name1":  "HOME PROTECTION FOR INTERIOR DESIGN",
+        "name2":  "HOME PROTECTION FOR INTERIOR DESIGN"
+    },
+    {
+        "code":  "ACR000262",
+        "name1":  "KAYAAN TO IMPORT MEDICINES \u0026 MED SUPPLIE KUWAIT",
+        "name2":  "KAYAAN TO IMPORT MEDICINES \u0026 MED SUPPLIE KUWAIT"
+    },
+    {
+        "code":  "ACR000263",
+        "name1":  "ALI TARHINI",
+        "name2":  "ALI TARHINI"
+    },
+    {
+        "code":  "ACR000264",
+        "name1":  "AL RAYA AL THAHABIYA FOR THE REPARTION OF HEAVY AND LIGHT EQUIPMENTS COMPANY",
+        "name2":  "AL RAYA AL THAHABIYA FOR THE REPARTION OF HEAVY AND LIGHT EQUIPMENTS COMPANY"
+    },
+    {
+        "code":  "ACR000265",
+        "name1":  "UNITED ARAB GROUP SHIPPING SERVICES CO.",
+        "name2":  "UNITED ARAB GROUP SHIPPING SERVICES CO."
+    },
+    {
+        "code":  "ACR000266",
+        "name1":  "United Shipping Company",
+        "name2":  "United Shipping Company"
+    },
+    {
+        "code":  "ACR000267",
+        "name1":  "AMWAJ HAMOOD M ALDHAFERI",
+        "name2":  "AMWAJ HAMOOD M ALDHAFERI"
+    },
+    {
+        "code":  "ACR000268",
+        "name1":  "Golden Dimas Co",
+        "name2":  "Golden Dimas Co."
+    },
+    {
+        "code":  "ACR000269",
+        "name1":  "DEVON GEN TRADING \u0026 CONTRACTING CO",
+        "name2":  "DEVON GEN TRADING \u0026 CONTRACTING CO"
+    },
+    {
+        "code":  "ACR000270",
+        "name1":  "SHAWI ALFIREEJ BUTCHERY CO",
+        "name2":  "Thamar Project Management Company"
+    },
+    {
+        "code":  "ACR000271",
+        "name1":  "Ali Ghazi Al-Otaibi",
+        "name2":  "Ali Ghazi Al-Otaibi"
+    },
+    {
+        "code":  "ACR000272",
+        "name1":  "SMART SHIPPING CO.",
+        "name2":  "SMART SHIPPING CO."
+    },
+    {
+        "code":  "ACR000273",
+        "name1":  "Nasmat Al Khaleej Electrical and Electronic Appliances Company",
+        "name2":  "Nasmat Al Khaleej Electrical and Electronic Appliances Company"
+    },
+    {
+        "code":  "ACR000274",
+        "name1":  "SMART LOCKS \u0026 HOME CO",
+        "name2":  "SMART LOCKS \u0026 HOME CO"
+    },
+    {
+        "code":  "ACR000275",
+        "name1":  "MRS. MUNEERAH AL SABAH",
+        "name2":  "MRS. MUNEERAH AL SABAH"
+    },
+    {
+        "code":  "ACR000276",
+        "name1":  "BONTON GENERAL TRADING \u0026 CONTRACTING CO",
+        "name2":  "BONTON GENERAL TRADING \u0026 CONTRACTING CO"
+    },
+    {
+        "code":  "ACR000277",
+        "name1":  "Don\u0027t Use - Dahi Mubarak Al-Azmi",
+        "name2":  "Don\u0027t Use - Dahi Mubarak Al-Azmi"
+    },
+    {
+        "code":  "ACR000278",
+        "name1":  "Rock Sheild co.",
+        "name2":  "Rock Sheild co."
+    },
+    {
+        "code":  "ACR000279",
+        "name1":  "La viere flowers company",
+        "name2":  "La viere flowers company"
+    },
+    {
+        "code":  "ACR000280",
+        "name1":  "Bio Globe Company",
+        "name2":  "Bio Globe Company"
+    },
+    {
+        "code":  "ACR000281",
+        "name1":  "FATEMA  KH M ALKHUDHER",
+        "name2":  "FATEMA  KH M ALKHUDHER"
+    },
+    {
+        "code":  "ACR000282",
+        "name1":  "WHOSALE WEDDING SUPERSTORE-KUWAIT",
+        "name2":  "WHOSALE WEDDING SUPERSTORE-KUWAIT"
+    },
+    {
+        "code":  "ACR000283",
+        "name1":  "BURGAN MEDICAL INTERNATIONAL",
+        "name2":  "BURGAN MEDICAL INTERNATIONAL"
+    },
+    {
+        "code":  "ACR000284",
+        "name1":  "BABIES TOYS X WHOLESALE COMAPANY",
+        "name2":  "BABIES TOYS X WHOLESALE COMAPANY"
+    },
+    {
+        "code":  "ACR000285",
+        "name1":  "CITY TRADE GENERAL TRADING CO.",
+        "name2":  "CITY TRADE GENERAL TRADING CO."
+    },
+    {
+        "code":  "ACR000286",
+        "name1":  "UNITED KALANDER OFFICES FOR EXPORT AND IMPORT",
+        "name2":  "UNITED KALANDER OFFICES FOR EXPORT AND IMPORT"
+    },
+    {
+        "code":  "ACR000287",
+        "name1":  "GREENIA GENERAL TRADING CO",
+        "name2":  "GREENIA GENERAL TRADING CO"
+    },
+    {
+        "code":  "ACR000288",
+        "name1":  "Aspire Freight Forwarding and Logistics Co",
+        "name2":  "Aspire Freight Forwarding and Logistics Co"
+    },
+    {
+        "code":  "ACR000289",
+        "name1":  "Joneh international Company",
+        "name2":  "Joneh international Company"
+    },
+    {
+        "code":  "ACR000290",
+        "name1":  "AL FADHILA FOR AUTO ACCESSORIES TRADING CO. L.L.C(Adrian Group)",
+        "name2":  "AL FADHILA FOR AUTO ACCESSORIES TRADING CO. L.L.C(Adrian Group)"
+    },
+    {
+        "code":  "ACR000291",
+        "name1":  "AL QAHTANI GULF CO. GENERAL TRADING \u0026 CONTRACTING",
+        "name2":  "AL QAHTANI GULF CO. GENERAL TRADING \u0026 CONTRACTING"
+    },
+    {
+        "code":  "ACR000292",
+        "name1":  "SAAD SAAFAK KHREES SLMOTAIRI",
+        "name2":  "SAAD SAAFAK KHREES SLMOTAIRI"
+    },
+    {
+        "code":  "ACR000293",
+        "name1":  "SENATOR INTERNATIONAL SHIPPING CO. WLL",
+        "name2":  "SENATOR INTERNATIONAL SHIPPING CO. WLL"
+    },
+    {
+        "code":  "ACR000294",
+        "name1":  "FN AUTO PARTS COMPANY",
+        "name2":  "FN AUTO PARTS COMPANY"
+    },
+    {
+        "code":  "ACR000295",
+        "name1":  "ARGAD EXPORTING AND IMPORTING AGENT",
+        "name2":  "ARGAD EXPORTING AND IMPORTING AGENT"
+    },
+    {
+        "code":  "ACR000296",
+        "name1":  "Riyadh Jamal Khalaf",
+        "name2":  "Riyadh Jamal Khalaf"
+    },
+    {
+        "code":  "ACR000297",
+        "name1":  "KUWAIT PETROLEUM CORPORATION",
+        "name2":  "KUWAIT PETROLEUM CORPORATION"
+    },
+    {
+        "code":  "ACR000298",
+        "name1":  "UDARIA DESERT FOR GENERAL TRADING AND CONTRACTING COMPANY",
+        "name2":  "UDARIA DESERT FOR GENERAL TRADING AND CONTRACTING COMPANY"
+    },
+    {
+        "code":  "ACR000299",
+        "name1":  "GULF TRADING GROUP SPC",
+        "name2":  "GULF TRADING GROUP SPC"
+    },
+    {
+        "code":  "ACR000300",
+        "name1":  "DVF Solutions Dış Tic. Ltd. Şti C/O GSP LOGISTICS LTD",
+        "name2":  "DVF Solutions Dış Tic. Ltd. Şti C/O GSP LOGISTICS LTD"
+    },
+    {
+        "code":  "ACR000301",
+        "name1":  "THE SILD FOR EXPORT \u0026 IMPORT WLL CO",
+        "name2":  "THE SILD FOR EXPORT \u0026 IMPORT WLL CO"
+    },
+    {
+        "code":  "ACR000302",
+        "name1":  "IBRAHIM MOHAMAD AZIZ ZALZALE",
+        "name2":  "IBRAHIM MOHAMAD AZIZ ZALZALE"
+    },
+    {
+        "code":  "ACR000303",
+        "name1":  "SUMATRA GENERAL TRADING CONT. CO",
+        "name2":  "SUMATRA GENERAL TRADING CONT. CO"
+    },
+    {
+        "code":  "ACR000304",
+        "name1":  "Ali Al Shatti",
+        "name2":  "Ali Al Shatti"
+    },
+    {
+        "code":  "ACR000305",
+        "name1":  "PostS– Kuwait",
+        "name2":  "PostS– Kuwait"
+    },
+    {
+        "code":  "ACR000306",
+        "name1":  "Pro Print Solutions",
+        "name2":  "Pro Print Solutions"
+    },
+    {
+        "code":  "ACR000307",
+        "name1":  "ARABIAN KAYAN GENERAL TRADING \u0026 CONTRACTING CO.",
+        "name2":  "ARABIAN KAYAN GENERAL TRADING \u0026 CONTRACTING CO."
+    },
+    {
+        "code":  "ACR000308",
+        "name1":  "QUALITY 80 INTERNATIONAL TRADING COMPANY",
+        "name2":  "QUALITY 80 INTERNATIONAL TRADING COMPANY"
+    },
+    {
+        "code":  "ACR000309",
+        "name1":  "GREENWAYS LOGISTICS SERVICES",
+        "name2":  "GREENWAYS LOGISTICS SERVICES"
+    },
+    {
+        "code":  "ACR000310",
+        "name1":  "Gulf Desert Livestock and Fodder Trading Company",
+        "name2":  "Gulf Desert Livestock and Fodder Trading Company"
+    },
+    {
+        "code":  "ACR000311",
+        "name1":  "Al Mulla Cargo",
+        "name2":  "Al Mulla Cargo"
+    },
+    {
+        "code":  "ACR000312",
+        "name1":  "BARDY ICE MANUFACTURING AND STORAGE COMPANY",
+        "name2":  "BARDY ICE MANUFACTURING AND STORAGE COMPANY"
+    },
+    {
+        "code":  "ACR000313",
+        "name1":  "KARA EXPRESS",
+        "name2":  "KARA EXPRESS FZE"
+    },
+    {
+        "code":  "ACR000314",
+        "name1":  "Al Fanous Auto Accessories Company",
+        "name2":  "Al Fanous Auto Accessories Company"
+    },
+    {
+        "code":  "ACR000315",
+        "name1":  "CYAN PRINTING PRESS COMPANY",
+        "name2":  "CYAN PRINTING PRESS COMPANY"
+    },
+    {
+        "code":  "ACR000316",
+        "name1":  "NOOR ALKUWAIT CO",
+        "name2":  "NOOR ALKUWAIT CO"
+    },
+    {
+        "code":  "ACR000317",
+        "name1":  "HAMAD AL-MUTAWA TRADING CO",
+        "name2":  "HAMAD AL-MUTAWA TRADING CO"
+    },
+    {
+        "code":  "ACR000318",
+        "name1":  "Actros Trading Company",
+        "name2":  "Actros Trading Company"
+    },
+    {
+        "code":  "ACR000319",
+        "name1":  "Al-RUSAFA TRADING ESTABLISHMENT",
+        "name2":  "Al-RUSAFA TRADING ESTABLISHMENT"
+    },
+    {
+        "code":  "ACR000320",
+        "name1":  "NEGOCHI AIR RIFLE EST",
+        "name2":  "NEGOCHI AIR RIFLE EST"
+    },
+    {
+        "code":  "ACR000321",
+        "name1":  "RAHAB INTERNATIONAL  COMPANY",
+        "name2":  "RAHAB INTERNATIONAL  COMPANY"
+    },
+    {
+        "code":  "ACR000322",
+        "name1":  "AZIZ HAJAWI",
+        "name2":  "AZIZ HAJAWI"
+    },
+    {
+        "code":  "ACR000323",
+        "name1":  "AL NISF ELECTRICAL CO W.L.L",
+        "name2":  "AL NISF ELECTRICAL CO W.L.L"
+    },
+    {
+        "code":  "ACR000324",
+        "name1":  "ROYAL THE ELECTRICAL",
+        "name2":  "ROYAL THE ELECTRICAL"
+    },
+    {
+        "code":  "ACR000325",
+        "name1":  "Maleem Alarab Co.LLC",
+        "name2":  "Maleem Alarab Co.LLC"
+    },
+    {
+        "code":  "ACR000326",
+        "name1":  "RAMAQ COMPANY",
+        "name2":  "RAMAQ COMPANY"
+    },
+    {
+        "code":  "ACR000327",
+        "name1":  "Al Mulla International",
+        "name2":  "Al Mulla International"
+    },
+    {
+        "code":  "ACR000328",
+        "name1":  "MOHAMMAD QASEM HAHJI BAROUN",
+        "name2":  "MOHAMMAD QASEM HAHJI BAROUN"
+    },
+    {
+        "code":  "ACR000329",
+        "name1":  "AL THAWAM GENERAL TRADING",
+        "name2":  "AL THAWAM GENERAL TRADING"
+    },
+    {
+        "code":  "ACR000330",
+        "name1":  "ZIKOFRUITS FOR IMP \u0026 EXP CO.",
+        "name2":  "ZIKOFRUITS FOR IMP \u0026 EXP CO."
+    },
+    {
+        "code":  "ACR000331",
+        "name1":  "THENIAN ALHOULI",
+        "name2":  "THENIAN ALHOULI"
+    },
+    {
+        "code":  "ACR000332",
+        "name1":  "KHALED A M ALDEHANY",
+        "name2":  "KHALED A M ALDEHANY"
+    },
+    {
+        "code":  "ACR000333",
+        "name1":  "TIJOREE JEWELLERY CO",
+        "name2":  "TIJOREE JEWELLERY CO"
+    },
+    {
+        "code":  "ACR000334",
+        "name1":  "ONTRAC EXPRESS",
+        "name2":  "ONTRAC EXPRESS"
+    },
+    {
+        "code":  "ACR000335",
+        "name1":  "Vine Grape Leaves Restaurant Company",
+        "name2":  "Vine Grape Leaves Restaurant Company"
+    },
+    {
+        "code":  "ACR000336",
+        "name1":  "LABELIZED CO COMPANY",
+        "name2":  "LABELIZED CO COMPANY"
+    },
+    {
+        "code":  "ACR000337",
+        "name1":  "SAFI COMPANY FOR HEALTH, BEAUTY, COSMETICS AND TOOLS",
+        "name2":  "SAFI COMPANY FOR HEALTH, BEAUTY, COSMETICS AND TOOLS"
+    },
+    {
+        "code":  "ACR000338",
+        "name1":  "AL BURAQ FOR TRANSPORTATION \u0026 AIRFRIEGHT",
+        "name2":  "AL BURAQ FOR TRANSPORTATION \u0026 AIRFRIEGHT"
+    },
+    {
+        "code":  "ACR000339",
+        "name1":  "QASSEM HAMAD AL KHAMEES",
+        "name2":  "QASSEM HAMAD AL KHAMEES"
+    },
+    {
+        "code":  "ACR000340",
+        "name1":  "LOOLWAH F M ALRADWAN",
+        "name2":  "LOOLWAH F M ALRADWAN"
+    },
+    {
+        "code":  "ACR000341",
+        "name1":  "EMPOWER KUWAIT HQ",
+        "name2":  "EMPOWER KUWAIT HQ"
+    },
+    {
+        "code":  "ACR000342",
+        "name1":  "CLOUD 9 LOGISTICS",
+        "name2":  "CLOUD 9 LOGISTICS"
+    },
+    {
+        "code":  "ACR000343",
+        "name1":  "ELITE Group",
+        "name2":  "ELITE Group"
+    },
+    {
+        "code":  "ACR000344",
+        "name1":  "PART MASTER COMPANY",
+        "name2":  "PART MASTER COMPANY"
+    },
+    {
+        "code":  "ACR000345",
+        "name1":  "OU KW COMPANY",
+        "name2":  "OU KW COMPANY"
+    },
+    {
+        "code":  "ACR000346",
+        "name1":  "BLUE SEA SHIPPING CO",
+        "name2":  "BLUE SEA SHIPPING CO"
+    },
+    {
+        "code":  "ACR000347",
+        "name1":  "TAIBAH ALASFOUR",
+        "name2":  "TAIBAH ALASFOUR"
+    },
+    {
+        "code":  "ACR000348",
+        "name1":  "AL ZHOOR AL SHARQEYA CO.",
+        "name2":  "AL ZHOOR AL SHARQEYA CO."
+    },
+    {
+        "code":  "ACR000349",
+        "name1":  "EMAN NASER HAIDAR ALHAMAD",
+        "name2":  "EMAN NASER HAIDAR ALHAMAD"
+    },
+    {
+        "code":  "ACR000350",
+        "name1":  "DOWNTOWN GENERAL TRADING \u0026 CONTRACTING CO. WLL",
+        "name2":  "DOWNTOWN GENERAL TRADING \u0026 CONTRACTING CO. WLL"
+    },
+    {
+        "code":  "ACR000351",
+        "name1":  "KOUT FOOD GROUP",
+        "name2":  "KOUT FOOD GROUP"
+    },
+    {
+        "code":  "ACR000352",
+        "name1":  "AL AHLIA INTEGRATED GENERAL TRADING AND CONTRACTING CO.WLL",
+        "name2":  "AL AHLIA INTEGRATED GENERAL TRADING AND CONTRACTING CO.WLL"
+    },
+    {
+        "code":  "ACR000353",
+        "name1":  "BYD Alghanim",
+        "name2":  "BYD Alghanim"
+    },
+    {
+        "code":  "ACR000354",
+        "name1":  "UPS Kuwait Company",
+        "name2":  "UPS Kuwait Company"
+    },
+    {
+        "code":  "ACR000355",
+        "name1":  "ABDULLA ALMULLA",
+        "name2":  "ABDULLA ALMULLA"
+    },
+    {
+        "code":  "ACR000356",
+        "name1":  "Kayan import and export",
+        "name2":  "Kayan import and export"
+    },
+    {
+        "code":  "ACR000357",
+        "name1":  "AIR OCEAN INTERNATIONAL IMPORT AND EXPORT LLC",
+        "name2":  "AIR OCEAN INTERNATIONAL IMPORT AND EXPORT LLC"
+    },
+    {
+        "code":  "ACR000358",
+        "name1":  "Majestic Basmati Rice Pvt. Ltd",
+        "name2":  "Majestic Basmati Rice Pvt. Ltd"
+    },
+    {
+        "code":  "ACR000359",
+        "name1":  "Artecasa general Trading Company",
+        "name2":  "Artecasa general Trading Company"
+    },
+    {
+        "code":  "ACR000360",
+        "name1":  "wellness company",
+        "name2":  "wellness company"
+    },
+    {
+        "code":  "ACR000361",
+        "name1":  "APACHE PHOTOGRAPHY",
+        "name2":  "APACHE PHOTOGRAPHY"
+    },
+    {
+        "code":  "ACR000362",
+        "name1":  "ALMUBARAKIYA PROJECTS COMPANY FOR POULTRY FARMING",
+        "name2":  "ALMUBARAKIYA PROJECTS COMPANY FOR POULTRY FARMING"
+    },
+    {
+        "code":  "ACR000363",
+        "name1":  "Abdul Mohsin Alnejadah",
+        "name2":  "Abdul Mohsin Alnejadah"
+    },
+    {
+        "code":  "ACR000364",
+        "name1":  "WOODEN WORLD",
+        "name2":  "WOODEN WORLD"
+    },
+    {
+        "code":  "ACR000365",
+        "name1":  "AL ENJAZ AL KHLEJI FOR GENERAL TRDG AND CONT. CO.",
+        "name2":  "AL ENJAZ AL KHLEJI FOR GENERAL TRDG AND CONT. CO."
+    },
+    {
+        "code":  "ACR000366",
+        "name1":  "Traxel logistics",
+        "name2":  "Traxel logistics"
+    },
+    {
+        "code":  "ACR000367",
+        "name1":  "Expeditors - Kuwait",
+        "name2":  "Expeditors - Kuwait"
+    },
+    {
+        "code":  "ACR000368",
+        "name1":  "IBRAHIM RASHID ALRASHDAN",
+        "name2":  "IBRAHIM RASHID ALRASHDAN"
+    },
+    {
+        "code":  "ACR000369",
+        "name1":  "HIND SULAIMAN YOUSEF ALBALOUL",
+        "name2":  "HIND SULAIMAN YOUSEF ALBALOUL"
+    },
+    {
+        "code":  "ACR000370",
+        "name1":  "AL THEKAIR AUTO FOR SALES AND PURCHASE OF CARS COMPANY",
+        "name2":  "AL THEKAIR AUTO FOR SALES AND PURCHASE OF CARS COMPANY"
+    },
+    {
+        "code":  "ACR000371",
+        "name1":  "BUBIYAN INTERNATIONAL SHIPPING CO",
+        "name2":  "BUBIYAN INTERNATIONAL SHIPPING CO"
+    },
+    {
+        "code":  "ACR000372",
+        "name1":  "Abdullah Ahmed Shaheen Alshaheen Alrabeea",
+        "name2":  "Abdullah Ahmed Shaheen Alshaheen Alrabeea"
+    },
+    {
+        "code":  "ACR000373",
+        "name1":  "Jasem Albarrak",
+        "name2":  "Jasem Albarrak"
+    },
+    {
+        "code":  "ACR000374",
+        "name1":  "NAZEK INTERNATIONAL GIFTS AND ACCESSORIES",
+        "name2":  "NAZEK INTERNATIONAL GIFTS AND ACCESSORIES"
+    },
+    {
+        "code":  "ACR000375",
+        "name1":  "ABDULLAH ALSHALFAN",
+        "name2":  "ABDULLAH ALSHALFAN"
+    },
+    {
+        "code":  "ACR000376",
+        "name1":  "HUSSAIN ALHENDAL",
+        "name2":  "HUSSAIN ALHENDAL"
+    },
+    {
+        "code":  "ACR000377",
+        "name1":  "HUMOUD HAJEEJ HUMOUD AQOUL",
+        "name2":  "HUMOUD HAJEEJ HUMOUD AQOUL"
+    },
+    {
+        "code":  "ACR000378",
+        "name1":  "AL SANAFER BOOKSHOP TRADING CO",
+        "name2":  "AL SANAFER BOOKSHOP TRADING CO"
+    },
+    {
+        "code":  "ACR000379",
+        "name1":  "YAHYA H J HUSAIN",
+        "name2":  "YAHYA H J HUSAIN"
+    },
+    {
+        "code":  "ACR000380",
+        "name1":  "HAMED ALSAYEGH",
+        "name2":  "HAMED ALSAYEGH"
+    },
+    {
+        "code":  "ACR000381",
+        "name1":  "METALLIC FURNITURE COMPANY",
+        "name2":  "METALLIC FURNITURE COMPANY"
+    },
+    {
+        "code":  "ACR000382",
+        "name1":  "FM Fadrakumahura for Import \u0026 Export and Commission Agent",
+        "name2":  "FM Fadrakumahura for Import \u0026 Export and Commission Agent"
+    },
+    {
+        "code":  "ACR000383",
+        "name1":  "BOUBETA LOUNGE BEAUTY SALON",
+        "name2":  "BOUBETA LOUNGE BEAUTY SALON"
+    },
+    {
+        "code":  "ACR000384",
+        "name1":  "MAJDI RIYAD GHANNAM",
+        "name2":  "MAJDI RIYAD GHANNAM"
+    },
+    {
+        "code":  "ACR000385",
+        "name1":  "AL RAIDA GEN.TRAD \u0026CONT.CO",
+        "name2":  "AL RAIDA GEN.TRAD \u0026CONT.CO"
+    },
+    {
+        "code":  "ACR000386",
+        "name1":  "Northern Gulf Trading Co.",
+        "name2":  "Northern Gulf Trading Co."
+    },
+    {
+        "code":  "ACR000387",
+        "name1":  "Clarion Shipping Services LLC",
+        "name2":  "Clarion Shipping Services LLC"
+    },
+    {
+        "code":  "ACR000388",
+        "name1":  "GOLDEN HOME FOR TRADING",
+        "name2":  "GOLDEN HOME FOR TRADING"
+    },
+    {
+        "code":  "ACR000389",
+        "name1":  "BUSAN ALWATANIYA TRADING COMPANY W.L.L",
+        "name2":  "BUSAN ALWATANIYA TRADING COMPANY W.L.L"
+    },
+    {
+        "code":  "ACR000390",
+        "name1":  "GULF CONSTRUCTION COMPANY",
+        "name2":  "GULF CONSTRUCTION COMPANY"
+    },
+    {
+        "code":  "ACR000391",
+        "name1":  "HI IQ TOYS \u0026 ACCESSORIES COMPANY",
+        "name2":  "HI IQ TOYS \u0026 ACCESSORIES COMPANY"
+    },
+    {
+        "code":  "ACR000392",
+        "name1":  "KEETA KUWAIT FOR CONSUMER ORDERS DELIVERY SPC",
+        "name2":  "KEETA KUWAIT FOR CONSUMER ORDERS DELIVERY SPC"
+    },
+    {
+        "code":  "ACR000393",
+        "name1":  "Kargo Box Shipping \u0026 Forwarding Co",
+        "name2":  "Kargo Box Shipping \u0026 Forwarding Co"
+    },
+    {
+        "code":  "ACR000394",
+        "name1":  "Al-Sarraf International Air Freight",
+        "name2":  "Al-Sarraf International Air Freight"
+    },
+    {
+        "code":  "ACR000395",
+        "name1":  "Saltus Logistic Co.",
+        "name2":  "Saltus Logistic Co."
+    },
+    {
+        "code":  "ACR000396",
+        "name1":  "Zama Company For General Trading WLL",
+        "name2":  "Zama Company For General Trading WLL"
+    },
+    {
+        "code":  "ACR000397",
+        "name1":  "ZAIN PAK TRADING COMPANY",
+        "name2":  "ZAIN PAK TRADING COMPANY"
+    },
+    {
+        "code":  "ACR000398",
+        "name1":  "ALSHAYA \u0026 ALSAGAR – KUWAIT AUTOMOTIVE IMPORT CO. WLL",
+        "name2":  "ALSHAYA \u0026 ALSAGAR – KUWAIT AUTOMOTIVE IMPORT CO. WLL"
+    },
+    {
+        "code":  "ACR000399",
+        "name1":  "FARCO ARAB GENERAL TRADING \u0026 CONT. CO",
+        "name2":  "FARCO ARAB GENERAL TRADING \u0026 CONT. CO"
+    },
+    {
+        "code":  "ACR000400",
+        "name1":  "Transcrate international logistics",
+        "name2":  "Transcrate international logistics"
+    },
+    {
+        "code":  "AGE000001",
+        "name1":  "BLUESTAR WORLDWIDE LOGISTICS",
+        "name2":  "BLUESTAR WORLDWIDE LOGISTICS"
+    },
+    {
+        "code":  "AGE000002",
+        "name1":  "UNITED LOGISTICS COMPANY",
+        "name2":  "UNITED LOGISTICS COMPANY"
+    },
+    {
+        "code":  "AGE000003",
+        "name1":  "SSC CONSOLIDATION WLL",
+        "name2":  "SSC CONSOLIDATION WLL"
+    },
+    {
+        "code":  "AGE000004",
+        "name1":  "Bell \u0026 John Logistics.",
+        "name2":  "Bell \u0026 John Logistics."
+    },
+    {
+        "code":  "AGE000005",
+        "name1":  "SEALINE LOGISTICS GEN TRD COMPANY",
+        "name2":  "SEALINE LOGISTICS GEN TRD COMPANY"
+    },
+    {
+        "code":  "AGE000006",
+        "name1":  "PRIME SHIPPING CO.WLL",
+        "name2":  "PRIME SHIPPING CO.WLL"
+    },
+    {
+        "code":  "AGE000007",
+        "name1":  "UAGSCO SHIPPING \u0026 LOGISTICS CO",
+        "name2":  "UAGSCO SHIPPING \u0026 LOGISTICS CO"
+    },
+    {
+        "code":  "AGE000009",
+        "name1":  "Cash Customer",
+        "name2":  "Cash Customer"
+    },
+    {
+        "code":  "AGE000011",
+        "name1":  "FRONTLINE LOGISTICS COMPANY-SSL",
+        "name2":  "FRONTLINE LOGISTICS COMPANY-SSL"
+    },
+    {
+        "code":  "AGE000013",
+        "name1":  "FSL WORLDWIDE CO LTD W.L.L",
+        "name2":  "FSL WORLDWIDE CO LTD W.L.L"
+    },
+    {
+        "code":  "AGE000014",
+        "name1":  "MODERN JOINT FREIGHT \u0026 SERVICES CO.-SSL",
+        "name2":  "MODERN JOINT FREIGHT \u0026 SERVICES CO.-SSL"
+    },
+    {
+        "code":  "AGE000015",
+        "name1":  "Apex Global Logistics Co for import and export",
+        "name2":  "Apex Global Logistics Co for import and export"
+    },
+    {
+        "code":  "AGE000016",
+        "name1":  "Celerity Shipping and Forwarding Co.WLL",
+        "name2":  "Celerity Shipping and Forwarding Co.WLL"
+    },
+    {
+        "code":  "AGE000018",
+        "name1":  "International Shipping Agency-SSL",
+        "name2":  "International Shipping Agency-SSL"
+    },
+    {
+        "code":  "AGE000020",
+        "name1":  "SWC",
+        "name2":  "SWC"
+    },
+    {
+        "code":  "AGE000021",
+        "name1":  "40010009 - EXPIDITORS INTERNATIONAL",
+        "name2":  "40010009 - EXPIDITORS INTERNATIONAL"
+    },
+    {
+        "code":  "AGE000026",
+        "name1":  "SHIPA DELIVERY",
+        "name2":  "SHIPA DELIVERY"
+    },
+    {
+        "code":  "AGE000027",
+        "name1":  "ALGHANIM SAHARA TRANS",
+        "name2":  "ALGHANIM SAHARA TRANS"
+    },
+    {
+        "code":  "AGE000028",
+        "name1":  "FAB LOGISTICS GENERAL TRADING CO",
+        "name2":  "FAB LOGISTICS GENERAL TRADING CO"
+    },
+    {
+        "code":  "AGE000029",
+        "name1":  "PHOENIX INTERNATIONAL COMPANY",
+        "name2":  "PHOENIX INTERNATIONAL COMPANY"
+    },
+    {
+        "code":  "AGE000030",
+        "name1":  "AHMAD SALEM NASER AL RASHEEDI",
+        "name2":  "AHMAD SALEM NASER AL RASHEEDI"
+    },
+    {
+        "code":  "AGE000031",
+        "name1":  "KUEHNE + NAGEL CO. W.L.L",
+        "name2":  "KUEHNE + NAGEL CO. W.L.L"
+    },
+    {
+        "code":  "AGE000032",
+        "name1":  "INTERNATIONAL SHIPPING AGENCY CO. LTD.",
+        "name2":  "INTERNATIONAL SHIPPING AGENCY CO. LTD."
+    },
+    {
+        "code":  "AGE000033",
+        "name1":  "SEGURO SHIPPING",
+        "name2":  "SEGURO SHIPPING"
+    },
+    {
+        "code":  "AGE000034",
+        "name1":  "SUPER MIDDLE EAST FREIGHT \u0026 LOGISTICS CO W.L.L",
+        "name2":  "SUPER MIDDLE EAST FREIGHT \u0026 LOGISTICS CO W.L.L"
+    },
+    {
+        "code":  "AGE000035",
+        "name1":  "GLOBELINK WEST STAR SHIPPING CO",
+        "name2":  "GLOBELINK WEST STAR SHIPPING CO"
+    },
+    {
+        "code":  "AGE000036",
+        "name1":  "SWC(FSL WORLEDWIDE CO LTD WLL )",
+        "name2":  "SWC(FSL WORLEDWIDE CO LTD WLL )"
+    },
+    {
+        "code":  "AGE000037",
+        "name1":  "SWS (DMC UNIVERSAL C/ O SERVIESES CO )",
+        "name2":  "SWS (DMC UNIVERSAL C/ O SERVIESES CO )"
+    },
+    {
+        "code":  "AGE000038",
+        "name1":  "FSL WORLDWIDE CO LTD W.L.L. C/O SERVICE WAREHOUSE COMPANY (SWC)",
+        "name2":  "FSL WORLDWIDE CO LTD W.L.L. C/O SERVICE WAREHOUSE COMPANY (SWC)"
+    },
+    {
+        "code":  "AGE000041",
+        "name1":  "DMC UNIVERSAL LOGISTICS CO WLL C/O SERVICE WAREHOUSE COMPANY",
+        "name2":  "DMC UNIVERSAL LOGISTICS CO WLL C/O SERVICE WAREHOUSE COMPANY"
+    },
+    {
+        "code":  "AGE000042",
+        "name1":  "PHOENIX INTERNATIONAL CO. C/O SERVICE WAREHOUSE COMPANY ( SWC )",
+        "name2":  "PHOENIX INTERNATIONAL CO. C/O SERVICE WAREHOUSE COMPANY ( SWC )"
+    },
+    {
+        "code":  "AGE000044",
+        "name1":  "Hellmann Worldwide Logistics Co",
+        "name2":  "Hellmann Worldwide Logistics Co"
+    },
+    {
+        "code":  "AGE000045",
+        "name1":  "DHL Global Forwarding",
+        "name2":  "DHL Global Forwarding"
+    },
+    {
+        "code":  "AGE000046",
+        "name1":  "KHALED IBRAHIM ABDULWAHAB ALFARE",
+        "name2":  "KHALED IBRAHIM ABDULWAHAB ALFARE"
+    },
+    {
+        "code":  "AGE000047",
+        "name1":  "GLOBAL FREIGHT SYSTEMS CO.",
+        "name2":  "GLOBAL FREIGHT SYSTEMS CO."
+    },
+    {
+        "code":  "AGE000048",
+        "name1":  "M A Anderson Logistics Group of Companies",
+        "name2":  "M A Anderson Logistics Group of Companies"
+    },
+    {
+        "code":  "AGE000051",
+        "name1":  "AL GHANIM SAHARA TRANES C/O SERVISES WAREHOUSE CO",
+        "name2":  "AL GHANIM SAHARA TRANES C/O SERVISES WAREHOUSE CO"
+    },
+    {
+        "code":  "AGE000052",
+        "name1":  "DMC UNIVERSAL LOGISTICS CO W L L",
+        "name2":  "DMC UNIVERSAL LOGISTICS CO W L L"
+    },
+    {
+        "code":  "AGE000055",
+        "name1":  "PHOENIX INTERNATIONAL CO.",
+        "name2":  "PHOENIX INTERNATIONAL CO."
+    },
+    {
+        "code":  "AGE000057",
+        "name1":  "SUPER MIDDLE EAST FREIGHT AND LOGISTICS CO.",
+        "name2":  "SUPER MIDDLE EAST FREIGHT AND LOGISTICS CO."
+    },
+    {
+        "code":  "AGE000059",
+        "name1":  "EXPEDITORS C/O CUSTOMS BONDED WAREHOUSE SERVICE WAREHOUSE",
+        "name2":  "EXPEDITORS C/O CUSTOMS BONDED WAREHOUSE SERVICE WAREHOUSE"
+    },
+    {
+        "code":  "AGE000061",
+        "name1":  "BADER SULTAN \u0026 BROS CO WLL",
+        "name2":  "BADER SULTAN \u0026 BROS CO WLL"
+    },
+    {
+        "code":  "AGE000070",
+        "name1":  "MFL GLOBAL SEA AND AIR FREIGHT",
+        "name2":  "MFL GLOBAL SEA AND AIR FREIGHT"
+    },
+    {
+        "code":  "AGE000071",
+        "name1":  "DOLPHIN SHIPPING AND LOGISTICS",
+        "name2":  "DOLPHIN SHIPPING AND LOGISTICS"
+    },
+    {
+        "code":  "AGE000072",
+        "name1":  "TRINITY INTERNATIONAL SHIPPING CO. W.L.L",
+        "name2":  "TRINITY INTERNATIONAL SHIPPING CO. W.L.L"
+    },
+    {
+        "code":  "AGE000073",
+        "name1":  "FUSION SHIPPING \u0026 LOGISTICS CO WLL",
+        "name2":  "FUSION SHIPPING \u0026 LOGISTICS CO WLL"
+    },
+    {
+        "code":  "AGE000074",
+        "name1":  "HOUSER CO GOOD TRANSPORT",
+        "name2":  "HOUSER CO GOOD TRANSPORT"
+    },
+    {
+        "code":  "AGE000075",
+        "name1":  "LTS INTERNATIONAL LOGISTICS SERVICES CO C/O SERVICE WAREHOUSE COMPANY (SWC)",
+        "name2":  "LTS INTERNATIONAL LOGISTICS SERVICES CO C/O SERVICE WAREHOUSE COMPANY (SWC)"
+    },
+    {
+        "code":  "AGE000077",
+        "name1":  "IMILE KUWAIT COMPANY FOR THE DELIVERY OF CONSUMER ORDERS",
+        "name2":  "IMILE KUWAIT COMPANY FOR THE DELIVERY OF CONSUMER ORDERS"
+    },
+    {
+        "code":  "AGE000078",
+        "name1":  "ENKAY EXPRESS CO.",
+        "name2":  "ENKAY EXPRESS CO."
+    },
+    {
+        "code":  "AGE000079",
+        "name1":  "CONSOLIDATED SHIPPING \u0026 TRANSPORT AGENCIES CO WLL",
+        "name2":  "CONSOLIDATED SHIPPING \u0026 TRANSPORT AGENCIES CO WLL"
+    },
+    {
+        "code":  "AGE000080",
+        "name1":  "Dolphin for Shipping Agencies Co",
+        "name2":  "Dolphin for Shipping Agencies Co"
+    },
+    {
+        "code":  "AGE000082",
+        "name1":  "Special Home Delivery Unlimited Turkey",
+        "name2":  "Special Home Delivery Unlimited Turkey"
+    },
+    {
+        "code":  "AGE000083",
+        "name1":  "Al Baraq Company",
+        "name2":  "Al Baraq Company"
+    },
+    {
+        "code":  "AGE000084",
+        "name1":  "AL TARHINI COMPANY",
+        "name2":  "AL TARHINI COMPANY"
+    },
+    {
+        "code":  "AGE000087",
+        "name1":  "AL QABANDI \u0026 PARTNERS CO W.L.L",
+        "name2":  "AL QABANDI \u0026 PARTNERS CO W.L.L"
+    },
+    {
+        "code":  "AGE000089",
+        "name1":  "MASEELAH TRADING COMPANY SPC",
+        "name2":  "MASEELAH TRADING COMPANY SPC"
+    },
+    {
+        "code":  "AGE000090",
+        "name1":  "SAHARA COMBINED GENERAL TRAD \u0026 CONT",
+        "name2":  "SAHARA COMBINED GENERAL TRAD \u0026 CONT"
+    },
+    {
+        "code":  "AGE000091",
+        "name1":  "Tahir Ali Abdullah Alamir",
+        "name2":  "Tahir Ali Abdullah Alamir"
+    },
+    {
+        "code":  "AGE000092",
+        "name1":  "TRIPLE CROWN INTERNATIONAL CO.,LTD",
+        "name2":  "TRIPLE CROWN INTERNATIONAL CO.,LTD"
+    },
+    {
+        "code":  "AGE000093",
+        "name1":  "American comfort for furniture \u0026 textile",
+        "name2":  "American comfort for furniture \u0026 textile"
+    },
+    {
+        "code":  "AGE000094",
+        "name1":  "Naser Hamed Alanezi",
+        "name2":  "Naser Hamed Alanezi"
+    },
+    {
+        "code":  "AGE000095",
+        "name1":  "MANAR ALRASHED",
+        "name2":  "MANAR ALRASHED"
+    },
+    {
+        "code":  "AGE000096",
+        "name1":  "E-FLY FOR RENT AND LEASE BICYCLES",
+        "name2":  "E-FLY FOR RENT AND LEASE BICYCLES"
+    },
+    {
+        "code":  "AGE000097",
+        "name1":  "INTERNATIONAL LOGISTICS SYSTEMS GENERAL TRADING COMPANY",
+        "name2":  "INTERNATIONAL LOGISTICS SYSTEMS GENERAL TRADING COMPANY"
+    },
+    {
+        "code":  "AGE000098",
+        "name1":  "ABDELSALAM ALTAQEY",
+        "name2":  "ABDELSALAM ALTAQEY"
+    },
+    {
+        "code":  "AGE000099",
+        "name1":  "CARGOPLUS MIDDLE EAST CO.W.L.L.",
+        "name2":  "CARGOPLUS MIDDLE EAST CO.W.L.L."
+    },
+    {
+        "code":  "AGE000101",
+        "name1":  "Al Kazemi Intl General Trading \u0026 Contracting Group Co. W.L.L",
+        "name2":  "Al Kazemi Intl General Trading \u0026 Contracting Group Co. W.L.L"
+    },
+    {
+        "code":  "AGE000102",
+        "name1":  "ALSAFAT AGRICULTURE CONTRACTOR COMPANY",
+        "name2":  "ALSAFAT AGRICULTURE CONTRACTOR COMPANY"
+    },
+    {
+        "code":  "AGE000103",
+        "name1":  "GLOBELINK WEST STAR SHIPPING CO (Don\u0027t Use )",
+        "name2":  "GLOBELINK WEST STAR SHIPPING CO"
+    },
+    {
+        "code":  "AGE000104",
+        "name1":  "DANA KUWAIT Shipping \u0026 Forwarding Co. W.L.L",
+        "name2":  "DANA KUWAIT Shipping \u0026 Forwarding Co. W.L.L"
+    },
+    {
+        "code":  "AGE000106",
+        "name1":  "Al-Hajri National Freight Transport Company",
+        "name2":  "Al-Hajri National Freight Transport Company"
+    },
+    {
+        "code":  "AGE000107",
+        "name1":  "SKYNET WORLDWIDE EXPRESS",
+        "name2":  "SKYNET WORLDWIDE EXPRESS"
+    },
+    {
+        "code":  "AGE000108",
+        "name1":  "TREND ARTIUM COMPANY",
+        "name2":  "TREND ARTIUM COMPANY"
+    }
+]
