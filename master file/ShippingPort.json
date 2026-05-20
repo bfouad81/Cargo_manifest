@@ -1,0 +1,6087 @@
+[
+    {
+        "code":  "000012",
+        "name1":  "HAMADA PORT",
+        "name2":  "HAMADA PORT"
+    },
+    {
+        "code":  "000035",
+        "name1":  "JOHN F. KENNEDY",
+        "name2":  "JOHN F. KENNEDY"
+    },
+    {
+        "code":  "000054",
+        "name1":  "ZARAGOZA",
+        "name2":  "ZARAGOZA"
+    },
+    {
+        "code":  "0001",
+        "name1":  "ميناء جبل علي",
+        "name2":  "Jebel Ali"
+    },
+    {
+        "code":  "0002",
+        "name1":  "ميناء الشويخ",
+        "name2":  "Shuwaikh Kuwait"
+    },
+    {
+        "code":  "00023",
+        "name1":  "INCHEON AIRPORT",
+        "name2":  "INCHEON AIRPORT"
+    },
+    {
+        "code":  "00025",
+        "name1":  "KUWAIT AIRPORT",
+        "name2":  "KUWAIT AIRPORT"
+    },
+    {
+        "code":  "00026",
+        "name1":  "INCHEON",
+        "name2":  "INCHEON"
+    },
+    {
+        "code":  "0003",
+        "name1":  "ميناء عنابة",
+        "name2":  "Annaba"
+    },
+    {
+        "code":  "000321",
+        "name1":  "MADRID",
+        "name2":  "MADRID"
+    },
+    {
+        "code":  "000330",
+        "name1":  "LINATE",
+        "name2":  "LINATE"
+    },
+    {
+        "code":  "0004",
+        "name1":  "ميناء بجاية",
+        "name2":  "Bejaia"
+    },
+    {
+        "code":  "00040",
+        "name1":  "INCHEON",
+        "name2":  "INCHEON"
+    },
+    {
+        "code":  "0005",
+        "name1":  "ميناء الغزوات الجزائرية",
+        "name2":  "Ghazaouet Algeria"
+    },
+    {
+        "code":  "0006",
+        "name1":  "ميناء مستغانم الجزائر",
+        "name2":  "Mostaganem Algeria"
+    },
+    {
+        "code":  "0007",
+        "name1":  "ميناء وهران الجزائر",
+        "name2":  "Oran Algeria"
+    },
+    {
+        "code":  "0008",
+        "name1":  "ميناء سكيكدة الجزائر",
+        "name2":  "Skikda Algeria"
+    },
+    {
+        "code":  "0009",
+        "name1":  "ميناء PagoPago الأمريكيةساموا",
+        "name2":  "PagoPago AmericanSamoa"
+    },
+    {
+        "code":  "00096",
+        "name1":  "JFK NEW YORK",
+        "name2":  "JFK NEW YORK"
+    },
+    {
+        "code":  "0010",
+        "name1":  "ميناء روشستر ، نيويورك",
+        "name2":  "ROCHESTER, NY"
+    },
+    {
+        "code":  "0011",
+        "name1":  "ميناء كابيندا أنغولا",
+        "name2":  "Cabinda Angola"
+    },
+    {
+        "code":  "0012",
+        "name1":  "ميناء لوبيتو أنجولا",
+        "name2":  "Lobito Angola"
+    },
+    {
+        "code":  "0013",
+        "name1":  "ميناء لواندا أنغولا",
+        "name2":  "Luanda Angola"
+    },
+    {
+        "code":  "0014",
+        "name1":  "ميناء ناميبي أنغولا",
+        "name2":  "Namibe Angola"
+    },
+    {
+        "code":  "0015",
+        "name1":  "ميناء سويو أنجولا",
+        "name2":  "Soyo Angola"
+    },
+    {
+        "code":  "0016",
+        "name1":  "BlowingPoint Anguilla (AIBLP)",
+        "name2":  "BlowingPoint Anguilla (AIBLP)"
+    },
+    {
+        "code":  "0017",
+        "name1":  "ميناء رودباي أنغيلا",
+        "name2":  "RoadBay Anguilla"
+    },
+    {
+        "code":  "0018",
+        "name1":  "ميناء أنتيغوا أنتيغوا وباربودا",
+        "name2":  "Antigua AntiguaAndBarbuda"
+    },
+    {
+        "code":  "0019",
+        "name1":  "ميناء سانت جونز أنتيغوا وباربودا",
+        "name2":  "StJohnS AntiguaAndBarbuda"
+    },
+    {
+        "code":  "0020",
+        "name1":  "ميناء باهيابلانكا الأرجنتين",
+        "name2":  "BahiaBlanca Argentina"
+    },
+    {
+        "code":  "0021",
+        "name1":  "ميناء بوينس ايرس بوينس ايرس الأرجنتين",
+        "name2":  "BuenosAires BuenosAires Argentina"
+    },
+    {
+        "code":  "0022",
+        "name1":  "ميناء كاليتا أوليفا الأرجنتين",
+        "name2":  "CaletaOliva Argentina"
+    },
+    {
+        "code":  "0023",
+        "name1":  "ميناء كامبانا",
+        "name2":  "Campana"
+    },
+    {
+        "code":  "0024",
+        "name1":  "ComodoroRivadavia Argentina (ARCRD)",
+        "name2":  "ComodoroRivadavia Argentina (ARCRD)"
+    },
+    {
+        "code":  "0025",
+        "name1":  "ميناء كورينتس الأرجنتين",
+        "name2":  "Corrientes Argentina"
+    },
+    {
+        "code":  "0026",
+        "name1":  "ميناء كورينتس كورينتس الأرجنتين",
+        "name2":  "Corrientes Corrientes Argentina"
+    },
+    {
+        "code":  "0027",
+        "name1":  "ميناء DeltaDock RioParana الأرجنتين",
+        "name2":  "DeltaDock RioParana Argentina"
+    },
+    {
+        "code":  "0028",
+        "name1":  "ميناء غويا الأرجنتين",
+        "name2":  "Goya Argentina"
+    },
+    {
+        "code":  "0029",
+        "name1":  "ميناء LaPlata الأرجنتين",
+        "name2":  "LaPlata Argentina"
+    },
+    {
+        "code":  "003",
+        "name1":  "003",
+        "name2":  "003"
+    },
+    {
+        "code":  "0030",
+        "name1":  "MarDelPlata BuenosAires Argentina (ARMDQ)",
+        "name2":  "MarDelPlata BuenosAires Argentina (ARMDQ)"
+    },
+    {
+        "code":  "0031",
+        "name1":  "ميناء نيكوتشيا الأرجنتين",
+        "name2":  "Necochea Argentina"
+    },
+    {
+        "code":  "0032",
+        "name1":  "PuertoDeseado SantaCruz Argentina (ARPUD)",
+        "name2":  "PuertoDeseado SantaCruz Argentina (ARPUD)"
+    },
+    {
+        "code":  "0033",
+        "name1":  "PuertoMadryn Chubut Argentina (ARPMY)",
+        "name2":  "PuertoMadryn Chubut Argentina (ARPMY)"
+    },
+    {
+        "code":  "0034",
+        "name1":  "RioGallegos Argentina (ARRGL)",
+        "name2":  "RioGallegos Argentina (ARRGL)"
+    },
+    {
+        "code":  "0035",
+        "name1":  "RioGrande TierraDelFuego Argentina (ARRGA)",
+        "name2":  "RioGrande TierraDelFuego Argentina (ARRGA)"
+    },
+    {
+        "code":  "0036",
+        "name1":  "ميناء روزاريو سانتا في الأرجنتين",
+        "name2":  "Rosario SantaFe Argentina"
+    },
+    {
+        "code":  "0037",
+        "name1":  "ميناء سان أنطونيو إستي ريو نيجرو الأرجنتين",
+        "name2":  "SanAntonioEste RioNegro Argentina"
+    },
+    {
+        "code":  "0038",
+        "name1":  "ميناء سان لورينزو",
+        "name2":  "SanLorenzo"
+    },
+    {
+        "code":  "0039",
+        "name1":  "SanNicolas Argentina (ARSNS)",
+        "name2":  "SanNicolas Argentina (ARSNS)"
+    },
+    {
+        "code":  "0040",
+        "name1":  "SanPedro Argentina (ARSPD)",
+        "name2":  "SanPedro Argentina (ARSPD)"
+    },
+    {
+        "code":  "0041",
+        "name1":  "ميناء سانتا في",
+        "name2":  "SantaFe"
+    },
+    {
+        "code":  "0042",
+        "name1":  "ميناء أوشوايا تييراديلويغو الأرجنتين",
+        "name2":  "Ushuaia TierraDelFuego Argentina"
+    },
+    {
+        "code":  "0043",
+        "name1":  "ميناء زاراتي بوينس ايرس الأرجنتين",
+        "name2":  "Zarate BuenosAires Argentina"
+    },
+    {
+        "code":  "0044",
+        "name1":  "ميناء أورانجيستاد أروبا",
+        "name2":  "Oranjestad Aruba"
+    },
+    {
+        "code":  "0045",
+        "name1":  "ميناء أبوتبوينت كوينزلاند أستراليا",
+        "name2":  "AbbotPoint Queensland Australia"
+    },
+    {
+        "code":  "0046",
+        "name1":  "Adelaide SouthAustralia Australia (AUADL)",
+        "name2":  "Adelaide SouthAustralia Australia (AUADL)"
+    },
+    {
+        "code":  "0047",
+        "name1":  "ميناء أردروسان أستراليا",
+        "name2":  "Ardrossan Australia"
+    },
+    {
+        "code":  "0048",
+        "name1":  "ميناء بيلباي تسمانيا أستراليا",
+        "name2":  "BellBay Tasmania Australia"
+    },
+    {
+        "code":  "0049",
+        "name1":  "ميناء بريسبان، كوينزلاند، أستراليا",
+        "name2":  "Brisbane Queensland Australia"
+    },
+    {
+        "code":  "0050",
+        "name1":  "ميناء بورني تسمانيا أستراليا",
+        "name2":  "Burnie Tasmania Australia"
+    },
+    {
+        "code":  "0051",
+        "name1":  "ميناء كيرنز أستراليا",
+        "name2":  "Cairns Australia"
+    },
+    {
+        "code":  "0052",
+        "name1":  "ميناء داروين الشمالية إقليم أستراليا",
+        "name2":  "Darwin NorthernTerritory Australia"
+    },
+    {
+        "code":  "0053",
+        "name1":  "ميناء ديفونبورت تسمانيا أستراليا",
+        "name2":  "Devonport Tasmania Australia"
+    },
+    {
+        "code":  "0054",
+        "name1":  "ميناء فريمانتل ويسترن أستراليا أستراليا",
+        "name2":  "Fremantle WesternAustralia Australia"
+    },
+    {
+        "code":  "0055",
+        "name1":  "ميناء جلادستون كوينزلاند أستراليا",
+        "name2":  "Gladstone Queensland Australia"
+    },
+    {
+        "code":  "0056",
+        "name1":  "ميناء جوف",
+        "name2":  "Gove"
+    },
+    {
+        "code":  "0057",
+        "name1":  "ميناء هاي بوينت أستراليا",
+        "name2":  "HayPoint Australia"
+    },
+    {
+        "code":  "0058",
+        "name1":  "ميناء هوبارت تسمانيا أستراليا",
+        "name2":  "Hobart Tasmania Australia"
+    },
+    {
+        "code":  "0059",
+        "name1":  "ميناء لونسيستون",
+        "name2":  "Launceston"
+    },
+    {
+        "code":  "0060",
+        "name1":  "ميناء ملبورن، فيكتوريا، أستراليا",
+        "name2":  "Melbourne Victoria Australia"
+    },
+    {
+        "code":  "0061",
+        "name1":  "ميناء نيوكاسل نيو ساوث ويلز أستراليا",
+        "name2":  "Newcastle NewSouthWales Australia"
+    },
+    {
+        "code":  "0062",
+        "name1":  "PortAdelaide Australia (AUPAE)",
+        "name2":  "PortAdelaide Australia (AUPAE)"
+    },
+    {
+        "code":  "0063",
+        "name1":  "ميناء بورت هيدلاند أستراليا",
+        "name2":  "PortHedland Australia"
+    },
+    {
+        "code":  "0064",
+        "name1":  "PortKembla NewSouthWales Australia (AUPKL)",
+        "name2":  "PortKembla NewSouthWales Australia (AUPKL)"
+    },
+    {
+        "code":  "0065",
+        "name1":  "ميناء سيدني نيو ساوث ويلز أستراليا",
+        "name2":  "Sydney NewSouthWales Australia"
+    },
+    {
+        "code":  "0066",
+        "name1":  "ميناء تاونسفيل كوينزلاند أستراليا",
+        "name2":  "Townsville Queensland Australia"
+    },
+    {
+        "code":  "0067",
+        "name1":  "ميناء ويبا أستراليا",
+        "name2":  "Weipa Australia"
+    },
+    {
+        "code":  "0068",
+        "name1":  "ميناء باكو",
+        "name2":  "Baku"
+    },
+    {
+        "code":  "0069",
+        "name1":  "ميناء فريبورت جراند باهاما الباهاما",
+        "name2":  "Freeport GrandBahama Bahamas"
+    },
+    {
+        "code":  "0070",
+        "name1":  "ميناء ناسو جزر البهاما",
+        "name2":  "Nassau Bahamas"
+    },
+    {
+        "code":  "0071",
+        "name1":  "ميناء البحرين البحرين",
+        "name2":  "Bahrain Bahrain"
+    },
+    {
+        "code":  "0072",
+        "name1":  "ميناء منامة. البحرين",
+        "name2":  "Manama Bahrain"
+    },
+    {
+        "code":  "0073",
+        "name1":  "ميناء سترة البحرين",
+        "name2":  "Sitra Bahrain"
+    },
+    {
+        "code":  "0074",
+        "name1":  "ميناء شالنا بنغلاديش",
+        "name2":  "Chalna Bangladesh"
+    },
+    {
+        "code":  "0075",
+        "name1":  "ميناء شيتاغونغ بنجلاديش",
+        "name2":  "Chittagong Bangladesh"
+    },
+    {
+        "code":  "0076",
+        "name1":  "ميناء دكا بنجلاديش",
+        "name2":  "Dhaka Bangladesh"
+    },
+    {
+        "code":  "0077",
+        "name1":  "ميناء مونجلا بنجلاديش",
+        "name2":  "Mongla Bangladesh"
+    },
+    {
+        "code":  "0078",
+        "name1":  "ميناء بريدجتاون بربادوس",
+        "name2":  "Bridgetown Barbados"
+    },
+    {
+        "code":  "0079",
+        "name1":  "ميناء مينسك بيلاروسيا",
+        "name2":  "Minsk Belarus"
+    },
+    {
+        "code":  "0080",
+        "name1":  "ميناء أنتويرب، بلجيكا",
+        "name2":  "Antwerp Belgium"
+    },
+    {
+        "code":  "0081",
+        "name1":  "Ghent Belgium (BEGNE)",
+        "name2":  "Ghent Belgium (BEGNE)"
+    },
+    {
+        "code":  "0082",
+        "name1":  "Oostende Belgium (BEOST)",
+        "name2":  "Oostende Belgium (BEOST)"
+    },
+    {
+        "code":  "0083",
+        "name1":  "Zeebrugge Belgium (BEZEE)",
+        "name2":  "Zeebrugge Belgium (BEZEE)"
+    },
+    {
+        "code":  "0084",
+        "name1":  "ميناء بليزسيتي بليز",
+        "name2":  "BelizeCity Belize"
+    },
+    {
+        "code":  "0085",
+        "name1":  "ميناء كوتونو بنين",
+        "name2":  "Cotonou Benin"
+    },
+    {
+        "code":  "0086",
+        "name1":  "ميناء هاميلتون برمودا",
+        "name2":  "Hamilton Bermuda"
+    },
+    {
+        "code":  "0087",
+        "name1":  "ميناء سانتا كروز بوليفيا",
+        "name2":  "SantaCruz Bolivia"
+    },
+    {
+        "code":  "0088",
+        "name1":  "Aratu Brazil (BRARB)",
+        "name2":  "Aratu Brazil (BRARB)"
+    },
+    {
+        "code":  "0089",
+        "name1":  "ميناء أريا برانكا",
+        "name2":  "AreiaBranca"
+    },
+    {
+        "code":  "0090",
+        "name1":  "ArraialDoCabo (PortoDoForno)Brazil (BRFNO)",
+        "name2":  "ArraialDoCabo (PortoDoForno)Brazil (BRFNO)"
+    },
+    {
+        "code":  "0091",
+        "name1":  "ميناء بيليم بارا البرازيل",
+        "name2":  "Belem Para Brazil"
+    },
+    {
+        "code":  "0092",
+        "name1":  "Cabedelo Brazil (BRCDO)",
+        "name2":  "Cabedelo Brazil (BRCDO)"
+    },
+    {
+        "code":  "0093",
+        "name1":  "ميناء فورتاليزا سيارا البرازيل",
+        "name2":  "Fortaleza Ceara Brazil"
+    },
+    {
+        "code":  "0094",
+        "name1":  "Ilheus Brazil (BRIOS)",
+        "name2":  "Ilheus Brazil (BRIOS)"
+    },
+    {
+        "code":  "0095",
+        "name1":  "ميناء إمبيتوبا سانتا كاتارينا البرازيل",
+        "name2":  "Imbituba SantaCatarina Brazil"
+    },
+    {
+        "code":  "0096",
+        "name1":  "ميناء إتاجواي ريو دي جانيرو البرازيل",
+        "name2":  "Itaguai RioDeJaneiro Brazil"
+    },
+    {
+        "code":  "0097",
+        "name1":  "ميناء إيتاجاي سانتا كاتارينا البرازيل",
+        "name2":  "Itajai SantaCatarina Brazil"
+    },
+    {
+        "code":  "0098",
+        "name1":  "ميناء إتاكوي البرازيل",
+        "name2":  "Itaqui Brazil"
+    },
+    {
+        "code":  "0099",
+        "name1":  "ميناء ماسيو البرازيل",
+        "name2":  "Maceio Brazil"
+    },
+    {
+        "code":  "0100",
+        "name1":  "ميناء ماناوس أمازوناس البرازيل",
+        "name2":  "Manaus Amazonas Brazil"
+    },
+    {
+        "code":  "01001",
+        "name1":  "Khalifa Seaport",
+        "name2":  "Khalifa Seaport"
+    },
+    {
+        "code":  "01002",
+        "name1":  "Manchester",
+        "name2":  "Manchester"
+    },
+    {
+        "code":  "0101",
+        "name1":  "Natal RioGrandeDoNorte Brazil (BRNAT)",
+        "name2":  "Natal RioGrandeDoNorte Brazil (BRNAT)"
+    },
+    {
+        "code":  "0102",
+        "name1":  "ميناء نافيجانتس سانتا كاتارينا البرازيل",
+        "name2":  "Navegantes SantaCatarina Brazil"
+    },
+    {
+        "code":  "0103",
+        "name1":  "ميناء باراناغوا بارانا البرازيل",
+        "name2":  "Paranagua Parana Brazil"
+    },
+    {
+        "code":  "0104",
+        "name1":  "Pecem Brazil (BRPEC)",
+        "name2":  "Pecem Brazil (BRPEC)"
+    },
+    {
+        "code":  "0105",
+        "name1":  "PortoAlegre Brazil (BRPOA)",
+        "name2":  "PortoAlegre Brazil (BRPOA)"
+    },
+    {
+        "code":  "0106",
+        "name1":  "ميناء بورتوسيل البرازيل",
+        "name2":  "Portocel Brazil"
+    },
+    {
+        "code":  "0107",
+        "name1":  "ميناء برايا مول",
+        "name2":  "PraiaMole"
+    },
+    {
+        "code":  "0108",
+        "name1":  "ميناء ريسيفي البرازيل",
+        "name2":  "Recife Brazil"
+    },
+    {
+        "code":  "0109",
+        "name1":  "RioDeJaneiro RioDeJaneiro Brazil (BRRIO)",
+        "name2":  "RioDeJaneiro RioDeJaneiro Brazil (BRRIO)"
+    },
+    {
+        "code":  "0110",
+        "name1":  "RioGrande RioGrandeDoSul Brazil (BRRIG)",
+        "name2":  "RioGrande RioGrandeDoSul Brazil (BRRIG)"
+    },
+    {
+        "code":  "0111",
+        "name1":  "ميناء سلفادور باهيا البرازيل",
+        "name2":  "Salvador Bahia Brazil"
+    },
+    {
+        "code":  "0112",
+        "name1":  "ميناء سانتاريم",
+        "name2":  "Santarem"
+    },
+    {
+        "code":  "0113",
+        "name1":  "ميناء سانتوس ساو باولو البرازيل",
+        "name2":  "Santos SaoPaulo Brazil"
+    },
+    {
+        "code":  "0114",
+        "name1":  "ميناء ساو فرانسيسكو دوسول سانتا كاتارينا البرازيل",
+        "name2":  "SaoFranciscoDoSul SantaCatarina Brazil"
+    },
+    {
+        "code":  "0115",
+        "name1":  "ميناء ساوساباستياو البرازيل",
+        "name2":  "SaoSabastiao Brazil"
+    },
+    {
+        "code":  "0116",
+        "name1":  "ميناء سيبيتيبا ريو دي جانيرو البرازيل",
+        "name2":  "Sepetiba RioDeJaneiro Brazil"
+    },
+    {
+        "code":  "0117",
+        "name1":  "ميناء سواب بيرنامبوكو البرازيل",
+        "name2":  "Suape Pernambuco Brazil"
+    },
+    {
+        "code":  "0118",
+        "name1":  "VilaDoConde PARA Brazil (BRVLC)",
+        "name2":  "VilaDoConde PARA Brazil (BRVLC)"
+    },
+    {
+        "code":  "0119",
+        "name1":  "VilaDoConde PARAIBA Brazil (BRVIC)",
+        "name2":  "VilaDoConde PARAIBA Brazil (BRVIC)"
+    },
+    {
+        "code":  "0120",
+        "name1":  "ميناء فيتوريا اسبيريتوسانتو البرازيل",
+        "name2":  "Vitoria EspiritoSanto Brazil"
+    },
+    {
+        "code":  "0121",
+        "name1":  "ميناء فيتورياداكونكويستا باهيا البرازيل",
+        "name2":  "VitoriaDaConquista Bahia Brazil"
+    },
+    {
+        "code":  "0122",
+        "name1":  "ميناء بورت بورسيل تورتولا بريتش فيرجينجزيلاند",
+        "name2":  "PortPurcell  Tortola BritishVirginIslands"
+    },
+    {
+        "code":  "0123",
+        "name1":  "ميناء رودتاون تورتولا البريطانية فيرجينجزيلاند",
+        "name2":  "RoadTown Tortola BritishVirginIslands"
+    },
+    {
+        "code":  "0124",
+        "name1":  "ميناء بندر سيري بيغاوان",
+        "name2":  "BandarSeriBegawan"
+    },
+    {
+        "code":  "0125",
+        "name1":  "ميناء كوالابلات بروناي دار السلام",
+        "name2":  "KualaBelait BruneiDarussalam"
+    },
+    {
+        "code":  "0126",
+        "name1":  "ميناء موارا بروناي دار السلام",
+        "name2":  "Muara BruneiDarussalam"
+    },
+    {
+        "code":  "0127",
+        "name1":  "ميناء بورغاس بلغاريا",
+        "name2":  "Burgas Bulgaria"
+    },
+    {
+        "code":  "0128",
+        "name1":  "ميناء فارنا بلغاريا",
+        "name2":  "Varna Bulgaria"
+    },
+    {
+        "code":  "0129",
+        "name1":  "ميناء واغادوغو بوركينا فاسو",
+        "name2":  "Ouagadougou BurkinaFaso"
+    },
+    {
+        "code":  "0130",
+        "name1":  "KampongSaom Cambodia (KHKOS)",
+        "name2":  "KampongSaom Cambodia (KHKOS)"
+    },
+    {
+        "code":  "0131",
+        "name1":  "ميناء بنوم بنه كمبوديا",
+        "name2":  "PhnomPenh Cambodia"
+    },
+    {
+        "code":  "0132",
+        "name1":  "ميناء سيهانوكفيل ، كمبوديا",
+        "name2":  "Sihanoukville,Cambodia"
+    },
+    {
+        "code":  "0133",
+        "name1":  "ميناء دوالا الكاميرون",
+        "name2":  "Douala Cameroon"
+    },
+    {
+        "code":  "0134",
+        "name1":  "ميناء باي دورف",
+        "name2":  "BaieDurf"
+    },
+    {
+        "code":  "0135",
+        "name1":  "BaieJohanBeetz (Quebec)Canada (CABJO)",
+        "name2":  "BaieJohanBeetz (Quebec)Canada (CABJO)"
+    },
+    {
+        "code":  "0136",
+        "name1":  "ميناء باثورست",
+        "name2":  "Bathurst"
+    },
+    {
+        "code":  "0137",
+        "name1":  "ميناء بيكانكور",
+        "name2":  "Becancour"
+    },
+    {
+        "code":  "0138",
+        "name1":  "ميناء بروكفيل",
+        "name2":  "Brockville"
+    },
+    {
+        "code":  "0139",
+        "name1":  "ميناء برلنغتون",
+        "name2":  "Burlington"
+    },
+    {
+        "code":  "0140",
+        "name1":  "ميناء كالجاري ألبرتا كندا",
+        "name2":  "Calgary Alberta Canada"
+    },
+    {
+        "code":  "0141",
+        "name1":  "ميناء كولينجوود",
+        "name2":  "Collingwood"
+    },
+    {
+        "code":  "0142",
+        "name1":  "CornerBrook Newfoundland Canada (CACBK)",
+        "name2":  "CornerBrook Newfoundland Canada (CACBK)"
+    },
+    {
+        "code":  "0143",
+        "name1":  "ميناء كورنوال",
+        "name2":  "Cornwall"
+    },
+    {
+        "code":  "0144",
+        "name1":  "ميناء CowichanBay كندا",
+        "name2":  "CowichanBay Canada"
+    },
+    {
+        "code":  "0145",
+        "name1":  "ميناء كروفتون",
+        "name2":  "Crofton"
+    },
+    {
+        "code":  "0146",
+        "name1":  "ميناء دورفال",
+        "name2":  "Dorval"
+    },
+    {
+        "code":  "0147",
+        "name1":  "ميناء دروموندفيل",
+        "name2":  "Drummondville"
+    },
+    {
+        "code":  "0148",
+        "name1":  "ميناء ادمونتون ألبرتا كندا",
+        "name2":  "Edmonton Alberta Canada"
+    },
+    {
+        "code":  "0149",
+        "name1":  "ميناء هاليفاكس نوفاسكوتيا كندا",
+        "name2":  "Halifax NovaScotia Canada"
+    },
+    {
+        "code":  "0150",
+        "name1":  "ميناء هاملتون",
+        "name2":  "Hamilton"
+    },
+    {
+        "code":  "0151",
+        "name1":  "ميناء هارماك",
+        "name2":  "Harmac"
+    },
+    {
+        "code":  "0152",
+        "name1":  "ميناء كينجسفيل",
+        "name2":  "Kingsville"
+    },
+    {
+        "code":  "0153",
+        "name1":  "ميناء ماجوج",
+        "name2":  "Magog"
+    },
+    {
+        "code":  "0154",
+        "name1":  "ميناء مونكتون",
+        "name2":  "Moncton"
+    },
+    {
+        "code":  "0155",
+        "name1":  "ميناء مونتريال كيبيك كندا",
+        "name2":  "Montreal Quebec Canada"
+    },
+    {
+        "code":  "0156",
+        "name1":  "ميناء نانايمو",
+        "name2":  "Nanaimo"
+    },
+    {
+        "code":  "0157",
+        "name1":  "NewWestminster BritishColumbia Canada (CANWE)",
+        "name2":  "NewWestminster BritishColumbia Canada (CANWE)"
+    },
+    {
+        "code":  "0158",
+        "name1":  "ميناء شلالات نياجرا",
+        "name2":  "NiagaraFalls"
+    },
+    {
+        "code":  "0159",
+        "name1":  "ميناء نورث باي",
+        "name2":  "NorthBay"
+    },
+    {
+        "code":  "0160",
+        "name1":  "ميناء أوكفيل",
+        "name2":  "Oakville"
+    },
+    {
+        "code":  "0161",
+        "name1":  "ميناء أوشاوا",
+        "name2":  "Oshawa"
+    },
+    {
+        "code":  "0162",
+        "name1":  "ميناء بوانت كلير",
+        "name2":  "Pointe-Claire"
+    },
+    {
+        "code":  "0163",
+        "name1":  "ميناء بورتكريديت",
+        "name2":  "PortCredit"
+    },
+    {
+        "code":  "0164",
+        "name1":  "ميناء بورت دوفر",
+        "name2":  "PortDover"
+    },
+    {
+        "code":  "0165",
+        "name1":  "PortMellon (BritishColumbia)Canada (CAPML)",
+        "name2":  "PortMellon (BritishColumbia)Canada (CAPML)"
+    },
+    {
+        "code":  "0166",
+        "name1":  "ميناء برنس روبرت",
+        "name2":  "PrinceRupert"
+    },
+    {
+        "code":  "0167",
+        "name1":  "ميناء كيبيك",
+        "name2":  "Quebec"
+    },
+    {
+        "code":  "0168",
+        "name1":  "ميناء سانت كاثرينز",
+        "name2":  "SaintCatharines"
+    },
+    {
+        "code":  "0169",
+        "name1":  "ميناء القديس يوحنا",
+        "name2":  "SaintJohn"
+    },
+    {
+        "code":  "0170",
+        "name1":  "ميناء سارنيا",
+        "name2":  "Sarnia"
+    },
+    {
+        "code":  "0171",
+        "name1":  "ميناء ساسكاتون ساسكاتشوان كندا",
+        "name2":  "Saskatoon Saskatchewan Canada"
+    },
+    {
+        "code":  "0172",
+        "name1":  "ميناء سولت ماري",
+        "name2":  "SaultSteMarie"
+    },
+    {
+        "code":  "0173",
+        "name1":  "ميناء سوريل",
+        "name2":  "Sorel"
+    },
+    {
+        "code":  "0174",
+        "name1":  "ميناء سانت جونز نيوفاوندلاند كندا",
+        "name2":  "StJohnS Newfoundland Canada"
+    },
+    {
+        "code":  "0175",
+        "name1":  "ميناء ستوني كريك",
+        "name2":  "StoneyCreeck"
+    },
+    {
+        "code":  "0176",
+        "name1":  "ميناء سامرسايد كندا",
+        "name2":  "Summerside Canada"
+    },
+    {
+        "code":  "0177",
+        "name1":  "ميناء تكسادا جزيرة كندا",
+        "name2":  "TexadaIsland Canada"
+    },
+    {
+        "code":  "0178",
+        "name1":  "ThunderBay Canada (CATHU)",
+        "name2":  "ThunderBay Canada (CATHU)"
+    },
+    {
+        "code":  "0179",
+        "name1":  "ميناء تورونتوأنتاريو كندا",
+        "name2":  "TorontoOntario Canada"
+    },
+    {
+        "code":  "0180",
+        "name1":  "ميناء ترينتون",
+        "name2":  "Trenton"
+    },
+    {
+        "code":  "0181",
+        "name1":  "ميناء تروا ريفير",
+        "name2":  "TroisRivieres"
+    },
+    {
+        "code":  "0182",
+        "name1":  "ميناء فاليفيلد",
+        "name2":  "Valleyfield"
+    },
+    {
+        "code":  "0183",
+        "name1":  "ميناء فانكوفر البريطانية كولومبيا كندا",
+        "name2":  "Vancouver BritishColumbia Canada"
+    },
+    {
+        "code":  "0184",
+        "name1":  "ميناء وينيبيج مانيتوبا كندا",
+        "name2":  "Winnipeg Manitoba Canada"
+    },
+    {
+        "code":  "0185",
+        "name1":  "ميناء وينونا",
+        "name2":  "Winona"
+    },
+    {
+        "code":  "0186",
+        "name1":  "ميناء مينديلو كيب فيردي",
+        "name2":  "Mindelo CapeVerde"
+    },
+    {
+        "code":  "0187",
+        "name1":  "ميناء بالميرا كيب فيردي",
+        "name2":  "Palmeira CapeVerde"
+    },
+    {
+        "code":  "0188",
+        "name1":  "ميناء برايا كيبفيردي",
+        "name2":  "Praia CapeVerde"
+    },
+    {
+        "code":  "0189",
+        "name1":  "ميناء جورج تاون جراند كايمان جزر كايمان",
+        "name2":  "Georgetown GrandCayman CaymanIslands"
+    },
+    {
+        "code":  "0190",
+        "name1":  "ميناء جراند كايمان جزر كايمان",
+        "name2":  "GrandCayman CaymanIslands"
+    },
+    {
+        "code":  "0191",
+        "name1":  "ميناء أنكود",
+        "name2":  "Ancud"
+    },
+    {
+        "code":  "0192",
+        "name1":  "ميناء أنتوفاجاستا تشيلي",
+        "name2":  "Antofagasta Chile"
+    },
+    {
+        "code":  "0193",
+        "name1":  "ميناء أريكا تشيلي",
+        "name2":  "Arica Chile"
+    },
+    {
+        "code":  "0194",
+        "name1":  "ميناء باركيتو تشيلي",
+        "name2":  "Barquito Chile"
+    },
+    {
+        "code":  "0195",
+        "name1":  "CaboNegro Chile (CLCNX)",
+        "name2":  "CaboNegro Chile (CLCNX)"
+    },
+    {
+        "code":  "0196",
+        "name1":  "ميناء كالبوكو تشيلي",
+        "name2":  "Calbuco Chile"
+    },
+    {
+        "code":  "0197",
+        "name1":  "ميناء كالديرا تشيلي",
+        "name2":  "Caldera Chile"
+    },
+    {
+        "code":  "0198",
+        "name1":  "ميناء كاليتا كولوسو تشيلي",
+        "name2":  "CaletaColoso Chile"
+    },
+    {
+        "code":  "0199",
+        "name1":  "CaletaPatillos Chile (CLPTI)",
+        "name2":  "CaletaPatillos Chile (CLPTI)"
+    },
+    {
+        "code":  "0200",
+        "name1":  "ميناء كاسترو",
+        "name2":  "Castro"
+    },
+    {
+        "code":  "0201",
+        "name1":  "ميناء تشاكابوكو تشيلي",
+        "name2":  "Chacabuco Chile"
+    },
+    {
+        "code":  "0202",
+        "name1":  "ميناء تشايتن تشيلي",
+        "name2":  "Chaiten Chile"
+    },
+    {
+        "code":  "0203",
+        "name1":  "Chanaral Chile (CLCNR)",
+        "name2":  "Chanaral Chile (CLCNR)"
+    },
+    {
+        "code":  "0204",
+        "name1":  "ميناء كوكيمبو شيلي",
+        "name2":  "Coquimbo Chile"
+    },
+    {
+        "code":  "0205",
+        "name1":  "ميناء كورونيل تشيلي",
+        "name2":  "Coronel Chile"
+    },
+    {
+        "code":  "0206",
+        "name1":  "ميناء كورال تشيلي",
+        "name2":  "Corral Chile"
+    },
+    {
+        "code":  "0207",
+        "name1":  "ميناء دالكاهو",
+        "name2":  "Dalcahue"
+    },
+    {
+        "code":  "0208",
+        "name1":  "ميناء جريجوريو تشيلي",
+        "name2":  "Gregorio Chile"
+    },
+    {
+        "code":  "0209",
+        "name1":  "Guayacan Chile (CLGYC)",
+        "name2":  "Guayacan Chile (CLGYC)"
+    },
+    {
+        "code":  "0210",
+        "name1":  "ميناء هواسكو تشيلي",
+        "name2":  "Huasco Chile"
+    },
+    {
+        "code":  "0211",
+        "name1":  "ميناء ايكيكي تشيلي",
+        "name2":  "Iquique Chile"
+    },
+    {
+        "code":  "0212",
+        "name1":  "ميناء جزيرة IslaDePascua",
+        "name2":  "IslaDePascua"
+    },
+    {
+        "code":  "0213",
+        "name1":  "ميناء جوريليس كورونيل باي تشيلي",
+        "name2":  "Jureles CoronelBay Chile"
+    },
+    {
+        "code":  "0214",
+        "name1":  "ميناء ليركوين تشيلي",
+        "name2":  "Lirquen Chile"
+    },
+    {
+        "code":  "0215",
+        "name1":  "ميناء لوسفيلوس تشيلي",
+        "name2":  "LosVilos Chile"
+    },
+    {
+        "code":  "0216",
+        "name1":  "Mejillones Chile (CLMJS)",
+        "name2":  "Mejillones Chile (CLMJS)"
+    },
+    {
+        "code":  "0217",
+        "name1":  "ميناء ميشيلا تشيلي",
+        "name2":  "Michilla Chile"
+    },
+    {
+        "code":  "0218",
+        "name1":  "ميناء بينكو تشيلي",
+        "name2":  "Penco Chile"
+    },
+    {
+        "code":  "0219",
+        "name1":  "PuertoAysen  Chile (CLWPA)",
+        "name2":  "PuertoAysen  Chile (CLWPA)"
+    },
+    {
+        "code":  "0220",
+        "name1":  "PuertoChacabuco Chile (CLPCH)",
+        "name2":  "PuertoChacabuco Chile (CLPCH)"
+    },
+    {
+        "code":  "0221",
+        "name1":  "PuertoMontt Chile (CLPMC)",
+        "name2":  "PuertoMontt Chile (CLPMC)"
+    },
+    {
+        "code":  "0222",
+        "name1":  "PuertoNatales Chile (CLPNT)",
+        "name2":  "PuertoNatales Chile (CLPNT)"
+    },
+    {
+        "code":  "0223",
+        "name1":  "PuertoVentanas Chile (CLLVS)",
+        "name2":  "PuertoVentanas Chile (CLLVS)"
+    },
+    {
+        "code":  "0224",
+        "name1":  "PuertoWilliams Chile (CLWPU)",
+        "name2":  "PuertoWilliams Chile (CLWPU)"
+    },
+    {
+        "code":  "0225",
+        "name1":  "ميناء بونتا اريناس تشيلي",
+        "name2":  "PuntaArenas Chile"
+    },
+    {
+        "code":  "0226",
+        "name1":  "ميناء بونتا تشونغو تشيلي",
+        "name2":  "PuntaChungo Chile"
+    },
+    {
+        "code":  "0227",
+        "name1":  "ميناء بونتا بادرونيس تشيلي",
+        "name2":  "PuntaPadrones Chile"
+    },
+    {
+        "code":  "0228",
+        "name1":  "ميناء بونتا باتاش تشيلي",
+        "name2":  "PuntaPatache Chile"
+    },
+    {
+        "code":  "0229",
+        "name1":  "ميناء كويلون",
+        "name2":  "Quellon"
+    },
+    {
+        "code":  "0230",
+        "name1":  "Quemchi Chile (CLQMC)",
+        "name2":  "Quemchi Chile (CLQMC)"
+    },
+    {
+        "code":  "0231",
+        "name1":  "ميناء كوينتيرو شيلي",
+        "name2":  "Quintero Chile"
+    },
+    {
+        "code":  "0232",
+        "name1":  "ميناء سان أنطونيو تشيلي",
+        "name2":  "SanAntonio Chile"
+    },
+    {
+        "code":  "0233",
+        "name1":  "SanVicente CAP Chile (CLCAP)",
+        "name2":  "SanVicente CAP Chile (CLCAP)"
+    },
+    {
+        "code":  "0234",
+        "name1":  "SanVicente Chile (CLSVE)",
+        "name2":  "SanVicente Chile (CLSVE)"
+    },
+    {
+        "code":  "0235",
+        "name1":  "Talcahuano BioBio Chile (CLTAL)",
+        "name2":  "Talcahuano BioBio Chile (CLTAL)"
+    },
+    {
+        "code":  "0236",
+        "name1":  "ميناء تالكاهوانو تشيلي",
+        "name2":  "Talcahuano Chile"
+    },
+    {
+        "code":  "0237",
+        "name1":  "ميناء Taltal تشيلي",
+        "name2":  "Taltal Chile"
+    },
+    {
+        "code":  "0238",
+        "name1":  "ميناء توكوبيلا تشيلي",
+        "name2":  "Tocopilla Chile"
+    },
+    {
+        "code":  "0239",
+        "name1":  "ميناء إلي",
+        "name2":  "Tome"
+    },
+    {
+        "code":  "0240",
+        "name1":  "ميناء فالبارايسو تشيلي",
+        "name2":  "Valparaiso Chile"
+    },
+    {
+        "code":  "0241",
+        "name1":  "ميناء Bayuquan الصين",
+        "name2":  "Bayuquan China"
+    },
+    {
+        "code":  "0242",
+        "name1":  "ميناء بيهاى قوانغشى الصين",
+        "name2":  "Beihai Guangxi China"
+    },
+    {
+        "code":  "0243",
+        "name1":  "ميناء بيجياو فوجيان الصين",
+        "name2":  "Beijiao Fujian China"
+    },
+    {
+        "code":  "0244",
+        "name1":  "ميناء بيجياو قوانغدونغ الصين",
+        "name2":  "Beijiao Guangdong China"
+    },
+    {
+        "code":  "0245",
+        "name1":  "ميناء تشانغشا هونان الصين",
+        "name2":  "Changsha Hunan China"
+    },
+    {
+        "code":  "0246",
+        "name1":  "ميناء تشانغشو جيانغسو الصين",
+        "name2":  "Changshu Jiangsu China"
+    },
+    {
+        "code":  "0247",
+        "name1":  "ميناء تشاوتشو قوانغدونغ الصين",
+        "name2":  "Chaozhou Guangdong China"
+    },
+    {
+        "code":  "0248",
+        "name1":  "ميناء تشنغدو سيتشوان الصين",
+        "name2":  "Chengdu Sichuan China"
+    },
+    {
+        "code":  "0249",
+        "name1":  "ميناء تشيوان قوانغدونغ الصين",
+        "name2":  "Chiwan Guangdong China"
+    },
+    {
+        "code":  "0250",
+        "name1":  "ميناء تشونغتشينغ سيتشوان الصين",
+        "name2":  "Chongqing Sichuan China"
+    },
+    {
+        "code":  "0251",
+        "name1":  "ميناء داجانغ جيا",
+        "name2":  "Dagang Jiangsu China"
+    },
+    {
+        "code":  "0252",
+        "name1":  "ميناء نجسو الصين",
+        "name2":  "Dalian Liaoning China"
+    },
+    {
+        "code":  "0253",
+        "name1":  "ميناء داليان لياونينغ الصين",
+        "name2":  "Dongguan Guangdong China"
+    },
+    {
+        "code":  "0254",
+        "name1":  "ميناء دونغقوان قوانغدونغ الصين",
+        "name2":  "Doumen Guangdong China"
+    },
+    {
+        "code":  "0255",
+        "name1":  "ميناء دومن قوانغدونغ الصين",
+        "name2":  "Fangcheng Guangxi China"
+    },
+    {
+        "code":  "0256",
+        "name1":  "ميناء Fangcheng Guangxi الصين",
+        "name2":  "Foshan Guangdong China"
+    },
+    {
+        "code":  "0257",
+        "name1":  "ميناء فوشان قوانغدونغ الصين",
+        "name2":  "Fuqing Fujian China"
+    },
+    {
+        "code":  "0258",
+        "name1":  "ميناء فوتشينغ فوجيان الصين",
+        "name2":  "Fuyong Guangdong China"
+    },
+    {
+        "code":  "0259",
+        "name1":  "ميناء فويونغ قوانغدونغ الصين",
+        "name2":  "Fuzhou Fujian China"
+    },
+    {
+        "code":  "0260",
+        "name1":  "ميناء فوتشو فوجيان الصين",
+        "name2":  "Gaoming Guangdong China"
+    },
+    {
+        "code":  "0261",
+        "name1":  "ميناء Gaoming مقاطعة قوانغدونغ الصينية",
+        "name2":  "Gongming Guangdong China"
+    },
+    {
+        "code":  "0262",
+        "name1":  "ميناء جونجمينج قوانغدونغ الصين",
+        "name2":  "Gongyi Guangdong China"
+    },
+    {
+        "code":  "0263",
+        "name1":  "ميناء Gongyi قوانغدونغ الصين",
+        "name2":  "Guangzhou Guangdong China"
+    },
+    {
+        "code":  "0264",
+        "name1":  "ميناء قوانغتشو قوانغدونغ الصين",
+        "name2":  "Guigang Guangxi China"
+    },
+    {
+        "code":  "0265",
+        "name1":  "ميناء Guigang قوانغشى الصين",
+        "name2":  "Haikou Hainan China"
+    },
+    {
+        "code":  "0266",
+        "name1":  "ميناء هايكو هاينان الصين",
+        "name2":  "Haimen Zhejiang China"
+    },
+    {
+        "code":  "0267",
+        "name1":  "ميناء Haimen Zhejiang الصين",
+        "name2":  "Hangzhou Zhejiang China"
+    },
+    {
+        "code":  "0268",
+        "name1":  "ميناء هانغتشو تشجيانغ الصين",
+        "name2":  "Hebei China"
+    },
+    {
+        "code":  "0269",
+        "name1":  "ميناء خبى الصين",
+        "name2":  "Hefei"
+    },
+    {
+        "code":  "0270",
+        "name1":  "ميناء خفى",
+        "name2":  "Heshan Guangdong China"
+    },
+    {
+        "code":  "0271",
+        "name1":  "ميناء هيشان قوانغدونغ الصين",
+        "name2":  "Huadu Guangdong China"
+    },
+    {
+        "code":  "0272",
+        "name1":  "ميناء هوادو قوانغدونغ الصين",
+        "name2":  "HuaDu Guangdong China"
+    },
+    {
+        "code":  "0273",
+        "name1":  "ميناء هوادو قوانغدونغ الصين",
+        "name2":  "Huangpu Guangdong China"
+    },
+    {
+        "code":  "0274",
+        "name1":  "ميناء هوانغبو قوانغدونغ الصين",
+        "name2":  "Huizhou Guangdong China"
+    },
+    {
+        "code":  "0275",
+        "name1":  "ميناء هويتشو قوانغدونغ الصين",
+        "name2":  "Humen Guangdong China"
+    },
+    {
+        "code":  "0276",
+        "name1":  "ميناء هومين قوانغدونغ الصين",
+        "name2":  "Jiangmen Guangdong China"
+    },
+    {
+        "code":  "0277",
+        "name1":  "ميناء جيانغمن قوانغدونغ الصين",
+        "name2":  "Jiangyin Jiangsu China"
+    },
+    {
+        "code":  "0278",
+        "name1":  "ميناء جيانغ جيانغسو الصين",
+        "name2":  "JiaoXin Guangdong China"
+    },
+    {
+        "code":  "0279",
+        "name1":  "ميناء JiaoXin قوانغدونغ الصين",
+        "name2":  "Jingtang"
+    },
+    {
+        "code":  "0280",
+        "name1":  "ميناء جينغتانغ",
+        "name2":  "Jingzhou Hubei China"
+    },
+    {
+        "code":  "0281",
+        "name1":  "ميناء جينغتشو هوبى الصين",
+        "name2":  "Jinzhou Liaoning China"
+    },
+    {
+        "code":  "0282",
+        "name1":  "ميناء جينتشو لياونينغ الصين",
+        "name2":  "Jiujiang Jiangxi China"
+    },
+    {
+        "code":  "0283",
+        "name1":  "ميناء جيوجيانغ جيانغشى الصين",
+        "name2":  "Jiuzhou China"
+    },
+    {
+        "code":  "0284",
+        "name1":  "ميناء جيوتشو الصين",
+        "name2":  "Kaiping Guangdong China"
+    },
+    {
+        "code":  "0285",
+        "name1":  "ميناء كايبينغ قوانغدونغ الصين",
+        "name2":  "Kunming Yunnan China"
+    },
+    {
+        "code":  "0286",
+        "name1":  "ميناء كونمينغ يونان الصين",
+        "name2":  "Lanshi Guangdong China"
+    },
+    {
+        "code":  "0287",
+        "name1":  "ميناء لانشي قوانغدونغ الصين",
+        "name2":  "LanshiPort China"
+    },
+    {
+        "code":  "0288",
+        "name1":  "ميناء LanshiPort الصين",
+        "name2":  "Lianhuashan Guangdong China"
+    },
+    {
+        "code":  "0289",
+        "name1":  "ميناء Lianhuashan قوانغدونغ الصين",
+        "name2":  "Lianyungang Jiangsu China"
+    },
+    {
+        "code":  "0290",
+        "name1":  "ميناء Lianyungang جيانغسو الصين",
+        "name2":  "Liuzhou Guangxi China"
+    },
+    {
+        "code":  "0291",
+        "name1":  "ميناء ليوتشو قوانغشى الصين",
+        "name2":  "Longhua Guangdong China"
+    },
+    {
+        "code":  "0292",
+        "name1":  "ميناء لونغهوا قوانغدونغ الصين",
+        "name2":  "Longkou China"
+    },
+    {
+        "code":  "0293",
+        "name1":  "ميناء Longkou الصين",
+        "name2":  "Maoming Guangdong China"
+    },
+    {
+        "code":  "0294",
+        "name1":  "ميناء ماومينج قوانغدونغ الصين",
+        "name2":  "Mawan Guangdong China"
+    },
+    {
+        "code":  "0295",
+        "name1":  "ميناء ماوان قوانغدونغ الصين",
+        "name2":  "Mawei Fujian China"
+    },
+    {
+        "code":  "0296",
+        "name1":  "ميناء ماوي فوجيان الصين",
+        "name2":  "Mianyang Sichuan China"
+    },
+    {
+        "code":  "0297",
+        "name1":  "ميناء ميانيانغ سيتشوان الصين",
+        "name2":  "Nanchang China"
+    },
+    {
+        "code":  "0298",
+        "name1":  "ميناء نانتشانغ الصين",
+        "name2":  "Nangang Guangdong China"
+    },
+    {
+        "code":  "0299",
+        "name1":  "ميناء نانغانغ قوانغدونغ الصين",
+        "name2":  "Nanhai Guangdong China"
+    },
+    {
+        "code":  "0300",
+        "name1":  "ميناء نانهاى قوانغدونغ الصين",
+        "name2":  "Nanjing Jiangsu China"
+    },
+    {
+        "code":  "0301",
+        "name1":  "ميناء نانجينغ جيانغسو الصين",
+        "name2":  "Nanning Guangxi China"
+    },
+    {
+        "code":  "0302",
+        "name1":  "ميناء ناننينغ قوانغشى الصين",
+        "name2":  "Nansha Guangdong China"
+    },
+    {
+        "code":  "0303",
+        "name1":  "ميناء نانشا قوانغدونغ الصين",
+        "name2":  "Nantong Jiangsu China"
+    },
+    {
+        "code":  "0304",
+        "name1":  "ميناء نانتونغ جيانغسو الصين",
+        "name2":  "Ningbo Zhejiang China"
+    },
+    {
+        "code":  "0305",
+        "name1":  "ميناء نينغبو تشجيانغ الصين",
+        "name2":  "Putian Fujian China"
+    },
+    {
+        "code":  "0306",
+        "name1":  "ميناء بوتيان فوجيان الصين",
+        "name2":  "Qianwan Shandong China"
+    },
+    {
+        "code":  "0307",
+        "name1":  "ميناء تشيانوان شاندونغ الصين",
+        "name2":  "Qingdao Shandong China"
+    },
+    {
+        "code":  "0308",
+        "name1":  "ميناء تشينغداو شاندونغ الصين",
+        "name2":  "Qingyuan Guangdong China"
+    },
+    {
+        "code":  "0309",
+        "name1":  "ميناء تشينغيوان قوانغدونغ الصين",
+        "name2":  "Qinhuangdao China"
+    },
+    {
+        "code":  "0310",
+        "name1":  "ميناء تشينهوانغداو الصين",
+        "name2":  "Quanzhou Fujian China"
+    },
+    {
+        "code":  "0311",
+        "name1":  "ميناء تشيوانتشو فوجيان الصين",
+        "name2":  "Rongqi Guangdong China"
+    },
+    {
+        "code":  "0312",
+        "name1":  "ميناء Rongqi قوانغدونغ الصين",
+        "name2":  "Sanbu Guangdong China"
+    },
+    {
+        "code":  "0313",
+        "name1":  "ميناء سانبو قوانغدونغ الصين",
+        "name2":  "Sanshan"
+    },
+    {
+        "code":  "0314",
+        "name1":  "ميناء سانشان",
+        "name2":  "Sanshan Guangdong China"
+    },
+    {
+        "code":  "0315",
+        "name1":  "ميناء سانشان قوانغدونغ الصين",
+        "name2":  "Sanshui Guangdong China"
+    },
+    {
+        "code":  "0316",
+        "name1":  "ميناء سانشوي قوانغدونغ الصين",
+        "name2":  "Shanghai Shanghai China"
+    },
+    {
+        "code":  "0317",
+        "name1":  "ميناء شنغهاي شنغهاي الصين",
+        "name2":  "Shantou Guangdong China"
+    },
+    {
+        "code":  "0318",
+        "name1":  "ميناء شانتو قوانغدونغ الصين",
+        "name2":  "Shanwei China"
+    },
+    {
+        "code":  "0319",
+        "name1":  "ميناء شانوي الصين",
+        "name2":  "Shatian Guangdong China"
+    },
+    {
+        "code":  "0320",
+        "name1":  "ميناء شاتيان قوانغدونغ الصين",
+        "name2":  "Shekou Guangdong China"
+    },
+    {
+        "code":  "0321",
+        "name1":  "ميناء شيكو قوانغدونغ الصين",
+        "name2":  "Shenwan China"
+    },
+    {
+        "code":  "0322",
+        "name1":  "ميناء شنوان الصين",
+        "name2":  "Shenzhen Guangdong China"
+    },
+    {
+        "code":  "0323",
+        "name1":  "ميناء شنتشن قوانغدونغ الصين",
+        "name2":  "Shijiu"
+    },
+    {
+        "code":  "0324",
+        "name1":  "ميناء شيجيو",
+        "name2":  "Shiqiao"
+    },
+    {
+        "code":  "0325",
+        "name1":  "ميناء شيقياو",
+        "name2":  "Shuidong Guangdong China"
+    },
+    {
+        "code":  "0326",
+        "name1":  "ميناء شويدونغ قوانغدونغ الصين",
+        "name2":  "Shunde Guangdong China"
+    },
+    {
+        "code":  "0327",
+        "name1":  "ميناء شوند قوانغدونغ الصين",
+        "name2":  "Suzhou"
+    },
+    {
+        "code":  "0328",
+        "name1":  "ميناء سوتشو",
+        "name2":  "Taicang Jiangsu China"
+    },
+    {
+        "code":  "0329",
+        "name1":  "ميناء تايتسانغ جيانغسو الصين",
+        "name2":  "Taicheng"
+    },
+    {
+        "code":  "0330",
+        "name1":  "ميناء تايتشنغ",
+        "name2":  "Taiping Guangdong China"
+    },
+    {
+        "code":  "0331",
+        "name1":  "ميناء تايبينغ قوانغدونغ الصين",
+        "name2":  "Taizhou Jiangsu China"
+    },
+    {
+        "code":  "0332",
+        "name1":  "ميناء تايتشو جيانغسو الصين",
+        "name2":  "Tianjin Tianjin China"
+    },
+    {
+        "code":  "0333",
+        "name1":  "ميناء تيانجين تيانجين الصين",
+        "name2":  "Tianjinxingang Tianjin China"
+    },
+    {
+        "code":  "0334",
+        "name1":  "ميناء تيانجينكسينغانغ تيانجين الصين",
+        "name2":  "Wanzai Guangdong China"
+    },
+    {
+        "code":  "0335",
+        "name1":  "ميناء وانزاي قوانغدونغ الصين",
+        "name2":  "Weihai China"
+    },
+    {
+        "code":  "0336",
+        "name1":  "ميناء ويهاي الصين",
+        "name2":  "Wenzhou Zhejiang China"
+    },
+    {
+        "code":  "0337",
+        "name1":  "ميناء ونزهو تشجيانغ الصين",
+        "name2":  "Wuhan Hubei China"
+    },
+    {
+        "code":  "0338",
+        "name1":  "ميناء ووهان هوبى الصين",
+        "name2":  "Wuhu Anhui China"
+    },
+    {
+        "code":  "0339",
+        "name1":  "ميناء ووهو انهوى الصين",
+        "name2":  "Wuzhou Guangxi China"
+    },
+    {
+        "code":  "0340",
+        "name1":  "ميناء وتشو قوانغشى الصين",
+        "name2":  "Xiamen Fujian China"
+    },
+    {
+        "code":  "0341",
+        "name1":  "ميناء شيامن فوجيان الصين",
+        "name2":  "Xiaolan Guangdong China"
+    },
+    {
+        "code":  "0342",
+        "name1":  "ميناء شياولان قوانغدونغ الصين",
+        "name2":  "Xinfeng Guangdong China"
+    },
+    {
+        "code":  "0343",
+        "name1":  "ميناء Xinfeng قوانغدونغ الصين",
+        "name2":  "Xingang Tianjin China"
+    },
+    {
+        "code":  "0344",
+        "name1":  "ميناء شينغانغ تيانجين الصين",
+        "name2":  "Xinhui Guangdong China"
+    },
+    {
+        "code":  "0345",
+        "name1":  "ميناء Xinhui قوانغدونغ الصين",
+        "name2":  "Xintang Guangdong China"
+    },
+    {
+        "code":  "0346",
+        "name1":  "ميناء Xintang قوانغدونغ الصين",
+        "name2":  "Yangjiang China"
+    },
+    {
+        "code":  "0347",
+        "name1":  "ميناء يانغجيانغ الصين",
+        "name2":  "Yangpu Hainan China"
+    },
+    {
+        "code":  "0348",
+        "name1":  "ميناء يانغبو هاينان الصين",
+        "name2":  "Yangshan Zhejiang China"
+    },
+    {
+        "code":  "0349",
+        "name1":  "ميناء يانغشان بمقاطعة تشجيانغ الصين",
+        "name2":  "Yangzhou Jiangsu China"
+    },
+    {
+        "code":  "0350",
+        "name1":  "ميناء يانغتشو جيانغسو الصين",
+        "name2":  "Yantai Shandong China"
+    },
+    {
+        "code":  "0351",
+        "name1":  "ميناء يانتاى شاندونغ الصين",
+        "name2":  "Yantian Guangdong China"
+    },
+    {
+        "code":  "0352",
+        "name1":  "ميناء يانتيان قوانغدونغ الصين",
+        "name2":  "Yichang Hebei China"
+    },
+    {
+        "code":  "0353",
+        "name1":  "ميناء ييتشانغ خبى الصين",
+        "name2":  "Yingkou Liaoning China"
+    },
+    {
+        "code":  "0354",
+        "name1":  "ميناء Yingkou Liaoning الصين",
+        "name2":  "Yunfu Guangdong China"
+    },
+    {
+        "code":  "0355",
+        "name1":  "ميناء يونفو قوانغدونغ الصين",
+        "name2":  "Zhangjiagang Jiangsu China"
+    },
+    {
+        "code":  "0356",
+        "name1":  "ميناء تشانغجياجانج جيانغسو الصين",
+        "name2":  "Zhanjiang Guangdong China"
+    },
+    {
+        "code":  "0357",
+        "name1":  "ميناء تشانجيانغ قوانغدونغ الصين",
+        "name2":  "Zhaoqing Guangdong China"
+    },
+    {
+        "code":  "0358",
+        "name1":  "ميناء تشاوتشينغ قوانغدونغ الصين",
+        "name2":  "Zhapu"
+    },
+    {
+        "code":  "0359",
+        "name1":  "ميناء زابو",
+        "name2":  "Zhenjiang Jiangsu China"
+    },
+    {
+        "code":  "0360",
+        "name1":  "ميناء تشنجيانغ جيانغسو الصين",
+        "name2":  "Zhongshan Guangdong China"
+    },
+    {
+        "code":  "0361",
+        "name1":  "ميناء تشونغشان قوانغدونغ الصين",
+        "name2":  "Zhoushan China"
+    },
+    {
+        "code":  "0362",
+        "name1":  "ميناء تشوشان الصين",
+        "name2":  "Zhuhai Guangdong China"
+    },
+    {
+        "code":  "0363",
+        "name1":  "ميناء تشوهاى قوانغدونغ الصين",
+        "name2":  "Barranquilla Colombia"
+    },
+    {
+        "code":  "0364",
+        "name1":  "ميناء بارانكويلا كولومبيا",
+        "name2":  "Buenaventura Colombia"
+    },
+    {
+        "code":  "0365",
+        "name1":  "ميناء بوينافينتورا كولومبيا",
+        "name2":  "Cartagena Colombia"
+    },
+    {
+        "code":  "0366",
+        "name1":  "ميناء قرطاجنة كولومبيا",
+        "name2":  "PuertoBolivar Colombia"
+    },
+    {
+        "code":  "0367",
+        "name1":  "ميناء بويرتو بوليفار كولومبيا",
+        "name2":  "SantaMarta Colombia"
+    },
+    {
+        "code":  "0368",
+        "name1":  "ميناء سانتا مارتا كولومبيا",
+        "name2":  "Tumaco Colombia"
+    },
+    {
+        "code":  "0369",
+        "name1":  "ميناء توماكو كولومبيا",
+        "name2":  "Moroni Comoros"
+    },
+    {
+        "code":  "0370",
+        "name1":  "ميناء موروني جزر القمر",
+        "name2":  "Mutsamudu Anjouan Comoros"
+    },
+    {
+        "code":  "0371",
+        "name1":  "ميناء موتسامودو أنجوان جزر القمر",
+        "name2":  "Caldera CostaRica"
+    },
+    {
+        "code":  "0372",
+        "name1":  "ميناء كالديرا كوستاريكا",
+        "name2":  "Golfito CostaRica"
+    },
+    {
+        "code":  "0373",
+        "name1":  "ميناء جولفيتو كوستاريكا",
+        "name2":  "Moin CostaRica"
+    },
+    {
+        "code":  "0374",
+        "name1":  "ميناء معين كوستاريكا",
+        "name2":  "PuertoCaldera SanJose CostaRica"
+    },
+    {
+        "code":  "0375",
+        "name1":  "ميناء PuertoCaldera SanJose كوستاريكا",
+        "name2":  "PuertoLimon CostaRica"
+    },
+    {
+        "code":  "0376",
+        "name1":  "ميناء PuertoLimon كوستاريكا",
+        "name2":  "Puntarenas CostaRica"
+    },
+    {
+        "code":  "0377",
+        "name1":  "ميناء بونتاريناس كوستاريكا",
+        "name2":  "SanJose CostaRica"
+    },
+    {
+        "code":  "0378",
+        "name1":  "ميناء سان خوسيه كوستاريكا",
+        "name2":  "Abidjan CoteD\u0027Ivoire"
+    },
+    {
+        "code":  "0379",
+        "name1":  "ميناء أبيدجان كوت ديفوار",
+        "name2":  "San-pedro CoteDIvoire"
+    },
+    {
+        "code":  "0380",
+        "name1":  "ميناء سان بيدرو كوت ديفوار",
+        "name2":  "Dubrovnik Croatia"
+    },
+    {
+        "code":  "0381",
+        "name1":  "ميناء دوبروفنيك كرواتيا",
+        "name2":  "Ploce Croatia"
+    },
+    {
+        "code":  "0382",
+        "name1":  "ميناء بلوتشي كرواتيا",
+        "name2":  "Rijeka Croatia"
+    },
+    {
+        "code":  "0383",
+        "name1":  "ميناء رييكا كرواتيا",
+        "name2":  "Split Croatia"
+    },
+    {
+        "code":  "0384",
+        "name1":  "ميناء سبليت كرواتيا",
+        "name2":  "Manzanillo"
+    },
+    {
+        "code":  "0385",
+        "name1":  "ميناء مانزانيلو",
+        "name2":  "Matanzas Cuba"
+    },
+    {
+        "code":  "0386",
+        "name1":  "ميناء ماتانزاس كوبا",
+        "name2":  "SantiagoDeCuba Cuba"
+    },
+    {
+        "code":  "0387",
+        "name1":  "ميناء سانتياغو ديكوبا كوبا",
+        "name2":  "La Habana  Cuba"
+    },
+    {
+        "code":  "0388",
+        "name1":  "ميناء لا هابانا كوبا",
+        "name2":  "Limassol Cyprus"
+    },
+    {
+        "code":  "0389",
+        "name1":  "ميناء ليماسول، قبرص",
+        "name2":  "Nicosia Cyprus"
+    },
+    {
+        "code":  "0390",
+        "name1":  "ميناء نيقوسيا، قبرص",
+        "name2":  "Paphos Cyprus"
+    },
+    {
+        "code":  "0391",
+        "name1":  "ميناء بافوس قبرص",
+        "name2":  "Zlin"
+    },
+    {
+        "code":  "0392",
+        "name1":  "ميناء زلين",
+        "name2":  "BABICE"
+    },
+    {
+        "code":  "0393",
+        "name1":  "ميناء طفل",
+        "name2":  "Boma DemocraticRepublicOfTheCongo"
+    },
+    {
+        "code":  "0394",
+        "name1":  "ميناء جمهورية بوما الديمقراطية",
+        "name2":  "Matadi DemocraticRepublicOfTheCongo"
+    },
+    {
+        "code":  "0395",
+        "name1":  "ميناء ماتادي الديمقراطية RepublicOfTheCongo",
+        "name2":  "Aalborg Denmark"
+    },
+    {
+        "code":  "0396",
+        "name1":  "ميناء البورك الدنمارك",
+        "name2":  "Aarhus Denmark"
+    },
+    {
+        "code":  "0397",
+        "name1":  "ميناء آرهوس الدنمارك",
+        "name2":  "Arhus Denmark"
+    },
+    {
+        "code":  "0398",
+        "name1":  "ميناء أرهوس الدنمارك",
+        "name2":  "Assens Denmark"
+    },
+    {
+        "code":  "0399",
+        "name1":  "ميناء Assens الدنمارك",
+        "name2":  "Copenhagen Denmark"
+    },
+    {
+        "code":  "0400",
+        "name1":  "ميناء كوبنهاجن، دينيمارك",
+        "name2":  "Esbjerg Denmark"
+    },
+    {
+        "code":  "0401",
+        "name1":  "ميناء اسبيرغ الدنمارك",
+        "name2":  "Fredericia Denmark"
+    },
+    {
+        "code":  "0402",
+        "name1":  "ميناء فريدريشيا الدنمارك",
+        "name2":  "Helsingor Denmark"
+    },
+    {
+        "code":  "0403",
+        "name1":  "ميناء هيلسينجور الدنمارك",
+        "name2":  "Hirtshals Denmark"
+    },
+    {
+        "code":  "0404",
+        "name1":  "ميناء هيرتشيلس الدنمارك",
+        "name2":  "Holstebro Denmark"
+    },
+    {
+        "code":  "0405",
+        "name1":  "ميناء هولستبرو الدنمارك",
+        "name2":  "Kalundborg Denmark"
+    },
+    {
+        "code":  "0406",
+        "name1":  "ميناء كالوندبورغ الدنمارك",
+        "name2":  "Kerteminde Denmark"
+    },
+    {
+        "code":  "0407",
+        "name1":  "ميناء Kerteminde الدنمارك",
+        "name2":  "Nyborg Denmark"
+    },
+    {
+        "code":  "0408",
+        "name1":  "ميناء نيبورغ الدنمارك",
+        "name2":  "Odense Denmark"
+    },
+    {
+        "code":  "0409",
+        "name1":  "ميناء أودنس الدنمارك",
+        "name2":  "Rungsted Denmark"
+    },
+    {
+        "code":  "0410",
+        "name1":  "ميناء رونجستد الدنمارك",
+        "name2":  "Skagen Denmark"
+    },
+    {
+        "code":  "0411",
+        "name1":  "ميناء سكاجين الدنمارك",
+        "name2":  "Svendborg"
+    },
+    {
+        "code":  "0412",
+        "name1":  "ميناء سفينبورغ",
+        "name2":  "Djibouti Djibouti"
+    },
+    {
+        "code":  "0413",
+        "name1":  "ميناء جيبوتي جيبوتي",
+        "name2":  "Roseau Dominica"
+    },
+    {
+        "code":  "0414",
+        "name1":  "ميناء روسو دومينيكا",
+        "name2":  "Caucedo DominicanRepublic"
+    },
+    {
+        "code":  "0415",
+        "name1":  "ميناء Caucedo DominicanRepublic",
+        "name2":  "Manzanillo DominicanRepublic"
+    },
+    {
+        "code":  "0416",
+        "name1":  "ميناء جمهورية الدومينيكان مانزانيلو",
+        "name2":  "PuertoPlata DominicanRepublic"
+    },
+    {
+        "code":  "0417",
+        "name1":  "ميناء PuertoPlata DominicanRepublic",
+        "name2":  "RioHaina DominicanRepublic"
+    },
+    {
+        "code":  "0418",
+        "name1":  "ميناء RioHaina جمهورية الدومينيكان",
+        "name2":  "SanPedroDeMacoris DominicanRepublic"
+    },
+    {
+        "code":  "0419",
+        "name1":  "ميناء SanPedroDeMacoris DominicanRepublic",
+        "name2":  "SantoDomingo DominicanRepublic"
+    },
+    {
+        "code":  "0420",
+        "name1":  "ميناء سانتو دومينغو، جمهورية الدومينيكان",
+        "name2":  "Dili"
+    },
+    {
+        "code":  "0421",
+        "name1":  "ميناء ديلي",
+        "name2":  "BahiaDeCaraquez Ecuador"
+    },
+    {
+        "code":  "0422",
+        "name1":  "ميناء باهياديكاراكيز الإكوادور",
+        "name2":  "Chanduy"
+    },
+    {
+        "code":  "0423",
+        "name1":  "ميناء شاندوي",
+        "name2":  "Esmeraldas Ecuador"
+    },
+    {
+        "code":  "0424",
+        "name1":  "ميناء إسميرالداس الإكوادور",
+        "name2":  "Guayaquil Ecuador"
+    },
+    {
+        "code":  "0425",
+        "name1":  "ميناء غواياكيل، الاكوادور",
+        "name2":  "LaLibertad Ecuador"
+    },
+    {
+        "code":  "0426",
+        "name1":  "ميناء LaLibertad الاكوادور",
+        "name2":  "Manta Ecuador"
+    },
+    {
+        "code":  "0427",
+        "name1":  "ميناء مانتا الاكوادور",
+        "name2":  "Monteverde Ecuador"
+    },
+    {
+        "code":  "0428",
+        "name1":  "ميناء مونتيفردي الاكوادور",
+        "name2":  "PuertoBolivar Ecuador"
+    },
+    {
+        "code":  "0429",
+        "name1":  "ميناء PuertoBolivar الاكوادور",
+        "name2":  "Alexandria Egypt"
+    },
+    {
+        "code":  "0430",
+        "name1":  "ميناء الإسكندرية، مصر",
+        "name2":  "Damietta Egypt"
+    },
+    {
+        "code":  "0431",
+        "name1":  "ميناء دمياط مصر",
+        "name2":  "El Dekheila Egypt"
+    },
+    {
+        "code":  "0432",
+        "name1":  "ميناء الدخيلة مصر",
+        "name2":  "El Suweis"
+    },
+    {
+        "code":  "0433",
+        "name1":  "ميناء السويس",
+        "name2":  "Port Said East"
+    },
+    {
+        "code":  "0434",
+        "name1":  "ميناء شرق بورسعيد",
+        "name2":  "Port Said Egypt"
+    },
+    {
+        "code":  "0435",
+        "name1":  "ميناء بورسعيد، مصر",
+        "name2":  "Sokhna Port Egypt"
+    },
+    {
+        "code":  "0436",
+        "name1":  "ميناء السخنة مصر",
+        "name2":  "Adabeya"
+    },
+    {
+        "code":  "0437",
+        "name1":  "ميناء الأدبية",
+        "name2":  "Acajutla ElSalvador"
+    },
+    {
+        "code":  "0438",
+        "name1":  "ميناء أكاجوتلا السلفادور",
+        "name2":  "LaLibertad ElSalvador"
+    },
+    {
+        "code":  "0439",
+        "name1":  "ميناء ليبرتاد السلفادور",
+        "name2":  "LaUnion ElSalvador"
+    },
+    {
+        "code":  "0440",
+        "name1":  "ميناء لاونيون السلفادور",
+        "name2":  "SanSalvador ElSalvador"
+    },
+    {
+        "code":  "0441",
+        "name1":  "ميناء سان سلفادور السلفادور",
+        "name2":  "Bata EquatorialGuinea"
+    },
+    {
+        "code":  "0442",
+        "name1":  "ميناء غينيا الاستوائية باتا",
+        "name2":  "Malabo EquatorialGuinea"
+    },
+    {
+        "code":  "0443",
+        "name1":  "ميناء مالابو غينيا الاستوائية",
+        "name2":  "Assab"
+    },
+    {
+        "code":  "0444",
+        "name1":  "ميناء عصب",
+        "name2":  "Massawa"
+    },
+    {
+        "code":  "0445",
+        "name1":  "ميناء مصوع",
+        "name2":  "Muuga Estonia"
+    },
+    {
+        "code":  "0446",
+        "name1":  "ميناء Muuga إستونيا",
+        "name2":  "Tallinn Estonia"
+    },
+    {
+        "code":  "0447",
+        "name1":  "ميناء تالين، استونيا",
+        "name2":  "AddisAbaba"
+    },
+    {
+        "code":  "0448",
+        "name1":  "ميناء اديس ابابا",
+        "name2":  "Thorshavn FaroeIslands"
+    },
+    {
+        "code":  "0449",
+        "name1":  "ميناء جزر ثورشافن فارو",
+        "name2":  "Pohnpei"
+    },
+    {
+        "code":  "0450",
+        "name1":  "ميناء بوهنبي",
+        "name2":  "Lautoka Fiji"
+    },
+    {
+        "code":  "0451",
+        "name1":  "ميناء لاوتوكا فيجي",
+        "name2":  "Suva Fiji"
+    },
+    {
+        "code":  "0452",
+        "name1":  "ميناء سوفا فيجي",
+        "name2":  "AboTURKULansi-suomen Finland"
+    },
+    {
+        "code":  "0453",
+        "name1":  "ميناء AboTURKULansi-suomen فنلندا",
+        "name2":  "Fredrikshamn"
+    },
+    {
+        "code":  "0454",
+        "name1":  "ميناء فريدريكسهامن",
+        "name2":  "Hanko Etela-suomenLaani Finland"
+    },
+    {
+        "code":  "0455",
+        "name1":  "ميناء Hanko Etela-suomenLaani Finland",
+        "name2":  "Helsingfors"
+    },
+    {
+        "code":  "0456",
+        "name1":  "ميناء هيلسينجفورز",
+        "name2":  "Kemi/tornio"
+    },
+    {
+        "code":  "0457",
+        "name1":  "ميناء كيمي / تورنيو",
+        "name2":  "Kokkola"
+    },
+    {
+        "code":  "0458",
+        "name1":  "ميناء كوكولا",
+        "name2":  "Kotka Etela-suomenLaani Finland"
+    },
+    {
+        "code":  "0459",
+        "name1":  "ميناء Kotka Etela-suomenLaani فنلندا",
+        "name2":  "Mantyluoto Finland"
+    },
+    {
+        "code":  "0460",
+        "name1":  "ميناء Mantyluoto فنلندا",
+        "name2":  "Pori"
+    },
+    {
+        "code":  "0461",
+        "name1":  "ميناء بوري",
+        "name2":  "Rauma"
+    },
+    {
+        "code":  "0462",
+        "name1":  "ميناء راوما",
+        "name2":  "Tornea"
+    },
+    {
+        "code":  "0463",
+        "name1":  "ميناء تورنيا",
+        "name2":  "Uleaborg"
+    },
+    {
+        "code":  "0464",
+        "name1":  "ميناء يوليبورج",
+        "name2":  "Bassens Gironde France"
+    },
+    {
+        "code":  "0465",
+        "name1":  "ميناء باسين جيروند فرنسا",
+        "name2":  "Bayonne France"
+    },
+    {
+        "code":  "0466",
+        "name1":  "ميناء بايون فرنسا",
+        "name2":  "Bordeaux Gironde France"
+    },
+    {
+        "code":  "0467",
+        "name1":  "ميناء بوردو جيروند فرنسا",
+        "name2":  "BoulogneSur-Mer France"
+    },
+    {
+        "code":  "0468",
+        "name1":  "ميناء بولوني سور مير فرنسا",
+        "name2":  "Brest Finistere France"
+    },
+    {
+        "code":  "0469",
+        "name1":  "ميناء بريست فينيستير فرنسا",
+        "name2":  "Calais France"
+    },
+    {
+        "code":  "0470",
+        "name1":  "ميناء كاليه فرنسا",
+        "name2":  "Cayenne"
+    },
+    {
+        "code":  "0471",
+        "name1":  "ميناء حريف",
+        "name2":  "Dieppe France"
+    },
+    {
+        "code":  "0472",
+        "name1":  "ميناء دييب فرنسا",
+        "name2":  "Dunkerque Nord France"
+    },
+    {
+        "code":  "0473",
+        "name1":  "ميناء دونكيرك نورد فرنسا",
+        "name2":  "FosSurMer Bouches-du-rhone France"
+    },
+    {
+        "code":  "0474",
+        "name1":  "ميناء FosSurMer Bouches-du-rhone France",
+        "name2":  "LaCiotat France"
+    },
+    {
+        "code":  "0475",
+        "name1":  "ميناء LaCiotat France",
+        "name2":  "LaPallice Charente-maritime France"
+    },
+    {
+        "code":  "0476",
+        "name1":  "ميناء LaPallice Charente-maritime France",
+        "name2":  "LaPlanche France"
+    },
+    {
+        "code":  "0477",
+        "name1":  "ميناء LaPlanche France",
+        "name2":  "LaRochelle Charente-maritime France"
+    },
+    {
+        "code":  "0478",
+        "name1":  "ميناء لاروشيل شارينت ماريتيم فرنسا",
+        "name2":  "LeHavre Seine-maritime France"
+    },
+    {
+        "code":  "0479",
+        "name1":  "ميناء LeHavre Seine-maritime France",
+        "name2":  "LeTreport France"
+    },
+    {
+        "code":  "0480",
+        "name1":  "ميناء LeTreport France",
+        "name2":  "LeVerdon-sur-mer Gironde France"
+    },
+    {
+        "code":  "0481",
+        "name1":  "ميناء ليفيردون سور مير جيروند فرنسا",
+        "name2":  "Lorient France"
+    },
+    {
+        "code":  "0482",
+        "name1":  "ميناء لوريان فرنسا",
+        "name2":  "Marseille Bouches-du-rhone France"
+    },
+    {
+        "code":  "0483",
+        "name1":  "ميناء مرسيليا بوشيه دو رون فرنسا",
+        "name2":  "MontoirDeBretagne Loire-atlantique France"
+    },
+    {
+        "code":  "0484",
+        "name1":  "ميناء MontoirDeBretagne لوار أتلانتيك فرنسا",
+        "name2":  "Nantes France"
+    },
+    {
+        "code":  "0485",
+        "name1":  "ميناء نانت فرنسا",
+        "name2":  "Paris Paris France"
+    },
+    {
+        "code":  "0486",
+        "name1":  "ميناء باريس باريس فرنسا",
+        "name2":  "Piriac France"
+    },
+    {
+        "code":  "0487",
+        "name1":  "ميناء بيرياك فرنسا",
+        "name2":  "PortVendres France"
+    },
+    {
+        "code":  "0488",
+        "name1":  "ميناء PortVendres فرنسا",
+        "name2":  "Rouen Seine-maritime France"
+    },
+    {
+        "code":  "0489",
+        "name1":  "ميناء روان سين البحرية الفرنسية",
+        "name2":  "SaintNazaire"
+    },
+    {
+        "code":  "0490",
+        "name1":  "ميناء سانت نازير",
+        "name2":  "Sete Herault France"
+    },
+    {
+        "code":  "0491",
+        "name1":  "ميناء سيت هيرولت فرنسا",
+        "name2":  "Toulon France"
+    },
+    {
+        "code":  "0492",
+        "name1":  "ميناء تولون فرنسا",
+        "name2":  "DegradDesCannes FrenchGuiana"
+    },
+    {
+        "code":  "0493",
+        "name1":  "ميناء ديجراد دي كان فرينك",
+        "name2":  "Papeete FrenchPolynesia"
+    },
+    {
+        "code":  "0494",
+        "name1":  "ميناء كيب لوبيز الغابون",
+        "name2":  "CapeLopez Gabon"
+    },
+    {
+        "code":  "0495",
+        "name1":  "ميناء ليبرفيل الجابون",
+        "name2":  "Libreville Gabon"
+    },
+    {
+        "code":  "0496",
+        "name1":  "ميناء أويندو الجابون",
+        "name2":  "Owendo Gabon"
+    },
+    {
+        "code":  "0497",
+        "name1":  "ميناء PortGentil الغابون",
+        "name2":  "PortGentil Gabon"
+    },
+    {
+        "code":  "0498",
+        "name1":  "ميناء بانجول غامبيا",
+        "name2":  "Banjul Gambia"
+    },
+    {
+        "code":  "0499",
+        "name1":  "ميناء بوتي جورجيا",
+        "name2":  "Poti Georgia"
+    },
+    {
+        "code":  "0500",
+        "name1":  "ميناء تبليسي، جورجيا",
+        "name2":  "Tbilisi Georgia"
+    },
+    {
+        "code":  "0501",
+        "name1":  "ميناء باتومي",
+        "name2":  "Batumi"
+    },
+    {
+        "code":  "0502",
+        "name1":  "ميناء BadOeynhausen ألمانيا",
+        "name2":  "BadOeynhausen Germany"
+    },
+    {
+        "code":  "0503",
+        "name1":  "ميناء بينغن",
+        "name2":  "Bingen"
+    },
+    {
+        "code":  "0504",
+        "name1":  "ميناء الفرامل ألمانيا",
+        "name2":  "Brake Germany"
+    },
+    {
+        "code":  "0505",
+        "name1":  "ميناء براميل ألمانيا",
+        "name2":  "Bramel Germany"
+    },
+    {
+        "code":  "0506",
+        "name1":  "ميناء بريمن بريمن ألمانيا",
+        "name2":  "Bremen Bremen Germany"
+    },
+    {
+        "code":  "0507",
+        "name1":  "ميناء بريمرهافن بريمن ألمانيا",
+        "name2":  "Bremerhaven Bremen Germany"
+    },
+    {
+        "code":  "0508",
+        "name1":  "ميناء Brunsbuttel ألمانيا",
+        "name2":  "Brunsbuttel Germany"
+    },
+    {
+        "code":  "0509",
+        "name1":  "ميناء Burgstaaken ألمانيا",
+        "name2":  "Burgstaaken Germany"
+    },
+    {
+        "code":  "0510",
+        "name1":  "ميناء كولونيا",
+        "name2":  "Cologne"
+    },
+    {
+        "code":  "0511",
+        "name1":  "ميناء كوكسهافن نيدرساشسن ألمانيا",
+        "name2":  "Cuxhaven Niedersachsen Germany"
+    },
+    {
+        "code":  "0512",
+        "name1":  "ميناء دوسلدورف نوردراين- فيستفالن ألمانيا",
+        "name2":  "Duesseldorf Nordrhein-westfalen Germany"
+    },
+    {
+        "code":  "0513",
+        "name1":  "ميناء Elsfleth ألمانيا",
+        "name2":  "Elsfleth Germany"
+    },
+    {
+        "code":  "0514",
+        "name1":  "ميناء إمدن ألمانيا",
+        "name2":  "Emden Germany"
+    },
+    {
+        "code":  "0515",
+        "name1":  "ميناء فلنسبورغ ألمانيا",
+        "name2":  "Flensburg Germany"
+    },
+    {
+        "code":  "0516",
+        "name1":  "ميناء هامبورغ هامبورغ ألمانيا",
+        "name2":  "Hamburg Hamburg Germany"
+    },
+    {
+        "code":  "0517",
+        "name1":  "ميناء هام ألمانيا",
+        "name2":  "Hamm Germany"
+    },
+    {
+        "code":  "0518",
+        "name1":  "ميناء هاربورغ ألمانيا",
+        "name2":  "Harburg Germany"
+    },
+    {
+        "code":  "0519",
+        "name1":  "ميناء كيل شليسفيغ هولشتاين ألمانيا",
+        "name2":  "Kiel Schleswig-holstein Germany"
+    },
+    {
+        "code":  "0520",
+        "name1":  "ميناء لير ألمانيا",
+        "name2":  "Leer Germany"
+    },
+    {
+        "code":  "0521",
+        "name1":  "ميناء لوبيك شليسفيغ هولشتاين ألمانيا",
+        "name2":  "Lubeck Schleswig-holstein Germany"
+    },
+    {
+        "code":  "0522",
+        "name1":  "ميناء مانهايم ألمانيا",
+        "name2":  "Mannheim Germany"
+    },
+    {
+        "code":  "0523",
+        "name1":  "ميناء نوردنهام ألمانيا",
+        "name2":  "Nordenham Germany"
+    },
+    {
+        "code":  "0524",
+        "name1":  "ميناء روستوك ألمانيا",
+        "name2":  "Rostock Germany"
+    },
+    {
+        "code":  "0525",
+        "name1":  "ميناء فيديل ألمانيا",
+        "name2":  "Wedel Germany"
+    },
+    {
+        "code":  "0526",
+        "name1":  "ميناء الديدان ألمانيا",
+        "name2":  "Worms Germany"
+    },
+    {
+        "code":  "0527",
+        "name1":  "ميناء تاكورادي غانا",
+        "name2":  "Takoradi Ghana"
+    },
+    {
+        "code":  "0528",
+        "name1":  "ميناء تيما غانا",
+        "name2":  "Tema Ghana"
+    },
+    {
+        "code":  "0529",
+        "name1":  "ميناء جبل طارق جبل طارق",
+        "name2":  "Gibraltar Gibraltar"
+    },
+    {
+        "code":  "0530",
+        "name1":  "ميناء أستاكوس اليونان",
+        "name2":  "Astakos Greece"
+    },
+    {
+        "code":  "0531",
+        "name1":  "ميناء إليوسيس",
+        "name2":  "Eleusis"
+    },
+    {
+        "code":  "0532",
+        "name1":  "ميناء ايراكليون",
+        "name2":  "Iraklion"
+    },
+    {
+        "code":  "0533",
+        "name1":  "ميناء باتراس",
+        "name2":  "Patras"
+    },
+    {
+        "code":  "0534",
+        "name1":  "ميناء بيرايوس اليونان",
+        "name2":  "Piraeus Greece"
+    },
+    {
+        "code":  "0535",
+        "name1":  "ميناء رودوس",
+        "name2":  "Rhodos"
+    },
+    {
+        "code":  "0536",
+        "name1":  "ميناء سكارامانجا",
+        "name2":  "Skaramanga"
+    },
+    {
+        "code":  "0537",
+        "name1":  "ميناء اليونان ثيسالونيكي",
+        "name2":  "Thessaloniki Greece"
+    },
+    {
+        "code":  "0538",
+        "name1":  "ميناء فولوس اليونان",
+        "name2":  "Volos Greece"
+    },
+    {
+        "code":  "0539",
+        "name1":  "ميناء ثيسالونيكي",
+        "name2":  "thessaloniki"
+    },
+    {
+        "code":  "0540",
+        "name1":  "ميناء غرينادا سانت جورج",
+        "name2":  "SaintGeorge\u0027s Grenada"
+    },
+    {
+        "code":  "0541",
+        "name1":  "ميناء BasseTerre جوادلوب",
+        "name2":  "BasseTerre Guadeloupe"
+    },
+    {
+        "code":  "0542",
+        "name1":  "ميناء غوستافيا جوادلوب",
+        "name2":  "Gustavia Guadeloupe"
+    },
+    {
+        "code":  "0543",
+        "name1":  "ميناء بوانت إيه بيتر غوادلوب",
+        "name2":  "Pointe-a-pitre Guadeloupe"
+    },
+    {
+        "code":  "0544",
+        "name1":  "ميناء سانت بارثيليمي جوادلوب",
+        "name2":  "StBarthelemy Guadeloupe"
+    },
+    {
+        "code":  "0545",
+        "name1":  "ميناء غوام غوام",
+        "name2":  "Guam Guam"
+    },
+    {
+        "code":  "0546",
+        "name1":  "ميناء Champerico غواتيمالا",
+        "name2":  "Champerico Guatemala"
+    },
+    {
+        "code":  "0547",
+        "name1":  "ميناء مدينة جواتيمالا جواتيمالا",
+        "name2":  "GuatemalaCity Guatemala"
+    },
+    {
+        "code":  "0548",
+        "name1":  "ميناء PuertoBarrios غواتيمالا",
+        "name2":  "PuertoBarrios Guatemala"
+    },
+    {
+        "code":  "0549",
+        "name1":  "ميناء PuertoQuetzal غواتيمالا",
+        "name2":  "PuertoQuetzal Guatemala"
+    },
+    {
+        "code":  "0550",
+        "name1":  "ميناء SantoTomasDeCastilla غواتيمالا",
+        "name2":  "SantoTomasDeCastilla Guatemala"
+    },
+    {
+        "code":  "0551",
+        "name1":  "ميناء كوناكري غينيا",
+        "name2":  "Conakry Guinea"
+    },
+    {
+        "code":  "0552",
+        "name1":  "ميناء بيساو غينيا بيساو",
+        "name2":  "Bissau Guinea-Bissau"
+    },
+    {
+        "code":  "0553",
+        "name1":  "ميناء جورج تاون غيانا",
+        "name2":  "Georgetown Guyana"
+    },
+    {
+        "code":  "0554",
+        "name1":  "ميناء كاب هايتيان هاييتي",
+        "name2":  "Cap-Haitien Haiti"
+    },
+    {
+        "code":  "0555",
+        "name1":  "ميناء PortAuPrince هايتي",
+        "name2":  "PortAuPrince Haiti"
+    },
+    {
+        "code":  "0556",
+        "name1":  "ميناء أمابالا هندوراس",
+        "name2":  "Amapala Honduras"
+    },
+    {
+        "code":  "0557",
+        "name1":  "ميناء لاسيبا هندوراس",
+        "name2":  "LaCeiba Honduras"
+    },
+    {
+        "code":  "0558",
+        "name1":  "ميناء PuertoCastilla هندوراس",
+        "name2":  "PuertoCastilla Honduras"
+    },
+    {
+        "code":  "0559",
+        "name1":  "ميناء PuertoCortes هندوراس",
+        "name2":  "PuertoCortes Honduras"
+    },
+    {
+        "code":  "0560",
+        "name1":  "ميناء رواتان هندوراس",
+        "name2":  "Roatan Honduras"
+    },
+    {
+        "code":  "0561",
+        "name1":  "ميناء سان لورينزو هندوراس",
+        "name2":  "SanLorenzo Honduras"
+    },
+    {
+        "code":  "0562",
+        "name1":  "ميناء تيلا هندوراس",
+        "name2":  "Tela Honduras"
+    },
+    {
+        "code":  "0563",
+        "name1":  "ميناء هونغ كونغ - هونغ كونغ",
+        "name2":  "HongKong HongKong"
+    },
+    {
+        "code":  "0564",
+        "name1":  "ميناء بودابست المجر",
+        "name2":  "Budapest Hungary"
+    },
+    {
+        "code":  "0565",
+        "name1":  "ميناء Eskifjordur -Hofn أيسلندا",
+        "name2":  "Eskifjordur -Hofn Iceland"
+    },
+    {
+        "code":  "0566",
+        "name1":  "ميناء Grundartangi أيسلندا",
+        "name2":  "Grundartangi Iceland"
+    },
+    {
+        "code":  "0567",
+        "name1":  "ميناء ريكيافيك أيسلندا",
+        "name2":  "Reykjavik Iceland"
+    },
+    {
+        "code":  "0568",
+        "name1":  "ميناء اجرا الهند",
+        "name2":  "Agra India"
+    },
+    {
+        "code":  "0569",
+        "name1":  "ميناء أحمد آباد الهند",
+        "name2":  "Ahmedabad India"
+    },
+    {
+        "code":  "0570",
+        "name1":  "ميناء بنغالور، الهند",
+        "name2":  "Bangalore India"
+    },
+    {
+        "code":  "0571",
+        "name1":  "ميناء تشيناي",
+        "name2":  "Chennai"
+    },
+    {
+        "code":  "0572",
+        "name1":  "ميناء كوشين الهند",
+        "name2":  "Cochin India"
+    },
+    {
+        "code":  "0573",
+        "name1":  "ميناء كويمباتور الهند",
+        "name2":  "Coimbatore India"
+    },
+    {
+        "code":  "0574",
+        "name1":  "ميناء كودالور الهند",
+        "name2":  "Cuddalore India"
+    },
+    {
+        "code":  "0575",
+        "name1":  "ميناء دادري الهند",
+        "name2":  "Dadri India"
+    },
+    {
+        "code":  "0576",
+        "name1":  "ميناء دامان الهند",
+        "name2":  "Daman India"
+    },
+    {
+        "code":  "0577",
+        "name1":  "ميناء جوا الهند",
+        "name2":  "Goa India"
+    },
+    {
+        "code":  "0578",
+        "name1":  "ميناء هالديا الهند",
+        "name2":  "Haldia India"
+    },
+    {
+        "code":  "0579",
+        "name1":  "ميناء هزيرة مجد الله",
+        "name2":  "Hazira -Magdalla"
+    },
+    {
+        "code":  "0580",
+        "name1":  "ميناء حيدر أباد الهند",
+        "name2":  "Hyderabad India"
+    },
+    {
+        "code":  "0581",
+        "name1":  "ميناء جايبور الهند",
+        "name2":  "Jaipur India"
+    },
+    {
+        "code":  "0582",
+        "name1":  "ميناء جواهر لال نهرو",
+        "name2":  "JawaharlalNehru"
+    },
+    {
+        "code":  "0583",
+        "name1":  "ميناء جودبور الهند",
+        "name2":  "Jodhpur India"
+    },
+    {
+        "code":  "0584",
+        "name1":  "ميناء كاندلا الهند",
+        "name2":  "Kandla India"
+    },
+    {
+        "code":  "0585",
+        "name1":  "ميناء كانبور الهند",
+        "name2":  "Kanpur India"
+    },
+    {
+        "code":  "0586",
+        "name1":  "ميناء كولكاتا",
+        "name2":  "Kolkata"
+    },
+    {
+        "code":  "0587",
+        "name1":  "ميناء كريشناباتنام",
+        "name2":  "KRISHNAPATNAM"
+    },
+    {
+        "code":  "0588",
+        "name1":  "ميناء لوديانا الهند",
+        "name2":  "Ludhiana India"
+    },
+    {
+        "code":  "0589",
+        "name1":  "ميناء مانجالور الهند",
+        "name2":  "Mangalore India"
+    },
+    {
+        "code":  "0590",
+        "name1":  "ميناء مرماجوا",
+        "name2":  "Marmagoa"
+    },
+    {
+        "code":  "0591",
+        "name1":  "ميناء Moradabad الهند",
+        "name2":  "Moradabad India"
+    },
+    {
+        "code":  "0592",
+        "name1":  "ميناء مومباي",
+        "name2":  "Mumbai"
+    },
+    {
+        "code":  "0593",
+        "name1":  "ميناء موندرا الهند",
+        "name2":  "Mundra India"
+    },
+    {
+        "code":  "0594",
+        "name1":  "ميناء ناجبور الهند",
+        "name2":  "Nagpur India"
+    },
+    {
+        "code":  "0595",
+        "name1":  "ميناء نيودلهي، الهند",
+        "name2":  "NewDelhi India"
+    },
+    {
+        "code":  "0596",
+        "name1":  "ميناء بانيبات ​​الهند",
+        "name2":  "Panipat India"
+    },
+    {
+        "code":  "0597",
+        "name1":  "ميناء بيبافاف",
+        "name2":  "Pipavav"
+    },
+    {
+        "code":  "0598",
+        "name1":  "ميناء Pithampur الهند",
+        "name2":  "Pithampur India"
+    },
+    {
+        "code":  "0599",
+        "name1":  "ميناء بوني الهند",
+        "name2":  "Pune India"
+    },
+    {
+        "code":  "0600",
+        "name1":  "ميناء سورة",
+        "name2":  "Surat"
+    },
+    {
+        "code":  "0601",
+        "name1":  "ميناء توتيكورين الهند",
+        "name2":  "Tuticorin India"
+    },
+    {
+        "code":  "0602",
+        "name1":  "ميناء فيرافال",
+        "name2":  "Veraval"
+    },
+    {
+        "code":  "0603",
+        "name1":  "ميناء فيساخاباتنام الهند",
+        "name2":  "Visakhapatnam India"
+    },
+    {
+        "code":  "0604",
+        "name1":  "ميناء كاتوبالي",
+        "name2":  "Kattupalli"
+    },
+    {
+        "code":  "0605",
+        "name1":  "ميناء أمااماباري إندونيسيا",
+        "name2":  "Amamapare Indonesia"
+    },
+    {
+        "code":  "0606",
+        "name1":  "ميناء باليكبابان",
+        "name2":  "Balikpapan"
+    },
+    {
+        "code":  "0607",
+        "name1":  "ميناء بانجارماسين إندونيسيا",
+        "name2":  "Banjarmasin Indonesia"
+    },
+    {
+        "code":  "0608",
+        "name1":  "ميناء باتام ، جزر إندونيسيا",
+        "name2":  "BatamIsland Indonesia"
+    },
+    {
+        "code":  "0609",
+        "name1":  "ميناء باتوامبال إندونيسيا",
+        "name2":  "BatuAmpal Indonesia"
+    },
+    {
+        "code":  "0610",
+        "name1":  "ميناء بيلوان سومطرة اندونيسيا",
+        "name2":  "Belawan Sumatra Indonesia"
+    },
+    {
+        "code":  "0611",
+        "name1":  "ميناء بيتونج سولاويزي إندونيسيا",
+        "name2":  "Bitung Sulawesi Indonesia"
+    },
+    {
+        "code":  "0612",
+        "name1":  "ميناء بواتان إندونيسيا",
+        "name2":  "Buatan Indonesia"
+    },
+    {
+        "code":  "0613",
+        "name1":  "ميناء سيجادنج",
+        "name2":  "Cigading"
+    },
+    {
+        "code":  "0614",
+        "name1":  "ميناء جاكرتا جافا اندونيسيا",
+        "name2":  "Jakarta Java Indonesia"
+    },
+    {
+        "code":  "0615",
+        "name1":  "ميناء جامبي سومطرة إندونيسيا",
+        "name2":  "Jambi Sumatra Indonesia"
+    },
+    {
+        "code":  "0616",
+        "name1":  "ميناء قابيل اندونيسيا",
+        "name2":  "Kabil Indonesia"
+    },
+    {
+        "code":  "0617",
+        "name1":  "ميناء لوبام رياو إندونيسيا",
+        "name2":  "Lobam Riau Indonesia"
+    },
+    {
+        "code":  "0618",
+        "name1":  "ميناء ماكاسار اندونيسيا",
+        "name2":  "Makassar Indonesia"
+    },
+    {
+        "code":  "0619",
+        "name1":  "ميناء ميدان سومطرة اندونيسيا",
+        "name2":  "Medan Sumatra Indonesia"
+    },
+    {
+        "code":  "0620",
+        "name1":  "ميناء ميراك جافا اندونيسيا",
+        "name2":  "Merak Java Indonesia"
+    },
+    {
+        "code":  "0621",
+        "name1":  "ميناء بادانج إندونيسيا",
+        "name2":  "Padang Indonesia"
+    },
+    {
+        "code":  "0622",
+        "name1":  "ميناء باليمبانج سومطرة إندونيسيا",
+        "name2":  "Palembang Sumatra Indonesia"
+    },
+    {
+        "code":  "0623",
+        "name1":  "ميناء بانجانغ",
+        "name2":  "Panjang"
+    },
+    {
+        "code":  "0624",
+        "name1":  "ميناء بانجانغ إندونيسيا",
+        "name2":  "Panjang Indonesia"
+    },
+    {
+        "code":  "0625",
+        "name1":  "ميناء بيكانبارو سومطرة إندونيسيا",
+        "name2":  "Pekanbaru Sumatra Indonesia"
+    },
+    {
+        "code":  "0626",
+        "name1":  "ميناء بيراوانج سومطرة إندونيسيا",
+        "name2":  "Perawang Sumatra Indonesia"
+    },
+    {
+        "code":  "0627",
+        "name1":  "ميناء بونتياناك كاليمانتان إندونيسيا",
+        "name2":  "Pontianak Kalimantan Indonesia"
+    },
+    {
+        "code":  "0628",
+        "name1":  "ميناء ساماريندا كاليمانتان إندونيسيا",
+        "name2":  "Samarinda Kalimantan Indonesia"
+    },
+    {
+        "code":  "0629",
+        "name1":  "ميناء سيمارانج جافا اندونيسيا",
+        "name2":  "Semarang Java Indonesia"
+    },
+    {
+        "code":  "0630",
+        "name1":  "ميناء سونجيباكنج",
+        "name2":  "Sungaipakning"
+    },
+    {
+        "code":  "0631",
+        "name1":  "ميناء سورابايا إندونيسيا",
+        "name2":  "Surabaya Indonesia"
+    },
+    {
+        "code":  "0632",
+        "name1":  "ميناء تابونيو",
+        "name2":  "Taboneo"
+    },
+    {
+        "code":  "0633",
+        "name1":  "ميناء تانجونجبريوك إندونيسيا",
+        "name2":  "TanjungPriok Indonesia"
+    },
+    {
+        "code":  "0634",
+        "name1":  "ميناء Tebingtinggi اندونيسيا",
+        "name2":  "Tebingtinggi Indonesia"
+    },
+    {
+        "code":  "0635",
+        "name1":  "ميناء تيلوكبيتونج",
+        "name2":  "Telukbetung"
+    },
+    {
+        "code":  "0636",
+        "name1":  "ميناء UjungPandang سولاويزي إندونيسيا",
+        "name2":  "UjungPandang Sulawesi Indonesia"
+    },
+    {
+        "code":  "0637",
+        "name1":  "ميناء بندر شهيد رجائي",
+        "name2":  "BANDAR SHAHID RAJAEE"
+    },
+    {
+        "code":  "0638",
+        "name1":  "ميناء أم قصر العراق",
+        "name2":  "UmmQasr Iraq"
+    },
+    {
+        "code":  "0639",
+        "name1":  "ميناء المعقل",
+        "name2":  "Al Maakal"
+    },
+    {
+        "code":  "0640",
+        "name1":  "ميناء بندر عباس الجمهورية الإسلامية الإيرانية",
+        "name2":  "BandarAbbas IslamicRepublicOfIran"
+    },
+    {
+        "code":  "0641",
+        "name1":  "ميناء بندر الخميني الجمهورية الإسلامية الإيرانية",
+        "name2":  "BandarKhomeini IslamicRepublicOfIran"
+    },
+    {
+        "code":  "0642",
+        "name1":  "ميناء بوشهر",
+        "name2":  "Bushire"
+    },
+    {
+        "code":  "0643",
+        "name1":  "ميناء تشابهار الإسلامية الجمهورية الإيرانية",
+        "name2":  "Chabahar IslamicRepublicOfIran"
+    },
+    {
+        "code":  "0644",
+        "name1":  "ميناء كورك ايرلندا",
+        "name2":  "Cork Ireland"
+    },
+    {
+        "code":  "0645",
+        "name1":  "ميناء دروغيرا ​​ايرلندا",
+        "name2":  "Droghera Ireland"
+    },
+    {
+        "code":  "0646",
+        "name1":  "ميناء دبلن، إيرلندا",
+        "name2":  "Dublin Ireland"
+    },
+    {
+        "code":  "0647",
+        "name1":  "ميناء Foynes أيرلندا",
+        "name2":  "Foynes Ireland"
+    },
+    {
+        "code":  "0648",
+        "name1":  "ميناء غالواي أيرلندا",
+        "name2":  "Galway Ireland"
+    },
+    {
+        "code":  "0649",
+        "name1":  "ميناء جمهورية ايران الاسلامية",
+        "name2":  "IslamicRepublicOfIran"
+    },
+    {
+        "code":  "0650",
+        "name1":  "ميناء خرمشهر الجمهورية الإسلامية الإيرانية",
+        "name2":  "Khorramshahr IslamicRepublicOfIran"
+    },
+    {
+        "code":  "0651",
+        "name1":  "ميناء Kinsale أيرلندا",
+        "name2":  "Kinsale Ireland"
+    },
+    {
+        "code":  "0652",
+        "name1":  "ميناء ووترفورد ايرلندا",
+        "name2":  "Waterford Ireland"
+    },
+    {
+        "code":  "0653",
+        "name1":  "ميناء ويكلو",
+        "name2":  "Wicklow"
+    },
+    {
+        "code":  "0654",
+        "name1":  "ميناء أشدود إسرائيل",
+        "name2":  "Ashdod Israel"
+    },
+    {
+        "code":  "0655",
+        "name1":  "ميناء الخضيرة إسرائيل",
+        "name2":  "Hadera Israel"
+    },
+    {
+        "code":  "0656",
+        "name1":  "ميناء حيفا إسرائيل",
+        "name2":  "Haifa Israel"
+    },
+    {
+        "code":  "0657",
+        "name1":  "ميناء نتانيا",
+        "name2":  "Natanya"
+    },
+    {
+        "code":  "0658",
+        "name1":  "ميناء RamatGan إسرائيل",
+        "name2":  "RamatGan Israel"
+    },
+    {
+        "code":  "0659",
+        "name1":  "ميناء تل أبيب، إسرائيل",
+        "name2":  "TelAviv Israel"
+    },
+    {
+        "code":  "0660",
+        "name1":  "ميناء أنكونا ايطاليا",
+        "name2":  "Ancona Italy"
+    },
+    {
+        "code":  "0661",
+        "name1":  "ميناء أوغوستا ايطاليا",
+        "name2":  "Augusta Italy"
+    },
+    {
+        "code":  "0662",
+        "name1":  "ميناء باري ايطاليا",
+        "name2":  "Bari Italy"
+    },
+    {
+        "code":  "0663",
+        "name1":  "ميناء كالياري ايطاليا",
+        "name2":  "Cagliari Italy"
+    },
+    {
+        "code":  "0664",
+        "name1":  "ميناء كابري",
+        "name2":  "Capri"
+    },
+    {
+        "code":  "0665",
+        "name1":  "ميناء كاتانيا ايطاليا",
+        "name2":  "Catania Italy"
+    },
+    {
+        "code":  "0666",
+        "name1":  "ميناء تشيفيتافيكيا إيطاليا",
+        "name2":  "Civitavecchia Italy"
+    },
+    {
+        "code":  "0667",
+        "name1":  "ميناء كروتوني ايطاليا",
+        "name2":  "Crotone Italy"
+    },
+    {
+        "code":  "0668",
+        "name1":  "ميناء فاينزا ايطاليا",
+        "name2":  "Faenza Italy"
+    },
+    {
+        "code":  "0669",
+        "name1":  "ميناء جايتا ايطاليا",
+        "name2":  "Gaeta Italy"
+    },
+    {
+        "code":  "0670",
+        "name1":  "ميناء GioiaTauro إيطاليا",
+        "name2":  "GioiaTauro Italy"
+    },
+    {
+        "code":  "0671",
+        "name1":  "ميناء لاسبزيا ايطاليا",
+        "name2":  "LaSpezia Italy"
+    },
+    {
+        "code":  "0672",
+        "name1":  "ميناء ليفورنو ايطاليا",
+        "name2":  "Livorno Italy"
+    },
+    {
+        "code":  "0673",
+        "name1":  "ميناء ميلانو ايطاليا",
+        "name2":  "Milano Italy"
+    },
+    {
+        "code":  "0674",
+        "name1":  "ميناء مودينا ايطاليا",
+        "name2":  "Modena Italy"
+    },
+    {
+        "code":  "0675",
+        "name1":  "ميناء مونفالكون ايطاليا",
+        "name2":  "Monfalcone Italy"
+    },
+    {
+        "code":  "0676",
+        "name1":  "ميناء نابولي ايطاليا",
+        "name2":  "Napoli Italy"
+    },
+    {
+        "code":  "0677",
+        "name1":  "ميناء بادوفا ايطاليا",
+        "name2":  "Padova Italy"
+    },
+    {
+        "code":  "0678",
+        "name1":  "ميناء باليرمو ايطاليا",
+        "name2":  "Palermo Italy"
+    },
+    {
+        "code":  "0679",
+        "name1":  "ميناء بيزارو ايطاليا",
+        "name2":  "Pesaro Italy"
+    },
+    {
+        "code":  "0680",
+        "name1":  "ميناء بيسكارا ايطاليا",
+        "name2":  "Pescara Italy"
+    },
+    {
+        "code":  "0681",
+        "name1":  "ميناء بورتو غاريبالدي",
+        "name2":  "PortoGaribaldi"
+    },
+    {
+        "code":  "0682",
+        "name1":  "ميناء PortoVesme ايطاليا",
+        "name2":  "PortoVesme Italy"
+    },
+    {
+        "code":  "0683",
+        "name1":  "ميناء PozzoloFormigano إيطاليا",
+        "name2":  "PozzoloFormigano Italy"
+    },
+    {
+        "code":  "0684",
+        "name1":  "ميناء رافينا ايطاليا",
+        "name2":  "Ravenna Italy"
+    },
+    {
+        "code":  "0685",
+        "name1":  "ميناء ساليرنو ايطاليا",
+        "name2":  "Salerno Italy"
+    },
+    {
+        "code":  "0686",
+        "name1":  "ميناء سافونا ايطاليا",
+        "name2":  "Savona Italy"
+    },
+    {
+        "code":  "0687",
+        "name1":  "ميناء تارانتو ايطاليا",
+        "name2":  "Taranto Italy"
+    },
+    {
+        "code":  "0688",
+        "name1":  "ميناء تورينو ايطاليا",
+        "name2":  "Torino Italy"
+    },
+    {
+        "code":  "0689",
+        "name1":  "ميناء تراباني ايطاليا",
+        "name2":  "Trapani Italy"
+    },
+    {
+        "code":  "0690",
+        "name1":  "ميناء تريستا ايطاليا",
+        "name2":  "Trieste Italy"
+    },
+    {
+        "code":  "0691",
+        "name1":  "ميناء VadoLigure ايطاليا",
+        "name2":  "VadoLigure Italy"
+    },
+    {
+        "code":  "0692",
+        "name1":  "ميناء فينيتسيا",
+        "name2":  "Venezia"
+    },
+    {
+        "code":  "0693",
+        "name1":  "ميناء فياريجيو إيطاليا",
+        "name2":  "Viareggio Italy"
+    },
+    {
+        "code":  "0694",
+        "name1":  "ميناء كينغستون جامايكا",
+        "name2":  "Kingston Jamaica"
+    },
+    {
+        "code":  "0695",
+        "name1":  "ميناء مونتيغباي جامايكا",
+        "name2":  "MontegoBay Jamaica"
+    },
+    {
+        "code":  "0696",
+        "name1":  "ميناء OchoRios جامايكا",
+        "name2":  "OchoRios Jamaica"
+    },
+    {
+        "code":  "0697",
+        "name1":  "ميناء بورت كايزر جامايكا",
+        "name2":  "PortKaiser Jamaica"
+    },
+    {
+        "code":  "0698",
+        "name1":  "ميناء أبوراتسو ميازاكي اليابان",
+        "name2":  "Aburatsu Miyazaki Japan"
+    },
+    {
+        "code":  "0699",
+        "name1":  "ميناء اكيتا اكيتا اليابان",
+        "name2":  "Akita Akita Japan"
+    },
+    {
+        "code":  "0700",
+        "name1":  "ميناء اوموري اليابان",
+        "name2":  "Aomori Japan"
+    },
+    {
+        "code":  "0701",
+        "name1":  "ميناء شيبا طيبة",
+        "name2":  "Chiba Tiba"
+    },
+    {
+        "code":  "0702",
+        "name1":  "ميناء فوكوياما هيروشيما هيروشيما",
+        "name2":  "Fukuyama Hiroshima Hirosima"
+    },
+    {
+        "code":  "0703",
+        "name1":  "ميناء هاشينوهي أوموري اليابان",
+        "name2":  "Hachinohe Aomori Japan"
+    },
+    {
+        "code":  "0704",
+        "name1":  "ميناء هاكاتا / فوكوكا هووكا",
+        "name2":  "Hakata/fukuoka Hukuoka"
+    },
+    {
+        "code":  "0705",
+        "name1":  "ميناء هاكوداته هوكايدو اليابان",
+        "name2":  "Hakodate Hokkaido Japan"
+    },
+    {
+        "code":  "0706",
+        "name1":  "ميناء حمادة سيماني",
+        "name2":  "Hamada Simane"
+    },
+    {
+        "code":  "0707",
+        "name1":  "ميناء هاماماتسو اليابان",
+        "name2":  "Hamamatsu Japan"
+    },
+    {
+        "code":  "0708",
+        "name1":  "ميناء هيبي اليابان",
+        "name2":  "Hibi Japan"
+    },
+    {
+        "code":  "0709",
+        "name1":  "ميناء هيكوشيما اليابان",
+        "name2":  "Hikoshima Japan"
+    },
+    {
+        "code":  "0710",
+        "name1":  "ميناء هيميجي",
+        "name2":  "Himeji"
+    },
+    {
+        "code":  "0711",
+        "name1":  "ميناء هيروشيما هيروشيما",
+        "name2":  "Hiroshima Hirosima"
+    },
+    {
+        "code":  "0712",
+        "name1":  "ميناء هيتاشي اليابان",
+        "name2":  "Hitachi Japan"
+    },
+    {
+        "code":  "0713",
+        "name1":  "ميناء هيتاشيناكا إيباراكي اليابان",
+        "name2":  "Hitachinaka Ibaraki Japan"
+    },
+    {
+        "code":  "0714",
+        "name1":  "ميناء هوسوشيما ميازاكي اليابان",
+        "name2":  "Hososhima Miyazaki Japan"
+    },
+    {
+        "code":  "0715",
+        "name1":  "ميناء Imabari Ehime Japan",
+        "name2":  "Imabari Ehime Japan"
+    },
+    {
+        "code":  "0716",
+        "name1":  "ميناء إيماري ساجا اليابان",
+        "name2":  "Imari Saga Japan"
+    },
+    {
+        "code":  "0717",
+        "name1":  "ميناء IshigakiOkinawa اليابان",
+        "name2":  "IshigakiOkinawa Japan"
+    },
+    {
+        "code":  "0718",
+        "name1":  "ميناء إيشيكاري هوكايدو اليابان",
+        "name2":  "Ishikari Hokkaido Japan"
+    },
+    {
+        "code":  "0719",
+        "name1":  "ميناء Ishikariwanshinko هوكايدو اليابان",
+        "name2":  "Ishikariwanshinko Hokkaido Japan"
+    },
+    {
+        "code":  "0720",
+        "name1":  "ميناء إيشينوماكي اليابان",
+        "name2":  "Ishinomaki Japan"
+    },
+    {
+        "code":  "0721",
+        "name1":  "ميناء إيواكوني ياماغوتي",
+        "name2":  "Iwakuni Yamaguti"
+    },
+    {
+        "code":  "0722",
+        "name1":  "ميناء Iyomishima Ehime Japan",
+        "name2":  "Iyomishima Ehime Japan"
+    },
+    {
+        "code":  "0723",
+        "name1":  "ميناء كاجوشيما",
+        "name2":  "Kagoshima"
+    },
+    {
+        "code":  "0724",
+        "name1":  "ميناء كاكوجاوا",
+        "name2":  "Kakogawa"
+    },
+    {
+        "code":  "0725",
+        "name1":  "ميناء كانازاوا إيزيكاوا",
+        "name2":  "Kanazawa Isikawa"
+    },
+    {
+        "code":  "0726",
+        "name1":  "ميناء كاندا",
+        "name2":  "Kanda"
+    },
+    {
+        "code":  "0727",
+        "name1":  "ميناء كاشيما اليابان",
+        "name2":  "Kashima Japan"
+    },
+    {
+        "code":  "0728",
+        "name1":  "ميناء كاواساكي كاناغاوا اليابان",
+        "name2":  "Kawasaki Kanagawa Japan"
+    },
+    {
+        "code":  "0729",
+        "name1":  "ميناء كينورا اليابان",
+        "name2":  "Kinuura Japan"
+    },
+    {
+        "code":  "0730",
+        "name1":  "ميناء كيسارازو",
+        "name2":  "Kisarazu"
+    },
+    {
+        "code":  "0731",
+        "name1":  "ميناء كوبي هيوغو اليابان",
+        "name2":  "Kobe Hyogo Japan"
+    },
+    {
+        "code":  "0732",
+        "name1":  "ميناء كوشي كوتي",
+        "name2":  "Kochi Koti"
+    },
+    {
+        "code":  "0733",
+        "name1":  "ميناء كوماموتو اليابان",
+        "name2":  "Kumamoto Japan"
+    },
+    {
+        "code":  "0734",
+        "name1":  "ميناء كوري هيروسيما",
+        "name2":  "Kure Hirosima"
+    },
+    {
+        "code":  "0735",
+        "name1":  "ميناء كوشيرو هوكايدو اليابان",
+        "name2":  "Kushiro Hokkaido Japan"
+    },
+    {
+        "code":  "0736",
+        "name1":  "ميناء ميزورو كيوتو اليابان",
+        "name2":  "Maizuru Kyoto Japan"
+    },
+    {
+        "code":  "0737",
+        "name1":  "ميناء ماتسوياما اهيمه اليابان",
+        "name2":  "Matsuyama Ehime Japan"
+    },
+    {
+        "code":  "0738",
+        "name1":  "ميناء ميكي هوكوكا",
+        "name2":  "Miike Hukuoka"
+    },
+    {
+        "code":  "0739",
+        "name1":  "ميناء MizushimaOkayama اليابان",
+        "name2":  "MizushimaOkayama Japan"
+    },
+    {
+        "code":  "0740",
+        "name1":  "ميناء موجي / كيتاكيوشو هووكا",
+        "name2":  "Moji/kitakyushu Hukuoka"
+    },
+    {
+        "code":  "0741",
+        "name1":  "ميناء موروران",
+        "name2":  "Muroran"
+    },
+    {
+        "code":  "0742",
+        "name1":  "ميناء ماتشور اليابان",
+        "name2":  "Mutsure Japan"
+    },
+    {
+        "code":  "0743",
+        "name1":  "ميناء ناغازاكي ناغازاكي اليابان",
+        "name2":  "Nagasaki Nagasaki Japan"
+    },
+    {
+        "code":  "0744",
+        "name1":  "ميناء ناجويا أيتي",
+        "name2":  "Nagoya Aiti"
+    },
+    {
+        "code":  "0745",
+        "name1":  "ميناء ناهاوكيناوا اليابان",
+        "name2":  "NahaOkinawa Japan"
+    },
+    {
+        "code":  "0746",
+        "name1":  "ميناء ناكانوسيكي ياماغوتي",
+        "name2":  "Nakanoseki Yamaguti"
+    },
+    {
+        "code":  "0747",
+        "name1":  "ميناء ناويتسو نيجاتا اليابان",
+        "name2":  "Naoetsu Niigata Japan"
+    },
+    {
+        "code":  "0748",
+        "name1":  "ميناء ناوشيما اليابان",
+        "name2":  "Naoshima Japan"
+    },
+    {
+        "code":  "0749",
+        "name1":  "ميناء نيجاتا نيجاتا اليابان",
+        "name2":  "Niigata Niigata Japan"
+    },
+    {
+        "code":  "0750",
+        "name1":  "ميناء نياما اليابان",
+        "name2":  "Niihama Japan"
+    },
+    {
+        "code":  "0751",
+        "name1":  "ميناء أويتا أويتا اليابان",
+        "name2":  "OitaOita Japan"
+    },
+    {
+        "code":  "0752",
+        "name1":  "ميناء أوكيناوا اليابان",
+        "name2":  "Okinawa Japan"
+    },
+    {
+        "code":  "0753",
+        "name1":  "ميناء أومايزاكي سيزوكا",
+        "name2":  "Omaezaki Sizuoka"
+    },
+    {
+        "code":  "0754",
+        "name1":  "ميناء Onahama Hukusima",
+        "name2":  "Onahama Hukusima"
+    },
+    {
+        "code":  "0755",
+        "name1":  "ميناء أونوميتشي اليابان",
+        "name2":  "Onomichi Japan"
+    },
+    {
+        "code":  "0756",
+        "name1":  "ميناء أوساكا أوساكا اليابان",
+        "name2":  "OsakaOsaka Japan"
+    },
+    {
+        "code":  "0757",
+        "name1":  "ميناء أوتاكي هيروسيما",
+        "name2":  "Otake Hirosima"
+    },
+    {
+        "code":  "0758",
+        "name1":  "ميناء ساجانوسيكي اليابان",
+        "name2":  "Saganoseki Japan"
+    },
+    {
+        "code":  "0759",
+        "name1":  "ميناء ساكايد اليابان",
+        "name2":  "Sakaide Japan"
+    },
+    {
+        "code":  "0760",
+        "name1":  "ميناء ساكايميناتو توتوري اليابان",
+        "name2":  "Sakaiminato Tottori Japan"
+    },
+    {
+        "code":  "0761",
+        "name1":  "ميناء ساكاتا ياماغاتا اليابان",
+        "name2":  "Sakata Yamagata Japan"
+    },
+    {
+        "code":  "0762",
+        "name1":  "ميناء سينداي كاجوشيما اليابان",
+        "name2":  "Sendai Kagoshima Japan"
+    },
+    {
+        "code":  "0763",
+        "name1":  "ميناء سينداي مياجي اليابان",
+        "name2":  "Sendai Miyagi Japan"
+    },
+    {
+        "code":  "0764",
+        "name1":  "ميناء سيندايشينكو مياجي اليابان",
+        "name2":  "Sendaishinko Miyagi Japan"
+    },
+    {
+        "code":  "0765",
+        "name1":  "ميناء شيبوشي كاجوزيما",
+        "name2":  "Shibushi Kagosima"
+    },
+    {
+        "code":  "0766",
+        "name1":  "ميناء شيكاما اليابان",
+        "name2":  "Shikama Japan"
+    },
+    {
+        "code":  "0767",
+        "name1":  "ميناء شيميزو سيزوكا",
+        "name2":  "Shimizu Sizuoka"
+    },
+    {
+        "code":  "0768",
+        "name1":  "ميناء شيمونوسيكي يام",
+        "name2":  "Shimonoseki Yamaguti"
+    },
+    {
+        "code":  "0769",
+        "name1":  "ميناء سوديجورا اليابان",
+        "name2":  "Sodegaura Japan"
+    },
+    {
+        "code":  "0770",
+        "name1":  "ميناء سوما اليابان",
+        "name2":  "Soma Japan"
+    },
+    {
+        "code":  "0771",
+        "name1":  "ميناء تاجونورا اليابان",
+        "name2":  "Tagonoura Japan"
+    },
+    {
+        "code":  "0772",
+        "name1":  "ميناء تاكاماتسو كاجاوا اليابان",
+        "name2":  "Takamatsu Kagawa Japan"
+    },
+    {
+        "code":  "0773",
+        "name1":  "ميناء توباتا / كيتاكيوشو هووكا",
+        "name2":  "Tobata/kitakyushu Hukuoka"
+    },
+    {
+        "code":  "0774",
+        "name1":  "ميناء توكاتشي اليابان",
+        "name2":  "Tokachi Japan"
+    },
+    {
+        "code":  "0775",
+        "name1":  "ميناء توكوشيما توكوشيما",
+        "name2":  "Tokushima Tokusima"
+    },
+    {
+        "code":  "0776",
+        "name1":  "ميناء توكوياما ياماغوتي",
+        "name2":  "Tokuyama Yamaguti"
+    },
+    {
+        "code":  "0777",
+        "name1":  "ميناء طوكيو، اليابان",
+        "name2":  "Tokyo Japan"
+    },
+    {
+        "code":  "0778",
+        "name1":  "ميناء توماكوماي هوكايدو اليابان",
+        "name2":  "Tomakomai Hokkaido Japan"
+    },
+    {
+        "code":  "0779",
+        "name1":  "ميناء توندا اليابان",
+        "name2":  "Tonda Japan"
+    },
+    {
+        "code":  "0780",
+        "name1":  "ميناء توياما توياما اليابان",
+        "name2":  "Toyama Toyama Japan"
+    },
+    {
+        "code":  "0781",
+        "name1":  "ميناء توياماشينكو توياما اليابان",
+        "name2":  "Toyamashinko Toyama Japan"
+    },
+    {
+        "code":  "0782",
+        "name1":  "ميناء تويوهاشي اليابان",
+        "name2":  "Toyohashi Japan"
+    },
+    {
+        "code":  "0783",
+        "name1":  "ميناء تسوكومي اليابان",
+        "name2":  "Tsukumi Japan"
+    },
+    {
+        "code":  "0784",
+        "name1":  "ميناء تسوروجا هوكوي",
+        "name2":  "Tsuruga Hukui"
+    },
+    {
+        "code":  "0785",
+        "name1":  "ميناء يوبي اليابان",
+        "name2":  "Ube Japan"
+    },
+    {
+        "code":  "0786",
+        "name1":  "ميناء في كثير من الأحيان اليابان",
+        "name2":  "Unten Japan"
+    },
+    {
+        "code":  "0787",
+        "name1":  "ميناء واكاياما",
+        "name2":  "Wakayama"
+    },
+    {
+        "code":  "0788",
+        "name1":  "ميناء ياتسوشيرو كوماموتو اليابان",
+        "name2":  "Yatsushiro Kumamoto Japan"
+    },
+    {
+        "code":  "0789",
+        "name1":  "ميناء ياواتا",
+        "name2":  "Yawata"
+    },
+    {
+        "code":  "0790",
+        "name1":  "ميناء يوكايتشي مي اليابان",
+        "name2":  "Yokkaichi Mie Japan"
+    },
+    {
+        "code":  "0791",
+        "name1":  "ميناء يوكوهاما كاناغاوا اليابان",
+        "name2":  "Yokohama Kanagawa Japan"
+    },
+    {
+        "code":  "0792",
+        "name1":  "ميناء يوكوسوكا اليابان",
+        "name2":  "Yokosuka Japan"
+    },
+    {
+        "code":  "0793",
+        "name1":  "ميناء العقبة الاردن",
+        "name2":  "AlAqabah Jordan"
+    },
+    {
+        "code":  "0794",
+        "name1":  "ميناء مومباسا كينيا",
+        "name2":  "Mombasa Kenya"
+    },
+    {
+        "code":  "0795",
+        "name1":  "ميناء نيروبي، كينيا",
+        "name2":  "Nairobi Kenya"
+    },
+    {
+        "code":  "0796",
+        "name1":  "ميناء تاراوا كيريباتي",
+        "name2":  "Tarawa Kiribati"
+    },
+    {
+        "code":  "0797",
+        "name1":  "ميناء ريجا، لاتيفا",
+        "name2":  "Riga Latvia"
+    },
+    {
+        "code":  "0798",
+        "name1":  "ميناء فنتسبيلز لاتفيا",
+        "name2":  "Ventspils Latvia"
+    },
+    {
+        "code":  "0799",
+        "name1":  "ميناء بيروت، لبنان",
+        "name2":  "Beirut Lebanon"
+    },
+    {
+        "code":  "0800",
+        "name1":  "ميناء طرابلس لبنان",
+        "name2":  "Tripoli Lebanon"
+    },
+    {
+        "code":  "0801",
+        "name1":  "ميناء مونروفيا ليبيريا",
+        "name2":  "Monrovia Liberia"
+    },
+    {
+        "code":  "0802",
+        "name1":  "ميناء الخمس الليبية الجماهيرية",
+        "name2":  "AlKhums LibyanArabJamahiriya"
+    },
+    {
+        "code":  "0803",
+        "name1":  "ميناء بنجازي",
+        "name2":  "Bingazi"
+    },
+    {
+        "code":  "0804",
+        "name1":  "ميناء مصراتة الجماهيرية الليبية",
+        "name2":  "Misurata LibyanArabJamahiriya"
+    },
+    {
+        "code":  "0805",
+        "name1":  "ميناء طرابلس الجماهيرية الليبية",
+        "name2":  "Tripoli LibyanArabJamahiriya"
+    },
+    {
+        "code":  "0806",
+        "name1":  "ميناء كلايبيدا ليتوانيا",
+        "name2":  "Klaipeda Lithuania"
+    },
+    {
+        "code":  "0807",
+        "name1":  "ميناء ماكاو ماكاو",
+        "name2":  "Macau Macau"
+    },
+    {
+        "code":  "0808",
+        "name1":  "ميناء أنتسيرانانا مدغشقر",
+        "name2":  "Antsiranana Madagascar"
+    },
+    {
+        "code":  "0809",
+        "name1":  "ميناء ماجونجا",
+        "name2":  "Majunga"
+    },
+    {
+        "code":  "0810",
+        "name1":  "ميناء فضولي مدغشقر",
+        "name2":  "Nosy-be Madagascar"
+    },
+    {
+        "code":  "0811",
+        "name1":  "ميناء تاماتاف",
+        "name2":  "Tamatave"
+    },
+    {
+        "code":  "0812",
+        "name1":  "ميناء تواماسينا مدغشقر",
+        "name2":  "Toamasina Madagascar"
+    },
+    {
+        "code":  "0813",
+        "name1":  "ميناء تولير",
+        "name2":  "Tulear"
+    },
+    {
+        "code":  "0814",
+        "name1":  "ميناء بلانتير ملاوي",
+        "name2":  "Blantyre Malawi"
+    },
+    {
+        "code":  "0815",
+        "name1":  "ميناء بنتولو ساراواك ماليزيا",
+        "name2":  "Bintulu Sarawak Malaysia"
+    },
+    {
+        "code":  "0816",
+        "name1":  "ميناء بتروورث",
+        "name2":  "Butterworth"
+    },
+    {
+        "code":  "0817",
+        "name1":  "ميناء جوهر بهرو ماليزيا",
+        "name2":  "JohorBahru Malaysia"
+    },
+    {
+        "code":  "0818",
+        "name1":  "ميناء KotaKinabalu Sabah ماليزيا",
+        "name2":  "KotaKinabalu Sabah Malaysia"
+    },
+    {
+        "code":  "0819",
+        "name1":  "ميناء كوالا تيرينجانو ماليزيا",
+        "name2":  "KualaTerengganu Malaysia"
+    },
+    {
+        "code":  "0820",
+        "name1":  "ميناء كوانتان",
+        "name2":  "Kuantan"
+    },
+    {
+        "code":  "0821",
+        "name1":  "ميناء كوتشينغ ساراواك ماليزيا",
+        "name2":  "Kuching Sarawak Malaysia"
+    },
+    {
+        "code":  "0822",
+        "name1":  "ميناء لابوان صباح ماليزيا",
+        "name2":  "Labuan Sabah Malaysia"
+    },
+    {
+        "code":  "0823",
+        "name1":  "ميناء مالاكا ماليزيا",
+        "name2":  "Malacca Malaysia"
+    },
+    {
+        "code":  "0824",
+        "name1":  "ميناء مرسينغ ماليزيا",
+        "name2":  "Mersing Malaysia"
+    },
+    {
+        "code":  "0825",
+        "name1":  "ميناء ميري ساراواك ماليزيا",
+        "name2":  "Miri Sarawak Malaysia"
+    },
+    {
+        "code":  "0826",
+        "name1":  "ميناء موار ماليزيا",
+        "name2":  "Muar Malaysia"
+    },
+    {
+        "code":  "0827",
+        "name1":  "ميناء PasirGudang Johor ماليزيا",
+        "name2":  "PasirGudang Johor Malaysia"
+    },
+    {
+        "code":  "0828",
+        "name1":  "ميناء بينانج",
+        "name2":  "Penang"
+    },
+    {
+        "code":  "0829",
+        "name1":  "ميناء PortKelang Malaysia",
+        "name2":  "PortKelang Malaysia"
+    },
+    {
+        "code":  "0830",
+        "name1":  "ميناء سانداكان صباح ماليزيا",
+        "name2":  "Sandakan Sabah Malaysia"
+    },
+    {
+        "code":  "0831",
+        "name1":  "ميناء SibuSarawak ماليزيا",
+        "name2":  "SibuSarawak Malaysia"
+    },
+    {
+        "code":  "0832",
+        "name1":  "ميناء تانجونج باران ماليزيا",
+        "name2":  "TanjongBaran Malaysia"
+    },
+    {
+        "code":  "0833",
+        "name1":  "ميناء تانجونج بيليباس ماليزيا",
+        "name2":  "TanjongPelepas Malaysia"
+    },
+    {
+        "code":  "0834",
+        "name1":  "ميناء تاواو صباح ماليزيا",
+        "name2":  "Tawau Sabah Malaysia"
+    },
+    {
+        "code":  "0835",
+        "name1":  "ميناء ويستبورت ماليزيا",
+        "name2":  "Westport Malaysia"
+    },
+    {
+        "code":  "0836",
+        "name1":  "ميناء تيلاوا ، ميانمار",
+        "name2":  "THILAWA, Myanmar"
+    },
+    {
+        "code":  "0837",
+        "name1":  "ميناء ميل، جزر المالديف",
+        "name2":  "Male Maldives"
+    },
+    {
+        "code":  "0838",
+        "name1":  "ميناء باماكو مالي",
+        "name2":  "Bamako Mali"
+    },
+    {
+        "code":  "0839",
+        "name1":  "ميناء مالطا",
+        "name2":  "Malta"
+    },
+    {
+        "code":  "0840",
+        "name1":  "ميناء Marsaxlokk مالطا",
+        "name2":  "Marsaxlokk Malta"
+    },
+    {
+        "code":  "0841",
+        "name1":  "ميناء ماجورو مارشال جزر",
+        "name2":  "Majuro MarshallIslands"
+    },
+    {
+        "code":  "0842",
+        "name1":  "ميناء جزر المارتينيك في Fort-de-france",
+        "name2":  "Fort-de-france Martinique"
+    },
+    {
+        "code":  "0843",
+        "name1":  "ميناء نواذيبو موريتانيا",
+        "name2":  "Nouadhibou  Mauritania"
+    },
+    {
+        "code":  "0844",
+        "name1":  "ميناء نواذيبو موريتانيا",
+        "name2":  "Nouadhibou Mauritania"
+    },
+    {
+        "code":  "0845",
+        "name1":  "ميناء نواكشوط موريتانيا",
+        "name2":  "Nouakchott Mauritania"
+    },
+    {
+        "code":  "0846",
+        "name1":  "ميناء PortLouis موريشيوس",
+        "name2":  "PortLouis Mauritius"
+    },
+    {
+        "code":  "0847",
+        "name1":  "ميناء لونغوني مايوت",
+        "name2":  "Longoni Mayotte"
+    },
+    {
+        "code":  "0848",
+        "name1":  "ميناء أكابولكو المكسيك",
+        "name2":  "Acapulco Mexico"
+    },
+    {
+        "code":  "0849",
+        "name1":  "ميناء ألتاميرا تاماوليباس المكسيك",
+        "name2":  "Altamira Tamaulipas Mexico"
+    },
+    {
+        "code":  "0850",
+        "name1":  "ميناء كواتزاكوالكوس المكسيك",
+        "name2":  "Coatzacoalcos Mexico"
+    },
+    {
+        "code":  "0851",
+        "name1":  "ميناء إنسينادا باجا كاليفورنيا سور المكسيك",
+        "name2":  "Ensenada BajaCaliforniaSur Mexico"
+    },
+    {
+        "code":  "0852",
+        "name1":  "ميناء Guaymas المكسيك",
+        "name2":  "Guaymas Mexico"
+    },
+    {
+        "code":  "0853",
+        "name1":  "ميناء لازارو كارديناس ميتشواكان المكسيك",
+        "name2":  "LazaroCardenas Michoacan  Mexico"
+    },
+    {
+        "code":  "0854",
+        "name1":  "ميناء مانزانيلو كوليما المكسيك",
+        "name2":  "Manzanillo Colima Mexico"
+    },
+    {
+        "code":  "0855",
+        "name1":  "ميناء مازاتلان سينالوا المكسيك",
+        "name2":  "Mazatlan Sinaloa Mexico"
+    },
+    {
+        "code":  "0856",
+        "name1":  "ميناء مكسيكو سيتي ديستريتو فيديرال المكسيك",
+        "name2":  "MexicoCity DistritoFederal Mexico"
+    },
+    {
+        "code":  "0857",
+        "name1":  "ميناء بروغريسو يوكاتان المكسيك",
+        "name2":  "Progreso Yucatan Mexico"
+    },
+    {
+        "code":  "0858",
+        "name1":  "ميناء PuertoMorelos QuintanaRoo المكسيك",
+        "name2":  "PuertoMorelos QuintanaRoo Mexico"
+    },
+    {
+        "code":  "0859",
+        "name1":  "ميناء رينوسا المكسيك",
+        "name2":  "Reynosa Mexico"
+    },
+    {
+        "code":  "0860",
+        "name1":  "ميناء سالينا كروز المكسيك",
+        "name2":  "SalinaCruz Mexico"
+    },
+    {
+        "code":  "0861",
+        "name1":  "ميناء تامبيكو تاماوليباس المكسيك",
+        "name2":  "Tampico Tamaulipas Mexico"
+    },
+    {
+        "code":  "0862",
+        "name1":  "ميناء توبولوبامبو المكسيك",
+        "name2":  "Topolobampo Mexico"
+    },
+    {
+        "code":  "0863",
+        "name1":  "ميناء فيراكروز فيراكروز المكسيك",
+        "name2":  "Veracruz Veracruz Mexico"
+    },
+    {
+        "code":  "0864",
+        "name1":  "ميناء بار الجبل الأسود",
+        "name2":  "Bar Montenegro"
+    },
+    {
+        "code":  "0865",
+        "name1":  "ميناء اغادير، المغرب",
+        "name2":  "Agadir Morocco"
+    },
+    {
+        "code":  "0866",
+        "name1":  "ميناء الدار البيضاء، المغرب",
+        "name2":  "Casablanca Morocco"
+    },
+    {
+        "code":  "0867",
+        "name1":  "ميناء الداخلة",
+        "name2":  "Dakhla"
+    },
+    {
+        "code":  "0868",
+        "name1":  "ميناء الجديدة المغرب",
+        "name2":  "ElJadida Morocco"
+    },
+    {
+        "code":  "0869",
+        "name1":  "ميناء القنيطرة المغرب",
+        "name2":  "Kenitra Morocco"
+    },
+    {
+        "code":  "0870",
+        "name1":  "ميناء العيون",
+        "name2":  "Laayoune"
+    },
+    {
+        "code":  "0871",
+        "name1":  "ميناء المحمدية المغرب",
+        "name2":  "Mohammedia Morocco"
+    },
+    {
+        "code":  "0872",
+        "name1":  "ميناء آسفي المغرب",
+        "name2":  "Safi Morocco"
+    },
+    {
+        "code":  "0873",
+        "name1":  "ميناء TangerMed طنجة المغرب",
+        "name2":  "TangerMed Tangier Morocco"
+    },
+    {
+        "code":  "0874",
+        "name1":  "ميناء طنجة، المغرب",
+        "name2":  "Tangier Morocco"
+    },
+    {
+        "code":  "0875",
+        "name1":  "ميناء بيرا موزمبيق",
+        "name2":  "Beira Mozambique"
+    },
+    {
+        "code":  "0876",
+        "name1":  "ميناء مابوتو موزمبيق",
+        "name2":  "Maputo Mozambique"
+    },
+    {
+        "code":  "0877",
+        "name1":  "ميناء ناكالا موزمبيق",
+        "name2":  "Nacala Mozambique"
+    },
+    {
+        "code":  "0878",
+        "name1":  "ميناء بيمبا موزمبيق",
+        "name2":  "Pemba Mozambique"
+    },
+    {
+        "code":  "0879",
+        "name1":  "ميناء كويليمان موزمبيق",
+        "name2":  "Quelimane Mozambique"
+    },
+    {
+        "code":  "0880",
+        "name1":  "ميناء يانغون، ميانمار",
+        "name2":  "Yangon Myanmar"
+    },
+    {
+        "code":  "0881",
+        "name1":  "ميناء لودريتز ناميبيا",
+        "name2":  "Luderitz Namibia"
+    },
+    {
+        "code":  "0882",
+        "name1":  "ميناء والفيسباي ناميبيا",
+        "name2":  "WalvisBay Namibia"
+    },
+    {
+        "code":  "0883",
+        "name1":  "ميناء ألكمار هولندا",
+        "name2":  "Alkmaar Netherlands"
+    },
+    {
+        "code":  "0884",
+        "name1":  "ميناء امستردام هولندا",
+        "name2":  "Amsterdam Netherlands"
+    },
+    {
+        "code":  "0885",
+        "name1":  "ميناء أروبا",
+        "name2":  "Aruba"
+    },
+    {
+        "code":  "0886",
+        "name1":  "ميناء BergenOpZoom هولندا",
+        "name2":  "BergenOpZoom Netherlands"
+    },
+    {
+        "code":  "0887",
+        "name1":  "ميناء دوردريخت",
+        "name2":  "Dordrecht"
+    },
+    {
+        "code":  "0888",
+        "name1":  "ميناء Eemshaven هولندا",
+        "name2":  "Eemshaven Netherlands"
+    },
+    {
+        "code":  "0889",
+        "name1":  "ميناء جرونينجن هولندا",
+        "name2":  "Groningen Netherlands"
+    },
+    {
+        "code":  "0890",
+        "name1":  "ميناء HoekVanHolland",
+        "name2":  "HoekVanHolland"
+    },
+    {
+        "code":  "0891",
+        "name1":  "ميناء Ijmuiden هولندا",
+        "name2":  "Ijmuiden Netherlands"
+    },
+    {
+        "code":  "0892",
+        "name1":  "ميناء Moerdijk هولندا",
+        "name2":  "Moerdijk Netherlands"
+    },
+    {
+        "code":  "0893",
+        "name1":  "ميناء روتردام، هولندا",
+        "name2":  "Rotterdam Netherlands"
+    },
+    {
+        "code":  "0894",
+        "name1":  "ميناء روزنبورغ",
+        "name2":  "Rozenburg"
+    },
+    {
+        "code":  "0895",
+        "name1":  "ميناء سينتوستاتيوس",
+        "name2":  "SintEustatius"
+    },
+    {
+        "code":  "0896",
+        "name1":  "ميناء سينت مارتن",
+        "name2":  "SintMaarten"
+    },
+    {
+        "code":  "0897",
+        "name1":  "ميناء تيرنوزن",
+        "name2":  "Terneuzen"
+    },
+    {
+        "code":  "0898",
+        "name1":  "ميناء فيلسن هولندا",
+        "name2":  "Velsen Netherlands"
+    },
+    {
+        "code":  "0899",
+        "name1":  "ميناء فلاردينجن هولندا",
+        "name2":  "Vlaardingen Netherlands"
+    },
+    {
+        "code":  "0900",
+        "name1":  "ميناء فليسينجين",
+        "name2":  "Vlissingen"
+    },
+    {
+        "code":  "0901",
+        "name1":  "ميناء زاندام هولندا",
+        "name2":  "Zaandam Netherlands"
+    },
+    {
+        "code":  "0902",
+        "name1":  "ميناء زيولده هولندا",
+        "name2":  "Zeewolde Netherlands"
+    },
+    {
+        "code":  "0903",
+        "name1":  "ميناء بونير هولندا",
+        "name2":  "Bonaire NetherlandsAntilles"
+    },
+    {
+        "code":  "0904",
+        "name1":  "ميناء كوراكاو هولندا",
+        "name2":  "Curacao NetherlandsAntilles"
+    },
+    {
+        "code":  "0905",
+        "name1":  "ميناء جاليسبي هولندا",
+        "name2":  "Galisby NetherlandsAntilles"
+    },
+    {
+        "code":  "0906",
+        "name1":  "ميناء Philipsburg هولندا جزر الأنتيل",
+        "name2":  "Philipsburg NetherlandsAntilles"
+    },
+    {
+        "code":  "0907",
+        "name1":  "ميناء سانت مارتين ، هولندا ، جزر الأنتيل",
+        "name2":  "StMaarten NetherlandsAntilles"
+    },
+    {
+        "code":  "0908",
+        "name1":  "ميناء ويلمستاد كوراكاو هولندا جزر الأنتيل",
+        "name2":  "Willemstad Curacao NetherlandsAntilles"
+    },
+    {
+        "code":  "0909",
+        "name1":  "ميناء نوميا نيوكاليدونيا",
+        "name2":  "Noumea NewCaledonia"
+    },
+    {
+        "code":  "0910",
+        "name1":  "ميناء أوكلاند أوكلاند نيوزيلندا",
+        "name2":  "Auckland Auckland NewZealand"
+    },
+    {
+        "code":  "0911",
+        "name1":  "ميناء بلاف ساوثلاند نيوزيلندا",
+        "name2":  "Bluff Southland NewZealand"
+    },
+    {
+        "code":  "0912",
+        "name1":  "ميناء كرايستشيرش كانتربري نيوزيلندا",
+        "name2":  "Christchurch Canterbury NewZealand"
+    },
+    {
+        "code":  "0913",
+        "name1":  "ميناء دنيدنأوتاغو نيوزيلندا",
+        "name2":  "DunedinOtago NewZealand"
+    },
+    {
+        "code":  "0914",
+        "name1":  "ميناء هاميلتون وايكاتو نيوزيلندا",
+        "name2":  "Hamilton Waikato NewZealand"
+    },
+    {
+        "code":  "0915",
+        "name1":  "ميناء ليتيلتون كانتربري ، نيوزيلندا",
+        "name2":  "Lyttelton Canterbury NewZealand"
+    },
+    {
+        "code":  "0916",
+        "name1":  "ميناء ميدلتون / كرايستشيرش نيوزيلندا",
+        "name2":  "Middleton/Christchurch NewZealand"
+    },
+    {
+        "code":  "0917",
+        "name1":  "ميناء نابير هوكس باي نيوزيلندا",
+        "name2":  "Napier HawkesBay NewZealand"
+    },
+    {
+        "code":  "0918",
+        "name1":  "ميناء نيلسون نيلسون نيوزيلندا",
+        "name2":  "Nelson Nelson NewZealand"
+    },
+    {
+        "code":  "0919",
+        "name1":  "ميناء نيوبليموث تاراناكي نيوزيلندا",
+        "name2":  "NewPlymouth Taranaki NewZealand"
+    },
+    {
+        "code":  "0920",
+        "name1":  "ميناء بالمرستون شمال ماناواتو وانجانوي نيوزيلندا",
+        "name2":  "PalmerstonNorth Manawatu-wanganui NewZealand"
+    },
+    {
+        "code":  "0921",
+        "name1":  "ميناء PortChalmersOtago نيوزيلندا",
+        "name2":  "PortChalmersOtago NewZealand"
+    },
+    {
+        "code":  "0922",
+        "name1":  "ميناء خليج تاورانجا من نيوزيلندا",
+        "name2":  "Tauranga BayOfPlenty NewZealand"
+    },
+    {
+        "code":  "0923",
+        "name1":  "ميناء تيموكا نيوزيلندا",
+        "name2":  "Temuka NewZealand"
+    },
+    {
+        "code":  "0924",
+        "name1":  "ميناء تيمارو كانتربري نيوزيلندا",
+        "name2":  "Timaru Canterbury NewZealand"
+    },
+    {
+        "code":  "0925",
+        "name1":  "ميناء وانجانوي ماناواتو وانجانوي نيوزيلندا",
+        "name2":  "Wanganui Manawatu-wanganui NewZealand"
+    },
+    {
+        "code":  "0926",
+        "name1":  "ميناء ويلينجتون ويلينجتون نيوزيلاندا",
+        "name2":  "Wellington Wellington NewZealand"
+    },
+    {
+        "code":  "0927",
+        "name1":  "ميناء وانجاري",
+        "name2":  "Whangarei"
+    },
+    {
+        "code":  "0928",
+        "name1":  "ميناء كورينتو نيكاراغوا",
+        "name2":  "Corinto Nicaragua"
+    },
+    {
+        "code":  "0929",
+        "name1":  "ميناء ماناغوا نيكاراغوا",
+        "name2":  "Managua Nicaragua"
+    },
+    {
+        "code":  "0930",
+        "name1":  "ميناء أبابا نيجيريا",
+        "name2":  "Apapa Nigeria"
+    },
+    {
+        "code":  "0931",
+        "name1":  "ميناء كالابار نيجيريا",
+        "name2":  "Calabar Nigeria"
+    },
+    {
+        "code":  "0932",
+        "name1":  "ميناء لاغوس نيجيريا",
+        "name2":  "Lagos Nigeria"
+    },
+    {
+        "code":  "0933",
+        "name1":  "ميناء Onne نيجيريا",
+        "name2":  "Onne Nigeria"
+    },
+    {
+        "code":  "0934",
+        "name1":  "ميناء بورتهاركورت نيجيريا",
+        "name2":  "PortHarcourt Nigeria"
+    },
+    {
+        "code":  "0935",
+        "name1":  "ميناء تينكان / لاغوس نيجيريا",
+        "name2":  "Tincan/lagos Nigeria"
+    },
+    {
+        "code":  "0936",
+        "name1":  "ميناء واري نيجيريا",
+        "name2":  "Warri Nigeria"
+    },
+    {
+        "code":  "0937",
+        "name1":  "ميناء تشونغجين كوريا الشمالية",
+        "name2":  "Chongjin NorthKorea"
+    },
+    {
+        "code":  "0938",
+        "name1":  "ميناء وونسان",
+        "name2":  "Wonsan"
+    },
+    {
+        "code":  "0939",
+        "name1":  "ميناء جزر سايبان نورثرن ماريانا",
+        "name2":  "Saipan NorthernMarianaIslands"
+    },
+    {
+        "code":  "0940",
+        "name1":  "ميناء Agotnes النرويج",
+        "name2":  "Agotnes Norway"
+    },
+    {
+        "code":  "0941",
+        "name1":  "ميناء أليسوند النرويج",
+        "name2":  "Alesund Norway"
+    },
+    {
+        "code":  "0942",
+        "name1":  "ميناء ألفيك نوردالاند النرويج",
+        "name2":  "Alvik Nordaland Norway"
+    },
+    {
+        "code":  "0943",
+        "name1":  "ميناء Andalsnes النرويج",
+        "name2":  "Andalsnes Norway"
+    },
+    {
+        "code":  "0944",
+        "name1":  "ميناء أوستفول نوردالاند النرويج",
+        "name2":  "Austevoll Nordaland Norway"
+    },
+    {
+        "code":  "0945",
+        "name1":  "ميناء بيرغن نوردالاند النرويج",
+        "name2":  "Bergen Nordaland Norway"
+    },
+    {
+        "code":  "0946",
+        "name1":  "ميناء بودو النرويج",
+        "name2":  "Bodo Norway"
+    },
+    {
+        "code":  "0947",
+        "name1":  "ميناء برج",
+        "name2":  "Borg"
+    },
+    {
+        "code":  "0948",
+        "name1":  "ميناء Brevik Telemark النرويج",
+        "name2":  "Brevik Telemark Norway"
+    },
+    {
+        "code":  "0949",
+        "name1":  "ميناء Drammen النرويج",
+        "name2":  "Drammen Norway"
+    },
+    {
+        "code":  "0950",
+        "name1":  "ميناء Egersund النرويج",
+        "name2":  "Egersund Norway"
+    },
+    {
+        "code":  "0951",
+        "name1":  "ميناء فلورو سوغنوجفيوردان النرويج",
+        "name2":  "Floro SognOgFjordane Norway"
+    },
+    {
+        "code":  "0952",
+        "name1":  "ميناء فريدريكستاد أوستفولد النرويج",
+        "name2":  "FredrikstadOstfold Norway"
+    },
+    {
+        "code":  "0953",
+        "name1":  "ميناء فوسا نوردالاند النرويج",
+        "name2":  "Fusa Nordaland Norway"
+    },
+    {
+        "code":  "0954",
+        "name1":  "ميناء Gjemnes MoreOgRomsdal النرويج",
+        "name2":  "Gjemnes MoreOgRomsdal Norway"
+    },
+    {
+        "code":  "0955",
+        "name1":  "ميناء هالدن أوستفولد النرويج",
+        "name2":  "HaldenOstfold Norway"
+    },
+    {
+        "code":  "0956",
+        "name1":  "ميناء Hareid MoreOgRomsdal النرويج",
+        "name2":  "Hareid MoreOgRomsdal Norway"
+    },
+    {
+        "code":  "0957",
+        "name1":  "ميناء Haugesund روغالاند النرويج",
+        "name2":  "Haugesund Rogaland Norway"
+    },
+    {
+        "code":  "0958",
+        "name1":  "ميناء هافيك النرويج",
+        "name2":  "Havik Norway"
+    },
+    {
+        "code":  "0959",
+        "name1":  "ميناء Heroya Telemark النرويج",
+        "name2":  "Heroya Telemark Norway"
+    },
+    {
+        "code":  "0960",
+        "name1":  "ميناء Hestvika النرويج",
+        "name2":  "Hestvika Norway"
+    },
+    {
+        "code":  "0961",
+        "name1":  "ميناء هوجسيت نوردلاند النرويج",
+        "name2":  "Hogset Nordland Norway"
+    },
+    {
+        "code":  "0962",
+        "name1":  "ميناء هولا النرويج",
+        "name2":  "Holla Norway"
+    },
+    {
+        "code":  "0963",
+        "name1":  "ميناء هوسنس نوردالاند النرويج",
+        "name2":  "Husnes Nordaland Norway"
+    },
+    {
+        "code":  "0964",
+        "name1":  "ميناء Husoy النرويج",
+        "name2":  "Husoy Norway"
+    },
+    {
+        "code":  "0965",
+        "name1":  "ميناء Ikornnes MoreOgRomsdal النرويج",
+        "name2":  "Ikornnes MoreOgRomsdal Norway"
+    },
+    {
+        "code":  "0966",
+        "name1":  "ميناء كرموي روغالاند النرويج",
+        "name2":  "Karmoy Rogaland Norway"
+    },
+    {
+        "code":  "0967",
+        "name1":  "ميناء Knarrevik Nordaland النرويج",
+        "name2":  "Knarrevik Nordaland Norway"
+    },
+    {
+        "code":  "0968",
+        "name1":  "ميناء كريستيانساند فيست أغدر النرويج",
+        "name2":  "Kristiansand Vest-agder Norway"
+    },
+    {
+        "code":  "0969",
+        "name1":  "ميناء كريستيانسوند مور أوغ رومسدال النرويج",
+        "name2":  "Kristiansund MoreOgRomsdal Norway"
+    },
+    {
+        "code":  "0970",
+        "name1":  "ميناء Larvik Vestfold النرويج",
+        "name2":  "Larvik Vestfold Norway"
+    },
+    {
+        "code":  "0971",
+        "name1":  "ميناء Lyngdal Vest-agder النرويج",
+        "name2":  "Lyngdal Vest-agder Norway"
+    },
+    {
+        "code":  "0972",
+        "name1":  "ميناء Maloy SognOgFjordane النرويج",
+        "name2":  "Maloy SognOgFjordane Norway"
+    },
+    {
+        "code":  "0973",
+        "name1":  "ميناء MoIRana Nordland النرويج",
+        "name2":  "MoIRana Nordland Norway"
+    },
+    {
+        "code":  "0974",
+        "name1":  "ميناء مولده النرويج",
+        "name2":  "Molde Norway"
+    },
+    {
+        "code":  "0975",
+        "name1":  "ميناء مونغستاد النرويج",
+        "name2":  "Mongstad Norway"
+    },
+    {
+        "code":  "0976",
+        "name1":  "ميناء موس أوستفولد النرويج",
+        "name2":  "MossOstfold Norway"
+    },
+    {
+        "code":  "0977",
+        "name1":  "ميناء Odda النرويج",
+        "name2":  "Odda Norway"
+    },
+    {
+        "code":  "0978",
+        "name1":  "ميناء Orkanger Sor-trondelag النرويج",
+        "name2":  "Orkanger Sor-trondelag Norway"
+    },
+    {
+        "code":  "0979",
+        "name1":  "ميناء أوسلو أوسلو النرويج",
+        "name2":  "OsloOslo Norway"
+    },
+    {
+        "code":  "0980",
+        "name1":  "ميناء Porsgrunn Telemark النرويج",
+        "name2":  "Porsgrunn Telemark Norway"
+    },
+    {
+        "code":  "0981",
+        "name1":  "ميناء Sanderfjord النرويج",
+        "name2":  "Sanderfjord Norway"
+    },
+    {
+        "code":  "0982",
+        "name1":  "ميناء ساربسبورج النرويج",
+        "name2":  "Sarpsborg Norway"
+    },
+    {
+        "code":  "0983",
+        "name1":  "ميناء سعودى روجالاند النرويج",
+        "name2":  "Sauda Rogaland Norway"
+    },
+    {
+        "code":  "0984",
+        "name1":  "ميناء Skien Telemark النرويج",
+        "name2":  "Skien Telemark Norway"
+    },
+    {
+        "code":  "0985",
+        "name1":  "ميناء Skogn Nord-trondelag النرويج",
+        "name2":  "Skogn Nord-trondelag Norway"
+    },
+    {
+        "code":  "0986",
+        "name1":  "ميناء سورتلاند نوردلاند النرويج",
+        "name2":  "Sortland Nordland Norway"
+    },
+    {
+        "code":  "0987",
+        "name1":  "ميناء ستافنجر روغالاند النرويج",
+        "name2":  "Stavanger Rogaland Norway"
+    },
+    {
+        "code":  "0988",
+        "name1":  "ميناء ستورد النرويج",
+        "name2":  "Stord Norway"
+    },
+    {
+        "code":  "0989",
+        "name1":  "ميناء Straumen النرويج",
+        "name2":  "Straumen Norway"
+    },
+    {
+        "code":  "0990",
+        "name1":  "ميناء Sunndalsora النرويج",
+        "name2":  "Sunndalsora Norway"
+    },
+    {
+        "code":  "0991",
+        "name1":  "ميناء Svelgen النرويج",
+        "name2":  "Svelgen Norway"
+    },
+    {
+        "code":  "0992",
+        "name1":  "ميناء تانانجر روجالاند النرويج",
+        "name2":  "Tananger Rogaland Norway"
+    },
+    {
+        "code":  "0993",
+        "name1":  "ميناء Tonsberg النرويج",
+        "name2":  "Tonsberg Norway"
+    },
+    {
+        "code":  "0994",
+        "name1":  "ميناء ترومسو",
+        "name2":  "Tromsoe"
+    },
+    {
+        "code":  "0995",
+        "name1":  "ميناء Trondheim Sor-trondelag النرويج",
+        "name2":  "Trondheim Sor-trondelag Norway"
+    },
+    {
+        "code":  "0996",
+        "name1":  "London Heathrow",
+        "name2":  "London Heathrow"
+    },
+    {
+        "code":  "0997",
+        "name1":  "HONG KONG",
+        "name2":  "HONG KONG"
+    },
+    {
+        "code":  "0998",
+        "name1":  "SABHIA GOKCEN",
+        "name2":  "SABHIA GOKCEN"
+    },
+    {
+        "code":  "0999",
+        "name1":  "MILAN",
+        "name2":  "MILAN"
+    },
+    {
+        "code":  "1000",
+        "name1":  "CEYLON",
+        "name2":  "CEYLON"
+    },
+    {
+        "code":  "1001",
+        "name1":  "HOUSTON, TX",
+        "name2":  "HOUSTON, TX"
+    },
+    {
+        "code":  "1002",
+        "name1":  "SAUDI ARABIA",
+        "name2":  "SAUDI ARABIA"
+    },
+    {
+        "code":  "1003",
+        "name1":  "SOEKARNO HATTA",
+        "name2":  "SOEKARNO HATTA"
+    },
+    {
+        "code":  "1004",
+        "name1":  "Frankfurt",
+        "name2":  "Frankfurt"
+    },
+    {
+        "code":  "1005",
+        "name1":  "SOEKARNO HATTA",
+        "name2":  "SOEKARNO HATTA"
+    },
+    {
+        "code":  "1006",
+        "name1":  "HOUSTON, TX",
+        "name2":  "HOUSTON, TX"
+    },
+    {
+        "code":  "10082",
+        "name1":  "TEKIRDAG, TURKEY",
+        "name2":  "TEKIRDAG, TURKEY"
+    },
+    {
+        "code":  "1225",
+        "name1":  "MIAMI",
+        "name2":  "MIAMI"
+    },
+    {
+        "code":  "123",
+        "name1":  "GENOVA",
+        "name2":  "GENOVA"
+    },
+    {
+        "code":  "1234",
+        "name1":  "NUWAISEEB",
+        "name2":  "NUWAISEEB"
+    },
+    {
+        "code":  "12345",
+        "name1":  "GENOVA",
+        "name2":  "GENOVA"
+    },
+    {
+        "code":  "123456",
+        "name1":  "VALENCIA",
+        "name2":  "VALENCIA"
+    },
+    {
+        "code":  "20000",
+        "name1":  "CAIRO",
+        "name2":  "CAIRO"
+    },
+    {
+        "code":  "2001",
+        "name1":  "ميناء الأرض - الكويت",
+        "name2":  "LAND -  Kuwait"
+    },
+    {
+        "code":  "2002",
+        "name1":  "ميناء الجوي - الكويت",
+        "name2":  "AIR PORT  -  Kuwait"
+    },
+    {
+        "code":  "2003",
+        "name1":  "ميناء المنطقة الحرة - الكويت",
+        "name2":  "FREE ZONE -  Kuwait"
+    },
+    {
+        "code":  "2004",
+        "name1":  "ميناء الطرود البريدية - الكويت",
+        "name2":  "POST PARCEL -  Kuwait"
+    },
+    {
+        "code":  "2005",
+        "name1":  "ميناء الدوحة",
+        "name2":  "AL-DOHA PORT"
+    },
+    {
+        "code":  "2006",
+        "name1":  "Shuaiba Kuwait (KWSAA)",
+        "name2":  "Shuaiba Kuwait (KWSAA)"
+    },
+    {
+        "code":  "2007",
+        "name1":  "ميناء الشويخ",
+        "name2":  "Shuwaikh Kuwait"
+    },
+    {
+        "code":  "2008",
+        "name1":  "Greece",
+        "name2":  "Greece"
+    },
+    {
+        "code":  "2009",
+        "name1":  "Jebel Ali",
+        "name2":  "Jebel Ali"
+    },
+    {
+        "code":  "321654",
+        "name1":  "CHARLS DE GAULE",
+        "name2":  "CHARLS DE GAULE"
+    },
+    {
+        "code":  "3216554",
+        "name1":  "JUANDA SURABAYA",
+        "name2":  "JUANDA SURABAYA"
+    },
+    {
+        "code":  "55555",
+        "name1":  "HOUSTON USA",
+        "name2":  "HOUSTON USA"
+    },
+    {
+        "code":  "7000",
+        "name1":  "AMS AMSTERDAM SCHIPOL AIRPORT",
+        "name2":  "AMS AMSTERDAM SCHIPOL AIRPORT"
+    },
+    {
+        "code":  "ABADAN",
+        "name1":  "ABADAN",
+        "name2":  "ABADAN"
+    },
+    {
+        "code":  "ABDALI",
+        "name1":  "ABDALI",
+        "name2":  "ABDALI"
+    },
+    {
+        "code":  "ABU DHABI",
+        "name1":  "ABU DHABI",
+        "name2":  "ABU DHABI"
+    },
+    {
+        "code":  "ACR000223",
+        "name1":  "Liege Airport",
+        "name2":  "Liege Airport"
+    },
+    {
+        "code":  "ACR00045",
+        "name1":  "ZARAGOZA",
+        "name2":  "ZARAGOZA"
+    },
+    {
+        "code":  "ACR000543",
+        "name1":  "BRUSSELS",
+        "name2":  "BRUSSELS"
+    },
+    {
+        "code":  "ACR0021",
+        "name1":  "ABU DHABI",
+        "name2":  "ABU DHABI"
+    },
+    {
+        "code":  "ADDIS ABABA",
+        "name1":  "ADDIS ABABA",
+        "name2":  "ADDIS ABABA"
+    },
+    {
+        "code":  "ALIAGA",
+        "name1":  "ALIAGA",
+        "name2":  "ALIAGA"
+    },
+    {
+        "code":  "Al-Nuwaiseeb",
+        "name1":  "النويصيب",
+        "name2":  "Al-Nuwaiseeb"
+    },
+    {
+        "code":  "AMSTERDAM",
+        "name1":  "AMSTERDAM",
+        "name2":  "AMSTERDAM"
+    },
+    {
+        "code":  "ANTWERPEN-BELGIUM",
+        "name1":  "ANTWERPEN-BELGIUM",
+        "name2":  "ANTWERPEN-BELGIUM"
+    },
+    {
+        "code":  "ARC000268",
+        "name1":  "CUSTOMS BWH - DOHA",
+        "name2":  "CUSTOMS BWH - DOHA"
+    },
+    {
+        "code":  "ATHENS",
+        "name1":  "ATHENS",
+        "name2":  "ATHENS"
+    },
+    {
+        "code":  "BALI",
+        "name1":  "BALI",
+        "name2":  "BALI"
+    },
+    {
+        "code":  "BANGKOK",
+        "name1":  "BANGKOK",
+        "name2":  "BANGKOK"
+    },
+    {
+        "code":  "BANGLORE INDIA",
+        "name1":  "BANGLORE INDIA",
+        "name2":  "BANGLORE INDIA"
+    },
+    {
+        "code":  "BARCELONA",
+        "name1":  "BARCELONA",
+        "name2":  "BARCELONA"
+    },
+    {
+        "code":  "BEIJING",
+        "name1":  "BEIJING",
+        "name2":  "BEIJING"
+    },
+    {
+        "code":  "BEIJING DAXING",
+        "name1":  "BEIJING DAXING",
+        "name2":  "BEIJING DAXING"
+    },
+    {
+        "code":  "CAIRO",
+        "name1":  "CAIRO",
+        "name2":  "CAIRO"
+    },
+    {
+        "code":  "CAIRO (EGYPT)",
+        "name1":  "CAIRO (EGYPT)",
+        "name2":  "CAIRO (EGYPT)"
+    },
+    {
+        "code":  "CAN",
+        "name1":  "CAN",
+        "name2":  "CAN"
+    },
+    {
+        "code":  "CAN GUANGZHOU",
+        "name1":  "CAN GUANGZHOU",
+        "name2":  "CAN GUANGZHOU"
+    },
+    {
+        "code":  "CARIO",
+        "name1":  "CARIO",
+        "name2":  "CARIO"
+    },
+    {
+        "code":  "CEPHEUS LEADER",
+        "name1":  "CEPHEUS LEADER",
+        "name2":  "CEPHEUS LEADER"
+    },
+    {
+        "code":  "Chapra",
+        "name1":  "Chapra",
+        "name2":  "Chapra"
+    },
+    {
+        "code":  "Charles-De-Gaulle APT/Paris",
+        "name1":  "Charles-De-Gaulle APT/Paris",
+        "name2":  "Charles-De-Gaulle APT/Paris"
+    },
+    {
+        "code":  "CHARLES-DE-GAULLE PARIS",
+        "name1":  "CHARLES-DE-GAULLE PARIS",
+        "name2":  "CHARLES-DE-GAULLE PARIS"
+    },
+    {
+        "code":  "CHARLESTON",
+        "name1":  "CHARLESTON",
+        "name2":  "CHARLESTON"
+    },
+    {
+        "code":  "CHHAPRA",
+        "name1":  "CHHAPRA",
+        "name2":  "CHHAPRA"
+    },
+    {
+        "code":  "CHICAGO O\u0027HARE",
+        "name1":  "CHICAGO O\u0027HARE",
+        "name2":  "CHICAGO O\u0027HARE"
+    },
+    {
+        "code":  "COLOMBO",
+        "name1":  "COLOMBO",
+        "name2":  "COLOMBO"
+    },
+    {
+        "code":  "CUS321654",
+        "name1":  "GRANGEMOUTH",
+        "name2":  "GRANGEMOUTH"
+    },
+    {
+        "code":  "CUSTOM BWH - DOHA",
+        "name1":  "CUSTOM BWH - DOHA",
+        "name2":  "CUSTOM BWH - DOHA"
+    },
+    {
+        "code":  "customs BWH-DOHA",
+        "name1":  "customs BWH-DOHA",
+        "name2":  "customs BWH-DOHA"
+    },
+    {
+        "code":  "DA CHAN BAY",
+        "name1":  "DA CHAN BAY",
+        "name2":  "DA CHAN BAY"
+    },
+    {
+        "code":  "DAMASCUS  SYRIA",
+        "name1":  "DAMASCUS  SYRIA",
+        "name2":  "DAMASCUS  SYRIA"
+    },
+    {
+        "code":  "DAMASCUS INT AP",
+        "name1":  "DAMASCUS INT AP",
+        "name2":  "DAMASCUS INT AP"
+    },
+    {
+        "code":  "DAMASCUS SYRIA",
+        "name1":  "DAMASCUS SYRIA",
+        "name2":  "DAMASCUS SYRIA"
+    },
+    {
+        "code":  "DAR/JULIUS NYERERE INTL",
+        "name1":  "DAR/JULIUS NYERERE INTL",
+        "name2":  "DAR/JULIUS NYERERE INTL"
+    },
+    {
+        "code":  "DENEB LEADER",
+        "name1":  "DENEB LEADER",
+        "name2":  "DENEB LEADER"
+    },
+    {
+        "code":  "DOHA",
+        "name1":  "DOHA",
+        "name2":  "DOHA"
+    },
+    {
+        "code":  "Doha Port",
+        "name1":  "Doha Port",
+        "name2":  "Doha Port"
+    },
+    {
+        "code":  "DOHA,QATAR",
+        "name1":  "DOHA,QATAR",
+        "name2":  "DOHA,QATAR"
+    },
+    {
+        "code":  "DPS NGR RAI INTL AIRPORT",
+        "name1":  "DPS NGR RAI INTL AIRPORT",
+        "name2":  "DPS NGR RAI INTL AIRPORT"
+    },
+    {
+        "code":  "DPS NGR RAI INT\u0027L AIRPORT",
+        "name1":  "DPS NGR RAI INT\u0027L AIRPORT",
+        "name2":  "DPS NGR RAI INT\u0027L AIRPORT"
+    },
+    {
+        "code":  "Dubai",
+        "name1":  "ميناء دبي",
+        "name2":  "Dubai"
+    },
+    {
+        "code":  "DURBAN",
+        "name1":  "DURBAN",
+        "name2":  "DURBAN"
+    },
+    {
+        "code":  "Eregli",
+        "name1":  "Eregli",
+        "name2":  "Eregli"
+    },
+    {
+        "code":  "ESL ZANZIBAR",
+        "name1":  "ESL ZANZIBAR",
+        "name2":  "ESL ZANZIBAR"
+    },
+    {
+        "code":  "EY",
+        "name1":  "ETIHAD",
+        "name2":  "ETIHAD"
+    },
+    {
+        "code":  "FRANKFURT",
+        "name1":  "FRANKFURT",
+        "name2":  "FRANKFURT"
+    },
+    {
+        "code":  "GENOA",
+        "name1":  "GENOA",
+        "name2":  "GENOA"
+    },
+    {
+        "code":  "GENOVA",
+        "name1":  "GENOVA",
+        "name2":  "GENOVA"
+    },
+    {
+        "code":  "GERMANY",
+        "name1":  "GERMANY",
+        "name2":  "GERMANY"
+    },
+    {
+        "code":  "GUANGZHOU",
+        "name1":  "GUANGZHOU",
+        "name2":  "GUANGZHOU"
+    },
+    {
+        "code":  "HAMAD",
+        "name1":  "HAMAD",
+        "name2":  "HAMAD"
+    },
+    {
+        "code":  "HAMAD PORT",
+        "name1":  "HAMAD PORT",
+        "name2":  "HAMAD PORT"
+    },
+    {
+        "code":  "HAMBURG",
+        "name1":  "HAMBURG",
+        "name2":  "HAMBURG"
+    },
+    {
+        "code":  "HARTSFIELD JACKSON ATLANTA INTL",
+        "name1":  "HARTSFIELD JACKSON ATLANTA INTL",
+        "name2":  "HARTSFIELD JACKSON ATLANTA INTL"
+    },
+    {
+        "code":  "HEATHROW-LONDON",
+        "name1":  "HEATHROW-LONDON",
+        "name2":  "HEATHROW-LONDON"
+    },
+    {
+        "code":  "HONG KONG",
+        "name1":  "HONG KONG",
+        "name2":  "HONG KONG"
+    },
+    {
+        "code":  "Houston",
+        "name1":  "Houston",
+        "name2":  "Houston"
+    },
+    {
+        "code":  "ICN INCHEON",
+        "name1":  "ICN INCHEON",
+        "name2":  "ICN INCHEON"
+    },
+    {
+        "code":  "ICN INCHEON AIRPORT KOREA",
+        "name1":  "ICN INCHEON AIRPORT KOREA",
+        "name2":  "ICN INCHEON AIRPORT KOREA"
+    },
+    {
+        "code":  "INCHEON",
+        "name1":  "INCHEON",
+        "name2":  "INCHEON"
+    },
+    {
+        "code":  "INCHEON KOREA",
+        "name1":  "INCHEON KOREA",
+        "name2":  "INCHEON KOREA"
+    },
+    {
+        "code":  "INCHEON, KOREA",
+        "name1":  "INCHEON, KOREA",
+        "name2":  "INCHEON, KOREA"
+    },
+    {
+        "code":  "IRAN",
+        "name1":  "IRAN",
+        "name2":  "IRAN"
+    },
+    {
+        "code":  "IST AIRPORT",
+        "name1":  "IST AIRPORT",
+        "name2":  "IST AIRPORT"
+    },
+    {
+        "code":  "IST ISTANBUL AIR PORT",
+        "name1":  "IST ISTANBUL AIR PORT",
+        "name2":  "IST ISTANBUL AIR PORT"
+    },
+    {
+        "code":  "IST ISTANBUL AIRPORT",
+        "name1":  "IST ISTANBUL AIRPORT",
+        "name2":  "IST ISTANBUL AIRPORT"
+    },
+    {
+        "code":  "Istanbul",
+        "name1":  "Istanbul",
+        "name2":  "Istanbul"
+    },
+    {
+        "code":  "ISTANBUL AIRPORT",
+        "name1":  "ISTANBUL AIRPORT",
+        "name2":  "ISTANBUL AIRPORT"
+    },
+    {
+        "code":  "IZMIR SMYYRNA",
+        "name1":  "IZMIR SMYYRNA",
+        "name2":  "IZMIR SMYYRNA"
+    },
+    {
+        "code":  "JAWAHARLAL NEHRU",
+        "name1":  "JAWAHARLAL NEHRU",
+        "name2":  "JAWAHARLAL NEHRU"
+    },
+    {
+        "code":  "JEDDAH",
+        "name1":  "JEDDAH",
+        "name2":  "JEDDAH"
+    },
+    {
+        "code":  "JIN XING YUAN",
+        "name1":  "JIN XING YUAN",
+        "name2":  "JIN XING YUAN"
+    },
+    {
+        "code":  "JUANDA SURABAYA",
+        "name1":  "JUANDA SURABAYA",
+        "name2":  "JUANDA SURABAYA"
+    },
+    {
+        "code":  "KHALIFA PORT",
+        "name1":  "KHALIFA PORT",
+        "name2":  "KHALIFA PORT"
+    },
+    {
+        "code":  "KHALIFA SEAPORT",
+        "name1":  "KHALIFA SEAPORT",
+        "name2":  "KHALIFA SEAPORT"
+    },
+    {
+        "code":  "KHORAMSHAHER",
+        "name1":  "KHORAMSHAHER",
+        "name2":  "KHORAMSHAHER"
+    },
+    {
+        "code":  "KIMITSU",
+        "name1":  "KIMITSU",
+        "name2":  "KIMITSU"
+    },
+    {
+        "code":  "KOBE",
+        "name1":  "KOBE",
+        "name2":  "KOBE"
+    },
+    {
+        "code":  "KOREA",
+        "name1":  "KOREA",
+        "name2":  "KOREA"
+    },
+    {
+        "code":  "KOREA PORT",
+        "name1":  "KOREA PORT",
+        "name2":  "KOREA PORT"
+    },
+    {
+        "code":  "KUALA LUMPUR INTERNATIONAL AIRPORT",
+        "name1":  "KUALA LUMPUR INTERNATIONAL AIRPORT",
+        "name2":  "KUALA LUMPUR INTERNATIONAL AIRPORT"
+    },
+    {
+        "code":  "LAEM CHABANG",
+        "name1":  "LAEM CHABANG",
+        "name2":  "LAEM CHABANG"
+    },
+    {
+        "code":  "LHR-HEATHROW",
+        "name1":  "LHR-HEATHROW",
+        "name2":  "LHR-HEATHROW"
+    },
+    {
+        "code":  "LIANYUNGANG PORT, CHINA",
+        "name1":  "LIANYUNGANG PORT, CHINA",
+        "name2":  "LIANYUNGANG PORT, CHINA"
+    },
+    {
+        "code":  "LIANYUNGANG, CHINA",
+        "name1":  "LIANYUNGANG, CHINA",
+        "name2":  "LIANYUNGANG, CHINA"
+    },
+    {
+        "code":  "LIANYUNGANG,CHINA",
+        "name1":  "LIANYUNGANG,CHINA",
+        "name2":  "LIANYUNGANG,CHINA"
+    },
+    {
+        "code":  "LINATE",
+        "name1":  "LINATE",
+        "name2":  "LINATE"
+    },
+    {
+        "code":  "LONDON",
+        "name1":  "LONDON",
+        "name2":  "LONDON"
+    },
+    {
+        "code":  "LONDON HEATHROW",
+        "name1":  "LONDON HEATHROW",
+        "name2":  "LONDON HEATHROW"
+    },
+    {
+        "code":  "LOS ANGELES",
+        "name1":  "LOS ANGELES",
+        "name2":  "LOS ANGELES"
+    },
+    {
+        "code":  "LUXEMBOURG",
+        "name1":  "LUXEMBOURG",
+        "name2":  "LUXEMBOURG"
+    },
+    {
+        "code":  "MACAU",
+        "name1":  "MACAU",
+        "name2":  "MACAU"
+    },
+    {
+        "code":  "MADRID",
+        "name1":  "MADRID",
+        "name2":  "MADRID"
+    },
+    {
+        "code":  "MALPENSA",
+        "name1":  "MALPENSA",
+        "name2":  "MALPENSA"
+    },
+    {
+        "code":  "MANCHESTER",
+        "name1":  "MANCHESTER",
+        "name2":  "MANCHESTER"
+    },
+    {
+        "code":  "MANILA",
+        "name1":  "MANILA",
+        "name2":  "MANILA"
+    },
+    {
+        "code":  "MASAN",
+        "name1":  "MASAN",
+        "name2":  "MASAN"
+    },
+    {
+        "code":  "MIAMI",
+        "name1":  "MIAMI",
+        "name2":  "MIAMI"
+    },
+    {
+        "code":  "MIAMI FL  USA",
+        "name1":  "MIAMI FL  USA",
+        "name2":  "MIAMI FL  USA"
+    },
+    {
+        "code":  "MILAN",
+        "name1":  "MILAN",
+        "name2":  "MILAN"
+    },
+    {
+        "code":  "MILANO",
+        "name1":  "MILANO",
+        "name2":  "MILANO"
+    },
+    {
+        "code":  "MISSOURI CITY",
+        "name1":  "MISSOURI CITY US",
+        "name2":  "MISSOURI CITY"
+    },
+    {
+        "code":  "MSC MOON F",
+        "name1":  "MSC MOON F",
+        "name2":  "MSC MOON F"
+    },
+    {
+        "code":  "MUMBAI",
+        "name1":  "MUMBAI",
+        "name2":  "MUMBAI"
+    },
+    {
+        "code":  "MXP - Milan",
+        "name1":  "MXP - Milan",
+        "name2":  "MXP - Milan"
+    },
+    {
+        "code":  "MXP-MALPENSA",
+        "name1":  "MXP-MALPENSA",
+        "name2":  "MXP-MALPENSA"
+    },
+    {
+        "code":  "NAGOYA",
+        "name1":  "NAGOYA",
+        "name2":  "NAGOYA"
+    },
+    {
+        "code":  "NAIROBI",
+        "name1":  "NAIROBI",
+        "name2":  "NAIROBI"
+    },
+    {
+        "code":  "NANSHA",
+        "name1":  "NANSHA",
+        "name2":  "NANSHA"
+    },
+    {
+        "code":  "NETHERLAND",
+        "name1":  "NETHERLAND",
+        "name2":  "NETHERLAND"
+    },
+    {
+        "code":  "NEW YORK",
+        "name1":  "NEW YORK",
+        "name2":  "NEW YORK"
+    },
+    {
+        "code":  "NGURAH RAI INTL",
+        "name1":  "NGURAH RAI INTL",
+        "name2":  "NGURAH RAI INTL"
+    },
+    {
+        "code":  "NGURAH RAI INT\u0027L AIRPORT",
+        "name1":  "NGURAH RAI INT\u0027L AIRPORT",
+        "name2":  "NGURAH RAI INT\u0027L AIRPORT"
+    },
+    {
+        "code":  "NHAVA SHEVA",
+        "name1":  "NHAVA SHEVA",
+        "name2":  "NHAVA SHEVA"
+    },
+    {
+        "code":  "NHAVA SHEVA , INDIA",
+        "name1":  "NHAVA SHEVA , INDIA",
+        "name2":  "NHAVA SHEVA , INDIA"
+    },
+    {
+        "code":  "NINGBO",
+        "name1":  "NINGBO",
+        "name2":  "NINGBO"
+    },
+    {
+        "code":  "NORFOLK",
+        "name1":  "NORFOLK",
+        "name2":  "NORFOLK"
+    },
+    {
+        "code":  "Nuwaiseeb",
+        "name1":  "Nuwaiseeb",
+        "name2":  "Nuwaiseeb"
+    },
+    {
+        "code":  "O\u0027HARE INTERNATIONAL",
+        "name1":  "O\u0027HARE INTERNATIONAL",
+        "name2":  "O\u0027HARE INTERNATIONAL"
+    },
+    {
+        "code":  "OMAN",
+        "name1":  "OMAN",
+        "name2":  "OMAN"
+    },
+    {
+        "code":  "PARIS",
+        "name1":  "CHARLES-DE-GAULLE PARIS",
+        "name2":  "CHARLES-DE-GAULLE PARIS"
+    },
+    {
+        "code":  "PHILPHINES",
+        "name1":  "PHILPHINES",
+        "name2":  "PHILPHINES"
+    },
+    {
+        "code":  "PHUKET THAILAND",
+        "name1":  "PHUKET THAILAND",
+        "name2":  "PHUKET THAILAND"
+    },
+    {
+        "code":  "POLAND",
+        "name1":  "POLAND",
+        "name2":  "POLAND"
+    },
+    {
+        "code":  "PUDONG",
+        "name1":  "PUDONG",
+        "name2":  "PUDONG"
+    },
+    {
+        "code":  "PVG PUDONG",
+        "name1":  "PVG PUDONG",
+        "name2":  "PVG PUDONG"
+    },
+    {
+        "code":  "QINGDAO",
+        "name1":  "QINGDAO",
+        "name2":  "QINGDAO"
+    },
+    {
+        "code":  "Sabiha Gokcen",
+        "name1":  "Sabiha Gokcen",
+        "name2":  "Sabiha Gokcen"
+    },
+    {
+        "code":  "SABIHA GOKCEN - TURKYE",
+        "name1":  "SABIHA GOKCEN - TURKYE",
+        "name2":  "SABIHA GOKCEN - TURKYE"
+    },
+    {
+        "code":  "SABIHA GOKCEN AIRPORT",
+        "name1":  "SABIHA GOKCEN AIRPORT",
+        "name2":  "SABIHA GOKCEN AIRPORT"
+    },
+    {
+        "code":  "SABIHA GOKCEN INTERNATIONAL AIRPORT",
+        "name1":  "SABIHA GOKCEN INTERNATIONAL AIRPORT",
+        "name2":  "SABIHA GOKCEN INTERNATIONAL AIRPORT"
+    },
+    {
+        "code":  "Sail Shipping \u0026 Logistics Services",
+        "name1":  "Sail Shipping \u0026 Logistics Services",
+        "name2":  "Sail Shipping \u0026 Logistics Services"
+    },
+    {
+        "code":  "Salmi",
+        "name1":  "Salmi",
+        "name2":  "Salmi"
+    },
+    {
+        "code":  "SAUDI",
+        "name1":  "SAUDI",
+        "name2":  "SAUDI"
+    },
+    {
+        "code":  "SAVANNAH",
+        "name1":  "SAVANNAH",
+        "name2":  "SAVANNAH"
+    },
+    {
+        "code":  "SAW",
+        "name1":  "SAW AIRPORT",
+        "name2":  "SAW AIRPORT"
+    },
+    {
+        "code":  "SAW AIRPORT",
+        "name1":  "SAW AIRPORT",
+        "name2":  "SAW AIRPORT"
+    },
+    {
+        "code":  "SAW SABIHA GOKCEN",
+        "name1":  "SAW SABIHA GOKCEN",
+        "name2":  "SAW SABIHA GOKCEN"
+    },
+    {
+        "code":  "SHANGHAI",
+        "name1":  "SHANGHAI",
+        "name2":  "SHANGHAI"
+    },
+    {
+        "code":  "Sharjah",
+        "name1":  "Sharjah",
+        "name2":  "Sharjah"
+    },
+    {
+        "code":  "SHARJAH UAE",
+        "name1":  "SHARJAH UAE",
+        "name2":  "SHARJAH UAE"
+    },
+    {
+        "code":  "SHEKOU, CHINA",
+        "name1":  "SHEKOU, CHINA",
+        "name2":  "SHEKOU, CHINA"
+    },
+    {
+        "code":  "SHJ",
+        "name1":  "SHARJAH",
+        "name2":  "SHARJAH"
+    },
+    {
+        "code":  "SHUAIBA KUWAIT",
+        "name1":  "SHUAIBA KUWAIT",
+        "name2":  "SHUAIBA KUWAIT"
+    },
+    {
+        "code":  "SPAIN",
+        "name1":  "SPAIN",
+        "name2":  "SPAIN"
+    },
+    {
+        "code":  "STUTTGART",
+        "name1":  "STUTTGART",
+        "name2":  "STUTTGART"
+    },
+    {
+        "code":  "Sulaibiya",
+        "name1":  "Sulaibiya",
+        "name2":  "Sulaibiya"
+    },
+    {
+        "code":  "Sulibiya",
+        "name1":  "Sulibiya",
+        "name2":  "Sulibiya"
+    },
+    {
+        "code":  "SUVARNABHUMI",
+        "name1":  "SUVARNABHUMI",
+        "name2":  "SUVARNABHUMI"
+    },
+    {
+        "code":  "SUVARNABHUMI AIRPORT",
+        "name1":  "SUVARNABHUMI AIRPORT",
+        "name2":  "SUVARNABHUMI AIRPORT"
+    },
+    {
+        "code":  "SUVARNABHUMI INTERNATIONAL AIRPORT",
+        "name1":  "SUVARNABHUMI INTERNATIONAL AIRPORT",
+        "name2":  "SUVARNABHUMI INTERNATIONAL AIRPORT"
+    },
+    {
+        "code":  "SWEDEN",
+        "name1":  "SWEDEN",
+        "name2":  "SWEDEN"
+    },
+    {
+        "code":  "SYRIA",
+        "name1":  "SYRIA",
+        "name2":  "SYRIA"
+    },
+    {
+        "code":  "TAURUS LEADER",
+        "name1":  "TAURUS LEADER",
+        "name2":  "TAURUS LEADER"
+    },
+    {
+        "code":  "THAILAND",
+        "name1":  "THAILAND",
+        "name2":  "THAILAND"
+    },
+    {
+        "code":  "TURKEY",
+        "name1":  "TURKEY",
+        "name2":  "TURKEY"
+    },
+    {
+        "code":  "TURKISH AIRLINE",
+        "name1":  "TURKISH AIRLINE",
+        "name2":  "TURKISH AIRLINE"
+    },
+    {
+        "code":  "TURKISH AIRLINES",
+        "name1":  "TURKISH AIRLINES",
+        "name2":  "TURKISH AIRLINES"
+    },
+    {
+        "code":  "UAE",
+        "name1":  "UAE",
+        "name2":  "UAE"
+    },
+    {
+        "code":  "ULSAN- SOUTH KOREA",
+        "name1":  "ULSAN- SOUTH KOREA",
+        "name2":  "ULSAN- SOUTH KOREA"
+    },
+    {
+        "code":  "USA",
+        "name1":  "USA",
+        "name2":  "USA"
+    },
+    {
+        "code":  "VALENCIA",
+        "name1":  "VALENCIA",
+        "name2":  "VALENCIA"
+    },
+    {
+        "code":  "VIENNA",
+        "name1":  "VIENNA",
+        "name2":  "VIENNA"
+    },
+    {
+        "code":  "WARSZAWA",
+        "name1":  "WARSZAWA",
+        "name2":  "WARSZAWA"
+    },
+    {
+        "code":  "WENZHOU",
+        "name1":  "WENZHOU",
+        "name2":  "WENZHOU"
+    },
+    {
+        "code":  "WUHU XUANZHOU AIRPORT",
+        "name1":  "WUHU XUANZHOU AIRPORT",
+        "name2":  "WUHU XUANZHOU AIRPORT"
+    },
+    {
+        "code":  "Yarimca",
+        "name1":  "Yarimca",
+        "name2":  "Yarimca"
+    },
+    {
+        "code":  "YOKOHAMA",
+        "name1":  "YOKOHAMA",
+        "name2":  "YOKOHAMA"
+    },
+    {
+        "code":  "YOKOHOMA",
+        "name1":  "YOKOHOMA",
+        "name2":  "YOKOHOMA"
+    },
+    {
+        "code":  "ZHENG ZHOU,CHINA",
+        "name1":  "ZHENG ZHOU,CHINA",
+        "name2":  "ZHENG ZHOU,CHINA"
+    },
+    {
+        "code":  "ZHENGHOU",
+        "name1":  "ZHENGHOU",
+        "name2":  "ZHENGHOU"
+    }
+]
