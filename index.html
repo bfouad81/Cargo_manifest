@@ -27,9 +27,9 @@
 .header-badge {
   background: var(--orange-mid);
   color: #fff;
-  font-size: 15px;        
+  font-size: 15px;        /* ← كبير */
   font-weight: 700;
-  padding: 5px 14px;      
+  padding: 5px 14px;      /* ← padding أكبر */
   border-radius: 20px;
 }
     .step-bar { display:flex; align-items:center; margin-bottom:24px; }
@@ -157,19 +157,7 @@
     <div class="card-body p-4">
       <div id="validSummary" class="alert mb-3" role="alert"></div>
 
-      <div class="mapping-info">
-        <strong>📋 Excel Structure Expected:</strong><br>
-        • <strong>Row 1:</strong> Title (ignored) &nbsp;|&nbsp;
-          <strong>Rows 2–6 B / F:</strong> BL Header fields &nbsp;|&nbsp;
-          <strong>Rows 2–6 H–K:</strong> Container details (1–5 containers)<br>
-        • <strong>Row 7:</strong> Container sequence numbers (ignored) &nbsp;|&nbsp;
-          <strong>Row 8:</strong> Column headers (ignored)<br>
-        • <strong>Rows 9+:</strong> Operation Order lines &nbsp;|&nbsp;
-          <strong>Columns:</strong> A=HAWB &nbsp;B=Shipper &nbsp;C=Consignee &nbsp;D=Notify &nbsp;E=Commodity
-          &nbsp;F=PKG &nbsp;G=Parcels &nbsp;H=GW &nbsp;I=CBM &nbsp;J=CargoType &nbsp;K=Container#
-      </div>
-
-      <div class="section-title">Header Data — FRMBillOfLading</div>
+<div class="section-title">Header Data — FRMBillOfLading</div>
       <div class="table-responsive" id="headerPreview"></div>
 
       <div class="section-title">Container Details — FRMBillOfLading.details</div>
@@ -188,6 +176,7 @@
         <button class="btn btn-outline-secondary" onclick="goToStep(1)">← Previous</button>
         <div class="d-flex gap-2">
           <button class="btn btn-outline-secondary" onclick="reValidate()">🔄 Re-validate</button>
+          <button class="btn btn-outline-secondary" onclick="downloadJsonFiles()" style="background:var(--green-pale);border-color:#86efac;color:#166534">⬇ Export JSON</button>
           <button class="btn-orange" id="btnGoLookup" onclick="goToStep(3)" disabled>Master File Lookup 🔍</button>
         </div>
       </div>
@@ -231,6 +220,7 @@
         <ul id="createList" class="mb-0 mt-2 small"></ul>
       </div>
       <button class="collapse-btn mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#payloadCollapse">👁️ View JSON Payload</button>
+      <button class="collapse-btn mb-2 ms-2" type="button" onclick="downloadJsonFiles()" style="background:var(--green-pale);border-color:#86efac;color:#166534">⬇ Export JSON</button>
       <div class="collapse" id="payloadCollapse">
         <p class="text-muted small mb-1 mt-2">BillOfLading payload:</p>
         <div class="json-block" id="blPayloadView"></div>
@@ -262,10 +252,20 @@ const CONFIG = {
   portEntity:       'ShippingPort',
   commodityEntity:  'FRMCommodity',
   countryEntity:    'FRMCountry',
+  // Fixed / static values
+  blBook:           'FRMBillOfLading$#MBL',
+  opBook:           'FRMOperationOrder$#SO',
+  opTerm:           'FRMOperationOrder$#SO1',
+  sector:           'SSL',
+  legalEntity:      '001',
+  currentOperator:  '10165',
+  isOceanFreight:   true,
+  description1:     '0 - Initial',
+  ventilation:      'باخره - Sea',
 };
 
 // Allowed Cargo Type values — exact match after trim
-const VALID_CARGO_TYPES = ['Air-LTL-Dry','Air-LTL-Reefer','Air-LTL-IMCO','IMCO','NORMAL'];
+const VALID_CARGO_TYPES = ['Air-LTL-Dry','Air-LTL-Reefer','Air-LTL-IMCO','IMCO','Normal'];
 
 // ══════════════════════════════════════════════════════
 //  STATE
@@ -275,11 +275,12 @@ let parsedData    = null;
 let errors        = [];
 let lookupResults = {};
 let createdRecords = [];
+let masterData    = { thirdParty:[], shippingPort:[], country:[], commodity:[] };
 
 // ══════════════════════════════════════════════════════
 //  INIT
 // ══════════════════════════════════════════════════════
-window.addEventListener('DOMContentLoaded', setupDropZone);
+window.addEventListener('DOMContentLoaded', () => { setupDropZone(); loadMasterFiles(); });
 
 // ══════════════════════════════════════════════════════
 //  STEP NAVIGATION  (4 steps)
@@ -297,6 +298,33 @@ function goToStep(n) {
   });
   window.scrollTo({top:0,behavior:'smooth'});
   if (n === 3) runLookup();
+}
+
+// ══════════════════════════════════════════════════════
+//  LOAD LOCAL MASTER FILES
+// ══════════════════════════════════════════════════════
+async function loadMasterFiles() {
+  const base = 'master%20file/';
+  const entries = [
+    ['thirdParty',  'ThirdParty.json'],
+    ['shippingPort','ShippingPort.json'],
+    ['country',     'FRMCountry.json'],
+    ['commodity',   'FRMCommodity.json'],
+  ];
+  for (const [key, file] of entries) {
+    try {
+      const res = await fetch(base + file);
+      if (res.ok) masterData[key] = await res.json();
+    } catch(e) { console.warn('Local master file not loaded: ' + file); }
+  }
+}
+
+function localLookup(records, searchName) {
+  if (!records || !records.length || !searchName) return null;
+  const q = searchName.trim().toLowerCase();
+  return records.find(r => r.name2 && r.name2.toLowerCase().includes(q))
+      || records.find(r => r.name1 && r.name1.toLowerCase().includes(q))
+      || null;
 }
 
 // ══════════════════════════════════════════════════════
@@ -423,8 +451,6 @@ function validate(data) {
   need(data.header.portOfLoading,   'Port of Loading',     'Header');
   need(data.header.portOfDischarge, 'Port of Discharge',   'Header');
   need(data.header.flightVoyNo,     'Flight/Voy No.',      'Header');
-  need(data.header.totalPcs,        'Total Number of Pcs', 'Header');
-  mustNum(data.header.totalPcs, 'Total Number of Pcs', 'Header');
 
   // Containers
   if (data.containers.length === 0)
@@ -437,20 +463,19 @@ function validate(data) {
     mustNum(c.volume,     'Volume',      loc); mustPos(c.volume,     'Volume',      loc);
   });
 
-  // Total Pcs must match detail row count
-  if (data.header.totalPcs && !isNaN(Number(data.header.totalPcs))) {
-    const declared = Number(data.header.totalPcs);
-    const actual   = data.details.length;
-    if (declared !== actual)
-      errs.push({loc:'Header vs Details',field:'Total Number of Pcs',
-        msg:'Header declares '+declared+' shipment(s) but '+actual+' detail row(s) found'});
-  }
+  // Cross-validate: container numbers in detail rows must exist in header
+  const validContainerNums = new Set(data.containers.map(c => c.containerNumber).filter(Boolean));
+  data.details.forEach((d, idx) => {
+    if (d.containerNumber && validContainerNums.size > 0 && !validContainerNums.has(d.containerNumber))
+      errs.push({loc:'Row '+(idx+1), field:'Container #',
+        msg:'Container "'+d.containerNumber+'" not defined in header (K2:K6)'});
+  });
 
   // Operation Orders
   if (data.details.length === 0)
     errs.push({loc:'Details',field:'Details',msg:'No operation order data found (rows 9+)'});
-  data.details.forEach(d => {
-    const loc = 'Row '+d._row;
+  data.details.forEach((d, idx) => {
+    const loc = 'Row '+(idx+1);
     need(d.hawb,      'H.AWB/B-L #',           loc);
     need(d.shipper,   'Shipper/Seller Details', loc);
     need(d.consignee, 'Consignee Details',      loc);
@@ -484,8 +509,24 @@ function parseAndValidate() {
 
 function reValidate() {
   if (!parsedData) return;
-  // Collect any inline Cargo Type edits before re-validating
+  // Collect header edits
+  ['awbBl','agencyName','consigneeName','flightVesselNo','description','portOfLoading','portOfDischarge','flightVoyNo','origin'].forEach(key => {
+    const el = document.getElementById('hdr_'+key);
+    if (el) parsedData.header[key] = el.value;
+  });
+  // Collect container edits
+  parsedData.containers.forEach((c,i) => {
+    ['containerSize','grossWeight','volume','containerNumber'].forEach(f => {
+      const el = document.getElementById('cnt_'+i+'_'+f);
+      if (el) c[f] = el.value;
+    });
+  });
+  // Collect detail edits
   parsedData.details.forEach((d,i) => {
+    ['hawb','shipper','consignee','notify','commodity','pkg','parcels','gw','cbm','containerNumber'].forEach(f => {
+      const el = document.getElementById('det_'+i+'_'+f);
+      if (el) d[f] = el.value;
+    });
     const sel = document.getElementById('ct_sel_'+i);
     if (sel) { d.cargoType = sel.value; d.cargoTypeTrimmed = sel.value; }
   });
@@ -509,40 +550,30 @@ function renderStep2(data, errs) {
     document.getElementById('btnGoLookup').disabled = true;
   }
 
-  // Total Pcs match alert
+  // Auto Pcs count
   const pcsAlert = document.getElementById('pcsMatchAlert');
-  const pcsErr = errs.find(e=>e.loc==='Header vs Details');
-  if (pcsErr) {
-    pcsAlert.className='d-block mb-2 alert alert-warning';
-    pcsAlert.innerHTML='⚠️ <strong>Mismatch:</strong> '+esc(pcsErr.msg);
-  } else if (data.header.totalPcs) {
-    pcsAlert.className='d-block mb-2'; pcsAlert.style.cssText='';
-    pcsAlert.innerHTML='<span class="badge-ok">✅ Total Pcs ('+esc(data.header.totalPcs)+') matches detail row count.</span>';
-  } else {
-    pcsAlert.className='d-none'; pcsAlert.style.cssText='';
-  }
+  pcsAlert.className='d-block mb-2'; pcsAlert.style.cssText='';
+  pcsAlert.innerHTML='<span class="badge-ok">✅ Auto-calculated: '+data.details.length+' shipment(s)</span>';
 
   // Header table
   const headerRows = [
-    {label:'M.AWB-B/L',           val:data.header.awbBl,           req:true,  map:'billOfLadingNumber'},
-    {label:'Agency Name',          val:data.header.agencyName,      req:true,  map:'notify2 (ThirdParty)'},
-    {label:'Consignee Name',       val:data.header.consigneeName,   req:true,  map:'consignee (header-level)'},
-    {label:'Flight/Vessel Name',   val:data.header.flightVesselNo,  req:false, map:'oceanVessel'},
-    {label:'Description',          val:data.header.description,     req:false, map:'remarks'},
-    {label:'Port of Loading',      val:data.header.portOfLoading,   req:true,  map:'portOfLoading'},
-    {label:'Port of Discharge',    val:data.header.portOfDischarge, req:true,  map:'portOfDischarge'},
-    {label:'Flight/Voy No.',       val:data.header.flightVoyNo,     req:true,  map:'voyage'},
-    {label:'Total Number of Pcs',  val:data.header.totalPcs,        req:true,  map:'n1'},
-    {label:'Origin',               val:data.header.origin,          req:false, map:'ref2 (FRMCountry)'},
+    {label:'M.AWB-B/L',          val:data.header.awbBl,           req:true,  key:'awbBl'},
+    {label:'Agency Name',         val:data.header.agencyName,      req:true,  key:'agencyName'},
+    {label:'Consignee Name',      val:data.header.consigneeName,   req:true,  key:'consigneeName'},
+    {label:'Flight/Vessel Name',  val:data.header.flightVesselNo,  req:false, key:'flightVesselNo'},
+    {label:'Description',         val:data.header.description,     req:false, key:'description'},
+    {label:'Port of Loading',     val:data.header.portOfLoading,   req:true,  key:'portOfLoading'},
+    {label:'Port of Discharge',   val:data.header.portOfDischarge, req:true,  key:'portOfDischarge'},
+    {label:'Flight/Voy No.',      val:data.header.flightVoyNo,     req:true,  key:'flightVoyNo'},
+    {label:'Origin',              val:data.header.origin,          req:false, key:'origin'},
   ];
   document.getElementById('headerPreview').innerHTML = tbl(
-    ['Field','Value','Exceed Field','Status'],
+    ['Field','Value','Status'],
     headerRows.map(r => {
       const hasErr = errs.some(e=>e.loc==='Header'&&e.field===r.label);
       return [
         r.label+(r.req?' <span class="field-req">*</span>':''),
-        r.val ? esc(r.val) : '<em class="text-muted">Empty</em>',
-        '<code class="small">'+r.map+'</code>',
+        '<input type="text" id="hdr_'+r.key+'" class="form-control form-control-sm'+(hasErr?' border-danger':'')+'" value="'+esc(r.val||'')+'">',
         hasErr ? '<span class="badge-err">❌ Required</span>' : (r.val?'<span class="badge-ok">✅</span>':'<span class="text-muted">—</span>'),
         hasErr ? 'row-error' : ''
       ];
@@ -553,18 +584,21 @@ function renderStep2(data, errs) {
   document.getElementById('containerPreview').innerHTML = data.containers.length === 0
     ? '<p class="text-muted small ms-1">No container data found in rows 2–6, columns H–K.</p>'
     : tbl(
-        ['#','Size <span class="field-req">*</span>','Gross Weight','Volume/CBM','Container Number <span class="field-req">*</span>','Status'],
+        ['#','Size <span class="field-req">*</span>','Gross Weight','Volume/CBM','Container Number <span class="field-req">*</span>','Status',''],
         data.containers.map((c,i) => {
           const cErrs = errs.filter(e=>e.loc.startsWith('Container '+(i+1)));
+          const fld = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'">';
+          const delBtn = '<button onclick="deleteContainer('+i+')" title="Delete row" style="background:#fee2e2;border:1px solid #fca5a5;color:#991b1b;border-radius:6px;padding:3px 8px;cursor:pointer;font-size:15px;line-height:1">🗑️</button>';
           return [
             i+1,
-            c.containerSize   || '<em class="text-danger">Empty</em>',
-            c.grossWeight     || '—',
-            c.volume          || '—',
-            c.containerNumber || '<em class="text-danger">Empty</em>',
+            fld('cnt_'+i+'_containerSize',  c.containerSize),
+            fld('cnt_'+i+'_grossWeight',    c.grossWeight),
+            fld('cnt_'+i+'_volume',         c.volume),
+            fld('cnt_'+i+'_containerNumber',c.containerNumber),
             cErrs.length
               ? '<span class="badge-err">❌ '+cErrs.map(e=>e.field+': '+e.msg).join(' | ')+'</span>'
               : '<span class="badge-ok">✅</span>',
+            delBtn,
             cErrs.length ? 'row-error' : ''
           ];
         })
@@ -574,7 +608,7 @@ function renderStep2(data, errs) {
   document.getElementById('detailPreview').innerHTML = data.details.length === 0
     ? '<p class="text-danger small ms-1">⚠️ No operation order data found in rows 9+.</p>'
     : tbl(
-        ['Excel Row',
+        ['#',
          'H.AWB/B-L # <span class="field-req">*</span>',
          'Shipper <span class="field-req">*</span>',
          'Consignee <span class="field-req">*</span>',
@@ -585,10 +619,10 @@ function renderStep2(data, errs) {
          'G.Weight <span class="field-req">*</span>',
          'CBM <span class="field-req">*</span>',
          'Cargo Type <span class="field-req">*</span>',
-         'Container # (→ ventilation)',
+         'Container #',
          'Status'],
         data.details.map((d,i) => {
-          const dErrs = errs.filter(e=>e.loc==='Row '+d._row);
+          const dErrs = errs.filter(e=>e.loc==='Row '+(i+1));
           const ctErr = dErrs.some(e=>e.field==='Cargo Type');
           const ctVal = d.cargoTypeTrimmed || '';
           const ctCls = ctErr ? 'ct-select ct-err' : 'ct-select ct-ok';
@@ -596,23 +630,23 @@ function renderStep2(data, errs) {
             ...VALID_CARGO_TYPES.map(v=>'<option value="'+v+'"'+(ctVal===v?' selected':'')+'>'+v+'</option>')
           ].join('');
           const ctDrop = '<select id="ct_sel_'+i+'" class="'+ctCls+'" onchange="onCargoTypeChange('+i+',this)">'+ctOpts+'</select>';
-          const otherErrs = dErrs.filter(e=>e.field!=='Cargo Type');
+          const inp = (id,val) => '<input type="text" id="'+id+'" class="form-control form-control-sm" value="'+esc(val||'')+'">';
           const statusBadge = dErrs.length
             ? '<span class="badge-err">❌ '+dErrs.map(e=>e.field+': '+e.msg).join(' | ')+'</span>'
             : '<span class="badge-ok">✅</span>';
           return [
-            d._row,
-            d.hawb      || '<em class="text-danger">Empty</em>',
-            d.shipper   ? esc(d.shipper)   : '<em class="text-danger">Empty</em>',
-            d.consignee ? esc(d.consignee) : '<em class="text-danger">Empty</em>',
-            d.notify    ? esc(d.notify)    : '<em class="text-danger">Empty</em>',
-            d.commodity ? esc(d.commodity) : '<em class="text-danger">Empty</em>',
-            d.pkg       || '<em class="text-muted">—</em>',
-            d.parcels   || '<em class="text-danger">Empty</em>',
-            d.gw        || '<em class="text-danger">Empty</em>',
-            d.cbm       || '<em class="text-danger">Empty</em>',
+            i+1,
+            inp('det_'+i+'_hawb',           d.hawb),
+            inp('det_'+i+'_shipper',        d.shipper),
+            inp('det_'+i+'_consignee',      d.consignee),
+            inp('det_'+i+'_notify',         d.notify),
+            inp('det_'+i+'_commodity',      d.commodity),
+            inp('det_'+i+'_pkg',            d.pkg),
+            inp('det_'+i+'_parcels',        d.parcels),
+            inp('det_'+i+'_gw',             d.gw),
+            inp('det_'+i+'_cbm',            d.cbm),
             ctDrop,
-            d.containerNumber ? '<code>'+esc(d.containerNumber)+'</code>' : '<em class="text-muted">—</em>',
+            inp('det_'+i+'_containerNumber',d.containerNumber),
             statusBadge,
             dErrs.length ? 'row-error' : ''
           ];
@@ -670,6 +704,45 @@ function esc(s) {
 </script>
 <script>
 // ══════════════════════════════════════════════════════
+//  DELETE CONTAINER ROW
+// ══════════════════════════════════════════════════════
+function deleteContainer(i) {
+  reValidate();
+  parsedData.containers.splice(i, 1);
+  errors = validate(parsedData);
+  renderStep2(parsedData, errors);
+}
+
+// ══════════════════════════════════════════════════════
+//  EXPORT JSON FILES
+// ══════════════════════════════════════════════════════
+function downloadJsonFiles() {
+  if (!parsedData) { alert('No data to export. Please upload and validate first.'); return; }
+  const blPayload  = buildBlPayload();
+  const opPayloads = buildOpPayloads(blPayload.billOfLadingNumber || 'BL_CODE');
+  const today = new Date();
+  const dd   = String(today.getDate()).padStart(2,'0');
+  const mm   = String(today.getMonth()+1).padStart(2,'0');
+  const yyyy = today.getFullYear();
+  const hh   = String(today.getHours()).padStart(2,'0');
+  const min  = String(today.getMinutes()).padStart(2,'0');
+  const stamp  = yyyy+mm+dd;
+  const blNum  = blPayload.billOfLadingNumber || 'BL';
+  dlJson({FRMBillOfLading:  [blPayload]}, 'FRMBillOfLading-'+blNum+'-'+stamp+'.'+hh+mm+'.json');
+  setTimeout(() => dlJson({FRMOperationOrder: opPayloads}, 'FRMOperationOrder-ExportFile-'+stamp+'.'+hh+min+'.json'), 400);
+}
+
+function dlJson(data, filename) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json;charset=utf-8'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ══════════════════════════════════════════════════════
 //  STEP 3 — MASTER FILE LOOKUP
 // ══════════════════════════════════════════════════════
 async function runLookup() {
@@ -715,7 +788,8 @@ async function runLookup() {
     updateLookupSummary();
     document.getElementById('lookupProgress').classList.add('d-none');
     document.getElementById('lookupSummary').classList.remove('d-none');
-    document.getElementById('btnGoSend').disabled = false;
+    const hasLookupErrors = Object.values(lookupResults).some(r => r.status === 'error');
+    document.getElementById('btnGoSend').disabled = hasLookupErrors;
 
   } catch (err) {
     resultsEl.insertAdjacentHTML('beforeend',
@@ -727,29 +801,80 @@ async function runLookup() {
 async function lookupEntity(entityType, searchName, resultsEl) {
   if (!searchName) return;
   const cacheKey = entityType+'_'+searchName;
-  if (lookupResults[cacheKey]) return;   // already looked up
+  if (lookupResults[cacheKey]) return;
 
+  // Map entity type to local master data array
+  let localRecords = null;
+  if      (entityType === CONFIG.thirdPartyEntity) localRecords = masterData.thirdParty;
+  else if (entityType === CONFIG.portEntity)        localRecords = masterData.shippingPort;
+  else if (entityType === CONFIG.countryEntity)     localRecords = masterData.country;
+  else if (entityType === CONFIG.commodityEntity)   localRecords = masterData.commodity;
+
+  // ── Non-Customer entities: local first, then API fallback ──
+  if (localRecords !== null) {
+    const local = localLookup(localRecords, searchName);
+    if (local) {
+      lookupResults[cacheKey] = {status:'found', code:local.code, name:local.name2||local.name1||searchName, entityType};
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-ok">✅ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> → Code: <code>'+esc(local.code)+'</code> <span class="text-muted small">(local)</span></div>');
+      return;
+    }
+    // Local not found → try NamaSoft API
+    try {
+      const serverUrl = CONFIG.serverUrl.replace(/\/+$/,'');
+      const res = await fetch(serverUrl+'/erp/rest/v1/'+entityType+'/list', {
+        method:'POST',
+        headers:{'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+        body:JSON.stringify({startPage:1,pageSize:10,
+          textCriteria:'name2,Contains,'+searchName+',OR;name1,Contains,'+searchName+',AND;',orderBy:'name2'})
+      });
+      const data = await res.json();
+      if (data.records && data.records.length > 0) {
+        const found = data.records[0];
+        lookupResults[cacheKey] = {status:'found', code:found.code, name:found.name2||found.name1||searchName, entityType};
+        resultsEl.insertAdjacentHTML('beforeend',
+          '<div class="result-log result-ok">✅ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> → Code: <code>'+esc(found.code)+'</code> <span class="text-muted small">(API)</span></div>');
+      } else if (entityType === CONFIG.thirdPartyEntity) {
+        // ThirdParty: never auto-create
+        lookupResults[cacheKey] = {status:'error', error:'Not found', name:searchName, entityType};
+        resultsEl.insertAdjacentHTML('beforeend',
+          '<div class="result-log result-err">❌ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — Not found in local file or system. Must be added manually. ✖</div>');
+      } else {
+        // ShippingPort / FRMCountry / FRMCommodity: auto-create
+        lookupResults[cacheKey] = {status:'new', code:null, name:searchName, entityType};
+        resultsEl.insertAdjacentHTML('beforeend',
+          '<div class="result-log result-new">🆕 '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — Will create new</div>');
+      }
+    } catch(err) {
+      lookupResults[cacheKey] = {status:'error', error:err.message, name:searchName, entityType};
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-err">❌ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — '+esc(err.message)+'</div>');
+    }
+    return;
+  }
+
+  // ── Customer: NamaSoft API only ──
   const serverUrl = CONFIG.serverUrl.replace(/\/+$/,'');
   try {
     const res = await fetch(serverUrl+'/erp/rest/v1/'+entityType+'/list', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json','apiKey':CONFIG.apiKey},
-      body: JSON.stringify({startPage:1,pageSize:10,
-        textCriteria:'name1,Contains,'+searchName+',AND;',orderBy:'name1'})
+      method:'POST',
+      headers:{'Content-Type':'application/json','apiKey':CONFIG.apiKey},
+      body:JSON.stringify({startPage:1,pageSize:10,
+        textCriteria:'name2,Contains,'+searchName+',OR;name1,Contains,'+searchName+',AND;',orderBy:'name2'})
     });
     const data = await res.json();
     if (data.records && data.records.length > 0) {
       const found = data.records[0];
-      lookupResults[cacheKey] = {status:'found',code:found.code,name:found.name1||found.name2||searchName,entityType};
+      lookupResults[cacheKey] = {status:'found', code:found.code, name:found.name2||found.name1||searchName, entityType};
       resultsEl.insertAdjacentHTML('beforeend',
         '<div class="result-log result-ok">✅ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> → Code: <code>'+esc(found.code)+'</code></div>');
     } else {
-      lookupResults[cacheKey] = {status:'new',code:null,name:searchName,entityType};
+      lookupResults[cacheKey] = {status:'new', code:null, name:searchName, entityType};
       resultsEl.insertAdjacentHTML('beforeend',
         '<div class="result-log result-new">🆕 '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — Will create new</div>');
     }
-  } catch (err) {
-    lookupResults[cacheKey] = {status:'error',error:err.message,name:searchName,entityType};
+  } catch(err) {
+    lookupResults[cacheKey] = {status:'error', error:err.message, name:searchName, entityType};
     resultsEl.insertAdjacentHTML('beforeend',
       '<div class="result-log result-err">❌ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — '+esc(err.message)+'</div>');
   }
@@ -813,21 +938,38 @@ function getCode(entityType, name) {
 
 function buildBlPayload() {
   const h = parsedData.header;
+  const today = new Date();
+  const dd    = String(today.getDate()).padStart(2,'0');
+  const mm    = String(today.getMonth()+1).padStart(2,'0');
+  const yyyy  = today.getFullYear();
+  const todayStr = dd+'-'+mm+'-'+yyyy;
+
+  const consigneeCode = getCode(CONFIG.customerEntity,   h.consigneeName) || null;
+  const agencyCode    = getCode(CONFIG.thirdPartyEntity, h.agencyName)    || null;
+  const countryCode   = getCode(CONFIG.countryEntity,    h.origin)        || null;
+
   return {
-    billOfLadingNumber: h.awbBl                    || null,
-    notify2:     getCode(CONFIG.thirdPartyEntity, h.agencyName)      || h.agencyName      || null,
-    consignee:   getCode(CONFIG.customerEntity,   h.consigneeName)   || h.consigneeName   || null,
-    oceanVessel: h.flightVesselNo                  || null,
-    remarks:     h.description                     || null,
-    portOfLoading:   getCode(CONFIG.portEntity,    h.portOfLoading)  || h.portOfLoading   || null,
-    portOfDischarge: getCode(CONFIG.portEntity,    h.portOfDischarge)|| h.portOfDischarge || null,
-    voyage:          h.flightVoyNo                 || null,
-    n1:              h.totalPcs ? Number(h.totalPcs) : null,     // Total Number of Pcs
-    ref2:            getCode(CONFIG.countryEntity, h.origin)         || h.origin          || null,
-    // Container details — containerNumber = actual number, remark = size
+    book:               CONFIG.blBook,
+    issueDate:          todayStr,
+    valueDate:          todayStr,
+    sector:             CONFIG.sector,
+    legalEntity:        CONFIG.legalEntity,
+    billOfLadingNumber: h.awbBl || null,
+    shipper:   consigneeCode ? {entityType: CONFIG.customerEntity,   code: consigneeCode} : null,
+    consignee: consigneeCode ? {entityType: CONFIG.customerEntity,   code: consigneeCode} : null,
+    notify:    consigneeCode ? {entityType: CONFIG.customerEntity,   code: consigneeCode} : null,
+    notify2:   agencyCode   ? {entityType: CONFIG.thirdPartyEntity, code: agencyCode}    : null,
+    oceanVessel:     h.flightVesselNo || null,
+    remarks:         h.description   || null,
+    ventilation:     CONFIG.ventilation,
+    portOfLoading:   getCode(CONFIG.portEntity, h.portOfLoading)   || h.portOfLoading   || null,
+    portOfDischarge: getCode(CONFIG.portEntity, h.portOfDischarge) || h.portOfDischarge || null,
+    voyage: h.flightVoyNo || null,
+    n1:     parsedData.details.length,
+    ref2:   countryCode ? {entityType: CONFIG.countryEntity, code: countryCode} : null,
     details: parsedData.containers.map(c => ({
       containerNumber: c.containerNumber || null,
-      remark:          c.containerSize   || null,   // size → remark field
+      remark:          c.containerSize   || null,
       grossWeight:     c.grossWeight ? Number(c.grossWeight) : null,
       cbmVolume:       c.volume      ? Number(c.volume)      : null,
     }))
@@ -835,26 +977,54 @@ function buildBlPayload() {
 }
 
 function buildOpPayloads(blCode) {
-  const hConsignee = parsedData.header.consigneeName;
+  const today = new Date();
+  const dd    = String(today.getDate()).padStart(2,'0');
+  const mm    = String(today.getMonth()+1).padStart(2,'0');
+  const yyyy  = today.getFullYear();
+  const todayStr = dd+'-'+mm+'-'+yyyy;
+
+  const h           = parsedData.header;
+  const agencyCode  = getCode(CONFIG.thirdPartyEntity, h.agencyName)    || null;
+  const portLoading   = getCode(CONFIG.portEntity, h.portOfLoading)   || h.portOfLoading   || null;
+  const portDischarge = getCode(CONFIG.portEntity, h.portOfDischarge) || h.portOfDischarge || null;
+
   return parsedData.details.map(d => {
-    // If detail notify is "SAME AS CONSIGNEE" resolve to consignee code
-    const notifyResolved = (d.notify.toUpperCase()==='SAME AS CONSIGNEE')
-      ? (getCode(CONFIG.customerEntity, d.consignee) || d.consignee || getCode(CONFIG.customerEntity, hConsignee) || hConsignee || null)
-      : (getCode(CONFIG.customerEntity, d.notify)    || d.notify    || null);
+    const shipperCode   = getCode(CONFIG.customerEntity, d.shipper)   || null;
+    const consigneeCode = getCode(CONFIG.customerEntity, d.consignee) || null;
+    const notifyCode    = (d.notify.toUpperCase() === 'SAME AS CONSIGNEE')
+      ? consigneeCode
+      : (getCode(CONFIG.customerEntity, d.notify) || null);
+    const parcelsNum = d.parcels ? Number(d.parcels) : null;
+
     return {
-      description5:     d.hawb                                                          || null,  // HBL Number
-      ref1:             blCode                                                           || null,  // MBL reference
-      shipper:          getCode(CONFIG.customerEntity, d.shipper)  || d.shipper         || null,
-      consignee:        getCode(CONFIG.customerEntity, d.consignee)|| d.consignee
-                          || getCode(CONFIG.customerEntity, hConsignee) || hConsignee   || null,
-      notify:           notifyResolved,
-      remarks:          d.commodity                                                     || null,  // Commodity Description
-      description4:     d.pkg                                                           || null,  // PKG Type (optional)
-      n4:               d.parcels  ? Number(d.parcels)  : null,                                  // No. of Parcel
-      n1:               d.gw       ? Number(d.gw)       : null,                                  // Gross Weight
-      n2:               d.cbm      ? Number(d.cbm)      : null,                                  // CBM
-      description2:     d.cargoTypeTrimmed                                             || null,  // Cargo Type
-      ventilation:      d.containerNumber                                               || null,  // Container Number
+      book:            CONFIG.opBook,
+      term:            CONFIG.opTerm,
+      issueDate:       todayStr,
+      valueDate:       todayStr,
+      date5:           todayStr,
+      sector:          CONFIG.sector,
+      legalEntity:     CONFIG.legalEntity,
+      description1:    CONFIG.description1,
+      currentOperator: CONFIG.currentOperator,
+      isOceanFreight:  CONFIG.isOceanFreight,
+      description5:    d.hawb || null,
+      ref1:            blCode ? {entityType: CONFIG.blEntity, code: blCode} : null,
+      shipper:         shipperCode   ? {entityType: CONFIG.customerEntity,   code: shipperCode}   : null,
+      consignee:       consigneeCode ? {entityType: CONFIG.customerEntity,   code: consigneeCode} : null,
+      notify:          notifyCode    ? {entityType: CONFIG.customerEntity,   code: notifyCode}    : null,
+      agent:           agencyCode    ? {entityType: CONFIG.thirdPartyEntity, code: agencyCode}    : null,
+      portOfLoading:   portLoading,
+      portOfDischarge: portDischarge,
+      oceanVessel:     h.flightVesselNo || null,
+      voyage:          h.flightVoyNo    || null,
+      remarks:         d.commodity      || null,
+      description4:    d.pkg            || null,
+      n4:              parcelsNum,
+      capacity:        parcelsNum,
+      n1:              d.gw  ? Number(d.gw)  : null,
+      n2:              d.cbm ? Number(d.cbm) : null,
+      description2:    d.cargoTypeTrimmed || null,
+      ventilation:     d.containerNumber  || null,
     };
   });
 }
