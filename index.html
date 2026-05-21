@@ -161,6 +161,18 @@
   <div class="card card-step active" id="step1">
     <div class="card-body p-4">
       <div class="section-title">Upload Excel File</div>
+
+      <!-- Download Template Button -->
+      <div class="text-center mb-3">
+        <a href="https://raw.githubusercontent.com/bfouad81/Cargo_manifest/main/Cargo_manifest_format_AIR-SEA.xlsx"
+           download="Cargo manifest format AIR-SEA.xlsx"
+           class="btn-template"
+           style="font-size:14px;padding:10px 26px;display:inline-flex;align-items:center;gap:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+          ⬇ Download Manifest Template
+        </a>
+        <p class="text-muted mt-2 mb-0" style="font-size:12px">Download the Excel template, fill it in, then upload below</p>
+      </div>
+
       <div class="drop-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
         <svg class="upload-icon mb-3" xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" viewBox="0 0 16 16">
           <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
@@ -176,7 +188,7 @@
         <span id="fileSize" class="text-muted small"></span>
       </div>
       <div class="sticky-nav">
-        <a href="Cargo manifest format AIR-SEA.xlsx" download class="btn-template">⬇ Download Manifest Template</a>
+        <div></div>
         <button class="btn-primary-custom d-none" id="btnParseGo" onclick="parseAndValidate()">Next: Review Data →</button>
       </div>
     </div>
@@ -350,9 +362,15 @@ let masterData     = { thirdParty:[], shippingPort:[], country:[], commodity:[] 
 // ══════════════════════════════════════════════════════
 //  INIT
 // ══════════════════════════════════════════════════════
+let _masterFilesPromise = null;
+
+function isApiConfigured() {
+  return !CONFIG.serverUrl.includes('your-server');
+}
+
 window.addEventListener('DOMContentLoaded', () => {
   setupDropZone();
-  loadMasterFiles();
+  _masterFilesPromise = loadMasterFiles();
   restoreSession();
 });
 
@@ -921,6 +939,7 @@ function dlJson(data, filename) {
 //  STEP 3 — MASTER FILE LOOKUP (with progress bar)
 // ══════════════════════════════════════════════════════
 async function runLookup() {
+  if (_masterFilesPromise) await _masterFilesPromise;
   lookupResults  = {};
   createdRecords = [];
   const resultsEl = document.getElementById('lookupResults');
@@ -1007,6 +1026,12 @@ async function lookupEntity(entityType, searchName, resultsEl) {
         '<div class="result-log result-ok">✅ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> → Code: <code>'+esc(local.code)+'</code> <span class="text-muted small">(local)</span></div>');
       return;
     }
+    if (!isApiConfigured()) {
+      lookupResults[cacheKey] = {status:'error', error:'Not found in local file', name:searchName, entityType};
+      resultsEl.insertAdjacentHTML('beforeend',
+        '<div class="result-log result-err">❌ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — Not found in local master file</div>');
+      return;
+    }
     try {
       const res = await apiPost('/erp/rest/v1/'+entityType+'/list',
         {startPage:1,pageSize:10,textCriteria:'name2,Contains,'+searchName+',OR;name1,Contains,'+searchName+',AND;',orderBy:'name2'});
@@ -1034,6 +1059,12 @@ async function lookupEntity(entityType, searchName, resultsEl) {
   }
 
   // Customer — API only
+  if (!isApiConfigured()) {
+    lookupResults[cacheKey] = {status:'warn', error:'API not configured', name:searchName, entityType};
+    resultsEl.insertAdjacentHTML('beforeend',
+      '<div class="result-log result-warn">⚠️ '+esc(entityType)+': <strong>'+esc(searchName)+'</strong> — Server not configured (Customer lookup requires API)</div>');
+    return;
+  }
   try {
     const res = await apiPost('/erp/rest/v1/'+entityType+'/list',
       {startPage:1,pageSize:10,textCriteria:'name2,Contains,'+searchName+',OR;name1,Contains,'+searchName+',AND;',orderBy:'name2'});
